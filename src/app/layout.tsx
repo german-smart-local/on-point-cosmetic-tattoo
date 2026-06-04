@@ -1,20 +1,46 @@
 import type { Metadata } from "next";
-import { Geist, Geist_Mono } from "next/font/google";
+import { Montserrat, Source_Sans_3, Josefin_Sans } from "next/font/google";
 import "./globals.css";
+import { Header } from "@/components/Header";
+import { Footer } from "@/components/Footer";
 
-const geistSans = Geist({
-  variable: "--font-geist-sans",
+const montserrat = Montserrat({
+  variable: "--font-montserrat",
   subsets: ["latin"],
+  weight: ["100", "200", "300", "400", "500", "600", "700"],
+  display: "swap",
 });
 
-const geistMono = Geist_Mono({
-  variable: "--font-geist-mono",
+const sourceSans = Source_Sans_3({
+  variable: "--font-source-sans",
   subsets: ["latin"],
+  weight: ["300", "400", "600", "700"],
+  display: "swap",
+});
+
+const josefin = Josefin_Sans({
+  variable: "--font-josefin",
+  subsets: ["latin"],
+  weight: ["300", "400", "500", "600"],
+  display: "swap",
 });
 
 export const metadata: Metadata = {
-  title: "Website Clone",
-  description: "Pixel-perfect website clone",
+  metadataBase: new URL("https://www.onpointcosmetictattoo.com.au"),
+  title: "Cosmetic Tattooing in Sunshine Coast | On Point Cosmetic Tattoo Studio",
+  description:
+    "On Point Cosmetic Tattoo Studio offers cosmetic tattooing on the Sunshine Coast by a certified artist. Call 0414 502 807 to book your consultation today.",
+  icons: {
+    icon: "/seo/favicon.ico",
+    apple: "/seo/apple-touch-icon.png",
+  },
+  openGraph: {
+    title: "Cosmetic Tattooing in Sunshine Coast | On Point Cosmetic Tattoo Studio",
+    description:
+      "On Point Cosmetic Tattoo Studio offers cosmetic tattooing on the Sunshine Coast by a certified artist.",
+    images: ["/seo/og-image.png"],
+    type: "website",
+  },
 };
 
 export default function RootLayout({
@@ -25,9 +51,15 @@ export default function RootLayout({
   return (
     <html
       lang="en"
-      className={`${geistSans.variable} ${geistMono.variable} h-full antialiased`}
+      className={`${montserrat.variable} ${sourceSans.variable} ${josefin.variable} h-full antialiased`}
     >
-      <body className="min-h-full flex flex-col">{children}</body>
+      <body className="min-h-full flex flex-col">
+        <Header />
+        <main id="top" className="flex-1 pt-[136px]">
+          {children}
+        </main>
+        <Footer />
+      </body>
     </html>
   );
 }
