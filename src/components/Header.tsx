@@ -1,6 +1,6 @@
 "use client";
 
-import { useState } from "react";
+import { useEffect, useState } from "react";
 import Image from "next/image";
 import Link from "next/link";
 import { cn } from "@/lib/utils";
@@ -20,11 +20,22 @@ const SERVICE_LINKS = [
 
 export function Header() {
   const [drawerOpen, setDrawerOpen] = useState(false);
+  const [scrolled, setScrolled] = useState(false);
+
+  useEffect(() => {
+    const onScroll = () => setScrolled(window.scrollY > 10);
+    onScroll();
+    window.addEventListener("scroll", onScroll, { passive: true });
+    return () => window.removeEventListener("scroll", onScroll);
+  }, []);
 
   const closeDrawer = () => setDrawerOpen(false);
 
   return (
-    <header className="fixed inset-x-0 top-0 z-50 w-full">
+    <header className={cn(
+      "fixed inset-x-0 top-0 z-50 w-full transition-transform duration-300",
+      scrolled && "-translate-y-11"
+    )}>
       {/* Top bar */}
       <div className="flex h-11 items-center justify-between bg-cream px-6">
         <a
