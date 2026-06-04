@@ -14,11 +14,11 @@ export function Artist() {
           />
         </div>
         <div className="lg:w-[52%] w-full">
-          <div className="bg-[#f7f3ea] p-8 lg:p-10 rounded-md">
-            <h2 className="font-heading font-light text-[#c09569] text-[40px] mb-1.5">
+          <div className="bg-cream p-8 lg:p-10 rounded-md">
+            <h2 className="font-heading font-light text-gold text-[40px] mb-1.5">
               Meet Your Artist
             </h2>
-            <h3 className="font-heading font-thin text-[#303030] text-[25px] mb-5">
+            <h3 className="font-heading font-thin text-ink text-[25px] mb-5">
               Lisa Eagles
             </h3>
             <p className="text-[15px] text-[#444] leading-[1.7] mb-3.5">

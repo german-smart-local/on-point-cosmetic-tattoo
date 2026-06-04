@@ -1,5 +1,5 @@
 import type { Metadata } from "next";
-import { ServicePage, SHARED_FEATURES } from "@/components/ServicePage";
+import { ServicePage } from "@/components/ServicePage";
 
 export const metadata: Metadata = {
   title: "Eyebrow Tattooing on the Sunshine Coast | On Point Cosmetic Tattoo Studio",
@@ -18,7 +18,6 @@ export default function EyebrowTattoosPage() {
         "Options include feather touch brows, microblading, nano realism hair strokes, powder brows and combination brows. During consultation, I assess natural brow growth, skin type, symmetry and pigment tone before recommending a suitable approach.",
       ]}
       designImage="/images/sub/eb-design.jpg"
-      features={SHARED_FEATURES}
       techniqueTitle="The Technique Behind Eyebrow Tattooing"
       techniqueParas={[
         "Different eyebrow tattoo techniques create different visual effects, so I explain each method clearly before proceeding. Hair stroke techniques, such as nano realism and microblading, create fine lines through manual or machine application. Powder brows use a soft shading method, while combination brows blend hair strokes with shading for added structure.",

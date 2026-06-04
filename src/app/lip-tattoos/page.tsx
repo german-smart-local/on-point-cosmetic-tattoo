@@ -1,5 +1,5 @@
 import type { Metadata } from "next";
-import { ServicePage, SHARED_FEATURES } from "@/components/ServicePage";
+import { ServicePage } from "@/components/ServicePage";
 
 export const metadata: Metadata = {
   title: "Lip Tattooing on the Sunshine Coast | On Point Cosmetic Tattoo Studio",
@@ -18,7 +18,6 @@ export default function LipTattoosPage() {
         "Options include lip liner tattoo, lip blend tattoo and full lip tattoo. During consultation, I assess natural lip tone, symmetry, skin condition and outline preferences before confirming pigment selection.",
       ]}
       designImage="/images/sub/lip-design.jpg"
-      features={SHARED_FEATURES}
       techniqueTitle="The Lip Tattoo Process"
       techniqueParas={[
         "Lip tattoos require thoughtful pigment selection and measured application due to the sensitivity of the area. I begin by mapping the lip border and reviewing colour tones suited to your natural base. Lip liner tattoo defines the edge, lip blend softens colour toward the centre and full lip tattoo distributes pigment across the entire lip area.",

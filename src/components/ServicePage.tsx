@@ -10,7 +10,6 @@ export interface ServicePageData {
   mappingTitle: string;
   mappingParas: string[];
   designImage: string;
-  features: { Icon: typeof CertifiedIcon; title: string; desc: string }[];
   techniqueTitle: string;
   techniqueParas: string[];
   techniqueImage: string;
@@ -19,8 +18,26 @@ export interface ServicePageData {
   faq: FaqItem[];
 }
 
+const FEATURES = [
+  {
+    Icon: CertifiedIcon,
+    title: "Certified Artist",
+    desc: "As a cosmetic tattoo studio and certified artist, I follow structured consultation protocols and hygiene standards appropriate for cosmetic tattoo procedures.",
+  },
+  {
+    Icon: CustomisedIcon,
+    title: "Customised Designs",
+    desc: "I map each cosmetic tattoo design to your natural features and chosen technique. Shape, proportion and pigment tone are reviewed before treatment.",
+  },
+  {
+    Icon: PremiumIcon,
+    title: "Premium Equipment",
+    desc: "I use professional cosmetic tattoo pigments and devices selected for procedural application and outline product details during consultation.",
+  },
+];
+
 const ctaBtn =
-  "inline-block bg-[#f7f3ea] border border-[#303030] rounded-[15px] px-9 py-3.5 font-josefin text-[18px] text-[#303030] hover:bg-[#c09569] hover:text-white hover:border-[#c09569] transition-colors";
+  "inline-block bg-cream border border-ink rounded-[15px] px-9 py-3.5 font-josefin text-[18px] text-ink hover:bg-gold hover:text-white hover:border-gold transition-colors";
 
 export function ServicePage(data: ServicePageData) {
   return (
@@ -40,22 +57,22 @@ export function ServicePage(data: ServicePageData) {
             />
           </div>
           <div className="w-full lg:w-[55%]">
-            <h2 className="mb-5 font-heading text-[32px] font-light leading-tight text-[#c09569] lg:text-[40px]">
+            <h2 className="mb-5 font-heading text-[32px] font-light leading-tight text-gold lg:text-[40px]">
               {data.mappingTitle}
             </h2>
             {data.mappingParas.map((p, i) => (
-              <p key={i} className="mb-4 text-[16px] leading-[1.7] text-[#303030]">
+              <p key={i} className="mb-4 text-[16px] leading-[1.7] text-ink">
                 {p}
               </p>
             ))}
             <div className="mt-6 space-y-5">
-              {data.features.map(({ Icon, title, desc }) => (
+              {FEATURES.map(({ Icon, title, desc }) => (
                 <div key={title} className="flex items-start gap-4">
-                  <div className="flex h-11 w-11 flex-shrink-0 items-center justify-center rounded-full bg-[#f7f3ea] text-[22px] text-[#c09569]">
+                  <div className="flex h-11 w-11 flex-shrink-0 items-center justify-center rounded-full bg-cream text-[22px] text-gold">
                     <Icon />
                   </div>
                   <div>
-                    <h3 className="mb-1 font-heading text-[15px] font-medium uppercase tracking-wide text-[#303030]">
+                    <h3 className="mb-1 font-heading text-[15px] font-medium uppercase tracking-wide text-ink">
                       {title}
                     </h3>
                     <p className="text-[14px] leading-[1.6] text-[#555]">{desc}</p>
@@ -74,14 +91,14 @@ export function ServicePage(data: ServicePageData) {
       </section>
 
       {/* Technique */}
-      <section className="bg-[#f7f3ea] px-6 py-20">
+      <section className="bg-cream px-6 py-20">
         <div className="mx-auto flex max-w-[1200px] flex-col-reverse items-center gap-12 lg:flex-row">
           <div className="w-full lg:w-[55%]">
-            <h2 className="mb-5 font-heading text-[30px] font-light leading-tight text-[#c09569] lg:text-[36px]">
+            <h2 className="mb-5 font-heading text-[30px] font-light leading-tight text-gold lg:text-[36px]">
               {data.techniqueTitle}
             </h2>
             {data.techniqueParas.map((p, i) => (
-              <p key={i} className="mb-4 text-[16px] leading-[1.7] text-[#303030]">
+              <p key={i} className="mb-4 text-[16px] leading-[1.7] text-ink">
                 {p}
               </p>
             ))}
@@ -104,7 +121,7 @@ export function ServicePage(data: ServicePageData) {
       {/* My Work gallery */}
       <section className="bg-white px-6 py-20">
         <div className="mx-auto max-w-[1200px]">
-          <h2 className="mb-12 text-center font-heading text-[36px] font-light text-[#c09569]">
+          <h2 className="mb-12 text-center font-heading text-[36px] font-light text-gold">
             {data.workTitle}
           </h2>
           <div className="grid grid-cols-1 gap-6 sm:grid-cols-3">
@@ -124,9 +141,9 @@ export function ServicePage(data: ServicePageData) {
       </section>
 
       {/* FAQ */}
-      <section className="bg-[#f7f3ea] px-6 py-20">
+      <section className="bg-cream px-6 py-20">
         <div className="mx-auto max-w-[900px]">
-          <h2 className="mb-10 text-center font-heading text-[36px] font-light text-[#c09569]">
+          <h2 className="mb-10 text-center font-heading text-[36px] font-light text-gold">
             Frequently Asked Questions
           </h2>
           <Faq items={data.faq} />
@@ -135,21 +152,3 @@ export function ServicePage(data: ServicePageData) {
     </>
   );
 }
-
-export const SHARED_FEATURES = [
-  {
-    Icon: CertifiedIcon,
-    title: "Certified Artist",
-    desc: "As a cosmetic tattoo studio and certified artist, I follow structured consultation protocols and hygiene standards appropriate for cosmetic tattoo procedures.",
-  },
-  {
-    Icon: CustomisedIcon,
-    title: "Customised Designs",
-    desc: "I map each cosmetic tattoo design to your natural features and chosen technique. Shape, proportion and pigment tone are reviewed before treatment.",
-  },
-  {
-    Icon: PremiumIcon,
-    title: "Premium Equipment",
-    desc: "I use professional cosmetic tattoo pigments and devices selected for procedural application and outline product details during consultation.",
-  },
-];

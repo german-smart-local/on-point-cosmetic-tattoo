@@ -63,10 +63,10 @@ export default function AfterCarePage() {
             />
           </div>
           <div className="w-full lg:w-[55%]">
-            <h2 className="mb-5 font-heading text-[32px] font-light leading-tight text-[#c09569] lg:text-[40px]">
+            <h2 className="mb-5 font-heading text-[32px] font-light leading-tight text-gold lg:text-[40px]">
               Pre &amp; Post-Procedure Care
             </h2>
-            <p className="mb-6 text-[16px] leading-[1.7] text-[#303030]">
+            <p className="mb-6 text-[16px] leading-[1.7] text-ink">
               On Point Cosmetic Tattoo Studio provides aftercare guidance to help
               support the healing process and protect your cosmetic tattoo
               results. Please review the steps below before and after your
@@ -77,7 +77,7 @@ export default function AfterCarePage() {
             </p>
             <a
               href={ANCHORS.contact}
-              className="inline-block rounded-[15px] border border-[#303030] bg-[#f7f3ea] px-9 py-3.5 font-josefin text-[18px] text-[#303030] transition-colors hover:border-[#c09569] hover:bg-[#c09569] hover:text-white"
+              className="inline-block rounded-[15px] border border-ink bg-cream px-9 py-3.5 font-josefin text-[18px] text-ink transition-colors hover:border-gold hover:bg-gold hover:text-white"
             >
               Book Now
             </a>
@@ -86,14 +86,14 @@ export default function AfterCarePage() {
       </section>
 
       {/* Three care cards */}
-      <section className="bg-[#f7f3ea] px-6 py-20">
+      <section className="bg-cream px-6 py-20">
         <div className="mx-auto grid max-w-[1200px] grid-cols-1 gap-8 md:grid-cols-3">
           {cards.map((card) => (
             <div
               key={card.title}
               className="rounded-t-[140px] bg-white px-7 pb-9 pt-12 shadow-[0_4px_24px_rgba(0,0,0,0.05)]"
             >
-              <h3 className="mb-5 text-center font-heading text-[22px] font-light text-[#c09569]">
+              <h3 className="mb-5 text-center font-heading text-[22px] font-light text-gold">
                 {card.title}
               </h3>
               <ul className="space-y-3">
@@ -102,7 +102,7 @@ export default function AfterCarePage() {
                     key={item}
                     className="flex gap-2 text-[14px] leading-[1.6] text-[#555]"
                   >
-                    <span className="mt-[7px] h-1.5 w-1.5 flex-shrink-0 rounded-full bg-[#c09569]" />
+                    <span className="mt-[7px] h-1.5 w-1.5 flex-shrink-0 rounded-full bg-gold" />
                     <span>{item}</span>
                   </li>
                 ))}
@@ -130,7 +130,7 @@ export default function AfterCarePage() {
       </section>
 
       <div className="bg-white pb-6 text-center">
-        <a href={PHONE_HREF} className="font-josefin text-[18px] text-[#c09569] hover:underline">
+        <a href={PHONE_HREF} className="font-josefin text-[18px] text-gold hover:underline">
           Call {PHONE}
         </a>
       </div>

@@ -36,9 +36,9 @@ export default function ContactPage() {
               key={label}
               href={href}
               {...(external ? { target: "_blank", rel: "noopener noreferrer" } : {})}
-              className="flex flex-col items-center gap-2 text-center transition-colors hover:text-[#c09569]"
+              className="flex flex-col items-center gap-2 text-center transition-colors hover:text-gold"
             >
-              <Icon className="text-[24px] text-[#c09569]" />
+              <Icon className="text-[24px] text-gold" />
               <span className="break-all text-[15px] text-[#444]">{label}</span>
             </a>
           ))}
@@ -74,8 +74,8 @@ export default function ContactPage() {
             />
           </div>
           <div className="flex w-full items-center lg:w-[55%]">
-            <div className="rounded-md bg-[#f7f3ea] p-8 lg:p-10">
-              <h2 className="mb-5 font-heading text-[32px] font-light text-[#c09569] lg:text-[40px]">
+            <div className="rounded-md bg-cream p-8 lg:p-10">
+              <h2 className="mb-5 font-heading text-[32px] font-light text-gold lg:text-[40px]">
                 Here To Help
               </h2>
               <p className="mb-4 text-[15px] leading-[1.7] text-[#444]">
@@ -88,7 +88,7 @@ export default function ContactPage() {
               </p>
               <p className="text-[15px] leading-[1.7] text-[#444]">
                 To speak with me and arrange your consultation, call{" "}
-                <a href={PHONE_HREF} className="font-semibold text-[#c09569] hover:underline">
+                <a href={PHONE_HREF} className="font-semibold text-gold hover:underline">
                   {PHONE}
                 </a>
                 .

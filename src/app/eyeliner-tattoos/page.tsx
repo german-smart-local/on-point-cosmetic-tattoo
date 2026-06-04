@@ -1,5 +1,5 @@
 import type { Metadata } from "next";
-import { ServicePage, SHARED_FEATURES } from "@/components/ServicePage";
+import { ServicePage } from "@/components/ServicePage";
 
 export const metadata: Metadata = {
   title: "Eyeliner Tattooing on the Sunshine Coast | On Point Cosmetic Tattoo Studio",
@@ -18,7 +18,6 @@ export default function EyelinerTattoosPage() {
         "Options include eyeliner enhancement and designer eyeliner, ranging from a fine line through the lashes to a more defined shape. During consultation, I review eye shape, lid space, skin condition and lifestyle considerations before outlining the proposed design.",
       ]}
       designImage="/images/sub/el-design.jpg"
-      features={SHARED_FEATURES}
       techniqueTitle="Understanding Eyeliner Techniques"
       techniqueParas={[
         "Eyeliner tattoos require careful placement due to the sensitivity of the eye area. I begin by mapping the lash line and discussing thickness, tapering and wing positioning where applicable. With eyeliner enhancement, I place subtle pigment within the lash line. For designer eyeliner, I create a more visible shape along the lid.",

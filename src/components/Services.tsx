@@ -1,6 +1,6 @@
 import Image from "next/image";
 import Link from "next/link";
-import { ROUTES } from "@/lib/links";
+import { ANCHORS, PHONE, PHONE_HREF, ROUTES } from "@/lib/links";
 
 const cards = [
   {
@@ -27,24 +27,24 @@ export function Services() {
   return (
     <section id="services" className="bg-white py-20 px-6 relative overflow-hidden">
       <div className="max-w-[1200px] mx-auto relative">
-        <div className="absolute right-[-60px] top-[120px] w-[340px] h-[340px] rounded-full border border-[#c09569]/40 pointer-events-none hidden lg:block" />
+        <div className="absolute right-[-60px] top-[120px] w-[340px] h-[340px] rounded-full border border-gold/40 pointer-events-none hidden lg:block" />
 
         <div className="flex justify-between items-center mb-10 flex-col gap-4 items-start sm:flex-row sm:gap-0 sm:items-center">
-          <h2 className="font-heading font-light text-[#c09569] text-[40px]">
+          <h2 className="font-heading font-light text-gold text-[40px]">
             Services
           </h2>
           <div className="flex gap-3">
             <Link
-              href="/#contact"
-              className="bg-[#f7f3ea] border border-[#303030] rounded-[15px] px-7 py-3 font-josefin text-[18px] text-[#303030] hover:bg-[#c09569] hover:text-white hover:border-[#c09569] transition-colors"
+              href={ANCHORS.contact}
+              className="bg-cream border border-ink rounded-[15px] px-7 py-3 font-josefin text-[18px] text-ink hover:bg-gold hover:text-white hover:border-gold transition-colors"
             >
               Book Now
             </Link>
             <a
-              href="tel:0414502807"
-              className="bg-[#f7f3ea] border border-[#303030] rounded-[10px] px-7 py-3 font-josefin text-[18px] text-[#303030] hover:bg-[#c09569] hover:text-white hover:border-[#c09569] transition-colors"
+              href={PHONE_HREF}
+              className="bg-cream border border-ink rounded-[10px] px-7 py-3 font-josefin text-[18px] text-ink hover:bg-gold hover:text-white hover:border-gold transition-colors"
             >
-              0414 502 807
+              {PHONE}
             </a>
           </div>
         </div>
@@ -60,6 +60,7 @@ export function Services() {
                 src={card.image}
                 alt={card.title}
                 fill
+                sizes="(max-width: 640px) 100vw, (max-width: 1024px) 50vw, 33vw"
                 className="object-cover transition-transform duration-500 group-hover:scale-105"
               />
               <div

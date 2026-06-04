@@ -63,12 +63,15 @@ const reviews: Review[] = [
   },
 ];
 
+const VISIBLE = 3;
+const PAGE_COUNT = reviews.length - VISIBLE + 1;
+
 export function Testimonials() {
   const [index, setIndex] = useState(0);
 
   useEffect(() => {
     const id = setInterval(() => {
-      setIndex((prev) => (prev + 1) % 4);
+      setIndex((prev) => (prev + 1) % PAGE_COUNT);
     }, 5000);
     return () => clearInterval(id);
   }, []);
@@ -76,12 +79,12 @@ export function Testimonials() {
   return (
     <section id="testimonials" className="bg-white py-[70px] px-6">
       <div className="max-w-[1100px] mx-auto text-center">
-        <h2 className="font-heading font-light text-[#c09569] text-[40px] mb-8">
+        <h2 className="font-heading font-light text-gold text-[40px] mb-8">
           Testimonials
         </h2>
 
-        <div className="inline-flex items-center gap-2.5 bg-[#f7f3ea] rounded-lg px-5 py-3.5 mb-7">
-          <span className="font-semibold text-[22px] text-[#303030]">5.0</span>
+        <div className="inline-flex items-center gap-2.5 bg-cream rounded-lg px-5 py-3.5 mb-7">
+          <span className="font-semibold text-[22px] text-ink">5.0</span>
           <span className="flex items-center gap-0.5">
             {Array.from({ length: 5 }).map((_, i) => (
               <StarIcon key={i} className="text-[18px] text-[#f5a623]" />
@@ -94,7 +97,7 @@ export function Testimonials() {
         <div className="overflow-hidden">
           <div
             className="flex transition-transform duration-500"
-            style={{ transform: `translateX(-${index * (100 / 3)}%)` }}
+            style={{ transform: `translateX(-${index * (100 / VISIBLE)}%)` }}
           >
             {reviews.map((review) => (
               <div
@@ -111,10 +114,10 @@ export function Testimonials() {
                     </div>
                     <div className="flex flex-col">
                       <div className="flex items-center gap-1">
-                        <span className="font-semibold text-[15px] text-[#303030]">
+                        <span className="font-semibold text-[15px] text-ink">
                           {review.name}
                         </span>
-                        <VerifiedIcon className="text-[14px] text-[#c09569]" />
+                        <VerifiedIcon className="text-[14px] text-gold" />
                       </div>
                       <div className="flex items-center gap-1">
                         <GoogleIcon className="text-[14px]" />
@@ -135,7 +138,7 @@ export function Testimonials() {
                     {review.text}
                   </p>
 
-                  <span className="text-[13px] text-[#c09569] mt-1.5 inline-block cursor-pointer">
+                  <span className="text-[13px] text-gold mt-1.5 inline-block cursor-pointer">
                     Read more
                   </span>
                 </div>
@@ -145,14 +148,14 @@ export function Testimonials() {
         </div>
 
         <div className="flex justify-center gap-2 mt-6">
-          {Array.from({ length: 4 }).map((_, i) => (
+          {Array.from({ length: PAGE_COUNT }).map((_, i) => (
             <button
               key={i}
               type="button"
               aria-label={`Go to slide ${i + 1}`}
               onClick={() => setIndex(i)}
               className={`w-2 h-2 rounded-full transition-colors ${
-                index === i ? "bg-[#c09569]" : "bg-[#ccc]"
+                index === i ? "bg-gold" : "bg-[#ccc]"
               }`}
             />
           ))}

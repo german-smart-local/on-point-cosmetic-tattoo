@@ -4,41 +4,18 @@ import { useState } from "react";
 import Image from "next/image";
 import Link from "next/link";
 import { cn } from "@/lib/utils";
-import { ANCHORS, EXTERNAL, PHONE, PHONE_HREF, ROUTES } from "@/lib/links";
+import { ANCHORS, EXTERNAL, NAV_LINKS, PHONE, PHONE_HREF, ROUTES, SOCIAL_LINKS } from "@/lib/links";
 import {
   MapPinIcon,
   ChevronDownIcon,
   MenuIcon,
   CloseIcon,
-  FacebookIcon,
-  InstagramIcon,
-  GoogleBusinessIcon,
-  LocalSearchIcon,
 } from "@/components/icons";
-
-const SOCIAL_LINKS = [
-  { Icon: FacebookIcon, label: "Facebook", href: EXTERNAL.facebook },
-  { Icon: LocalSearchIcon, label: "Local Search", href: EXTERNAL.localsearch },
-  { Icon: GoogleBusinessIcon, label: "Google Business", href: EXTERNAL.google },
-  { Icon: InstagramIcon, label: "Instagram", href: EXTERNAL.instagram },
-];
 
 const SERVICE_LINKS = [
   { label: "Eyebrows", href: ROUTES.eyebrows },
   { label: "Eye Liners", href: ROUTES.eyeliners },
   { label: "Lips", href: ROUTES.lips },
-];
-
-const MOBILE_NAV_LINKS = [
-  { label: "Home", href: ROUTES.home },
-  { label: "About Us", href: ANCHORS.about },
-  { label: "Testimonials", href: ANCHORS.testimonials },
-  { label: "Eyebrows", href: ROUTES.eyebrows },
-  { label: "Eye Liners", href: ROUTES.eyeliners },
-  { label: "Lips", href: ROUTES.lips },
-  { label: "After Care", href: ROUTES.afterCare },
-  { label: "Areas Near Us", href: ROUTES.locations },
-  { label: "Contact Us", href: ROUTES.contact },
 ];
 
 export function Header() {
@@ -49,15 +26,15 @@ export function Header() {
   return (
     <header className="fixed inset-x-0 top-0 z-50 w-full">
       {/* Top bar */}
-      <div className="flex h-11 items-center justify-between bg-[#f7f3ea] px-6">
+      <div className="flex h-11 items-center justify-between bg-cream px-6">
         <a
           href={EXTERNAL.maps}
           target="_blank"
           rel="noopener noreferrer"
-          className="flex items-center gap-2 transition-colors hover:text-[#c09569]"
+          className="flex items-center gap-2 transition-colors hover:text-gold"
         >
-          <MapPinIcon className="text-[16px] text-[#c09569]" />
-          <span className="text-[14px] text-[#303030]">Buderim, QLD 4556</span>
+          <MapPinIcon className="text-[16px] text-gold" />
+          <span className="text-[14px] text-ink">Buderim, QLD 4556</span>
         </a>
         <div className="flex items-center gap-2">
           {SOCIAL_LINKS.map(({ Icon, label, href }) => (
@@ -67,7 +44,7 @@ export function Header() {
               target="_blank"
               rel="noopener noreferrer"
               aria-label={label}
-              className="flex h-[30px] w-[30px] items-center justify-center rounded-full bg-[#303030] text-white transition-colors hover:bg-[#c09569]"
+              className="flex h-[30px] w-[30px] items-center justify-center rounded-full bg-ink text-white transition-colors hover:bg-gold"
             >
               <Icon className="text-[15px]" />
             </a>
@@ -82,7 +59,7 @@ export function Header() {
           <div className="group relative">
             <Link
               href={ANCHORS.about}
-              className="flex items-center gap-1 font-josefin text-[15px] uppercase tracking-wide text-[#303030] transition-colors hover:text-[#c09569]"
+              className="flex items-center gap-1 font-josefin text-[15px] uppercase tracking-wide text-ink transition-colors hover:text-gold"
             >
               About Us
               <ChevronDownIcon className="text-[14px]" />
@@ -91,7 +68,7 @@ export function Header() {
               <div className="min-w-[160px] rounded-lg bg-white py-1 shadow-[0_4px_20px_rgba(0,0,0,0.08)]">
                 <Link
                   href={ANCHORS.testimonials}
-                  className="block px-4 py-2 font-josefin text-[15px] text-[#303030] transition-colors hover:text-[#c09569]"
+                  className="block px-4 py-2 font-josefin text-[15px] text-ink transition-colors hover:text-gold"
                 >
                   Testimonials
                 </Link>
@@ -102,7 +79,7 @@ export function Header() {
           <div className="group relative">
             <Link
               href={ANCHORS.services}
-              className="flex items-center gap-1 font-josefin text-[15px] uppercase tracking-wide text-[#303030] transition-colors hover:text-[#c09569]"
+              className="flex items-center gap-1 font-josefin text-[15px] uppercase tracking-wide text-ink transition-colors hover:text-gold"
             >
               Services
               <ChevronDownIcon className="text-[14px]" />
@@ -113,7 +90,7 @@ export function Header() {
                   <Link
                     key={label}
                     href={href}
-                    className="block px-4 py-2 font-josefin text-[15px] text-[#303030] transition-colors hover:text-[#c09569]"
+                    className="block px-4 py-2 font-josefin text-[15px] text-ink transition-colors hover:text-gold"
                   >
                     {label}
                   </Link>
@@ -124,7 +101,7 @@ export function Header() {
 
           <Link
             href={ROUTES.afterCare}
-            className="font-josefin text-[15px] uppercase tracking-wide text-[#303030] transition-colors hover:text-[#c09569]"
+            className="font-josefin text-[15px] uppercase tracking-wide text-ink transition-colors hover:text-gold"
           >
             After Care
           </Link>
@@ -146,13 +123,13 @@ export function Header() {
         <div className="hidden items-center gap-3 lg:flex">
           <Link
             href={ROUTES.contact}
-            className="rounded-[15px] border border-[#303030] bg-transparent px-7 py-3 font-josefin text-[18px] text-[#303030] transition-colors hover:border-[#c09569] hover:bg-[#c09569] hover:text-white"
+            className="rounded-[15px] border border-ink bg-transparent px-7 py-3 font-josefin text-[18px] text-ink transition-colors hover:border-gold hover:bg-gold hover:text-white"
           >
             Book Now
           </Link>
           <a
             href={PHONE_HREF}
-            className="rounded-[10px] border border-[#303030] bg-[#f7f3ea] px-6 py-3 font-josefin text-[18px] text-[#303030] transition-colors hover:border-[#c09569] hover:bg-[#c09569] hover:text-white"
+            className="rounded-[10px] border border-ink bg-cream px-6 py-3 font-josefin text-[18px] text-ink transition-colors hover:border-gold hover:bg-gold hover:text-white"
           >
             {PHONE}
           </a>
@@ -163,7 +140,7 @@ export function Header() {
           type="button"
           aria-label="Open menu"
           onClick={() => setDrawerOpen(true)}
-          className="text-[28px] text-[#303030] lg:hidden"
+          className="text-[28px] text-ink lg:hidden"
         >
           <MenuIcon />
         </button>
@@ -180,7 +157,7 @@ export function Header() {
       />
       <div
         className={cn(
-          "fixed left-0 top-0 z-[101] flex h-full w-[280px] flex-col bg-[#f7f3ea] p-6 transition-transform lg:hidden",
+          "fixed left-0 top-0 z-[101] flex h-full w-[280px] flex-col bg-cream p-6 transition-transform lg:hidden",
           drawerOpen ? "translate-x-0" : "-translate-x-full"
         )}
       >
@@ -188,18 +165,18 @@ export function Header() {
           type="button"
           aria-label="Close menu"
           onClick={closeDrawer}
-          className="self-end text-[28px] text-[#303030]"
+          className="self-end text-[28px] text-ink"
         >
           <CloseIcon />
         </button>
 
         <nav className="mt-4 flex flex-col">
-          {MOBILE_NAV_LINKS.map(({ label, href }) => (
+          {NAV_LINKS.map(({ label, href }) => (
             <Link
               key={label}
               href={href}
               onClick={closeDrawer}
-              className="py-2 font-josefin text-[15px] uppercase tracking-wide text-[#303030] transition-colors hover:text-[#c09569]"
+              className="py-2 font-josefin text-[15px] uppercase tracking-wide text-ink transition-colors hover:text-gold"
             >
               {label}
             </Link>
@@ -210,14 +187,14 @@ export function Header() {
           <Link
             href={ROUTES.contact}
             onClick={closeDrawer}
-            className="rounded-[15px] border border-[#303030] bg-transparent px-7 py-3 text-center font-josefin text-[18px] text-[#303030] transition-colors hover:border-[#c09569] hover:bg-[#c09569] hover:text-white"
+            className="rounded-[15px] border border-ink bg-transparent px-7 py-3 text-center font-josefin text-[18px] text-ink transition-colors hover:border-gold hover:bg-gold hover:text-white"
           >
             Book Now
           </Link>
           <a
             href={PHONE_HREF}
             onClick={closeDrawer}
-            className="rounded-[10px] border border-[#303030] bg-white px-6 py-3 text-center font-josefin text-[18px] text-[#303030] transition-colors hover:border-[#c09569] hover:bg-[#c09569] hover:text-white"
+            className="rounded-[10px] border border-ink bg-white px-6 py-3 text-center font-josefin text-[18px] text-ink transition-colors hover:border-gold hover:bg-gold hover:text-white"
           >
             {PHONE}
           </a>

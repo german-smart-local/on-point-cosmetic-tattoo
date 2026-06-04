@@ -161,15 +161,6 @@
   .font-josefin {
     font-family: var(--font-josefin), "Josefin Sans", sans-serif;
   }
-  .text-gold {
-    color: var(--gold);
-  }
-  .bg-cream {
-    background-color: var(--cream);
-  }
-  .text-ink {
-    color: var(--ink);
-  }
   /* hide scrollbars on carousels */
   .no-scrollbar::-webkit-scrollbar {
     display: none;

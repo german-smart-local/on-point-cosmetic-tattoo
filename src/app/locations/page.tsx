@@ -36,7 +36,7 @@ export default function LocationsPage() {
       <section className="bg-white px-6 py-20">
         <div className="mx-auto grid max-w-[1200px] grid-cols-1 gap-8 md:grid-cols-3">
           {areas.map((area) => (
-            <div key={area.name} className="overflow-hidden rounded-md bg-[#f7f3ea]">
+            <div key={area.name} className="overflow-hidden rounded-md bg-cream">
               <div className="relative h-[200px] w-full">
                 <Image
                   src={area.image}
@@ -47,7 +47,7 @@ export default function LocationsPage() {
                 />
               </div>
               <div className="p-6">
-                <h3 className="mb-2 font-heading text-[22px] font-light text-[#c09569]">
+                <h3 className="mb-2 font-heading text-[22px] font-light text-gold">
                   {area.name}
                 </h3>
                 <p className="text-[14px] leading-[1.6] text-[#555]">{area.text}</p>
@@ -58,7 +58,7 @@ export default function LocationsPage() {
       </section>
 
       {/* Cosmetic Tattoo Services */}
-      <section className="bg-[#f7f3ea] px-6 py-20">
+      <section className="bg-cream px-6 py-20">
         <div className="mx-auto flex max-w-[1200px] flex-col items-center gap-12 lg:flex-row">
           <div className="w-full lg:w-[45%]">
             <Image
@@ -70,10 +70,10 @@ export default function LocationsPage() {
             />
           </div>
           <div className="w-full lg:w-[55%]">
-            <h2 className="mb-5 font-heading text-[32px] font-light leading-tight text-[#c09569] lg:text-[40px]">
+            <h2 className="mb-5 font-heading text-[32px] font-light leading-tight text-gold lg:text-[40px]">
               Cosmetic Tattoo Services
             </h2>
-            <p className="mb-6 text-[16px] leading-[1.7] text-[#303030]">
+            <p className="mb-6 text-[16px] leading-[1.7] text-ink">
               Clients across the Sunshine Coast often travel for my cosmetic tattoo
               procedures. On Point Cosmetic Tattoo Studio operates from Buderim and
               welcomes clients from Buderim, Noosa, Caloundra and surrounding areas
@@ -85,7 +85,7 @@ export default function LocationsPage() {
             </p>
             <a
               href={ANCHORS.contact}
-              className="inline-block rounded-[15px] border border-[#303030] bg-white px-9 py-3.5 font-josefin text-[18px] text-[#303030] transition-colors hover:border-[#c09569] hover:bg-[#c09569] hover:text-white"
+              className="inline-block rounded-[15px] border border-ink bg-white px-9 py-3.5 font-josefin text-[18px] text-ink transition-colors hover:border-gold hover:bg-gold hover:text-white"
             >
               Book Now
             </a>

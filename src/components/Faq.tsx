@@ -22,11 +22,11 @@ export function Faq({ items }: { items: FaqItem[] }) {
               onClick={() => setOpen(isOpen ? null : i)}
               className="flex w-full items-center justify-between gap-4 py-5 text-left"
             >
-              <span className="font-heading text-[18px] font-light text-[#303030]">
+              <span className="font-heading text-[18px] font-light text-ink">
                 {item.q}
               </span>
               <ChevronDownIcon
-                className={`shrink-0 text-[18px] text-[#c09569] transition-transform ${
+                className={`shrink-0 text-[18px] text-gold transition-transform ${
                   isOpen ? "rotate-180" : ""
                 }`}
               />
