@@ -1,0 +1,2707 @@
+{
+ "url": "http://localhost:3123/",
+ "at": "2026-10-21T05:13:23.081Z",
+ "allow": [],
+ "viewports": [
+  {
+   "width": 1440,
+   "height": 900,
+   "load": "load",
+   "screens": 10,
+   "filled": [
+    0.51,
+    0.98,
+    0.98,
+    0.52,
+    0.77,
+    0.99,
+    0.69,
+    0.61,
+    0.89,
+    0.89
+   ],
+   "motion": {
+    "elements": 9,
+    "css": 9,
+    "transitions": 0,
+    "scripted": 0,
+    "videos": 0,
+    "playingVideos": 0
+   },
+   "metrics": {
+    "viewport": {
+     "w": 1440,
+     "h": 900
+    },
+    "page": {
+     "height": 8103,
+     "screens": 9,
+     "words": 809,
+     "img": 8,
+     "video": 0,
+     "canvas": 0,
+     "svg": 1,
+     "sections": 7,
+     "horizontalOverflow": 0,
+     "overflowCulprits": [],
+     "uiFragments": 0,
+     "uiAbuse": false,
+     "realPictures": 6,
+     "videoCount": 0,
+     "uiPictures": 0,
+     "pictureSamples": [
+      "image?url=%2Fimages%2Fhero.png&w=1080&q=75",
+      "image?url=%2Fimages%2Fsub%2Feb-work-2.jpg&w=384&",
+      "image?url=%2Fimages%2Fsub%2Fel-work-3.jpg&w=384&",
+      "image?url=%2Fimages%2Fsub%2Flip-work-1.jpg&w=384",
+      "image?url=%2Fimages%2Fsub%2Feb-technique.jpg&w=3",
+      "image?url=%2Fimages%2Fartist-lisa.jpg&w=640&q=75"
+     ],
+     "blendText": 0,
+     "sideScrollers": 0,
+     "brokenImages": [],
+     "emoji": [],
+     "videosNoPoster": 0
+    },
+    "hero": {
+     "text": "Cosmetic tattoo, mapped to your face",
+     "words": 6,
+     "chars": 36,
+     "lines": 3,
+     "size": 71.4,
+     "vw": 5,
+     "font": "Bodoni Moda",
+     "weight": 400,
+     "tracking": -0.02,
+     "leading": 1.02,
+     "upper": false,
+     "italic": false,
+     "mono": false,
+     "align": "left",
+     "position": "left",
+     "widthRatio": 0.45,
+     "top": 235,
+     "tag": "h1",
+     "kind": "heading"
+    },
+    "h1": {
+     "text": "Cosmetic tattoo, mapped to your face",
+     "words": 6,
+     "lines": 3,
+     "size": 71.4,
+     "font": "Bodoni Moda"
+    },
+    "headings": [
+     {
+      "text": "Cosmetic tattoo, mapped to your face",
+      "words": 6,
+      "chars": 36,
+      "lines": 3,
+      "size": 71.4,
+      "vw": 5,
+      "font": "Bodoni Moda",
+      "weight": 400,
+      "tracking": -0.02,
+      "leading": 1.02,
+      "upper": false,
+      "italic": false,
+      "mono": false,
+      "align": "left",
+      "position": "left",
+      "widthRatio": 0.45,
+      "top": 235,
+      "tag": "h1",
+      "kind": "heading"
+     },
+     {
+      "text": "Three treatments, one artist",
+      "words": 4,
+      "chars": 28,
+      "lines": 2,
+      "size": 56,
+      "vw": 3.9,
+      "font": "Bodoni Moda",
+      "weight": 400,
+      "tracking": -0.01,
+      "leading": 1.08,
+      "upper": false,
+      "italic": false,
+      "mono": false,
+      "align": "left",
+      "position": "left",
+      "widthRatio": 0.37,
+      "top": 1042,
+      "tag": "h2",
+      "kind": "heading"
+     },
+     {
+      "text": "Eyebrows",
+      "words": 1,
+      "chars": 8,
+      "lines": 1,
+      "size": 56,
+      "vw": 3.9,
+      "font": "Bodoni Moda",
+      "weight": 400,
+      "tracking": -0.01,
+      "leading": 1.08,
+      "upper": false,
+      "italic": false,
+      "mono": false,
+      "align": "left",
+      "position": "left",
+      "widthRatio": 0.29,
+      "top": 1280,
+      "tag": "h3",
+      "kind": "heading"
+     },
+     {
+      "text": "Eyeliner",
+      "words": 1,
+      "chars": 8,
+      "lines": 1,
+      "size": 56,
+      "vw": 3.9,
+      "font": "Bodoni Moda",
+      "weight": 400,
+      "tracking": -0.01,
+      "leading": 1.08,
+      "upper": false,
+      "italic": false,
+      "mono": false,
+      "align": "left",
+      "position": "left",
+      "widthRatio": 0.29,
+      "top": 1809,
+      "tag": "h3",
+      "kind": "heading"
+     },
+     {
+      "text": "Lips",
+      "words": 1,
+      "chars": 4,
+      "lines": 1,
+      "size": 56,
+      "vw": 3.9,
+      "font": "Bodoni Moda",
+      "weight": 400,
+      "tracking": -0.01,
+      "leading": 1.08,
+      "upper": false,
+      "italic": false,
+      "mono": false,
+      "align": "left",
+      "position": "left",
+      "widthRatio": 0.29,
+      "top": 2338,
+      "tag": "h3",
+      "kind": "heading"
+     },
+     {
+      "text": "Your visit, day by day",
+      "words": 5,
+      "chars": 22,
+      "lines": 1,
+      "size": 56,
+      "vw": 3.9,
+      "font": "Bodoni Moda",
+      "weight": 400,
+      "tracking": -0.01,
+      "leading": 1.08,
+      "upper": false,
+      "italic": false,
+      "mono": false,
+      "align": "left",
+      "position": "left",
+      "widthRatio": 0.45,
+      "top": 3094,
+      "tag": "h2",
+      "kind": "heading"
+     },
+     {
+      "text": "Consultation",
+      "words": 1,
+      "chars": 12,
+      "lines": 1,
+      "size": 30,
+      "vw": 2.1,
+      "font": "Bodoni Moda",
+      "weight": 400,
+      "tracking": -0.01,
+      "leading": 1.08,
+      "upper": false,
+      "italic": false,
+      "mono": false,
+      "align": "left",
+      "position": "left",
+      "widthRatio": 0.69,
+      "top": 3509,
+      "tag": "h3",
+      "kind": "heading"
+     },
+     {
+      "text": "Meet Lisa Eagles",
+      "words": 3,
+      "chars": 16,
+      "lines": 1,
+      "size": 56,
+      "vw": 3.9,
+      "font": "Bodoni Moda",
+      "weight": 400,
+      "tracking": -0.01,
+      "leading": 1.08,
+      "upper": false,
+      "italic": false,
+      "mono": false,
+      "align": "left",
+      "position": "right",
+      "widthRatio": 0.45,
+      "top": 4240,
+      "tag": "h2",
+      "kind": "heading"
+     },
+     {
+      "text": "Since 2016",
+      "words": 2,
+      "chars": 10,
+      "lines": 1,
+      "size": 30,
+      "vw": 2.1,
+      "font": "Bodoni Moda",
+      "weight": 400,
+      "tracking": 0,
+      "leading": 1.1,
+      "upper": false,
+      "italic": false,
+      "mono": false,
+      "align": "left",
+      "position": "right",
+      "widthRatio": 0.22,
+      "top": 4600,
+      "tag": "dt",
+      "kind": "heading"
+     },
+     {
+      "text": "Certified artist",
+      "words": 2,
+      "chars": 16,
+      "lines": 1,
+      "size": 30,
+      "vw": 2.1,
+      "font": "Bodoni Moda",
+      "weight": 400,
+      "tracking": 0,
+      "leading": 1.1,
+      "upper": false,
+      "italic": false,
+      "mono": false,
+      "align": "left",
+      "position": "right",
+      "widthRatio": 0.22,
+      "top": 4600,
+      "tag": "dt",
+      "kind": "heading"
+     },
+     {
+      "text": "Rated 5.0 from 34 Google reviews",
+      "words": 6,
+      "chars": 32,
+      "lines": 2,
+      "size": 56,
+      "vw": 3.9,
+      "font": "Bodoni Moda",
+      "weight": 400,
+      "tracking": -0.01,
+      "leading": 1.08,
+      "upper": false,
+      "italic": false,
+      "mono": false,
+      "align": "left",
+      "position": "left",
+      "widthRatio": 0.53,
+      "top": 5134,
+      "tag": "h2",
+      "kind": "heading"
+     },
+     {
+      "text": "On the day, she ensured I was comfortable with everything, talked me through every step and was OBSESSIVE over the colour choices and mapping of my brows.",
+      "words": 27,
+      "chars": 154,
+      "lines": 4,
+      "size": 34,
+      "vw": 2.4,
+      "font": "Bodoni Moda",
+      "weight": 400,
+      "tracking": 0,
+      "leading": 1.25,
+      "upper": false,
+      "italic": false,
+      "mono": false,
+      "align": "left",
+      "position": "left",
+      "widthRatio": 0.53,
+      "top": 5313,
+      "tag": "p",
+      "kind": "statement"
+     },
+     {
+      "text": "Questions, answered",
+      "words": 2,
+      "chars": 19,
+      "lines": 2,
+      "size": 56,
+      "vw": 3.9,
+      "font": "Bodoni Moda",
+      "weight": 400,
+      "tracking": -0.01,
+      "leading": 1.08,
+      "upper": false,
+      "italic": false,
+      "mono": false,
+      "align": "left",
+      "position": "left",
+      "widthRatio": 0.29,
+      "top": 6069,
+      "tag": "h2",
+      "kind": "heading"
+     },
+     {
+      "text": "Book a consultation",
+      "words": 3,
+      "chars": 19,
+      "lines": 1,
+      "size": 56,
+      "vw": 3.9,
+      "font": "Bodoni Moda",
+      "weight": 400,
+      "tracking": -0.01,
+      "leading": 1.08,
+      "upper": false,
+      "italic": false,
+      "mono": false,
+      "align": "left",
+      "position": "left",
+      "widthRatio": 0.37,
+      "top": 6908,
+      "tag": "h2",
+      "kind": "heading"
+     },
+     {
+      "text": "0414 502 807",
+      "words": 3,
+      "chars": 12,
+      "lines": 1,
+      "size": 30,
+      "vw": 2.1,
+      "font": "Bodoni Moda",
+      "weight": 400,
+      "tracking": 0,
+      "leading": 1.6,
+      "upper": false,
+      "italic": false,
+      "mono": false,
+      "align": "left",
+      "position": "left",
+      "widthRatio": 0.37,
+      "top": 7120,
+      "tag": "p",
+      "kind": "statement"
+     },
+     {
+      "text": "Brows, eyeliner and lips, mapped in Buderim since 2016.",
+      "words": 9,
+      "chars": 55,
+      "lines": 3,
+      "size": 30,
+      "vw": 2.1,
+      "font": "Bodoni Moda",
+      "weight": 400,
+      "tracking": 0,
+      "leading": 1.2,
+      "upper": false,
+      "italic": false,
+      "mono": false,
+      "align": "left",
+      "position": "right",
+      "widthRatio": 0.29,
+      "top": 7652,
+      "tag": "p",
+      "kind": "statement"
+     }
+    ],
+    "headingSummary": {
+     "count": 16,
+     "maxLines": 4,
+     "over2Lines": 1,
+     "statements": 3,
+     "centered": 0,
+     "medianWords": 3,
+     "mixedFontHeadings": 0
+    },
+    "type": {
+     "families": [
+      {
+       "family": "Jost",
+       "share": 0.92,
+       "mono": false
+      },
+      {
+       "family": "Bodoni Moda",
+       "share": 0.08,
+       "mono": false
+      }
+     ],
+     "familyCount": 2,
+     "sizes": [
+      14,
+      17,
+      22,
+      30,
+      34,
+      56,
+      71
+     ],
+     "sizeCount": 7,
+     "notLoaded": [],
+     "body": {
+      "font": "Jost",
+      "size": 17,
+      "leading": 1.6,
+      "weight": 400,
+      "tracking": 0,
+      "contrast": 13.2
+     },
+     "measureChars": 75,
+     "max": {
+      "size": 71.4,
+      "vw": 5,
+      "font": "Bodoni Moda",
+      "text": "Cosmetic tattoo, mapped to your face"
+     },
+     "monoShare": 0,
+     "monoProseShare": 0,
+     "monoFamilies": [],
+     "monoSamples": [],
+     "microLabels": 0,
+     "microLabelShare": 0,
+     "microSamples": [],
+     "upperShare": 0,
+     "centerShare": 0,
+     "smallText": 0
+    },
+    "eyebrows": [],
+    "numbered": [],
+    "color": {
+     "bodyBg": "#f7f3ea",
+     "bodyBgHsl": {
+      "h": 42,
+      "s": 0.45,
+      "l": 0.94
+     },
+     "dark": false,
+     "sectionBgs": [
+      {
+       "color": "#ffffff",
+       "top": 900,
+       "hsl": {
+        "h": 0,
+        "s": 0,
+        "l": 1
+       }
+      },
+      {
+       "color": "#b0a18d",
+       "top": 3994,
+       "hsl": {
+        "h": 34,
+        "s": 0.18,
+        "l": 0.62
+       }
+      },
+      {
+       "color": "#c09569",
+       "top": 6766,
+       "hsl": {
+        "h": 30,
+        "s": 0.41,
+        "l": 0.58
+       }
+      },
+      {
+       "color": "#303030",
+       "top": 7566,
+       "hsl": {
+        "h": 0,
+        "s": 0,
+        "l": 0.19
+       }
+      }
+     ],
+     "textColors": [
+      {
+       "color": "#303030",
+       "share": 0.58
+      },
+      {
+       "color": "#5a524a",
+       "share": 0.32
+      },
+      {
+       "color": "#f7f3ea",
+       "share": 0.06
+      },
+      {
+       "color": "#bdb3a6",
+       "share": 0.02
+      },
+      {
+       "color": "#c09569",
+       "share": 0.02
+      }
+     ],
+     "button": {
+      "bg": "#303030",
+      "hsl": {
+       "h": 0,
+       "s": 0,
+       "l": 0.19
+      },
+      "fg": "#f7f3ea"
+     },
+     "lowContrast": []
+    },
+    "buttons": {
+     "count": 7,
+     "inHero": 2,
+     "radius": "pill",
+     "height": 52,
+     "withShadow": 0,
+     "withGradient": 0,
+     "mono": 0,
+     "upper": 0,
+     "heroLabels": [
+      "Book a consultation",
+      "Book a consultation"
+     ]
+    },
+    "surfaces": {
+     "shadowStatic": 0,
+     "shadowOverlay": 0,
+     "shadowSamples": [],
+     "gradients": 0,
+     "scrims": 0,
+     "gradientSamples": [],
+     "gradientText": 0,
+     "hairlines": 16,
+     "hairlineSamples": [
+      "nav.hero__treatments 648px",
+      "article.grid12.row 1325px",
+      "article.grid12.row 1325px",
+      "article.grid12.row 1325px",
+      "dl.about__facts 648px"
+     ],
+     "outlinedBoxes": 0,
+     "dashed": 0,
+     "blurred": 0,
+     "roundedBoxes": 6,
+     "boxRadius": 99,
+     "squareMedia": 1,
+     "roundedMedia": 5,
+     "mediaRadius": 999,
+     "textShadow": 0,
+     "cardRows": [
+      {
+       "count": 3,
+       "iconTopped": false,
+       "rounded": false,
+       "top": 5313
+      }
+     ]
+    },
+    "heroMedia": [
+     {
+      "type": "img",
+      "ratio": 0.33
+     },
+     {
+      "type": "svg",
+      "ratio": 0.33
+     }
+    ],
+    "nav": {
+     "links": 8,
+     "fixed": true,
+     "height": 80,
+     "floatingPill": false,
+     "blur": false
+    },
+    "fontsLoaded": [
+     "bodoni moda",
+     "jost",
+     "jost fallback"
+    ]
+   },
+   "layout": {
+    "viewport": {
+     "w": 1440,
+     "h": 900
+    },
+    "pageH": 8103,
+    "margins": {
+     "left": 58,
+     "right": 58
+    },
+    "sections": [
+     {
+      "sel": "section.hero",
+      "tag": "section",
+      "top": 80,
+      "height": 820,
+      "words": 71,
+      "media": 2,
+      "middle": 148,
+      "heading": {
+       "text": "Cosmetic tattoo, mapped to your face",
+       "size": 71,
+       "tag": "h1"
+      },
+      "left": 58,
+      "right": 0,
+      "textLeft": 58,
+      "textRight": 280,
+      "fullBleed": false,
+      "footer": false,
+      "hero": true,
+      "continues": true,
+      "pinned": false
+     },
+     {
+      "sel": "section#treatments.section.on-white",
+      "tag": "section",
+      "top": 900,
+      "height": 2051,
+      "words": 180,
+      "media": 3,
+      "middle": 5,
+      "heading": {
+       "text": "Three treatments, one artist",
+       "size": 56,
+       "tag": "h2"
+      },
+      "left": 58,
+      "right": 58,
+      "textLeft": 58,
+      "textRight": 245,
+      "fullBleed": false,
+      "footer": false,
+      "hero": false,
+      "continues": true,
+      "pinned": false
+     },
+     {
+      "sel": "section#your-visit.section",
+      "tag": "section",
+      "top": 2951,
+      "height": 1042,
+      "words": 102,
+      "media": 1,
+      "middle": 29,
+      "heading": {
+       "text": "Your visit, day by day",
+       "size": 56,
+       "tag": "h2"
+      },
+      "left": 58,
+      "right": 58,
+      "textLeft": 58,
+      "textRight": 77,
+      "fullBleed": false,
+      "footer": false,
+      "hero": false,
+      "continues": true,
+      "pinned": false
+     },
+     {
+      "sel": "section#about.section.on-taupe",
+      "tag": "section",
+      "top": 3994,
+      "height": 998,
+      "words": 99,
+      "media": 1,
+      "middle": 142,
+      "heading": {
+       "text": "Meet Lisa Eagles",
+       "size": 56,
+       "tag": "h2"
+      },
+      "left": 58,
+      "right": 79,
+      "textLeft": 734,
+      "textRight": 79,
+      "fullBleed": false,
+      "footer": false,
+      "hero": false,
+      "continues": true,
+      "pinned": false
+     },
+     {
+      "sel": "section#testimonials.section.on-white",
+      "tag": "section",
+      "top": 4992,
+      "height": 935,
+      "words": 121,
+      "media": 0,
+      "middle": 166,
+      "heading": {
+       "text": "Rated 5.0 from 34 Google reviews",
+       "size": 56,
+       "tag": "h2"
+      },
+      "left": 58,
+      "right": 58,
+      "textLeft": 58,
+      "textRight": 58,
+      "fullBleed": false,
+      "footer": false,
+      "hero": false,
+      "continues": true,
+      "pinned": false
+     },
+     {
+      "sel": "section#questions.section",
+      "tag": "section",
+      "top": 5927,
+      "height": 839,
+      "words": 270,
+      "media": 0,
+      "middle": 212,
+      "heading": {
+       "text": "Questions, answered",
+       "size": 56,
+       "tag": "h2"
+      },
+      "left": 58,
+      "right": 97,
+      "textLeft": 58,
+      "textRight": 97,
+      "fullBleed": false,
+      "footer": false,
+      "hero": false,
+      "continues": true,
+      "pinned": false
+     },
+     {
+      "sel": "section#book.section.book",
+      "tag": "section",
+      "top": 6766,
+      "height": 800,
+      "words": 58,
+      "media": 0,
+      "middle": 196,
+      "heading": {
+       "text": "Book a consultation",
+       "size": 56,
+       "tag": "h2"
+      },
+      "left": 58,
+      "right": 98,
+      "textLeft": 58,
+      "textRight": 303,
+      "fullBleed": false,
+      "footer": false,
+      "hero": false,
+      "continues": true,
+      "pinned": false
+     },
+     {
+      "sel": "footer.foot",
+      "tag": "footer",
+      "top": 7566,
+      "height": 538,
+      "words": 68,
+      "media": 0,
+      "middle": 144,
+      "heading": {
+       "text": "Brows, eyeliner and lips, mapped in Buderim since ",
+       "size": 30,
+       "tag": "p"
+      },
+      "left": 58,
+      "right": 58,
+      "textLeft": 58,
+      "textRight": 58,
+      "fullBleed": false,
+      "footer": true,
+      "hero": false,
+      "continues": false,
+      "pinned": false
+     }
+    ],
+    "gaps": [],
+    "h1s": [
+     {
+      "text": "Cosmetic tattoo, mapped to your face",
+      "size": 71,
+      "top": 235,
+      "firstScreen": true
+     }
+    ],
+    "edgeText": [],
+    "edges": [
+     {
+      "x": 58,
+      "n": 12
+     },
+     {
+      "x": 622,
+      "n": 6
+     },
+     {
+      "x": 734,
+      "n": 6
+     },
+     {
+      "x": 509,
+      "n": 3
+     },
+     {
+      "x": 960,
+      "n": 3
+     },
+     {
+      "x": 101,
+      "n": 1
+     }
+    ],
+    "leftBlocks": 31,
+    "bodySize": 17,
+    "stage": false,
+    "explains": true,
+    "slivers": [],
+    "voidShare": 0.13,
+    "voidBox": {
+     "x": 0,
+     "y": 780,
+     "w": 1440,
+     "h": 120
+    }
+   },
+   "app": null,
+   "consoleErrors": []
+  },
+  {
+   "width": 768,
+   "height": 1024,
+   "load": "load",
+   "screens": 11,
+   "filled": [
+    0.71,
+    0.82,
+    0.97,
+    0.97,
+    0.59,
+    0.57,
+    0.9,
+    0.99,
+    0.56,
+    0.79,
+    0.97
+   ],
+   "motion": {
+    "elements": 6,
+    "css": 6,
+    "transitions": 0,
+    "scripted": 0,
+    "videos": 0,
+    "playingVideos": 0
+   },
+   "metrics": {
+    "viewport": {
+     "w": 768,
+     "h": 1024
+    },
+    "page": {
+     "height": 11263,
+     "screens": 11,
+     "words": 798,
+     "img": 8,
+     "video": 0,
+     "canvas": 0,
+     "svg": 1,
+     "sections": 7,
+     "horizontalOverflow": 0,
+     "overflowCulprits": [],
+     "uiFragments": 0,
+     "uiAbuse": false,
+     "realPictures": 6,
+     "videoCount": 0,
+     "uiPictures": 0,
+     "pictureSamples": [
+      "image?url=%2Fimages%2Fhero.png&w=828&q=75",
+      "image?url=%2Fimages%2Fsub%2Feb-work-2.jpg&w=750&",
+      "image?url=%2Fimages%2Fsub%2Fel-work-3.jpg&w=750&",
+      "image?url=%2Fimages%2Fsub%2Flip-work-1.jpg&w=750",
+      "image?url=%2Fimages%2Fsub%2Feb-technique.jpg&w=6",
+      "image?url=%2Fimages%2Fartist-lisa.jpg&w=750&q=75"
+     ],
+     "blendText": 0,
+     "sideScrollers": 0,
+     "brokenImages": [],
+     "emoji": [],
+     "videosNoPoster": 0
+    },
+    "hero": {
+     "text": "Cosmetic tattoo, mapped to your face",
+     "words": 6,
+     "chars": 36,
+     "lines": 2,
+     "size": 62.5,
+     "vw": 8.1,
+     "font": "Bodoni Moda",
+     "weight": 400,
+     "tracking": -0.02,
+     "leading": 1.02,
+     "upper": false,
+     "italic": false,
+     "mono": false,
+     "align": "left",
+     "position": "center",
+     "widthRatio": 0.92,
+     "top": 103,
+     "tag": "h1",
+     "kind": "heading"
+    },
+    "h1": {
+     "text": "Cosmetic tattoo, mapped to your face",
+     "words": 6,
+     "lines": 2,
+     "size": 62.5,
+     "font": "Bodoni Moda"
+    },
+    "headings": [
+     {
+      "text": "Cosmetic tattoo, mapped to your face",
+      "words": 6,
+      "chars": 36,
+      "lines": 2,
+      "size": 62.5,
+      "vw": 8.1,
+      "font": "Bodoni Moda",
+      "weight": 400,
+      "tracking": -0.02,
+      "leading": 1.02,
+      "upper": false,
+      "italic": false,
+      "mono": false,
+      "align": "left",
+      "position": "center",
+      "widthRatio": 0.92,
+      "top": 103,
+      "tag": "h1",
+      "kind": "heading"
+     },
+     {
+      "text": "Three treatments, one artist",
+      "words": 4,
+      "chars": 28,
+      "lines": 1,
+      "size": 42.5,
+      "vw": 5.5,
+      "font": "Bodoni Moda",
+      "weight": 400,
+      "tracking": -0.01,
+      "leading": 1.08,
+      "upper": false,
+      "italic": false,
+      "mono": false,
+      "align": "left",
+      "position": "center",
+      "widthRatio": 0.92,
+      "top": 1583,
+      "tag": "h2",
+      "kind": "heading"
+     },
+     {
+      "text": "Eyebrows",
+      "words": 1,
+      "chars": 8,
+      "lines": 1,
+      "size": 42.5,
+      "vw": 5.5,
+      "font": "Bodoni Moda",
+      "weight": 400,
+      "tracking": -0.01,
+      "leading": 1.08,
+      "upper": false,
+      "italic": false,
+      "mono": false,
+      "align": "left",
+      "position": "center",
+      "widthRatio": 0.92,
+      "top": 1791,
+      "tag": "h3",
+      "kind": "heading"
+     },
+     {
+      "text": "Eyeliner",
+      "words": 1,
+      "chars": 8,
+      "lines": 1,
+      "size": 42.5,
+      "vw": 5.5,
+      "font": "Bodoni Moda",
+      "weight": 400,
+      "tracking": -0.01,
+      "leading": 1.08,
+      "upper": false,
+      "italic": false,
+      "mono": false,
+      "align": "left",
+      "position": "center",
+      "widthRatio": 0.92,
+      "top": 2764,
+      "tag": "h3",
+      "kind": "heading"
+     },
+     {
+      "text": "Lips",
+      "words": 1,
+      "chars": 4,
+      "lines": 1,
+      "size": 42.5,
+      "vw": 5.5,
+      "font": "Bodoni Moda",
+      "weight": 400,
+      "tracking": -0.01,
+      "leading": 1.08,
+      "upper": false,
+      "italic": false,
+      "mono": false,
+      "align": "left",
+      "position": "center",
+      "widthRatio": 0.92,
+      "top": 3668,
+      "tag": "h3",
+      "kind": "heading"
+     },
+     {
+      "text": "Your visit, day by day",
+      "words": 5,
+      "chars": 22,
+      "lines": 2,
+      "size": 42.5,
+      "vw": 5.5,
+      "font": "Bodoni Moda",
+      "weight": 400,
+      "tracking": -0.01,
+      "leading": 1.08,
+      "upper": false,
+      "italic": false,
+      "mono": false,
+      "align": "left",
+      "position": "left",
+      "widthRatio": 0.45,
+      "top": 4770,
+      "tag": "h2",
+      "kind": "heading"
+     },
+     {
+      "text": "Consultation",
+      "words": 1,
+      "chars": 12,
+      "lines": 1,
+      "size": 26.9,
+      "vw": 3.5,
+      "font": "Bodoni Moda",
+      "weight": 400,
+      "tracking": -0.01,
+      "leading": 1.08,
+      "upper": false,
+      "italic": false,
+      "mono": false,
+      "align": "left",
+      "position": "center",
+      "widthRatio": 0.86,
+      "top": 5597,
+      "tag": "h3",
+      "kind": "heading"
+     },
+     {
+      "text": "Meet Lisa Eagles",
+      "words": 3,
+      "chars": 16,
+      "lines": 1,
+      "size": 42.5,
+      "vw": 5.5,
+      "font": "Bodoni Moda",
+      "weight": 400,
+      "tracking": -0.01,
+      "leading": 1.08,
+      "upper": false,
+      "italic": false,
+      "mono": false,
+      "align": "left",
+      "position": "center",
+      "widthRatio": 0.92,
+      "top": 6948,
+      "tag": "h2",
+      "kind": "heading"
+     },
+     {
+      "text": "Since 2016",
+      "words": 2,
+      "chars": 10,
+      "lines": 1,
+      "size": 26.9,
+      "vw": 3.5,
+      "font": "Bodoni Moda",
+      "weight": 400,
+      "tracking": 0,
+      "leading": 1.1,
+      "upper": false,
+      "italic": false,
+      "mono": false,
+      "align": "left",
+      "position": "left",
+      "widthRatio": 0.44,
+      "top": 7289,
+      "tag": "dt",
+      "kind": "heading"
+     },
+     {
+      "text": "Certified artist",
+      "words": 2,
+      "chars": 16,
+      "lines": 1,
+      "size": 26.9,
+      "vw": 3.5,
+      "font": "Bodoni Moda",
+      "weight": 400,
+      "tracking": 0,
+      "leading": 1.1,
+      "upper": false,
+      "italic": false,
+      "mono": false,
+      "align": "left",
+      "position": "right",
+      "widthRatio": 0.44,
+      "top": 7289,
+      "tag": "dt",
+      "kind": "heading"
+     },
+     {
+      "text": "Rated 5.0 from 34 Google reviews",
+      "words": 6,
+      "chars": 32,
+      "lines": 1,
+      "size": 42.5,
+      "vw": 5.5,
+      "font": "Bodoni Moda",
+      "weight": 400,
+      "tracking": -0.01,
+      "leading": 1.08,
+      "upper": false,
+      "italic": false,
+      "mono": false,
+      "align": "left",
+      "position": "center",
+      "widthRatio": 0.92,
+      "top": 7635,
+      "tag": "h2",
+      "kind": "heading"
+     },
+     {
+      "text": "Questions, answered",
+      "words": 2,
+      "chars": 19,
+      "lines": 1,
+      "size": 42.5,
+      "vw": 5.5,
+      "font": "Bodoni Moda",
+      "weight": 400,
+      "tracking": -0.01,
+      "leading": 1.08,
+      "upper": false,
+      "italic": false,
+      "mono": false,
+      "align": "left",
+      "position": "center",
+      "widthRatio": 0.92,
+      "top": 8614,
+      "tag": "h2",
+      "kind": "heading"
+     },
+     {
+      "text": "Book a consultation",
+      "words": 3,
+      "chars": 19,
+      "lines": 1,
+      "size": 42.5,
+      "vw": 5.5,
+      "font": "Bodoni Moda",
+      "weight": 400,
+      "tracking": -0.01,
+      "leading": 1.08,
+      "upper": false,
+      "italic": false,
+      "mono": false,
+      "align": "left",
+      "position": "center",
+      "widthRatio": 0.92,
+      "top": 9483,
+      "tag": "h2",
+      "kind": "heading"
+     },
+     {
+      "text": "0414 502 807",
+      "words": 3,
+      "chars": 12,
+      "lines": 1,
+      "size": 26.9,
+      "vw": 3.5,
+      "font": "Bodoni Moda",
+      "weight": 400,
+      "tracking": 0,
+      "leading": 1.6,
+      "upper": false,
+      "italic": false,
+      "mono": false,
+      "align": "left",
+      "position": "center",
+      "widthRatio": 0.92,
+      "top": 9672,
+      "tag": "p",
+      "kind": "statement"
+     },
+     {
+      "text": "Brows, eyeliner and lips, mapped in Buderim since 2016.",
+      "words": 9,
+      "chars": 55,
+      "lines": 2,
+      "size": 26.9,
+      "vw": 3.5,
+      "font": "Bodoni Moda",
+      "weight": 400,
+      "tracking": 0,
+      "leading": 1.2,
+      "upper": false,
+      "italic": false,
+      "mono": false,
+      "align": "left",
+      "position": "right",
+      "widthRatio": 0.54,
+      "top": 10489,
+      "tag": "p",
+      "kind": "statement"
+     }
+    ],
+    "headingSummary": {
+     "count": 15,
+     "maxLines": 2,
+     "over2Lines": 0,
+     "statements": 2,
+     "centered": 0,
+     "medianWords": 3,
+     "mixedFontHeadings": 0
+    },
+    "type": {
+     "families": [
+      {
+       "family": "Jost",
+       "share": 0.92,
+       "mono": false
+      },
+      {
+       "family": "Bodoni Moda",
+       "share": 0.08,
+       "mono": false
+      }
+     ],
+     "familyCount": 2,
+     "sizes": [
+      14,
+      17,
+      20,
+      27,
+      28,
+      43,
+      63
+     ],
+     "sizeCount": 7,
+     "notLoaded": [],
+     "body": {
+      "font": "Jost",
+      "size": 17,
+      "leading": 1.6,
+      "weight": 400,
+      "tracking": 0,
+      "contrast": 13.2
+     },
+     "measureChars": 75,
+     "max": {
+      "size": 62.5,
+      "vw": 8.1,
+      "font": "Bodoni Moda",
+      "text": "Cosmetic tattoo, mapped to your face"
+     },
+     "monoShare": 0,
+     "monoProseShare": 0,
+     "monoFamilies": [],
+     "monoSamples": [],
+     "microLabels": 0,
+     "microLabelShare": 0,
+     "microSamples": [],
+     "upperShare": 0,
+     "centerShare": 0,
+     "smallText": 0
+    },
+    "eyebrows": [],
+    "numbered": [],
+    "color": {
+     "bodyBg": "#f7f3ea",
+     "bodyBgHsl": {
+      "h": 42,
+      "s": 0.45,
+      "l": 0.94
+     },
+     "dark": false,
+     "sectionBgs": [
+      {
+       "color": "#ffffff",
+       "top": 1481,
+       "hsl": {
+        "h": 0,
+        "s": 0,
+        "l": 1
+       }
+      },
+      {
+       "color": "#b0a18d",
+       "top": 6252,
+       "hsl": {
+        "h": 34,
+        "s": 0.18,
+        "l": 0.62
+       }
+      },
+      {
+       "color": "#c09569",
+       "top": 9381,
+       "hsl": {
+        "h": 30,
+        "s": 0.41,
+        "l": 0.58
+       }
+      },
+      {
+       "color": "#f7f3ea",
+       "top": 9847,
+       "hsl": {
+        "h": 42,
+        "s": 0.45,
+        "l": 0.94
+       }
+      },
+      {
+       "color": "#303030",
+       "top": 10433,
+       "hsl": {
+        "h": 0,
+        "s": 0,
+        "l": 0.19
+       }
+      }
+     ],
+     "textColors": [
+      {
+       "color": "#303030",
+       "share": 0.58
+      },
+      {
+       "color": "#5a524a",
+       "share": 0.32
+      },
+      {
+       "color": "#f7f3ea",
+       "share": 0.07
+      },
+      {
+       "color": "#bdb3a6",
+       "share": 0.02
+      },
+      {
+       "color": "#c09569",
+       "share": 0.02
+      }
+     ],
+     "button": {
+      "bg": "#303030",
+      "hsl": {
+       "h": 0,
+       "s": 0,
+       "l": 0.19
+      },
+      "fg": "#f7f3ea"
+     },
+     "lowContrast": []
+    },
+    "buttons": {
+     "count": 8,
+     "inHero": 3,
+     "radius": "pill",
+     "height": 52,
+     "withShadow": 0,
+     "withGradient": 0,
+     "mono": 0,
+     "upper": 0,
+     "heroLabels": [
+      "Book a consultation",
+      "Book a consultation"
+     ]
+    },
+    "surfaces": {
+     "shadowStatic": 0,
+     "shadowOverlay": 0,
+     "shadowSamples": [],
+     "gradients": 0,
+     "scrims": 0,
+     "gradientSamples": [],
+     "gradientText": 0,
+     "hairlines": 16,
+     "hairlineSamples": [
+      "nav.hero__treatments 707px",
+      "article.grid12.row 707px",
+      "article.grid12.row 707px",
+      "article.grid12.row 707px",
+      "dl.about__facts 707px"
+     ],
+     "outlinedBoxes": 0,
+     "dashed": 0,
+     "blurred": 0,
+     "roundedBoxes": 6,
+     "boxRadius": 99,
+     "squareMedia": 1,
+     "roundedMedia": 5,
+     "mediaRadius": 999,
+     "textShadow": 0,
+     "cardRows": []
+    },
+    "heroMedia": [
+     {
+      "type": "img",
+      "ratio": 0.46
+     },
+     {
+      "type": "svg",
+      "ratio": 0.46
+     }
+    ],
+    "nav": {
+     "links": 3,
+     "fixed": true,
+     "height": 80,
+     "floatingPill": false,
+     "blur": false
+    },
+    "fontsLoaded": [
+     "bodoni moda",
+     "bodoni moda fallback",
+     "jost",
+     "jost fallback"
+    ]
+   },
+   "layout": {
+    "viewport": {
+     "w": 768,
+     "h": 1024
+    },
+    "pageH": 11263,
+    "margins": {
+     "left": 31,
+     "right": 31
+    },
+    "sections": [
+     {
+      "sel": "section.hero",
+      "tag": "section",
+      "top": 80,
+      "height": 1401,
+      "words": 68,
+      "media": 2,
+      "middle": 0,
+      "heading": {
+       "text": "Cosmetic tattoo, mapped to your face",
+       "size": 62,
+       "tag": "h1"
+      },
+      "left": 31,
+      "right": 170,
+      "textLeft": 31,
+      "textRight": 170,
+      "fullBleed": true,
+      "footer": false,
+      "hero": true,
+      "continues": true,
+      "pinned": false
+     },
+     {
+      "sel": "section#treatments.section.on-white",
+      "tag": "section",
+      "top": 1481,
+      "height": 3188,
+      "words": 180,
+      "media": 3,
+      "middle": 0,
+      "heading": {
+       "text": "Three treatments, one artist",
+       "size": 42,
+       "tag": "h2"
+      },
+      "left": 31,
+      "right": 37,
+      "textLeft": 31,
+      "textRight": 37,
+      "fullBleed": false,
+      "footer": false,
+      "hero": false,
+      "continues": true,
+      "pinned": false
+     },
+     {
+      "sel": "section#your-visit.section",
+      "tag": "section",
+      "top": 4668,
+      "height": 1583,
+      "words": 102,
+      "media": 1,
+      "middle": 0,
+      "heading": {
+       "text": "Your visit, day by day",
+       "size": 42,
+       "tag": "h2"
+      },
+      "left": 31,
+      "right": 31,
+      "textLeft": 31,
+      "textRight": 49,
+      "fullBleed": false,
+      "footer": false,
+      "hero": false,
+      "continues": true,
+      "pinned": false
+     },
+     {
+      "sel": "section#about.section.on-taupe",
+      "tag": "section",
+      "top": 6252,
+      "height": 1281,
+      "words": 99,
+      "media": 1,
+      "middle": 0,
+      "heading": null,
+      "left": 31,
+      "right": 111,
+      "textLeft": 31,
+      "textRight": 111,
+      "fullBleed": false,
+      "footer": false,
+      "hero": false,
+      "continues": true,
+      "pinned": false
+     },
+     {
+      "sel": "section#testimonials.section.on-white",
+      "tag": "section",
+      "top": 7533,
+      "height": 979,
+      "words": 121,
+      "media": 0,
+      "middle": 0,
+      "heading": {
+       "text": "Rated 5.0 from 34 Google reviews",
+       "size": 42,
+       "tag": "h2"
+      },
+      "left": 31,
+      "right": 39,
+      "textLeft": 31,
+      "textRight": 39,
+      "fullBleed": false,
+      "footer": false,
+      "hero": false,
+      "continues": true,
+      "pinned": false
+     },
+     {
+      "sel": "section#questions.section",
+      "tag": "section",
+      "top": 8512,
+      "height": 869,
+      "words": 270,
+      "media": 0,
+      "middle": 0,
+      "heading": {
+       "text": "Questions, answered",
+       "size": 42,
+       "tag": "h2"
+      },
+      "left": 31,
+      "right": 72,
+      "textLeft": 31,
+      "textRight": 72,
+      "fullBleed": false,
+      "footer": false,
+      "hero": false,
+      "continues": true,
+      "pinned": false
+     },
+     {
+      "sel": "section#book.section.book",
+      "tag": "section",
+      "top": 9381,
+      "height": 1052,
+      "words": 58,
+      "media": 0,
+      "middle": 0,
+      "heading": {
+       "text": "Book a consultation",
+       "size": 42,
+       "tag": "h2"
+      },
+      "left": 31,
+      "right": 55,
+      "textLeft": 31,
+      "textRight": 257,
+      "fullBleed": false,
+      "footer": false,
+      "hero": false,
+      "continues": true,
+      "pinned": false
+     },
+     {
+      "sel": "footer.foot",
+      "tag": "footer",
+      "top": 10433,
+      "height": 830,
+      "words": 68,
+      "media": 0,
+      "middle": 46,
+      "heading": {
+       "text": "Brows, eyeliner and lips, mapped in Buderim since ",
+       "size": 27,
+       "tag": "p"
+      },
+      "left": 31,
+      "right": 31,
+      "textLeft": 31,
+      "textRight": 31,
+      "fullBleed": false,
+      "footer": true,
+      "hero": false,
+      "continues": false,
+      "pinned": false
+     }
+    ],
+    "gaps": [],
+    "h1s": [
+     {
+      "text": "Cosmetic tattoo, mapped to your face",
+      "size": 62,
+      "top": 103,
+      "firstScreen": true
+     }
+    ],
+    "edgeText": [],
+    "edges": [
+     {
+      "x": 31,
+      "n": 29
+     },
+     {
+      "x": 55,
+      "n": 1
+     },
+     {
+      "x": 392,
+      "n": 1
+     }
+    ],
+    "leftBlocks": 31,
+    "bodySize": 17,
+    "stage": false,
+    "explains": true,
+    "slivers": [],
+    "voidShare": 0,
+    "voidBox": null
+   },
+   "app": null,
+   "consoleErrors": []
+  },
+  {
+   "width": 390,
+   "height": 844,
+   "load": "load",
+   "screens": 12,
+   "filled": [
+    0.71,
+    0.82,
+    0.97,
+    0.97,
+    0.97,
+    0.57,
+    0.7,
+    0.89,
+    0.99,
+    0.96,
+    0.54,
+    0.88
+   ],
+   "motion": {
+    "elements": 6,
+    "css": 6,
+    "transitions": 0,
+    "scripted": 0,
+    "videos": 0,
+    "playingVideos": 0
+   },
+   "metrics": {
+    "viewport": {
+     "w": 390,
+     "h": 844
+    },
+    "page": {
+     "height": 11732,
+     "screens": 13.9,
+     "words": 795,
+     "img": 8,
+     "video": 0,
+     "canvas": 0,
+     "svg": 1,
+     "sections": 7,
+     "horizontalOverflow": 0,
+     "overflowCulprits": [],
+     "uiFragments": 0,
+     "uiAbuse": false,
+     "realPictures": 6,
+     "videoCount": 0,
+     "uiPictures": 0,
+     "pictureSamples": [
+      "image?url=%2Fimages%2Fhero.png&w=640&q=75",
+      "image?url=%2Fimages%2Fsub%2Feb-work-2.jpg&w=384&",
+      "image?url=%2Fimages%2Fsub%2Fel-work-3.jpg&w=384&",
+      "image?url=%2Fimages%2Fsub%2Flip-work-1.jpg&w=384",
+      "image?url=%2Fimages%2Fsub%2Feb-technique.jpg&w=3",
+      "image?url=%2Fimages%2Fartist-lisa.jpg&w=384&q=75"
+     ],
+     "blendText": 0,
+     "sideScrollers": 0,
+     "brokenImages": [],
+     "emoji": [],
+     "videosNoPoster": 0
+    },
+    "hero": {
+     "text": "Cosmetic tattoo, mapped to your face",
+     "words": 6,
+     "chars": 36,
+     "lines": 3,
+     "size": 44.3,
+     "vw": 11.4,
+     "font": "Bodoni Moda",
+     "weight": 400,
+     "tracking": -0.02,
+     "leading": 1.02,
+     "upper": false,
+     "italic": false,
+     "mono": false,
+     "align": "left",
+     "position": "center",
+     "widthRatio": 0.9,
+     "top": 96,
+     "tag": "h1",
+     "kind": "heading"
+    },
+    "h1": {
+     "text": "Cosmetic tattoo, mapped to your face",
+     "words": 6,
+     "lines": 3,
+     "size": 44.3,
+     "font": "Bodoni Moda"
+    },
+    "headings": [
+     {
+      "text": "Cosmetic tattoo, mapped to your face",
+      "words": 6,
+      "chars": 36,
+      "lines": 3,
+      "size": 44.3,
+      "vw": 11.4,
+      "font": "Bodoni Moda",
+      "weight": 400,
+      "tracking": -0.02,
+      "leading": 1.02,
+      "upper": false,
+      "italic": false,
+      "mono": false,
+      "align": "left",
+      "position": "center",
+      "widthRatio": 0.9,
+      "top": 96,
+      "tag": "h1",
+      "kind": "heading"
+     },
+     {
+      "text": "Three treatments, one artist",
+      "words": 4,
+      "chars": 28,
+      "lines": 2,
+      "size": 34.2,
+      "vw": 8.8,
+      "font": "Bodoni Moda",
+      "weight": 400,
+      "tracking": -0.01,
+      "leading": 1.08,
+      "upper": false,
+      "italic": false,
+      "mono": false,
+      "align": "left",
+      "position": "center",
+      "widthRatio": 0.9,
+      "top": 1222,
+      "tag": "h2",
+      "kind": "heading"
+     },
+     {
+      "text": "Eyebrows",
+      "words": 1,
+      "chars": 8,
+      "lines": 1,
+      "size": 34.2,
+      "vw": 8.8,
+      "font": "Bodoni Moda",
+      "weight": 400,
+      "tracking": -0.01,
+      "leading": 1.08,
+      "upper": false,
+      "italic": false,
+      "mono": false,
+      "align": "left",
+      "position": "center",
+      "widthRatio": 0.9,
+      "top": 1482,
+      "tag": "h3",
+      "kind": "heading"
+     },
+     {
+      "text": "Eyeliner",
+      "words": 1,
+      "chars": 8,
+      "lines": 1,
+      "size": 34.2,
+      "vw": 8.8,
+      "font": "Bodoni Moda",
+      "weight": 400,
+      "tracking": -0.01,
+      "leading": 1.08,
+      "upper": false,
+      "italic": false,
+      "mono": false,
+      "align": "left",
+      "position": "center",
+      "widthRatio": 0.9,
+      "top": 2526,
+      "tag": "h3",
+      "kind": "heading"
+     },
+     {
+      "text": "Lips",
+      "words": 1,
+      "chars": 4,
+      "lines": 1,
+      "size": 34.2,
+      "vw": 8.8,
+      "font": "Bodoni Moda",
+      "weight": 400,
+      "tracking": -0.01,
+      "leading": 1.08,
+      "upper": false,
+      "italic": false,
+      "mono": false,
+      "align": "left",
+      "position": "center",
+      "widthRatio": 0.9,
+      "top": 3472,
+      "tag": "h3",
+      "kind": "heading"
+     },
+     {
+      "text": "Your visit, day by day",
+      "words": 5,
+      "chars": 22,
+      "lines": 1,
+      "size": 34.2,
+      "vw": 8.8,
+      "font": "Bodoni Moda",
+      "weight": 400,
+      "tracking": -0.01,
+      "leading": 1.08,
+      "upper": false,
+      "italic": false,
+      "mono": false,
+      "align": "left",
+      "position": "center",
+      "widthRatio": 0.9,
+      "top": 4573,
+      "tag": "h2",
+      "kind": "heading"
+     },
+     {
+      "text": "Consultation",
+      "words": 1,
+      "chars": 12,
+      "lines": 1,
+      "size": 24,
+      "vw": 6.2,
+      "font": "Bodoni Moda",
+      "weight": 400,
+      "tracking": -0.01,
+      "leading": 1.08,
+      "upper": false,
+      "italic": false,
+      "mono": false,
+      "align": "left",
+      "position": "center",
+      "widthRatio": 0.77,
+      "top": 5453,
+      "tag": "h3",
+      "kind": "heading"
+     },
+     {
+      "text": "Meet Lisa Eagles",
+      "words": 3,
+      "chars": 16,
+      "lines": 1,
+      "size": 34.2,
+      "vw": 8.8,
+      "font": "Bodoni Moda",
+      "weight": 400,
+      "tracking": -0.01,
+      "leading": 1.08,
+      "upper": false,
+      "italic": false,
+      "mono": false,
+      "align": "left",
+      "position": "center",
+      "widthRatio": 0.9,
+      "top": 6751,
+      "tag": "h2",
+      "kind": "heading"
+     },
+     {
+      "text": "Since 2016",
+      "words": 2,
+      "chars": 10,
+      "lines": 1,
+      "size": 24,
+      "vw": 6.2,
+      "font": "Bodoni Moda",
+      "weight": 400,
+      "tracking": 0,
+      "leading": 1.1,
+      "upper": false,
+      "italic": false,
+      "mono": false,
+      "align": "left",
+      "position": "left",
+      "widthRatio": 0.42,
+      "top": 7244,
+      "tag": "dt",
+      "kind": "heading"
+     },
+     {
+      "text": "Certified artist",
+      "words": 2,
+      "chars": 16,
+      "lines": 1,
+      "size": 24,
+      "vw": 6.2,
+      "font": "Bodoni Moda",
+      "weight": 400,
+      "tracking": 0,
+      "leading": 1.1,
+      "upper": false,
+      "italic": false,
+      "mono": false,
+      "align": "left",
+      "position": "right",
+      "widthRatio": 0.42,
+      "top": 7244,
+      "tag": "dt",
+      "kind": "heading"
+     },
+     {
+      "text": "Rated 5.0 from 34 Google reviews",
+      "words": 6,
+      "chars": 32,
+      "lines": 2,
+      "size": 34.2,
+      "vw": 8.8,
+      "font": "Bodoni Moda",
+      "weight": 400,
+      "tracking": -0.01,
+      "leading": 1.08,
+      "upper": false,
+      "italic": false,
+      "mono": false,
+      "align": "left",
+      "position": "center",
+      "widthRatio": 0.9,
+      "top": 7565,
+      "tag": "h2",
+      "kind": "heading"
+     },
+     {
+      "text": "Questions, answered",
+      "words": 2,
+      "chars": 19,
+      "lines": 1,
+      "size": 34.2,
+      "vw": 8.8,
+      "font": "Bodoni Moda",
+      "weight": 400,
+      "tracking": -0.01,
+      "leading": 1.08,
+      "upper": false,
+      "italic": false,
+      "mono": false,
+      "align": "left",
+      "position": "center",
+      "widthRatio": 0.9,
+      "top": 8651,
+      "tag": "h2",
+      "kind": "heading"
+     },
+     {
+      "text": "Book a consultation",
+      "words": 3,
+      "chars": 19,
+      "lines": 1,
+      "size": 34.2,
+      "vw": 8.8,
+      "font": "Bodoni Moda",
+      "weight": 400,
+      "tracking": -0.01,
+      "leading": 1.08,
+      "upper": false,
+      "italic": false,
+      "mono": false,
+      "align": "left",
+      "position": "center",
+      "widthRatio": 0.9,
+      "top": 9672,
+      "tag": "h2",
+      "kind": "heading"
+     },
+     {
+      "text": "0414 502 807",
+      "words": 3,
+      "chars": 12,
+      "lines": 1,
+      "size": 24,
+      "vw": 6.2,
+      "font": "Bodoni Moda",
+      "weight": 400,
+      "tracking": 0,
+      "leading": 1.6,
+      "upper": false,
+      "italic": false,
+      "mono": false,
+      "align": "left",
+      "position": "center",
+      "widthRatio": 0.9,
+      "top": 9847,
+      "tag": "p",
+      "kind": "statement"
+     },
+     {
+      "text": "Brows, eyeliner and lips, mapped in Buderim since 2016.",
+      "words": 9,
+      "chars": 55,
+      "lines": 2,
+      "size": 24,
+      "vw": 6.2,
+      "font": "Bodoni Moda",
+      "weight": 400,
+      "tracking": 0,
+      "leading": 1.2,
+      "upper": false,
+      "italic": false,
+      "mono": false,
+      "align": "left",
+      "position": "center",
+      "widthRatio": 0.9,
+      "top": 10904,
+      "tag": "p",
+      "kind": "statement"
+     }
+    ],
+    "headingSummary": {
+     "count": 15,
+     "maxLines": 3,
+     "over2Lines": 1,
+     "statements": 2,
+     "centered": 0,
+     "medianWords": 3,
+     "mixedFontHeadings": 0
+    },
+    "type": {
+     "families": [
+      {
+       "family": "Jost",
+       "share": 0.92,
+       "mono": false
+      },
+      {
+       "family": "Bodoni Moda",
+       "share": 0.08,
+       "mono": false
+      }
+     ],
+     "familyCount": 2,
+     "sizes": [
+      14,
+      17,
+      19,
+      24,
+      34,
+      44
+     ],
+     "sizeCount": 6,
+     "notLoaded": [],
+     "body": {
+      "font": "Jost",
+      "size": 17,
+      "leading": 1.6,
+      "weight": 400,
+      "tracking": 0,
+      "contrast": 13.2
+     },
+     "measureChars": 41,
+     "max": {
+      "size": 44.3,
+      "vw": 11.4,
+      "font": "Bodoni Moda",
+      "text": "Cosmetic tattoo, mapped to your face"
+     },
+     "monoShare": 0,
+     "monoProseShare": 0,
+     "monoFamilies": [],
+     "monoSamples": [],
+     "microLabels": 0,
+     "microLabelShare": 0,
+     "microSamples": [],
+     "upperShare": 0,
+     "centerShare": 0,
+     "smallText": 0
+    },
+    "eyebrows": [],
+    "numbered": [],
+    "color": {
+     "bodyBg": "#f7f3ea",
+     "bodyBgHsl": {
+      "h": 42,
+      "s": 0.45,
+      "l": 0.94
+     },
+     "dark": false,
+     "sectionBgs": [
+      {
+       "color": "#ffffff",
+       "top": 1142,
+       "hsl": {
+        "h": 0,
+        "s": 0,
+        "l": 1
+       }
+      },
+      {
+       "color": "#b0a18d",
+       "top": 1978,
+       "hsl": {
+        "h": 34,
+        "s": 0.18,
+        "l": 0.62
+       }
+      },
+      {
+       "color": "#f7f3ea",
+       "top": 6244,
+       "hsl": {
+        "h": 42,
+        "s": 0.45,
+        "l": 0.94
+       }
+      },
+      {
+       "color": "#c09569",
+       "top": 9592,
+       "hsl": {
+        "h": 30,
+        "s": 0.41,
+        "l": 0.58
+       }
+      },
+      {
+       "color": "#303030",
+       "top": 10783,
+       "hsl": {
+        "h": 0,
+        "s": 0,
+        "l": 0.19
+       }
+      }
+     ],
+     "textColors": [
+      {
+       "color": "#303030",
+       "share": 0.58
+      },
+      {
+       "color": "#5a524a",
+       "share": 0.32
+      },
+      {
+       "color": "#f7f3ea",
+       "share": 0.06
+      },
+      {
+       "color": "#bdb3a6",
+       "share": 0.02
+      },
+      {
+       "color": "#c09569",
+       "share": 0.02
+      }
+     ],
+     "button": {
+      "bg": "#303030",
+      "hsl": {
+       "h": 0,
+       "s": 0,
+       "l": 0.19
+      },
+      "fg": "#f7f3ea"
+     },
+     "lowContrast": []
+    },
+    "buttons": {
+     "count": 7,
+     "inHero": 2,
+     "radius": "pill",
+     "height": 52,
+     "withShadow": 0,
+     "withGradient": 0,
+     "mono": 0,
+     "upper": 0,
+     "heroLabels": [
+      "Book a consultation"
+     ]
+    },
+    "surfaces": {
+     "shadowStatic": 0,
+     "shadowOverlay": 0,
+     "shadowSamples": [],
+     "gradients": 0,
+     "scrims": 0,
+     "gradientSamples": [],
+     "gradientText": 0,
+     "hairlines": 16,
+     "hairlineSamples": [
+      "nav.hero__treatments 350px",
+      "article.grid12.row 350px",
+      "article.grid12.row 350px",
+      "article.grid12.row 350px",
+      "dl.about__facts 350px"
+     ],
+     "outlinedBoxes": 0,
+     "dashed": 0,
+     "blurred": 0,
+     "roundedBoxes": 6,
+     "boxRadius": 99,
+     "squareMedia": 1,
+     "roundedMedia": 5,
+     "mediaRadius": 999,
+     "textShadow": 0,
+     "cardRows": [
+      {
+       "count": 3,
+       "iconTopped": false,
+       "rounded": false,
+       "top": 1441
+      },
+      {
+       "count": 3,
+       "iconTopped": false,
+       "rounded": false,
+       "top": 7992
+      }
+     ]
+    },
+    "heroMedia": [
+     {
+      "type": "img",
+      "ratio": 0.3
+     },
+     {
+      "type": "svg",
+      "ratio": 0.3
+     }
+    ],
+    "nav": {
+     "links": 2,
+     "fixed": true,
+     "height": 80,
+     "floatingPill": false,
+     "blur": false
+    },
+    "fontsLoaded": [
+     "bodoni moda",
+     "bodoni moda fallback",
+     "jost",
+     "jost fallback"
+    ]
+   },
+   "layout": {
+    "viewport": {
+     "w": 390,
+     "h": 844
+    },
+    "pageH": 11732,
+    "margins": {
+     "left": 20,
+     "right": 20
+    },
+    "sections": [
+     {
+      "sel": "section.hero",
+      "tag": "section",
+      "top": 80,
+      "height": 1062,
+      "words": 68,
+      "media": 2,
+      "middle": 0,
+      "heading": {
+       "text": "Cosmetic tattoo, mapped to your face",
+       "size": 44,
+       "tag": "h1"
+      },
+      "left": 20,
+      "right": 31,
+      "textLeft": 20,
+      "textRight": 31,
+      "fullBleed": true,
+      "footer": false,
+      "hero": true,
+      "continues": true,
+      "pinned": false
+     },
+     {
+      "sel": "section#treatments.section.on-white",
+      "tag": "section",
+      "top": 1142,
+      "height": 3351,
+      "words": 180,
+      "media": 3,
+      "middle": 0,
+      "heading": {
+       "text": "Three treatments, one artist",
+       "size": 34,
+       "tag": "h2"
+      },
+      "left": 20,
+      "right": 20,
+      "textLeft": 20,
+      "textRight": 21,
+      "fullBleed": false,
+      "footer": false,
+      "hero": false,
+      "continues": true,
+      "pinned": false
+     },
+     {
+      "sel": "section#your-visit.section",
+      "tag": "section",
+      "top": 4493,
+      "height": 1671,
+      "words": 102,
+      "media": 1,
+      "middle": 0,
+      "heading": {
+       "text": "Your visit, day by day",
+       "size": 34,
+       "tag": "h2"
+      },
+      "left": 20,
+      "right": 20,
+      "textLeft": 20,
+      "textRight": 42,
+      "fullBleed": false,
+      "footer": false,
+      "hero": false,
+      "continues": true,
+      "pinned": false
+     },
+     {
+      "sel": "section#about.section.on-taupe",
+      "tag": "section",
+      "top": 6164,
+      "height": 1321,
+      "words": 99,
+      "media": 1,
+      "middle": 0,
+      "heading": {
+       "text": "Meet Lisa Eagles",
+       "size": 34,
+       "tag": "h2"
+      },
+      "left": 20,
+      "right": 20,
+      "textLeft": 20,
+      "textRight": 23,
+      "fullBleed": false,
+      "footer": false,
+      "hero": false,
+      "continues": true,
+      "pinned": false
+     },
+     {
+      "sel": "section#testimonials.section.on-white",
+      "tag": "section",
+      "top": 7485,
+      "height": 1086,
+      "words": 121,
+      "media": 0,
+      "middle": 0,
+      "heading": {
+       "text": "Rated 5.0 from 34 Google reviews",
+       "size": 34,
+       "tag": "h2"
+      },
+      "left": 20,
+      "right": 29,
+      "textLeft": 20,
+      "textRight": 29,
+      "fullBleed": false,
+      "footer": false,
+      "hero": false,
+      "continues": true,
+      "pinned": false
+     },
+     {
+      "sel": "section#questions.section",
+      "tag": "section",
+      "top": 8571,
+      "height": 1021,
+      "words": 237,
+      "media": 0,
+      "middle": 0,
+      "heading": {
+       "text": "Questions, answered",
+       "size": 34,
+       "tag": "h2"
+      },
+      "left": 20,
+      "right": 22,
+      "textLeft": 20,
+      "textRight": 22,
+      "fullBleed": false,
+      "footer": false,
+      "hero": false,
+      "continues": true,
+      "pinned": false
+     },
+     {
+      "sel": "section#book.section.book",
+      "tag": "section",
+      "top": 9592,
+      "height": 1191,
+      "words": 58,
+      "media": 0,
+      "middle": 0,
+      "heading": {
+       "text": "Book a consultation",
+       "size": 34,
+       "tag": "h2"
+      },
+      "left": 20,
+      "right": 31,
+      "textLeft": 20,
+      "textRight": 31,
+      "fullBleed": false,
+      "footer": false,
+      "hero": false,
+      "continues": true,
+      "pinned": false
+     },
+     {
+      "sel": "footer.foot",
+      "tag": "footer",
+      "top": 10783,
+      "height": 949,
+      "words": 68,
+      "media": 0,
+      "middle": 0,
+      "heading": {
+       "text": "Brows, eyeliner and lips, mapped in Buderim since ",
+       "size": 24,
+       "tag": "p"
+      },
+      "left": 20,
+      "right": 25,
+      "textLeft": 20,
+      "textRight": 25,
+      "fullBleed": false,
+      "footer": true,
+      "hero": false,
+      "continues": false,
+      "pinned": false
+     }
+    ],
+    "gaps": [],
+    "h1s": [
+     {
+      "text": "Cosmetic tattoo, mapped to your face",
+      "size": 44,
+      "top": 96,
+      "firstScreen": true
+     }
+    ],
+    "edgeText": [],
+    "edges": [
+     {
+      "x": 20,
+      "n": 30
+     },
+     {
+      "x": 44,
+      "n": 1
+     }
+    ],
+    "leftBlocks": 31,
+    "bodySize": 17,
+    "stage": false,
+    "explains": true,
+    "slivers": [],
+    "voidShare": 0,
+    "voidBox": null
+   },
+   "app": null,
+   "consoleErrors": []
+  }
+ ],
+ "findings": [
+  {
+   "level": "FAIL",
+   "id": "headline-lines",
+   "width": 1440,
+   "message": "1 headline(s) wrap past two lines at 1440px: \"Cosmetic tattoo, mapped to your face\" → 3 lines (6 words, 71.4px)",
+   "fix": "Cut words first (a headline is a title, not a sentence). Then give it a wider measure. Lower the size only as a last resort and never below the scale you chose. A real statement paragraph belongs in a <p> or <blockquote> at 36px or less."
+  },
+  {
+   "level": "WARN",
+   "id": "statement-length",
+   "width": 1440,
+   "message": "1 large-set statement(s) run past 3 lines at 1440px: \"On the day, she ensured I was comfortabl…\" → 4 lines at 34px",
+   "fix": "A statement set large is about 30 words. Cut it, or set the rest as ordinary body text."
+  },
+  {
+   "level": "FAIL",
+   "id": "hairline",
+   "width": 1440,
+   "message": "16 thin rule(s)/divider line(s): nav.hero__treatments 648px | article.grid12.row 1325px | article.grid12.row 1325px | article.grid12.row 1325px",
+   "fix": "Delete. Separate with space, a tone change, or scale. Lines are only for real tables and form fields.",
+   "alsoAt": [
+    768,
+    390
+   ]
+  },
+  {
+   "level": "FAIL",
+   "id": "palette-claude",
+   "width": 1440,
+   "message": "Cream + terracotta palette (page background #f7f3ea, text #f7f3ea, section #c09569, text #c09569).",
+   "fix": "Re-draw the palette from the library. This pairing reads as an assistant brand, not yours.",
+   "alsoAt": [
+    768,
+    390
+   ]
+  },
+  {
+   "level": "WARN",
+   "id": "no-footage",
+   "width": 1440,
+   "message": "No video anywhere on the page.",
+   "fix": "Look for one honest clip with scripts/assets.mjs --video (the place, the material, the process) and use it as a muted loop with a poster frame. Defend its absence only if no clip fits the subject."
+  },
+  {
+   "level": "WARN",
+   "id": "font-not-dealt",
+   "width": 1440,
+   "message": "The sheet dealt Chillax and Chillax, but the page renders Jost, Bodoni Moda.",
+   "fix": "Load the dealt face (the link on the sheet) and put it first in font-family. A build that falls back to a default face lands on the default look."
+  },
+  {
+   "level": "WARN",
+   "id": "still-page",
+   "width": 1440,
+   "message": "Little motion: 9 element(s) moved while the page loaded and scrolled.",
+   "fix": "Give every section an entrance for its parts (not one fade of the whole block) and add one moving picture: a looping clip or a slow move on a photograph."
+  },
+  {
+   "level": "FAIL",
+   "id": "headline-lines",
+   "width": 390,
+   "message": "1 headline(s) wrap past two lines at 390px: \"Cosmetic tattoo, mapped to your face\" → 3 lines (6 words, 44.3px)",
+   "fix": "Cut words first (a headline is a title, not a sentence). Then give it a wider measure. Lower the size only as a last resort and never below the scale you chose. A real statement paragraph belongs in a <p> or <blockquote> at 24px or less."
+  },
+  {
+   "level": "WARN",
+   "id": "card-rows",
+   "width": 390,
+   "message": "2 rows of identical boxed cards.",
+   "fix": "Vary the composition; not every section is a card grid."
+  }
+ ],
+ "images": [
+  {
+   "viewport": "desktop",
+   "width": 1440,
+   "fold": "C:\\Users\\KingTheOne\\Desktop\\Projects\\on-point-cosmetic-tattoo\\.taste-skill\\v2\\home\\desktop-fold.jpg",
+   "pages": [
+    "C:\\Users\\KingTheOne\\Desktop\\Projects\\on-point-cosmetic-tattoo\\.taste-skill\\v2\\home\\desktop-page-01.jpg",
+    "C:\\Users\\KingTheOne\\Desktop\\Projects\\on-point-cosmetic-tattoo\\.taste-skill\\v2\\home\\desktop-page-02.jpg",
+    "C:\\Users\\KingTheOne\\Desktop\\Projects\\on-point-cosmetic-tattoo\\.taste-skill\\v2\\home\\desktop-page-03.jpg"
+   ],
+   "film": []
+  },
+  {
+   "viewport": "tablet",
+   "width": 768,
+   "fold": "C:\\Users\\KingTheOne\\Desktop\\Projects\\on-point-cosmetic-tattoo\\.taste-skill\\v2\\home\\tablet-fold.jpg",
+   "pages": [
+    "C:\\Users\\KingTheOne\\Desktop\\Projects\\on-point-cosmetic-tattoo\\.taste-skill\\v2\\home\\tablet-page-01.jpg",
+    "C:\\Users\\KingTheOne\\Desktop\\Projects\\on-point-cosmetic-tattoo\\.taste-skill\\v2\\home\\tablet-page-02.jpg"
+   ],
+   "film": []
+  },
+  {
+   "viewport": "mobile",
+   "width": 390,
+   "fold": "C:\\Users\\KingTheOne\\Desktop\\Projects\\on-point-cosmetic-tattoo\\.taste-skill\\v2\\home\\mobile-fold.jpg",
+   "pages": [
+    "C:\\Users\\KingTheOne\\Desktop\\Projects\\on-point-cosmetic-tattoo\\.taste-skill\\v2\\home\\mobile-page-01.jpg",
+    "C:\\Users\\KingTheOne\\Desktop\\Projects\\on-point-cosmetic-tattoo\\.taste-skill\\v2\\home\\mobile-page-02.jpg"
+   ],
+   "film": []
+  }
+ ]
+}

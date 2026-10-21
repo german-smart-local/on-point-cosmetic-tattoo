@@ -1,10 +1,3 @@
-import {
-  FacebookIcon,
-  InstagramIcon,
-  GoogleBusinessIcon,
-  LocalSearchIcon,
-} from "@/components/icons";
-
 export const PHONE = "0414 502 807";
 export const PHONE_HREF = "tel:0414502807";
 export const EMAIL = "onpointcosmetictattoo@gmail.com";
@@ -28,33 +21,51 @@ export const ROUTES = {
   lips: "/lip-tattoos",
   afterCare: "/after-care",
   contact: "/contact",
+  // Booking buttons land on the message form, even when clicked on the Contact page itself.
+  book: "/contact#book",
   locations: "/locations",
 } as const;
 
 // Homepage section anchors (work from any page via "/#...")
 export const ANCHORS = {
   top: "/#top",
+  treatments: "/#treatments",
+  calendar: "/#your-visit",
   about: "/#about",
-  services: "/#services",
   testimonials: "/#testimonials",
-  contact: "/#contact",
+  faq: "/#questions",
+  contact: "/#book",
 } as const;
 
+// Desktop navbar: the three treatments sit under one "Services" menu.
+export const SERVICE_LINKS = [
+  { label: "Brows", href: ROUTES.eyebrows, note: "Hair strokes, powder, combination" },
+  { label: "Eyeliner", href: ROUTES.eyeliners, note: "Lash line enhancement or designer" },
+  { label: "Lips", href: ROUTES.lips, note: "Liner, blend or full colour" },
+];
+
+export const BAR_LINKS = [
+  { label: "Aftercare", href: ROUTES.afterCare },
+  { label: "About Lisa", href: ANCHORS.about },
+];
+
+// Phone menu: every page, flat.
 export const NAV_LINKS = [
-  { label: "Home", href: ROUTES.home },
-  { label: "About Us", href: ANCHORS.about },
-  { label: "Testimonials", href: ANCHORS.testimonials },
-  { label: "Eyebrows", href: ROUTES.eyebrows },
-  { label: "Eye Liners", href: ROUTES.eyeliners },
+  { label: "Brows", href: ROUTES.eyebrows },
+  { label: "Eyeliner", href: ROUTES.eyeliners },
   { label: "Lips", href: ROUTES.lips },
-  { label: "After Care", href: ROUTES.afterCare },
-  { label: "Areas Near Us", href: ROUTES.locations },
-  { label: "Contact Us", href: ROUTES.contact },
+  { label: "Aftercare", href: ROUTES.afterCare },
+  { label: "About Lisa", href: ANCHORS.about },
 ];
 
 export const SOCIAL_LINKS = [
-  { Icon: FacebookIcon, label: "Facebook", href: EXTERNAL.facebook },
-  { Icon: LocalSearchIcon, label: "Localsearch", href: EXTERNAL.localsearch },
-  { Icon: GoogleBusinessIcon, label: "Google Business", href: EXTERNAL.google },
-  { Icon: InstagramIcon, label: "Instagram", href: EXTERNAL.instagram },
+  { label: "Facebook", href: EXTERNAL.facebook },
+  { label: "Instagram", href: EXTERNAL.instagram },
+  { label: "Google reviews", href: EXTERNAL.google },
+  { label: "Localsearch", href: EXTERNAL.localsearch },
+];
+
+export const HOURS = [
+  { days: "Mon – Fri", time: "9am – 5pm" },
+  { days: "Sat – Sun", time: "By appointment" },
 ];

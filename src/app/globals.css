@@ -1,172 +1,2356 @@
 @import "tailwindcss";
-@import "tw-animate-css";
-@import "shadcn/tailwind.css";
 
-@custom-variant dark (&:is(.dark *));
+/*
+  On Point — the brow map.
+  Colours are the live site's: cream ground, white sections, charcoal ink, gold and taupe fields.
+  Gold is never used for running text on cream or white (2.4:1); it draws lines, fills and the booking band,
+  and only carries text on charcoal. Panels, fields, photos and the map share rounded corners.
+*/
 
 @theme inline {
-  --color-background: var(--background);
-  --color-foreground: var(--foreground);
-  --font-sans: var(--font-source-sans), "Source Sans Pro", ui-sans-serif, system-ui, sans-serif;
-  --font-mono: ui-monospace, monospace;
-  --font-heading: var(--font-montserrat), "Montserrat", sans-serif;
-  --font-montserrat: var(--font-montserrat), "Montserrat", sans-serif;
-  --font-josefin: var(--font-josefin), "Josefin Sans", sans-serif;
-
-  /* On Point brand tokens */
-  --color-cream: #f7f3ea;
-  --color-gold: #c09569;
-  --color-ink: #303030;
-  --color-taupe: #b0a18d;
-  --color-sidebar-ring: var(--sidebar-ring);
-  --color-sidebar-border: var(--sidebar-border);
-  --color-sidebar-accent-foreground: var(--sidebar-accent-foreground);
-  --color-sidebar-accent: var(--sidebar-accent);
-  --color-sidebar-primary-foreground: var(--sidebar-primary-foreground);
-  --color-sidebar-primary: var(--sidebar-primary);
-  --color-sidebar-foreground: var(--sidebar-foreground);
-  --color-sidebar: var(--sidebar);
-  --color-chart-5: var(--chart-5);
-  --color-chart-4: var(--chart-4);
-  --color-chart-3: var(--chart-3);
-  --color-chart-2: var(--chart-2);
-  --color-chart-1: var(--chart-1);
-  --color-ring: var(--ring);
-  --color-input: var(--input);
-  --color-border: var(--border);
-  --color-destructive: var(--destructive);
-  --color-accent-foreground: var(--accent-foreground);
-  --color-accent: var(--accent);
-  --color-muted-foreground: var(--muted-foreground);
-  --color-muted: var(--muted);
-  --color-secondary-foreground: var(--secondary-foreground);
-  --color-secondary: var(--secondary);
-  --color-primary-foreground: var(--primary-foreground);
-  --color-primary: var(--primary);
-  --color-popover-foreground: var(--popover-foreground);
-  --color-popover: var(--popover);
-  --color-card-foreground: var(--card-foreground);
-  --color-card: var(--card);
-  --radius-sm: calc(var(--radius) * 0.6);
-  --radius-md: calc(var(--radius) * 0.8);
-  --radius-lg: var(--radius);
-  --radius-xl: calc(var(--radius) * 1.4);
-  --radius-2xl: calc(var(--radius) * 1.8);
-  --radius-3xl: calc(var(--radius) * 2.2);
-  --radius-4xl: calc(var(--radius) * 2.6);
+  --color-cream: var(--cream);
+  --color-gold: var(--gold);
+  --color-taupe: var(--taupe);
+  --color-ink: var(--ink);
+  --font-sans: var(--font-jost), ui-sans-serif, system-ui, sans-serif;
+  --font-serif: var(--font-bodoni), Georgia, serif;
 }
 
 :root {
-  /* On Point brand raw values */
   --cream: #f7f3ea;
+  --white: #ffffff;
   --gold: #c09569;
-  --ink: #303030;
   --taupe: #b0a18d;
+  --ink: #303030;
+  --ink-soft: #5a524a;
+  --line: #ddd0bd;
 
-  --background: #ffffff;
-  --foreground: #303030;
-  --card: oklch(1 0 0);
-  --card-foreground: oklch(0.145 0 0);
-  --popover: oklch(1 0 0);
-  --popover-foreground: oklch(0.145 0 0);
-  --primary: oklch(0.205 0 0);
-  --primary-foreground: oklch(0.985 0 0);
-  --secondary: oklch(0.97 0 0);
-  --secondary-foreground: oklch(0.205 0 0);
-  --muted: oklch(0.97 0 0);
-  --muted-foreground: oklch(0.556 0 0);
-  --accent: oklch(0.97 0 0);
-  --accent-foreground: oklch(0.205 0 0);
-  --destructive: oklch(0.577 0.245 27.325);
-  --border: oklch(0.922 0 0);
-  --input: oklch(0.922 0 0);
-  --ring: oklch(0.708 0 0);
-  --chart-1: oklch(0.87 0 0);
-  --chart-2: oklch(0.556 0 0);
-  --chart-3: oklch(0.439 0 0);
-  --chart-4: oklch(0.371 0 0);
-  --chart-5: oklch(0.269 0 0);
-  --radius: 0.625rem;
-  --sidebar: oklch(0.985 0 0);
-  --sidebar-foreground: oklch(0.145 0 0);
-  --sidebar-primary: oklch(0.205 0 0);
-  --sidebar-primary-foreground: oklch(0.985 0 0);
-  --sidebar-accent: oklch(0.97 0 0);
-  --sidebar-accent-foreground: oklch(0.205 0 0);
-  --sidebar-border: oklch(0.922 0 0);
-  --sidebar-ring: oklch(0.708 0 0);
-}
+  /* A modular scale (~1.25) from an 18px text size. */
+  --fs-small: 0.875rem;
+  --fs-body: 1.0625rem;
+  --fs-lead: clamp(1.1875rem, 1.1rem + 0.35vw, 1.375rem);
+  --fs-h3: clamp(1.5rem, 1.3rem + 0.8vw, 1.875rem);
+  --fs-h2: clamp(2.125rem, 1.6rem + 2.2vw, 3.5rem);
+  --fs-display: clamp(2.75rem, 1.6rem + 4.8vw, 5.75rem);
 
-.dark {
-  --background: oklch(0.145 0 0);
-  --foreground: oklch(0.985 0 0);
-  --card: oklch(0.205 0 0);
-  --card-foreground: oklch(0.985 0 0);
-  --popover: oklch(0.205 0 0);
-  --popover-foreground: oklch(0.985 0 0);
-  --primary: oklch(0.922 0 0);
-  --primary-foreground: oklch(0.205 0 0);
-  --secondary: oklch(0.269 0 0);
-  --secondary-foreground: oklch(0.985 0 0);
-  --muted: oklch(0.269 0 0);
-  --muted-foreground: oklch(0.708 0 0);
-  --accent: oklch(0.269 0 0);
-  --accent-foreground: oklch(0.985 0 0);
-  --destructive: oklch(0.704 0.191 22.216);
-  --border: oklch(1 0 0 / 10%);
-  --input: oklch(1 0 0 / 15%);
-  --ring: oklch(0.556 0 0);
-  --chart-1: oklch(0.87 0 0);
-  --chart-2: oklch(0.556 0 0);
-  --chart-3: oklch(0.439 0 0);
-  --chart-4: oklch(0.371 0 0);
-  --chart-5: oklch(0.269 0 0);
-  --sidebar: oklch(0.205 0 0);
-  --sidebar-foreground: oklch(0.985 0 0);
-  --sidebar-primary: oklch(0.488 0.243 264.376);
-  --sidebar-primary-foreground: oklch(0.985 0 0);
-  --sidebar-accent: oklch(0.269 0 0);
-  --sidebar-accent-foreground: oklch(0.985 0 0);
-  --sidebar-border: oklch(1 0 0 / 10%);
-  --sidebar-ring: oklch(0.556 0 0);
+  --margin: clamp(1.25rem, 4vw, 4rem);
+  --gap: clamp(1rem, 2vw, 2rem);
+  --space: clamp(5rem, 3.5rem + 6vw, 9rem);
+  --bar: 5rem;
+  --max: 84rem;
+
+  --ease: cubic-bezier(0.22, 1, 0.36, 1);
 }
 
 @layer base {
-  * {
-    @apply border-border outline-ring/50;
-  }
-  body {
-    @apply bg-background text-foreground;
-    font-family: var(--font-source-sans), "Source Sans Pro", sans-serif;
+  *,
+  *::before,
+  *::after {
+    box-sizing: border-box;
   }
   html {
-    @apply font-sans;
     scroll-behavior: smooth;
+    scroll-padding-top: calc(var(--bar) + 1rem);
+    -webkit-text-size-adjust: 100%;
+  }
+  body {
+    margin: 0;
+    background: var(--cream);
+    color: var(--ink);
+    font-family: var(--font-jost), ui-sans-serif, system-ui, sans-serif;
+    font-size: var(--fs-body);
+    line-height: 1.6;
+    -webkit-font-smoothing: antialiased;
   }
   h1,
   h2,
   h3,
-  h4,
-  h5,
-  h6 {
-    font-family: var(--font-montserrat), "Montserrat", sans-serif;
-    font-weight: 300;
+  h4 {
+    margin: 0;
+    font-family: var(--font-bodoni), Georgia, serif;
+    font-weight: 400;
+    line-height: 1.08;
+    letter-spacing: -0.01em;
+    text-wrap: balance;
+  }
+  p {
+    margin: 0;
+    text-wrap: pretty;
+  }
+  a {
+    color: inherit;
+  }
+  img {
+    display: block;
+    max-width: 100%;
+  }
+  :focus-visible {
+    outline: 2px solid var(--ink);
+    outline-offset: 3px;
+  }
+  ::selection {
+    background: var(--gold);
+    color: var(--ink);
+  }
+  @media (prefers-reduced-motion: reduce) {
+    html {
+      scroll-behavior: auto;
+    }
   }
 }
 
-@layer utilities {
-  .font-heading {
-    font-family: var(--font-montserrat), "Montserrat", sans-serif;
+@layer components {
+  /* ---------- Type ---------- */
+
+  .t-display {
+    font-size: var(--fs-display);
+    line-height: 1.02;
+    letter-spacing: -0.02em;
   }
-  .font-josefin {
-    font-family: var(--font-josefin), "Josefin Sans", sans-serif;
+  .t-head {
+    font-size: var(--fs-h2);
   }
-  /* hide scrollbars on carousels */
-  .no-scrollbar::-webkit-scrollbar {
+  .t-h3 {
+    font-size: var(--fs-h3);
+  }
+  .t-lead {
+    font-size: var(--fs-lead);
+    line-height: 1.5;
+  }
+  .t-small {
+    font-size: var(--fs-small);
+  }
+  .measure {
+    max-width: 34rem;
+  }
+  .measure-wide {
+    max-width: 40rem;
+  }
+  .soft {
+    color: var(--ink-soft);
+  }
+  .sr-only {
+    position: absolute;
+    width: 1px;
+    height: 1px;
+    padding: 0;
+    margin: -1px;
+    overflow: hidden;
+    clip: rect(0, 0, 0, 0);
+    white-space: nowrap;
+    border: 0;
+  }
+
+  /* ---------- Frame ---------- */
+
+  .wrap {
+    width: 100%;
+    max-width: calc(var(--max) + 2 * var(--margin));
+    margin-inline: auto;
+    padding-inline: var(--margin);
+  }
+  .grid12 {
+    display: grid;
+    grid-template-columns: repeat(12, minmax(0, 1fr));
+    column-gap: var(--gap);
+  }
+  .section {
+    padding-block: var(--space);
+  }
+  .on-white {
+    background: var(--white);
+  }
+  .on-taupe {
+    background: var(--taupe);
+  }
+  .stack > * + * {
+    margin-top: 1.25rem;
+  }
+
+  /* ---------- Controls ---------- */
+
+  .btn {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    min-height: 3.25rem;
+    padding: 0.8rem 1.9rem;
+    border: 0;
+    border-radius: 999px;
+    background: var(--ink);
+    color: var(--cream);
+    font: inherit;
+    font-size: var(--fs-body);
+    font-weight: 500;
+    line-height: 1.1;
+    text-decoration: none;
+    white-space: nowrap;
+    cursor: pointer;
+    transition: background-color 180ms ease, color 180ms ease, transform 120ms var(--ease);
+  }
+  .btn:active {
+    transform: scale(0.98);
+  }
+  .btn--light {
+    background: var(--cream);
+    color: var(--ink);
+  }
+  .btn--block {
+    width: 100%;
+  }
+  @media (hover: hover) and (pointer: fine) {
+    .btn:hover {
+      background: var(--gold);
+      color: var(--ink);
+    }
+    .btn--light:hover {
+      background: var(--white);
+    }
+  }
+
+  .link {
+    text-decoration: underline;
+    text-decoration-color: var(--gold);
+    text-decoration-thickness: 1px;
+    text-underline-offset: 0.25em;
+    transition: text-decoration-color 180ms ease;
+  }
+  @media (hover: hover) and (pointer: fine) {
+    .link:hover {
+      text-decoration-color: currentColor;
+    }
+  }
+  /* On touch-sized screens a link standing on its own (not inside a sentence) gets a 44px tap area. */
+  @media (max-width: 899px) {
+    a.link:not(:is(p, li, dd, dt, figcaption) a) {
+      display: inline-flex;
+      align-items: center;
+      min-height: 44px;
+    }
+  }
+
+  .ticks {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+  }
+  .ticks > li {
+    position: relative;
+    padding-left: 1.5rem;
+  }
+  .ticks > li + li {
+    margin-top: 0.5rem;
+  }
+  .ticks > li::before {
+    content: "";
+    position: absolute;
+    left: 0;
+    top: 0.8em;
+    width: 0.75rem;
+    height: 1px;
+    background: var(--gold);
+  }
+
+  /* A plain frame: every photo in a row takes the same shape and is cropped to fill it. */
+  .photo {
+    position: relative;
+    overflow: hidden;
+    border-radius: 6px;
+    background: var(--taupe);
+  }
+  .photo img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+  }
+  /* Per-photo crops where the centre of the frame misses the work. Next serves images through
+     /_next/image?url=..., so the file name is still in the src. */
+  .tile__photo img[src*="ac-work-3"] {
+    object-position: 100% 50%; /* keep the photo's own "healed brows after one session" caption whole */
+  }
+  .tile__photo img[src*="el-work-3"] {
+    object-position: 0% 50%; /* bring the eye toward the middle */
+  }
+  .tile__photo img[src*="eb-work-3"] {
+    object-position: 30% 50%; /* centre the brow */
+  }
+
+  /* ---------- Header ---------- */
+
+  .bar {
+    position: sticky;
+    top: 0;
+    z-index: 50;
+    background: var(--cream);
+    border-bottom: 1px solid transparent;
+    transition: transform 400ms var(--ease), border-color 300ms ease;
+  }
+  .bar.is-scrolled {
+    border-bottom-color: var(--line);
+  }
+  .bar__in {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: var(--gap);
+    height: var(--bar);
+  }
+  .bar__logo {
+    display: flex;
+    align-items: center;
+    gap: 0.75rem;
+  }
+  .bar__mark {
+    width: auto;
+    height: 3.25rem;
+  }
+  .bar__word {
+    width: clamp(9rem, 7rem + 5vw, 12.5rem);
+    height: auto;
+  }
+  .bar__nav {
+    display: none;
+    align-items: center;
+    gap: clamp(1.25rem, 2.2vw, 2.25rem);
+  }
+  /* Gold underline that slides in from the left; it stays under the current page. */
+  .bar__nav > a,
+  .navmenu__btn,
+  .foot__col a {
+    position: relative;
+    text-decoration: none;
+    padding-block: 0.25rem;
+  }
+  .bar__nav > a::after,
+  .navmenu__btn::after,
+  .foot__col a::after {
+    content: "";
+    position: absolute;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    height: 1px;
+    background: var(--gold);
+    transform: scaleX(0);
+    transform-origin: right;
+    transition: transform 350ms var(--ease);
+  }
+  .bar__nav > a[aria-current="page"]::after,
+  .bar__nav > a:hover::after,
+  .bar__nav > a:focus-visible::after,
+  .navmenu.is-current .navmenu__btn::after,
+  .navmenu__btn:hover::after,
+  .navmenu__btn:focus-visible::after,
+  .navmenu__btn[aria-expanded="true"]::after,
+  .foot__col a:hover::after,
+  .foot__col a:focus-visible::after {
+    transform: scaleX(1);
+    transform-origin: left;
+  }
+
+  /* Services dropdown in the desktop navbar. */
+  .navmenu {
+    position: relative;
+  }
+  .navmenu__btn {
+    display: inline-flex;
+    align-items: center;
+    gap: 0.4rem;
+    padding-inline: 0;
+    border: 0;
+    background: none;
+    color: var(--ink);
+    font: inherit;
+    cursor: pointer;
+  }
+  .navmenu__panel {
+    position: absolute;
+    top: calc(100% + 0.9rem);
+    left: -1.25rem;
+    z-index: 60;
+    width: 19rem;
+    padding: 0.6rem;
+    border-radius: 1.25rem;
+    background: var(--white);
+    box-shadow: 0 18px 40px rgb(48 48 48 / 0.12);
+    opacity: 0;
+    visibility: hidden;
+    transform: translateY(-0.5rem);
+    transition: opacity 200ms ease, transform 250ms var(--ease), visibility 0s linear 250ms;
+  }
+  /* Invisible bridge so the pointer can travel from the button to the panel. */
+  .navmenu__panel::before {
+    content: "";
+    position: absolute;
+    inset: -1rem 0 auto 0;
+    height: 1rem;
+  }
+  .navmenu.is-open .navmenu__panel {
+    opacity: 1;
+    visibility: visible;
+    transform: none;
+    transition: opacity 200ms ease, transform 250ms var(--ease);
+  }
+  .navmenu__panel a {
+    display: block;
+    padding: 0.7rem 0.9rem;
+    border-radius: 0.85rem;
+    text-decoration: none;
+    transition: background-color 180ms ease;
+  }
+  .navmenu__panel a:hover,
+  .navmenu__panel a:focus-visible,
+  .navmenu__panel a[aria-current="page"] {
+    background: var(--cream);
+  }
+  .navmenu__panel strong {
+    display: block;
+    font-weight: 500;
+  }
+  .navmenu__panel span {
+    display: block;
+    color: var(--ink-soft);
+    font-size: var(--fs-small);
+  }
+  .navmenu__all {
+    margin-top: 0.25rem;
+    padding-top: 0.25rem;
+    border-top: 1px solid var(--line);
+  }
+  .bar__mark {
+    transition: transform 400ms var(--ease);
+  }
+  @media (hover: hover) and (pointer: fine) {
+    .bar__logo:hover .bar__mark {
+      transform: translateY(-3px) rotate(-4deg);
+    }
+  }
+  .bar__actions {
+    display: flex;
+    align-items: center;
+    gap: 1.25rem;
+  }
+  .bar__phone {
+    display: none;
+    text-decoration: none;
+  }
+  .bar .btn {
+    min-height: 2.75rem;
+    padding: 0.6rem 1.4rem;
+  }
+  .bar__menu {
+    min-height: 2.75rem;
+    padding: 0 0.5rem;
+    border: 0;
+    background: none;
+    color: var(--ink);
+    font: inherit;
+    cursor: pointer;
+    text-decoration: underline;
+    text-decoration-color: var(--gold);
+    text-underline-offset: 0.3em;
+  }
+  .drawer {
+    position: fixed;
+    inset: var(--bar) 0 0 0;
+    z-index: 49;
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+    padding: 1.5rem var(--margin) 2.5rem;
+    background: var(--cream);
+    overflow-y: auto;
+    opacity: 0;
+    visibility: hidden;
+    transition: opacity 200ms ease, visibility 0s linear 200ms;
+  }
+  .drawer.is-open {
+    opacity: 1;
+    visibility: visible;
+    transition: opacity 200ms ease;
+  }
+  .drawer nav {
+    display: flex;
+    flex-direction: column;
+  }
+  .drawer nav a {
+    padding-block: 0.6rem;
+    border-bottom: 1px solid var(--line);
+    font-family: var(--font-bodoni), Georgia, serif;
+    font-size: 1.75rem;
+    text-decoration: none;
+  }
+  .drawer__foot {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 1rem;
+    margin-top: auto;
+  }
+  @media (min-width: 1080px) {
+    .bar__nav {
+      display: flex;
+    }
+    .bar__menu,
+    .drawer {
+      display: none;
+    }
+  }
+  @media (min-width: 1280px) {
+    .bar__phone {
+      display: inline;
+    }
+  }
+
+  /* ---------- Hero: the brow map ---------- */
+
+  .hero {
+    position: relative;
+    overflow: hidden;
+  }
+  .hero__in {
+    display: grid;
+    gap: 1.5rem;
+    padding-bottom: var(--space);
+  }
+  .hero__text {
+    position: relative;
+    z-index: 1;
+    padding-top: clamp(1rem, 3vw, 4rem);
+  }
+  .hero__text .t-lead {
+    margin-top: 1.5rem;
+  }
+  .hero__actions {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    gap: 1rem 1.75rem;
+    margin-top: 2.25rem;
+  }
+  .map {
+    position: relative;
+    margin: 0;
+  }
+  .map__frame {
+    position: relative;
+    aspect-ratio: 1;
+    margin-inline: calc(-1 * var(--margin));
+  }
+  .map__frame img,
+  .map__frame svg {
+    position: absolute;
+    inset: 0;
+    width: 100%;
+    height: 100%;
+  }
+  .map__frame img {
+    object-fit: cover;
+    object-position: right center;
+  }
+  .map__line {
+    fill: none;
+    stroke: var(--white);
+    stroke-width: 3;
+    stroke-linecap: round;
+    vector-effect: non-scaling-stroke;
+  }
+  .map__dot {
+    fill: var(--gold);
+    stroke: var(--white);
+    stroke-width: 2;
+    vector-effect: non-scaling-stroke;
+  }
+  .map__label {
     display: none;
   }
-  .no-scrollbar {
-    -ms-overflow-style: none;
-    scrollbar-width: none;
+  /* On phones the map sits between the actions and its tabs, so a tap changes what is in view. */
+  @media (max-width: 899px) {
+    .hero__text {
+      display: contents;
+    }
+    .hero__text > * {
+      order: 1;
+    }
+    .map {
+      order: 2;
+    }
+    .hero__text > .map__panel {
+      order: 3;
+      margin-top: 0;
+    }
+  }
+  .map__panel {
+    margin-top: 2.75rem;
+    padding-top: 1.5rem;
+    border-top: 1px solid var(--line);
+  }
+  .map__panel p {
+    max-width: 30rem;
+    margin-top: 1.1rem;
+    color: var(--ink-soft);
+  }
+  .map__panel p strong {
+    color: var(--ink);
+    font-weight: 500;
+  }
+  .map__panel .link {
+    display: inline-block;
+    margin-top: 0.75rem;
+  }
+  .map__tabs {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 0.5rem;
+  }
+  .map__tab {
+    min-height: 2.75rem;
+    padding: 0.4rem 1.25rem;
+    border: 1px solid var(--ink);
+    border-radius: 999px;
+    background: none;
+    color: var(--ink);
+    font: inherit;
+    cursor: pointer;
+    transition: background-color 180ms ease, color 180ms ease;
+  }
+  .map__tab[aria-pressed="true"] {
+    background: var(--ink);
+    color: var(--cream);
+  }
+  @media (hover: hover) and (pointer: fine) {
+    .map__tab[aria-pressed="false"]:hover {
+      background: var(--white);
+    }
+  }
+  @media (min-width: 900px) {
+    .hero h1 {
+      font-size: clamp(3rem, 1.4rem + 3.4vw, 5rem);
+    }
+    .hero__in {
+      grid-template-columns: minmax(0, 6fr) minmax(0, 6fr);
+      align-items: center;
+      gap: var(--gap);
+      min-height: calc(100svh - var(--bar));
+      padding-bottom: 2rem;
+    }
+    .map__frame {
+      aspect-ratio: 1.15;
+      margin-left: 0;
+      margin-right: calc(-1 * var(--margin));
+    }
+    .map__label {
+      display: block;
+      position: absolute;
+      padding: 0.2rem 0.65rem;
+      border-radius: 999px;
+      background: var(--cream);
+      color: var(--ink);
+      font-size: var(--fs-small);
+      line-height: 1.4;
+      white-space: nowrap;
+      transform: translate(-50%, -130%);
+    }
+    .map__label--below {
+      transform: translate(-50%, 45%);
+    }
+    .map__label--left {
+      transform: translate(calc(-100% - 0.75rem), -50%);
+    }
+    .map__label--right {
+      transform: translate(0.75rem, -50%);
+    }
+  }
+  @media (prefers-reduced-motion: no-preference) {
+    .js .map__line {
+      stroke-dasharray: 1;
+      stroke-dashoffset: 1;
+      animation: draw 1100ms var(--ease) forwards;
+    }
+    .js .map__line:nth-of-type(2) { animation-delay: 200ms; }
+    .js .map__line:nth-of-type(3) { animation-delay: 400ms; }
+    .js .map__dot,
+    .js .map__label {
+      opacity: 0;
+      animation: appear 400ms ease forwards;
+    }
+    .js .map__dot--0,
+    .js .map__label--0 { animation-delay: 700ms; }
+    .js .map__dot--1,
+    .js .map__label--1 { animation-delay: 900ms; }
+    .js .map__dot--2,
+    .js .map__label--2 { animation-delay: 1100ms; }
+  }
+
+  /* ---------- Treatments index ---------- */
+
+  .index__head {
+    row-gap: 1.25rem;
+    padding-bottom: clamp(2.5rem, 4vw, 4rem);
+  }
+  .index__head h2 {
+    grid-column: 1 / -1;
+  }
+  .index__head p {
+    grid-column: 1 / -1;
+  }
+  .index__mark {
+    display: none;
+  }
+  .row {
+    row-gap: 1.5rem;
+    padding-block: clamp(2.5rem, 4vw, 4rem);
+    border-top: 1px solid var(--line);
+  }
+  .row:last-child {
+    border-bottom: 1px solid var(--line);
+  }
+  .row__name {
+    grid-column: 1 / -1;
+  }
+  .row__name h3 {
+    font-size: var(--fs-h2);
+  }
+  .row__name p {
+    margin-top: 0.75rem;
+    color: var(--ink-soft);
+    font-size: var(--fs-small);
+  }
+  .row__text {
+    grid-column: 1 / -1;
+  }
+  .row__text .ticks {
+    margin-top: 1.5rem;
+  }
+  .row__text .btn {
+    margin-top: 2rem;
+  }
+  .row__pic {
+    grid-column: 1 / -1;
+    width: min(calc(100% - 1rem), 22rem);
+    aspect-ratio: 1;
+  }
+  /* Tablets: the single-column photo sits centred instead of hugging the left edge. */
+  @media (min-width: 600px) and (max-width: 899px) {
+    .row__pic {
+      justify-self: center;
+      width: min(calc(100% - 2.5rem), 26rem);
+    }
+  }
+
+  /* ---------- Photo tiles (src/components/Tile.tsx) ----------
+     Every photograph is a rounded square on an offset backing tile with its own texture. The tile
+     keeps a 1rem gutter on the side the backing leans toward so it never runs out of its column. */
+  .tile {
+    position: relative;
+    isolation: isolate;
+    display: block;
+    aspect-ratio: 1;
+    max-width: calc(100% - 2.5rem);
+    margin: 0 2.5rem 2.5rem 0;
+  }
+  .tile--left {
+    margin: 0 0 2.5rem 2.5rem;
+  }
+  .tile::before {
+    content: "";
+    position: absolute;
+    inset: 0;
+    z-index: -1;
+    border-radius: 1.5rem;
+    background-color: var(--taupe);
+    transform: translate(2.25rem, 2.25rem) rotate(3deg);
+    transition: transform 500ms var(--ease);
+  }
+  .tile--left::before {
+    transform: translate(-2.25rem, 2.25rem) rotate(-3deg);
+  }
+  .tile__photo {
+    position: relative;
+    display: block;
+    height: 100%;
+    overflow: clip;
+    border-radius: 1.5rem;
+    background: var(--cream);
+  }
+  .tile__photo img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    transition: transform 700ms var(--ease);
+  }
+
+  /* Petal: tan with a scatter of the studio's line-drawn flowers in cream. */
+  .tile--petal::before {
+    background-color: var(--taupe);
+    background-image: url(/images/tex-floral-cream.png);
+    background-size: 170px 170px;
+  }
+  /* Linen: gold with a fine woven texture. */
+  .tile--linen::before {
+    background-color: var(--gold);
+    background-image: url(/images/tex-linen.png);
+    background-size: 160px 160px;
+  }
+  /* Speckle: warm sand with gold and charcoal flecks. */
+  .tile--speckle::before {
+    background-color: #e3d5bf;
+    background-image: url(/images/tex-speckle.png);
+    background-size: 220px 220px;
+  }
+  /* Pinstripe: tan with fine cream diagonals. */
+  .tile--stripe::before {
+    background-color: var(--taupe);
+    background-image: url(/images/tex-stripe.png);
+    background-size: 24px 24px;
+  }
+  /* Wave: gold with fine cream wavy lines, like a drawn lash line (eyeliner hero). */
+  .tile--wave::before {
+    background-color: var(--gold);
+    background-image: url(/images/tex-wave.png);
+    background-size: 120px 40px;
+  }
+  /* Dots: tan with a soft cream polka (lips hero). */
+  .tile--dots::before {
+    background-color: var(--taupe);
+    background-image: url(/images/tex-dots.png);
+    background-size: 36px 36px;
+  }
+  /* Line patterns for the page heroes, like a brow-mapping sheet. */
+  .tile--grid::before {
+    background-color: var(--taupe);
+    background-image: url(/images/tex-grid.png);
+    background-size: 28px 28px;
+  }
+  .tile--hatch::before {
+    background-color: var(--gold);
+    background-image: url(/images/tex-hatch.png);
+    background-size: 18px 18px;
+  }
+  .tile--ruled::before {
+    background-color: var(--taupe);
+    background-image: url(/images/tex-ruled.png);
+    background-size: 10px 10px;
+  }
+  .tile--grid-dark::before {
+    background-color: #3a3532;
+    background-image: url(/images/tex-grid-gold.png);
+    background-size: 28px 28px;
+  }
+  /* Disc (page heroes): a textured circle behind the lower corner and a thin gold ring across
+     the upper one, instead of a square backing. */
+  .tile.tile--disc {
+    max-width: 92%;
+    margin: 8% 8% 8% 0;
+  }
+  .tile--disc::before {
+    inset: auto -12% -12% auto;
+    width: 64%;
+    height: 64%;
+    border-radius: 50%;
+    transform: none;
+  }
+  .tile--disc::after {
+    content: "";
+    position: absolute;
+    z-index: -1;
+    top: -14%;
+    left: -10%;
+    width: 52%;
+    aspect-ratio: 1;
+    border: 1.5px solid var(--gold);
+    border-radius: 50%;
+    pointer-events: none;
+    transition: transform 600ms var(--ease);
+  }
+  /* Screen (calendar photo): a grid panel framing the photo evenly on every side, no tilt. */
+  .tile.tile--screen {
+    max-width: calc(100% - 2.5rem);
+    margin: 1.25rem;
+  }
+  .tile--screen::before {
+    inset: -1.25rem;
+    border-radius: 2rem;
+    transform: none;
+  }
+  @media (hover: hover) and (pointer: fine) {
+    .tile--screen:hover::before {
+      transform: scale(1.02);
+    }
+  }
+  /* On phones keep the ring and disc inside the screen edge. */
+  @media (max-width: 899px) {
+    .tile--disc::before {
+      inset: auto -7% -7% auto;
+    }
+    .tile--disc::after {
+      top: -7%;
+      left: -5%;
+    }
+  }
+  @media (hover: hover) and (pointer: fine) {
+    .tile--disc:hover::before {
+      transform: scale(1.06);
+    }
+    .tile--disc:hover::after {
+      transform: translate(-0.5rem, -0.5rem);
+    }
+  }
+  /* None: just the rounded photo, no backing tile and no gutter for one (the work rows). */
+  .tile.tile--none {
+    max-width: 100%;
+    margin: 0;
+  }
+  .tile--none::before {
+    display: none;
+  }
+  /* Charcoal: the same flower scatter in gold on charcoal, for sections where tan would disappear. */
+  .tile--charcoal::before {
+    background-color: #3a3532;
+    background-image: url(/images/tex-floral-gold.png);
+    background-size: 170px 170px;
+  }
+
+  @media (hover: hover) and (pointer: fine) {
+    .tile:hover::before {
+      transform: translate(2.6rem, 2.6rem) rotate(4.5deg);
+    }
+    .tile--left:hover::before {
+      transform: translate(-2.6rem, 2.6rem) rotate(-4.5deg);
+    }
+    .tile:hover .tile__photo img {
+      transform: scale(1.04);
+    }
+  }
+  @media (min-width: 900px) {
+    .index__head h2 {
+      grid-column: 1 / span 5;
+    }
+    .index__head p {
+      grid-column: 6 / span 5;
+      align-self: end;
+    }
+    .index__mark {
+      display: block;
+      grid-column: 12 / span 1;
+      grid-row: 1;
+      justify-self: end;
+      align-self: end;
+      width: 100%;
+      max-width: 8rem;
+      height: auto;
+    }
+    .row {
+      align-items: start;
+    }
+    .row__name {
+      grid-column: 1 / span 4;
+    }
+    .row__text {
+      grid-column: 5 / span 4;
+    }
+    .row__pic {
+      grid-column: 10 / span 3;
+      width: calc(100% - 1rem);
+    }
+  }
+
+  /* ---------- About ---------- */
+
+  .about {
+    row-gap: 2.5rem;
+    align-items: center;
+  }
+  .about__pic {
+    grid-column: 1 / -1;
+    justify-self: center;
+    width: min(100%, 26rem);
+    aspect-ratio: 1;
+  }
+  .about__text {
+    grid-column: 1 / -1;
+  }
+  .about__facts {
+    display: grid;
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+    gap: 1.5rem;
+    margin: 2.25rem 0 0;
+    padding-top: 1.5rem;
+    border-top: 1px solid var(--ink);
+  }
+  .about__facts dt {
+    font-family: var(--font-bodoni), Georgia, serif;
+    font-size: var(--fs-h3);
+    line-height: 1.1;
+  }
+  .about__facts dd {
+    margin: 0.35rem 0 0;
+    font-size: var(--fs-small);
+  }
+  @media (min-width: 900px) {
+    .about__pic {
+      grid-column: 1 / span 5;
+      width: 100%;
+    }
+    .about__text {
+      grid-column: 7 / span 6;
+    }
+  }
+
+  /* ---------- Healing calendar ---------- */
+
+  .cal__intro {
+    row-gap: 1.5rem;
+  }
+  .cal__intro > h2,
+  .cal__intro > div {
+    grid-column: 1 / -1;
+  }
+  .cal__controls {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: end;
+    gap: 1.25rem 2rem;
+    margin-top: 1.75rem;
+  }
+  .cal__choice {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 0.5rem;
+    margin: 0;
+    padding: 0;
+    border: 0;
+  }
+  .cal__choice legend,
+  .cal__date span {
+    display: block;
+    margin-bottom: 0.5rem;
+    font-size: var(--fs-small);
+    color: var(--ink-soft);
+  }
+  .cal__choice label {
+    display: inline-flex;
+    align-items: center;
+    min-height: 2.75rem;
+    padding: 0.4rem 1.25rem;
+    border: 1px solid var(--ink);
+    border-radius: 999px;
+    cursor: pointer;
+    transition: background-color 180ms ease, color 180ms ease;
+  }
+  /* Hidden radios sit inside their own pill, so they never drift off the side of the page. */
+  .cal__choice span {
+    position: relative;
+  }
+  .cal__choice input {
+    position: absolute;
+    inset: 0;
+    width: 100%;
+    height: 100%;
+    margin: 0;
+    opacity: 0;
+    pointer-events: none;
+  }
+  .cal__choice input:checked + label {
+    background: var(--ink);
+    color: var(--cream);
+  }
+  .cal__choice input:focus-visible + label {
+    outline: 2px solid var(--ink);
+    outline-offset: 3px;
+  }
+  .cal__date input {
+    min-height: 2.75rem;
+    padding: 0.4rem 1rem;
+    border: 1px solid var(--ink);
+    border-radius: 999px;
+    background: var(--white);
+    color: var(--ink);
+    font: inherit;
+  }
+
+  /* The six stages run along one gold line: a real sequence, so it is drawn as one. */
+  .track {
+    position: relative;
+    display: grid;
+    grid-template-columns: minmax(0, 1fr);
+    margin: clamp(2.5rem, 4vw, 3.5rem) 0 0;
+    padding: 0;
+    list-style: none;
+  }
+  .track::before {
+    content: "";
+    position: absolute;
+    left: 0.6rem;
+    top: 0.75rem;
+    bottom: 0.75rem;
+    width: 2px;
+    background: var(--gold);
+  }
+  .stop {
+    display: flex;
+    align-items: flex-start;
+    gap: 1rem;
+    width: 100%;
+    padding: 0.6rem 0;
+    border: 0;
+    background: none;
+    color: var(--ink);
+    font: inherit;
+    text-align: left;
+    cursor: pointer;
+  }
+  .stop__dot {
+    position: relative;
+    flex: 0 0 auto;
+    width: 1.25rem;
+    height: 1.25rem;
+    margin-top: 0.15rem;
+    border: 2px solid var(--gold);
+    border-radius: 50%;
+    background: var(--cream);
+    transition: background-color 180ms ease, transform 180ms var(--ease);
+  }
+  .stop[aria-pressed="true"] .stop__dot {
+    background: var(--gold);
+    transform: scale(1.15);
+  }
+  .stop__name {
+    display: block;
+    font-weight: 500;
+  }
+  .stop__when {
+    display: block;
+    color: var(--ink-soft);
+    font-size: var(--fs-small);
+  }
+  .stop[aria-pressed="true"] .stop__name {
+    text-decoration: underline;
+    text-decoration-color: var(--gold);
+    text-underline-offset: 0.25em;
+  }
+  .detail {
+    display: grid;
+    gap: 1.75rem;
+    margin-top: 2rem;
+    padding: clamp(1.5rem, 3vw, 3rem);
+    border-radius: 1.5rem;
+    background: var(--white);
+  }
+  .detail h3 {
+    font-size: var(--fs-h3);
+  }
+  .detail__when {
+    margin-top: 0.4rem;
+    color: var(--ink-soft);
+  }
+  .detail .ticks {
+    margin-top: 1.25rem;
+  }
+  .detail__pic {
+    width: min(100%, 22rem);
+    aspect-ratio: 1;
+  }
+  @media (min-width: 700px) {
+    .cal__intro > h2 {
+      grid-column: 1 / span 6;
+    }
+    .cal__intro > div {
+      grid-column: 7 / span 6;
+    }
+  }
+  @media (min-width: 900px) {
+    .track {
+      grid-template-columns: repeat(6, minmax(0, 1fr));
+      gap: var(--gap);
+    }
+    .track::before {
+      left: 0.6rem;
+      right: 0;
+      top: 0.6rem;
+      bottom: auto;
+      width: auto;
+      height: 2px;
+    }
+    .stop {
+      flex-direction: column;
+      gap: 0.85rem;
+      padding: 0;
+    }
+    .stop__dot {
+      margin-top: 0;
+    }
+    .detail {
+      grid-template-columns: minmax(0, 1fr) 22rem;
+      align-items: start;
+    }
+    .detail__pic {
+      width: 100%;
+    }
+  }
+  @media (hover: hover) and (pointer: fine) {
+    .stop:hover .stop__dot {
+      transform: scale(1.15);
+    }
+  }
+
+  /* ---------- Reviews ---------- */
+
+  .reviews__head {
+    row-gap: 1rem;
+    align-items: end;
+  }
+  .reviews__head h2 {
+    grid-column: 1 / -1;
+  }
+  .reviews__head a {
+    grid-column: 1 / -1;
+  }
+  .reviews__body {
+    row-gap: 3rem;
+    margin-top: clamp(2.5rem, 4vw, 4rem);
+  }
+  .lead-quote {
+    grid-column: 1 / -1;
+    margin: 0;
+  }
+  .lead-quote blockquote {
+    margin: 0;
+    font-family: var(--font-bodoni), Georgia, serif;
+    font-size: clamp(1.5rem, 1.2rem + 1.1vw, 2.125rem);
+    line-height: 1.25;
+  }
+  .lead-quote figcaption,
+  .quote figcaption {
+    margin-top: 1.25rem;
+    font-size: var(--fs-small);
+    color: var(--ink-soft);
+  }
+  .lead-quote figcaption strong,
+  .quote figcaption strong {
+    color: var(--ink);
+    font-weight: 500;
+  }
+  .quotes {
+    grid-column: 1 / -1;
+    display: grid;
+    gap: 2rem;
+  }
+  .quote {
+    display: block;
+    width: 100%;
+    margin: 0;
+    padding: 1.25rem 0 0.25rem;
+    border: 0;
+    border-top: 1px solid var(--gold);
+    background: none;
+    color: var(--ink);
+    font: inherit;
+    text-align: left;
+    cursor: pointer;
+    transition: border-color 200ms ease;
+  }
+  .quote__text {
+    display: block;
+    transition: color 200ms ease;
+  }
+  .quote__by {
+    display: block;
+    margin-top: 1rem;
+    color: var(--ink-soft);
+    font-size: var(--fs-small);
+  }
+  .quote__by strong {
+    color: var(--ink);
+    font-weight: 500;
+  }
+  .quote__cta {
+    display: inline-block;
+    margin-top: 0.5rem;
+    font-size: var(--fs-small);
+    text-decoration: underline;
+    text-decoration-color: var(--gold);
+    text-underline-offset: 0.25em;
+    opacity: 0;
+    transform: translateX(-0.4rem);
+    transition: opacity 250ms ease, transform 300ms var(--ease);
+  }
+  .quote:hover .quote__cta,
+  .quote:focus-visible .quote__cta {
+    opacity: 1;
+    transform: none;
+  }
+  @media (hover: none) {
+    .quote__cta {
+      opacity: 1;
+      transform: none;
+    }
+  }
+  @media (hover: hover) and (pointer: fine) {
+    .quote:hover {
+      border-top-color: var(--ink);
+    }
+  }
+  .quote blockquote {
+    margin: 0;
+  }
+  @media (min-width: 900px) {
+    .reviews__head h2 {
+      grid-column: 1 / span 7;
+    }
+    .reviews__head a {
+      grid-column: 10 / span 3;
+      justify-self: end;
+    }
+    .lead-quote {
+      grid-column: 1 / span 7;
+    }
+    .quotes {
+      grid-column: 9 / span 4;
+    }
+  }
+
+  /* ---------- Questions ---------- */
+
+  .faq {
+    row-gap: 2rem;
+  }
+  .faq__head {
+    grid-column: 1 / -1;
+  }
+  .faq__head p {
+    margin-top: 1.25rem;
+  }
+  .faq__arch {
+    display: none;
+  }
+  .faq__list {
+    grid-column: 1 / -1;
+    border-top: 1px solid var(--line);
+  }
+  .faq__list details {
+    position: relative;
+    border-bottom: 1px solid var(--line);
+  }
+  /* A gold line grows down the left edge of the open question. */
+  .faq__list details::before {
+    content: "";
+    position: absolute;
+    left: -1.25rem;
+    top: 1.2rem;
+    bottom: 1.2rem;
+    width: 2px;
+    background: var(--gold);
+    transform: scaleY(0);
+    transform-origin: top;
+    transition: transform 500ms var(--ease);
+  }
+  .faq__list details[open]::before {
+    transform: scaleY(1);
+  }
+  .faq__list summary {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 1.5rem;
+    padding: 1.35rem 0;
+    font-size: var(--fs-lead);
+    line-height: 1.35;
+    list-style: none;
+    cursor: pointer;
+  }
+  .faq__list summary::-webkit-details-marker {
+    display: none;
+  }
+  .faq__q {
+    transition: transform 300ms var(--ease), color 200ms ease;
+  }
+  /* Plus that turns into a minus: the vertical bar rotates flat as the item opens. */
+  .faq__icon {
+    position: relative;
+    flex: 0 0 auto;
+    width: 1.1rem;
+    height: 1.1rem;
+    transition: transform 400ms var(--ease);
+  }
+  .faq__icon::before,
+  .faq__icon::after {
+    content: "";
+    position: absolute;
+    left: 0;
+    top: 50%;
+    width: 100%;
+    height: 1.5px;
+    margin-top: -0.75px;
+    background: var(--ink);
+    transition: transform 400ms var(--ease), background-color 200ms ease;
+  }
+  .faq__icon::after {
+    transform: rotate(90deg);
+  }
+  .faq__list details[open] .faq__icon {
+    transform: rotate(180deg);
+  }
+  .faq__list details[open] .faq__icon::after {
+    transform: rotate(0deg);
+  }
+  .faq__list details[open] .faq__icon::before,
+  .faq__list details[open] .faq__icon::after {
+    background: var(--gold);
+  }
+  .faq__list details p {
+    max-width: 40rem;
+    padding-bottom: 1.75rem;
+    color: var(--ink-soft);
+  }
+  @media (hover: hover) and (pointer: fine) {
+    .faq__list summary:hover .faq__q {
+      transform: translateX(0.4rem);
+    }
+    .faq__list summary:hover .faq__icon {
+      transform: rotate(90deg);
+    }
+    .faq__list details[open] summary:hover .faq__icon {
+      transform: rotate(180deg);
+    }
+  }
+  /* Smooth open and close where the browser can animate to auto height; elsewhere it simply opens. */
+  @supports (interpolate-size: allow-keywords) {
+    @media (prefers-reduced-motion: no-preference) {
+      .faq__list {
+        interpolate-size: allow-keywords;
+      }
+      .faq__list details::details-content {
+        block-size: 0;
+        overflow: clip;
+        transition:
+          block-size 450ms var(--ease),
+          content-visibility 450ms allow-discrete;
+      }
+      .faq__list details[open]::details-content {
+        block-size: auto;
+      }
+    }
+  }
+  @media (prefers-reduced-motion: reduce) {
+    .faq__list details::before,
+    .faq__q,
+    .faq__icon,
+    .faq__icon::before,
+    .faq__icon::after {
+      transition: none;
+    }
+  }
+  @media (min-width: 900px) {
+    .faq__arch {
+      display: block;
+      width: min(100%, 15rem);
+      height: auto;
+      margin-top: 3rem;
+    }
+    .faq__head {
+      grid-column: 1 / span 4;
+      position: sticky;
+      top: calc(var(--bar) + 2rem);
+      align-self: start;
+    }
+    .faq__list {
+      grid-column: 6 / span 7;
+    }
+  }
+
+  /* ---------- Flower line-art accents (src/components/Flora.tsx) ---------- */
+
+  .has-flora {
+    position: relative;
+    isolation: isolate;
+    overflow: clip;
+  }
+  .flora {
+    position: absolute;
+    z-index: -1;
+    width: clamp(9rem, 6rem + 12vw, 19rem);
+    aspect-ratio: 688 / 849;
+    background: var(--gold);
+    opacity: 0.55;
+    mask: url(/images/flowers-line.png) no-repeat center / contain;
+    -webkit-mask: url(/images/flowers-line.png) no-repeat center / contain;
+    pointer-events: none;
+  }
+  /* Grow up from the bottom edge, or hang down from the top. */
+  .flora--bl {
+    left: 0;
+    bottom: -0.5rem;
+    transform-origin: 50% 100%;
+    scale: -1 1;
+  }
+  .flora--br {
+    right: 0;
+    bottom: -0.5rem;
+    transform-origin: 50% 100%;
+  }
+  .flora--tl {
+    left: 0;
+    top: -0.5rem;
+    transform-origin: 50% 0;
+    scale: 1 -1;
+  }
+  .flora--tr {
+    right: 0;
+    top: -0.5rem;
+    transform-origin: 50% 0;
+    scale: -1 -1;
+  }
+  .on-white .flora {
+    opacity: 0.7;
+  }
+  /* In the hero the flowers sit half off the left edge, clear of the map tabs. */
+  .hero .flora {
+    left: -4rem;
+    opacity: 0.3;
+  }
+  .on-taupe .flora,
+  .book .flora {
+    background: var(--cream);
+    opacity: 0.5;
+  }
+  @media (max-width: 899px) {
+    .flora {
+      opacity: 0.22;
+    }
+    .on-taupe .flora,
+    .book .flora {
+      opacity: 0.35;
+    }
+  }
+
+  /* ---------- Review stars ---------- */
+
+  .stars {
+    display: inline-flex;
+    gap: 0.15rem;
+    color: var(--gold);
+    font-size: 1rem;
+    line-height: 1;
+  }
+  .lead-quote .stars {
+    margin-bottom: 1.25rem;
+  }
+  .quote .stars {
+    margin-bottom: 0.75rem;
+  }
+
+  /* ---------- Technique picker ---------- */
+
+  .picker {
+    margin-top: 1.5rem;
+  }
+  .picker__options {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 0.5rem;
+  }
+  .picker__option,
+  .chip span {
+    display: inline-flex;
+    align-items: center;
+    min-height: 2.5rem;
+    padding: 0.35rem 1rem;
+    border: 1px solid var(--line);
+    border-radius: 999px;
+    background: var(--white);
+    color: var(--ink);
+    font: inherit;
+    font-size: var(--fs-small);
+    cursor: pointer;
+    transition: background-color 180ms ease, color 180ms ease, border-color 180ms ease;
+  }
+  .picker__option[aria-pressed="true"],
+  .chip input:checked + span {
+    border-color: var(--ink);
+    background: var(--ink);
+    color: var(--cream);
+  }
+  @media (hover: hover) and (pointer: fine) {
+    .picker__option[aria-pressed="false"]:hover,
+    .chip input:not(:checked) + span:hover {
+      border-color: var(--gold);
+    }
+  }
+  .picker__what {
+    max-width: 30rem;
+    margin-top: 1rem;
+    padding-left: 1rem;
+    border-left: 2px solid var(--gold);
+  }
+
+  /* Embedded map: same rounded corners as the photo tiles. */
+  .map-embed {
+    display: block;
+    width: 100%;
+    height: 420px;
+    border: 0;
+    border-radius: 1.5rem;
+    overflow: hidden;
+  }
+
+  /* ---------- Booking form extras ---------- */
+
+  .book__choice {
+    margin: 0;
+    padding: 0;
+    border: 0;
+  }
+  .book__choice legend {
+    margin-bottom: 0.4rem;
+    font-size: var(--fs-small);
+  }
+  .book__choice > div {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 0.5rem;
+  }
+  .chip {
+    position: relative;
+  }
+  .chip input {
+    position: absolute;
+    inset: 0;
+    width: 100%;
+    height: 100%;
+    margin: 0;
+    opacity: 0;
+    pointer-events: none;
+  }
+  .chip input:focus-visible + span {
+    outline: 2px solid var(--ink);
+    outline-offset: 2px;
+  }
+  .book__form [aria-invalid="true"] {
+    border-color: #a3402c;
+  }
+  .book__error {
+    margin-top: 0.35rem;
+    color: #8a3324;
+    font-size: var(--fs-small);
+  }
+
+  /* ---------- Aftercare checklist ---------- */
+
+  .checklist__status {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    gap: 0.75rem 1.5rem;
+    margin-top: clamp(2.5rem, 4vw, 3.5rem);
+  }
+  .checklist__bar {
+    flex: 1 1 12rem;
+    max-width: 24rem;
+    height: 4px;
+    border-radius: 999px;
+    background: var(--line);
+    overflow: hidden;
+  }
+  .checklist__bar span {
+    display: block;
+    height: 100%;
+    background: var(--gold);
+    transform-origin: left;
+    transition: transform 450ms var(--ease);
+  }
+  .checklist__reset {
+    border: 0;
+    background: none;
+    color: var(--ink);
+    font: inherit;
+    font-size: var(--fs-small);
+    cursor: pointer;
+  }
+  .checklist {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+  }
+  .checklist li + li {
+    margin-top: 0.6rem;
+  }
+  .checklist label {
+    display: flex;
+    gap: 0.75rem;
+    align-items: flex-start;
+    cursor: pointer;
+  }
+  .checklist input {
+    flex: 0 0 auto;
+    width: 1.15rem;
+    height: 1.15rem;
+    margin-top: 0.3rem;
+    accent-color: var(--ink);
+    cursor: pointer;
+  }
+  .checklist span {
+    transition: color 200ms ease;
+  }
+  .checklist input:checked + span {
+    color: var(--ink-soft);
+    text-decoration: line-through;
+    text-decoration-color: var(--gold);
+  }
+
+  /* ---------- Booking band ---------- */
+
+  .book {
+    background: var(--gold);
+  }
+  .book__in {
+    row-gap: 2.5rem;
+  }
+  .book__text {
+    grid-column: 1 / -1;
+  }
+  .book__text .t-lead {
+    margin-top: 1.25rem;
+  }
+  .book__text dl {
+    display: grid;
+    grid-template-columns: auto 1fr;
+    gap: 0.35rem 1.5rem;
+    margin: 2rem 0 0;
+  }
+  .book__text dd {
+    margin: 0;
+  }
+  .book__form {
+    grid-column: 1 / -1;
+    display: grid;
+    gap: 0.75rem;
+    padding: clamp(1.5rem, 3vw, 2.5rem);
+    border-radius: 1.5rem;
+    background: var(--cream);
+  }
+  .book__form .pair {
+    display: grid;
+    gap: 0.75rem;
+  }
+  .book__form label {
+    display: block;
+    margin-bottom: 0.3rem;
+    font-size: var(--fs-small);
+  }
+  .book__form input,
+  .book__form textarea,
+  .book__form select {
+    width: 100%;
+    min-height: 3rem;
+    padding: 0.7rem 0.9rem;
+    border: 1px solid var(--taupe);
+    border-radius: 0.75rem;
+    background: var(--white);
+    color: var(--ink);
+    font: inherit;
+  }
+  .book__form textarea {
+    min-height: 7rem;
+    resize: vertical;
+  }
+  .book__form input:focus-visible,
+  .book__form textarea:focus-visible,
+  .book__form select:focus-visible {
+    outline: 2px solid var(--ink);
+    outline-offset: 0;
+    border-color: var(--ink);
+  }
+  .book__form .btn {
+    margin-top: 0.5rem;
+  }
+  .book__note {
+    color: var(--ink-soft);
+    font-size: var(--fs-small);
+  }
+  @media (min-width: 700px) {
+    .book__form .pair {
+      grid-template-columns: 1fr 1fr;
+    }
+  }
+  @media (min-width: 900px) {
+    .book__text {
+      grid-column: 1 / span 5;
+    }
+    .book__form {
+      grid-column: 7 / span 6;
+    }
+  }
+
+  /* ---------- Inner page hero ---------- */
+
+  .phero__in {
+    display: grid;
+    grid-template-columns: minmax(0, 1fr);
+    row-gap: 2.5rem;
+    padding-block: clamp(2rem, 5vw, 5rem) var(--space);
+  }
+  .phero__text .t-lead {
+    margin-top: 1.5rem;
+  }
+  .phero__pic {
+    justify-self: center;
+    width: min(100%, 26rem);
+    aspect-ratio: 1;
+  }
+  @media (min-width: 900px) {
+    .phero__in {
+      grid-template-columns: minmax(0, 7fr) minmax(0, 5fr);
+      column-gap: var(--gap);
+      align-items: end;
+    }
+    .phero__pic {
+      width: 100%;
+      max-width: 30rem;
+      justify-self: end;
+    }
+  }
+
+  /* ---------- Split rows ---------- */
+
+  .split {
+    row-gap: 2.5rem;
+    align-items: center;
+  }
+  .split__pic {
+    grid-column: 1 / -1;
+    justify-self: center;
+    width: min(100%, 24rem);
+    aspect-ratio: 1;
+  }
+  .split__text {
+    grid-column: 1 / -1;
+  }
+  .split__text > * + * {
+    margin-top: 1.25rem;
+  }
+  .split__text .btn {
+    margin-top: 2rem;
+  }
+  @media (min-width: 900px) {
+    .split__pic {
+      grid-column: 1 / span 5;
+      width: 100%;
+    }
+    .split__text {
+      grid-column: 7 / span 6;
+    }
+    .split--flip .split__pic {
+      grid-column: 8 / span 5;
+      order: 2;
+    }
+    .split--flip .split__text {
+      grid-column: 1 / span 6;
+    }
+  }
+
+  /* ---------- Work strip ---------- */
+
+  .work {
+    display: grid;
+    gap: var(--gap);
+    margin-top: clamp(2rem, 4vw, 3.5rem);
+  }
+  .work figure {
+    margin: 0;
+  }
+  .work__pic {
+    display: block;
+    aspect-ratio: 1;
+  }
+  .work__open {
+    display: block;
+    width: 100%;
+    padding: 0;
+    border: 0;
+    background: none;
+    cursor: zoom-in;
+  }
+  .work__open img {
+    transition: transform 500ms var(--ease);
+  }
+  @media (hover: hover) and (pointer: fine) {
+    .work__open:hover img {
+      transform: scale(1.03);
+    }
+  }
+
+  .viewer {
+    position: fixed;
+    inset: 0;
+    margin: auto;
+    height: fit-content;
+    width: min(92vw, 60rem);
+    max-width: none;
+    max-height: 94svh;
+    padding: 0;
+    border: 0;
+    background: var(--cream);
+    color: var(--ink);
+  }
+  .viewer::backdrop {
+    background: rgb(48 48 48 / 0.85);
+  }
+  .viewer__in {
+    display: flex;
+    flex-direction: column;
+  }
+  .viewer__pic {
+    position: relative;
+    height: min(76svh, 48rem);
+    background: var(--ink);
+  }
+  .viewer__pic img {
+    object-fit: contain;
+  }
+  .viewer__bar {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-between;
+    gap: 0.75rem 1.5rem;
+    padding: 1rem 1.25rem;
+  }
+  .viewer__controls {
+    display: flex;
+    gap: 0.5rem;
+  }
+  .viewer__btn {
+    min-height: 2.75rem;
+    padding: 0.4rem 1.1rem;
+    border: 1px solid var(--ink);
+    border-radius: 999px;
+    background: none;
+    color: var(--ink);
+    font: inherit;
+    cursor: pointer;
+  }
+  @media (hover: hover) and (pointer: fine) {
+    .viewer__btn:hover {
+      background: var(--ink);
+      color: var(--cream);
+    }
+  }
+  @media (prefers-reduced-motion: no-preference) {
+    .viewer[open] {
+      animation: appear 200ms ease;
+    }
+  }
+
+  /* Phone action bar: the two things people come to do, always in reach. */
+  .actionbar {
+    position: fixed;
+    inset: auto 0 0 0;
+    z-index: 40;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 0.5rem;
+    padding: 0.6rem var(--margin) calc(0.6rem + env(safe-area-inset-bottom));
+    background: var(--cream);
+    border-top: 1px solid var(--line);
+  }
+  .actionbar .btn {
+    min-height: 2.9rem;
+  }
+  .actionbar .btn--light {
+    border: 1px solid var(--ink);
+  }
+  @media (max-width: 899px) {
+    body {
+      padding-bottom: calc(4.2rem + env(safe-area-inset-bottom));
+    }
+  }
+  @media (min-width: 900px) {
+    .actionbar {
+      display: none;
+    }
+  }
+  .work figcaption {
+    margin-top: 0.75rem;
+    color: var(--ink-soft);
+    font-size: var(--fs-small);
+  }
+  @media (min-width: 700px) {
+    .work {
+      grid-template-columns: repeat(3, minmax(0, 1fr));
+    }
+  }
+
+  /* ---------- Care lists ---------- */
+
+  .care {
+    display: grid;
+    gap: 2.5rem;
+    margin-top: clamp(2.5rem, 4vw, 3.5rem);
+  }
+  .care > div {
+    padding-top: 1.25rem;
+    border-top: 2px solid var(--gold);
+  }
+  .care h3 {
+    font-size: var(--fs-h3);
+    margin-bottom: 1.25rem;
+  }
+  @media (min-width: 900px) {
+    .care {
+      grid-template-columns: repeat(3, minmax(0, 1fr));
+    }
+  }
+
+  /* ---------- Areas ---------- */
+
+  .area {
+    row-gap: 1.5rem;
+    align-items: center;
+    padding-block: clamp(2.5rem, 4vw, 4rem);
+    border-top: 1px solid var(--line);
+  }
+  .area__pic {
+    grid-column: 1 / -1;
+    aspect-ratio: 16 / 10;
+    overflow: hidden;
+    border-radius: 1.5rem;
+  }
+  .area__pic img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+  }
+  .area__text {
+    grid-column: 1 / -1;
+  }
+  .area__text p {
+    margin-top: 1rem;
+  }
+  @media (min-width: 900px) {
+    .area__text {
+      grid-column: 1 / span 5;
+    }
+    .area__pic {
+      grid-column: 7 / span 6;
+      order: 2;
+    }
+  }
+
+  /* ---------- Footer ---------- */
+
+  .foot {
+    position: relative;
+    overflow: hidden;
+    background: var(--ink);
+    color: var(--cream);
+    padding-block: clamp(3.5rem, 6vw, 6rem) 2rem;
+  }
+  .foot__flowers {
+    position: absolute;
+    right: -6rem;
+    bottom: -8rem;
+    width: min(70vw, 34rem);
+    height: auto;
+    opacity: 0.07;
+    pointer-events: none;
+  }
+  .foot__top {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: end;
+    justify-content: space-between;
+    gap: 2rem;
+    padding-bottom: 2.5rem;
+    border-bottom: 1px solid #4a4540;
+  }
+  .foot__top img {
+    width: clamp(14rem, 10rem + 12vw, 22rem);
+    height: auto;
+  }
+  .foot__top p {
+    max-width: 26rem;
+    color: var(--gold);
+    font-family: var(--font-bodoni), Georgia, serif;
+    font-size: var(--fs-h3);
+    line-height: 1.2;
+  }
+  .foot__cols {
+    display: grid;
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+    gap: 2.5rem var(--gap);
+    margin-top: 2.5rem;
+  }
+  .foot__col h2 {
+    margin-bottom: 0.85rem;
+    color: var(--gold);
+    font-family: var(--font-jost), sans-serif;
+    font-size: var(--fs-body);
+    font-weight: 500;
+    letter-spacing: 0;
+  }
+  .foot__col ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+  }
+  .foot__col li + li {
+    margin-top: 0.4rem;
+  }
+  .foot__col a {
+    text-decoration: none;
+  }
+  .foot__col li {
+    padding-bottom: 1px;
+  }
+  .foot__last {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    gap: 0.75rem 2rem;
+    margin-top: 3rem;
+    color: #bdb3a6;
+    font-size: var(--fs-small);
+  }
+  .foot :focus-visible {
+    outline-color: var(--gold);
+  }
+  @media (min-width: 900px) {
+    .foot__cols {
+      grid-template-columns: repeat(4, minmax(0, 1fr)) minmax(0, 1.4fr);
+    }
+  }
+}
+
+/* Section reveals (src/components/Reveals.tsx): blocks rise in, staggered by --reveal-i. */
+@media (prefers-reduced-motion: no-preference) {
+  .js .reveal {
+    opacity: 0;
+    transform: translateY(28px);
+    transition:
+      opacity 700ms ease,
+      transform 900ms var(--ease);
+    transition-delay: calc(var(--reveal-i, 0) * 90ms);
+  }
+  .js .reveal.is-in {
+    opacity: 1;
+    transform: none;
+  }
+  /* Tile photographs also settle from a slight zoom inside their frame. */
+  .js .tile.reveal .tile__photo img {
+    transform: scale(1.08);
+    transition: transform 1400ms var(--ease);
+    transition-delay: calc(var(--reveal-i, 0) * 90ms);
+  }
+  .js .tile.reveal.is-in .tile__photo img {
+    transform: none;
+  }
+}
+
+/* Page entrance, every page and every navigation: the first screen arrives in a short sequence. */
+@media (prefers-reduced-motion: no-preference) {
+  .js .page {
+    animation: page-in 500ms var(--ease) both;
+  }
+  .js .hero__text > *,
+  .js .phero__text > * {
+    animation: rise-in 800ms var(--ease) both;
+  }
+  .js .hero__text > :nth-child(2),
+  .js .phero__text > :nth-child(2) { animation-delay: 120ms; }
+  .js .hero__text > :nth-child(3),
+  .js .phero__text > :nth-child(3) { animation-delay: 240ms; }
+  .js .hero__text > :nth-child(4) { animation-delay: 360ms; }
+  .js .map__frame > img {
+    animation: settle 1400ms var(--ease) both;
+  }
+  /* The inner-page photo opens upward inside its frame, then settles from a zoom. */
+  .js .phero__pic .tile__photo {
+    animation: arch-open 1200ms var(--ease) 150ms both;
+  }
+  .js .phero__pic img {
+    animation: settle 1600ms var(--ease) 150ms both;
+  }
+
+  /* Answers and calendar details animate when they change. */
+  .faq__list details[open] p {
+    animation: rise-in 450ms var(--ease) both;
+  }
+  .detail > * {
+    animation: rise-in 500ms var(--ease) both;
+  }
+  .detail > :nth-child(2) {
+    animation-delay: 90ms;
+  }
+  .picker__what,
+  .lead-quote,
+  .book__error {
+    animation: rise-in 450ms var(--ease) both;
+  }
+}
+
+/* Tile photographs drift a little inside their frames as the page scrolls past. */
+@supports (animation-timeline: view()) {
+  @media (prefers-reduced-motion: no-preference) {
+    .tile__photo img {
+      scale: 1.06;
+      animation: drift linear both;
+      animation-timeline: view();
+      animation-range: cover 0% cover 100%;
+    }
+    .js .phero__pic img {
+      animation: settle 1600ms var(--ease) 150ms both, drift linear both;
+      animation-timeline: auto, view();
+      animation-range: normal, cover 0% cover 100%;
+    }
+  }
+}
+
+/* The "healed brows after one session" photo carries its own caption at the edge: never zoom or drift it. */
+@supports (animation-timeline: view()) {
+  @media (prefers-reduced-motion: no-preference) {
+    .tile__photo img[src*="ac-work-3"],
+    .js .phero__pic img[src*="ac-work-3"] {
+      scale: 1;
+      animation: none;
+    }
+  }
+}
+
+@keyframes page-in {
+  from {
+    opacity: 0;
+    transform: translateY(12px);
+  }
+}
+@keyframes rise-in {
+  from {
+    opacity: 0;
+    transform: translateY(24px);
+  }
+}
+@keyframes settle {
+  from {
+    opacity: 0;
+    transform: scale(1.08);
+  }
+}
+@keyframes arch-open {
+  from {
+    clip-path: inset(100% 0 0 0);
+  }
+  to {
+    clip-path: inset(0 0 0 0);
+  }
+}
+@keyframes drift {
+  from {
+    translate: 0 -2.5%;
+  }
+  to {
+    translate: 0 2.5%;
+  }
+}
+
+/* Navbar: the logo, links and actions drop in on load; menu links rise in when the phone menu opens. */
+@media (prefers-reduced-motion: no-preference) {
+  .js .bar__logo,
+  .js .bar__nav > *,
+  .js .bar__actions > * {
+    animation: drop-in 700ms var(--ease) both;
+  }
+  .js .bar__nav > :nth-child(1) { animation-delay: 80ms; }
+  .js .bar__nav > :nth-child(2) { animation-delay: 130ms; }
+  .js .bar__nav > :nth-child(3) { animation-delay: 180ms; }
+  .js .bar__nav > :nth-child(4) { animation-delay: 230ms; }
+  .js .bar__nav > :nth-child(5) { animation-delay: 280ms; }
+  .js .bar__actions > * { animation-delay: 340ms; }
+  .drawer.is-open nav a,
+  .drawer.is-open .drawer__foot > * {
+    animation: rise-in 500ms var(--ease) both;
+  }
+  .drawer.is-open nav a:nth-child(2) { animation-delay: 40ms; }
+  .drawer.is-open nav a:nth-child(3) { animation-delay: 80ms; }
+  .drawer.is-open nav a:nth-child(4) { animation-delay: 120ms; }
+  .drawer.is-open nav a:nth-child(5) { animation-delay: 160ms; }
+  .drawer.is-open nav a:nth-child(6) { animation-delay: 200ms; }
+  .drawer.is-open nav a:nth-child(7) { animation-delay: 240ms; }
+  .drawer.is-open nav a:nth-child(8) { animation-delay: 280ms; }
+  .drawer.is-open .drawer__foot > * { animation-delay: 320ms; }
+
+  /* Footer: the flower line-art sways slowly behind the links. */
+  .foot__flowers {
+    transform-origin: 50% 100%;
+    animation: sway 14s ease-in-out infinite alternate;
+  }
+  .flora {
+    animation: sway 16s ease-in-out infinite alternate;
+  }
+  .flora--br,
+  .flora--tr {
+    animation-delay: -6s;
+  }
+}
+@media (prefers-reduced-motion: reduce) {
+  .bar,
+  .bar__mark,
+  .bar__nav > a::after,
+  .navmenu__btn::after,
+  .navmenu__panel,
+  .foot__col a::after {
+    transition: none;
+  }
+}
+
+/* Healing calendar: unselected dots breathe in a wave along the line until one is tapped. */
+@media (prefers-reduced-motion: no-preference) {
+  .track.is-inviting .stop[aria-pressed="false"] .stop__dot {
+    animation: breathe-dot 2.6s ease-in-out infinite;
+  }
+  .track.is-inviting li:nth-child(2) .stop__dot { animation-delay: 0.25s; }
+  .track.is-inviting li:nth-child(3) .stop__dot { animation-delay: 0.5s; }
+  .track.is-inviting li:nth-child(4) .stop__dot { animation-delay: 0.75s; }
+  .track.is-inviting li:nth-child(5) .stop__dot { animation-delay: 1s; }
+  .track.is-inviting li:nth-child(6) .stop__dot { animation-delay: 1.25s; }
+  .track.is-inviting .stop:hover .stop__dot {
+    animation-play-state: paused;
+  }
+}
+
+@keyframes breathe-dot {
+  0%,
+  100% {
+    transform: scale(1);
+    box-shadow: 0 0 0 0 rgb(192 149 105 / 0.45);
+  }
+  50% {
+    transform: scale(1.18);
+    box-shadow: 0 0 0 8px rgb(192 149 105 / 0);
+  }
+}
+
+@keyframes drop-in {
+  from {
+    opacity: 0;
+    transform: translateY(-14px);
+  }
+}
+@keyframes sway {
+  from {
+    transform: rotate(-2.5deg) translateY(0);
+  }
+  to {
+    transform: rotate(2.5deg) translateY(-12px);
+  }
+}
+
+@keyframes draw {
+  to {
+    stroke-dashoffset: 0;
+  }
+}
+@keyframes appear {
+  to {
+    opacity: 1;
   }
 }

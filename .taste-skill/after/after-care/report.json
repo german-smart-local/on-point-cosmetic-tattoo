@@ -1,0 +1,1840 @@
+{
+ "url": "http://localhost:3123/after-care",
+ "at": "2026-10-21T04:17:15.681Z",
+ "allow": [],
+ "viewports": [
+  {
+   "width": 1440,
+   "height": 900,
+   "load": "load",
+   "screens": 7,
+   "filled": [
+    0.9,
+    0.63,
+    0.84,
+    0.74,
+    0.54,
+    0.45,
+    0.89
+   ],
+   "motion": {
+    "elements": 24,
+    "css": 8,
+    "transitions": 16,
+    "scripted": 0,
+    "videos": 0,
+    "playingVideos": 0
+   },
+   "metrics": {
+    "viewport": {
+     "w": 1440,
+     "h": 900
+    },
+    "page": {
+     "height": 6143,
+     "screens": 6.8,
+     "words": 435,
+     "img": 6,
+     "video": 0,
+     "canvas": 0,
+     "svg": 1,
+     "sections": 5,
+     "horizontalOverflow": 0,
+     "overflowCulprits": [],
+     "uiFragments": 0,
+     "uiAbuse": false,
+     "realPictures": 6,
+     "videoCount": 0,
+     "uiPictures": 0,
+     "pictureSamples": [
+      "image?url=%2Fimages%2Fsub%2Fac-work-3.jpg&w=750&",
+      "image?url=%2Fimages%2Fsub%2Feb-technique.jpg&w=3",
+      "image?url=%2Fimages%2Fsub%2Fac-section.png&w=640",
+      "image?url=%2Fimages%2Fsub%2Fac-work-1.jpg&w=750&",
+      "image?url=%2Fimages%2Fsub%2Fac-work-2.jpg&w=750&",
+      "image?url=%2Fimages%2Fsub%2Fel-technique.jpg&w=7"
+     ],
+     "blendText": 0,
+     "sideScrollers": 0,
+     "brokenImages": [],
+     "emoji": [],
+     "videosNoPoster": 0
+    },
+    "hero": {
+     "text": "Your aftercare guide",
+     "words": 3,
+     "chars": 20,
+     "lines": 2,
+     "size": 64,
+     "vw": 4.4,
+     "font": "chillax",
+     "weight": 600,
+     "tracking": -0.03,
+     "leading": 1,
+     "upper": false,
+     "italic": false,
+     "mono": false,
+     "align": "left",
+     "position": "left",
+     "widthRatio": 0.42,
+     "top": 458,
+     "tag": "h1",
+     "kind": "heading"
+    },
+    "h1": {
+     "text": "Your aftercare guide",
+     "words": 3,
+     "lines": 2,
+     "size": 64,
+     "font": "chillax"
+    },
+    "headings": [
+     {
+      "text": "Your aftercare guide",
+      "words": 3,
+      "chars": 20,
+      "lines": 2,
+      "size": 64,
+      "vw": 4.4,
+      "font": "chillax",
+      "weight": 600,
+      "tracking": -0.03,
+      "leading": 1,
+      "upper": false,
+      "italic": false,
+      "mono": false,
+      "align": "left",
+      "position": "left",
+      "widthRatio": 0.42,
+      "top": 458,
+      "tag": "h1",
+      "kind": "heading"
+     },
+     {
+      "text": "Your visit, day by day",
+      "words": 5,
+      "chars": 22,
+      "lines": 2,
+      "size": 64,
+      "vw": 4.4,
+      "font": "chillax",
+      "weight": 600,
+      "tracking": -0.03,
+      "leading": 1,
+      "upper": false,
+      "italic": false,
+      "mono": false,
+      "align": "left",
+      "position": "left",
+      "widthRatio": 0.39,
+      "top": 1009,
+      "tag": "h2",
+      "kind": "heading"
+     },
+     {
+      "text": "Consultation",
+      "words": 1,
+      "chars": 12,
+      "lines": 1,
+      "size": 64,
+      "vw": 4.4,
+      "font": "chillax",
+      "weight": 600,
+      "tracking": -0.03,
+      "leading": 1,
+      "upper": false,
+      "italic": false,
+      "mono": false,
+      "align": "left",
+      "position": "left",
+      "widthRatio": 0.34,
+      "top": 1345,
+      "tag": "h3",
+      "kind": "heading"
+     },
+     {
+      "text": "The full guide",
+      "words": 3,
+      "chars": 14,
+      "lines": 1,
+      "size": 64,
+      "vw": 4.4,
+      "font": "chillax",
+      "weight": 600,
+      "tracking": -0.03,
+      "leading": 1,
+      "upper": false,
+      "italic": false,
+      "mono": false,
+      "align": "left",
+      "position": "left",
+      "widthRatio": 0.47,
+      "top": 2373,
+      "tag": "h2",
+      "kind": "heading"
+     },
+     {
+      "text": "Settled and healed",
+      "words": 3,
+      "chars": 18,
+      "lines": 1,
+      "size": 64,
+      "vw": 4.4,
+      "font": "chillax",
+      "weight": 600,
+      "tracking": -0.03,
+      "leading": 1,
+      "upper": false,
+      "italic": false,
+      "mono": false,
+      "align": "left",
+      "position": "center",
+      "widthRatio": 0.96,
+      "top": 3472,
+      "tag": "h2",
+      "kind": "heading"
+     },
+     {
+      "text": "Book a consultation",
+      "words": 3,
+      "chars": 19,
+      "lines": 2,
+      "size": 64,
+      "vw": 4.4,
+      "font": "chillax",
+      "weight": 600,
+      "tracking": -0.03,
+      "leading": 1,
+      "upper": false,
+      "italic": false,
+      "mono": false,
+      "align": "left",
+      "position": "left",
+      "widthRatio": 0.29,
+      "top": 4730,
+      "tag": "h2",
+      "kind": "heading"
+     },
+     {
+      "text": "O N P O I N T",
+      "words": 7,
+      "chars": 13,
+      "lines": 1,
+      "size": 129.6,
+      "vw": 9,
+      "font": "chillax",
+      "weight": 600,
+      "tracking": -0.04,
+      "leading": 0.78,
+      "upper": false,
+      "italic": false,
+      "mono": false,
+      "align": "left",
+      "position": "center",
+      "widthRatio": 0.96,
+      "top": 5477,
+      "tag": "div",
+      "kind": "heading"
+     }
+    ],
+    "headingSummary": {
+     "count": 7,
+     "maxLines": 2,
+     "over2Lines": 0,
+     "statements": 0,
+     "centered": 0,
+     "medianWords": 3,
+     "mixedFontHeadings": 0
+    },
+    "type": {
+     "families": [
+      {
+       "family": "chillax",
+       "share": 1,
+       "mono": false
+      }
+     ],
+     "familyCount": 1,
+     "sizes": [
+      14,
+      19,
+      20,
+      26,
+      64,
+      130
+     ],
+     "sizeCount": 6,
+     "notLoaded": [],
+     "body": {
+      "font": "chillax",
+      "size": 19,
+      "leading": 1.5,
+      "weight": 400,
+      "tracking": 0,
+      "contrast": 8.4
+     },
+     "measureChars": 44,
+     "max": {
+      "size": 129.6,
+      "vw": 9,
+      "font": "chillax",
+      "text": "O"
+     },
+     "monoShare": 0,
+     "monoProseShare": 0,
+     "monoFamilies": [],
+     "monoSamples": [],
+     "microLabels": 0,
+     "microLabelShare": 0,
+     "microSamples": [],
+     "upperShare": 0,
+     "centerShare": 0.01,
+     "smallText": 0
+    },
+    "eyebrows": [],
+    "numbered": [],
+    "color": {
+     "bodyBg": "#f7f9f8",
+     "bodyBgHsl": {
+      "h": 150,
+      "s": 0.14,
+      "l": 0.97
+     },
+     "dark": false,
+     "sectionBgs": [
+      {
+       "color": "#ebf0ee",
+       "top": 72,
+       "hsl": {
+        "h": 156,
+        "s": 0.14,
+        "l": 0.93
+       }
+      },
+      {
+       "color": "#06525c",
+       "top": 72,
+       "hsl": {
+        "h": 187,
+        "s": 0.88,
+        "l": 0.19
+       }
+      },
+      {
+       "color": "#145f69",
+       "top": 118,
+       "hsl": {
+        "h": 187,
+        "s": 0.68,
+        "l": 0.25
+       }
+      },
+      {
+       "color": "#bcd3d5",
+       "top": 2075,
+       "hsl": {
+        "h": 185,
+        "s": 0.23,
+        "l": 0.79
+       }
+      },
+      {
+       "color": "#d3e2e3",
+       "top": 4677,
+       "hsl": {
+        "h": 184,
+        "s": 0.22,
+        "l": 0.86
+       }
+      }
+     ],
+     "textColors": [
+      {
+       "color": "#06525c",
+       "share": 0.6
+      },
+      {
+       "color": "#f7f9f8",
+       "share": 0.37
+      },
+      {
+       "color": "#2f737d",
+       "share": 0.03
+      }
+     ],
+     "button": {
+      "bg": "#06525c",
+      "hsl": {
+       "h": 187,
+       "s": 0.88,
+       "l": 0.19
+      },
+      "fg": "#f7f9f8"
+     },
+     "lowContrast": []
+    },
+    "buttons": {
+     "count": 4,
+     "inHero": 2,
+     "radius": 0,
+     "height": 48,
+     "withShadow": 0,
+     "withGradient": 0,
+     "mono": 0,
+     "upper": 0,
+     "heroLabels": [
+      "Book a consultation",
+      "Book a consultation"
+     ]
+    },
+    "surfaces": {
+     "shadowStatic": 0,
+     "shadowOverlay": 0,
+     "shadowSamples": [],
+     "gradients": 0,
+     "scrims": 0,
+     "gradientSamples": [],
+     "gradientText": 0,
+     "hairlines": 0,
+     "hairlineSamples": [],
+     "outlinedBoxes": 0,
+     "dashed": 0,
+     "blurred": 0,
+     "roundedBoxes": 0,
+     "boxRadius": 0,
+     "squareMedia": 6,
+     "roundedMedia": 0,
+     "mediaRadius": 0,
+     "textShadow": 0,
+     "cardRows": []
+    },
+    "heroMedia": [
+     {
+      "type": "img",
+      "ratio": 0.37
+     }
+    ],
+    "nav": {
+     "links": 8,
+     "fixed": true,
+     "height": 72,
+     "floatingPill": false,
+     "blur": false
+    },
+    "fontsLoaded": [
+     "chillax"
+    ]
+   },
+   "layout": {
+    "viewport": {
+     "w": 1440,
+     "h": 900
+    },
+    "pageH": 6143,
+    "margins": {
+     "left": 32,
+     "right": 32
+    },
+    "sections": [
+     {
+      "sel": "section.phero",
+      "tag": "section",
+      "top": 72,
+      "height": 828,
+      "words": 32,
+      "media": 1,
+      "middle": 70,
+      "heading": {
+       "text": "Your aftercare",
+       "size": 64,
+       "tag": "h1"
+      },
+      "left": 68,
+      "right": 44,
+      "textLeft": 68,
+      "textRight": 772,
+      "fullBleed": false,
+      "footer": false,
+      "hero": true,
+      "continues": true,
+      "pinned": false
+     },
+     {
+      "sel": "section.section",
+      "tag": "section",
+      "top": 900,
+      "height": 1066,
+      "words": 98,
+      "media": 1,
+      "middle": 80,
+      "heading": {
+       "text": "Your visit, day by day",
+       "size": 64,
+       "tag": "h2"
+      },
+      "left": 32,
+      "right": 32,
+      "textLeft": 32,
+      "textRight": 64,
+      "fullBleed": false,
+      "footer": false,
+      "hero": false,
+      "continues": true,
+      "pinned": false
+     },
+     {
+      "sel": "section.section.split--field",
+      "tag": "section",
+      "top": 1966,
+      "height": 1397,
+      "words": 141,
+      "media": 1,
+      "middle": 0,
+      "heading": {
+       "text": "The full guide",
+       "size": 64,
+       "tag": "h2"
+      },
+      "left": 32,
+      "right": 32,
+      "textLeft": 32,
+      "textRight": 46,
+      "fullBleed": false,
+      "footer": false,
+      "hero": false,
+      "continues": true,
+      "pinned": false
+     },
+     {
+      "sel": "section.section",
+      "tag": "section",
+      "top": 3363,
+      "height": 1205,
+      "words": 11,
+      "media": 3,
+      "middle": 20,
+      "heading": {
+       "text": "Settled and healed",
+       "size": 64,
+       "tag": "h2"
+      },
+      "left": 32,
+      "right": 32,
+      "textLeft": 32,
+      "textRight": 402,
+      "fullBleed": false,
+      "footer": false,
+      "hero": false,
+      "continues": true,
+      "pinned": false
+     },
+     {
+      "sel": "section#book.section",
+      "tag": "section",
+      "top": 4567,
+      "height": 820,
+      "words": 53,
+      "media": 0,
+      "middle": 127,
+      "heading": {
+       "text": "Book a consultation",
+       "size": 64,
+       "tag": "h2"
+      },
+      "left": 201,
+      "right": 201,
+      "textLeft": 201,
+      "textRight": 294,
+      "fullBleed": false,
+      "footer": false,
+      "hero": false,
+      "continues": true,
+      "pinned": false
+     },
+     {
+      "sel": "footer.foot.on-dark",
+      "tag": "footer",
+      "top": 5388,
+      "height": 756,
+      "words": 62,
+      "media": 0,
+      "middle": 97,
+      "heading": {
+       "text": "Treatments",
+       "size": 19,
+       "tag": "h2"
+      },
+      "left": 32,
+      "right": 67,
+      "textLeft": 32,
+      "textRight": 67,
+      "fullBleed": false,
+      "footer": true,
+      "hero": false,
+      "continues": false,
+      "pinned": false
+     }
+    ],
+    "gaps": [],
+    "h1s": [
+     {
+      "text": "Your aftercare guide",
+      "size": 64,
+      "top": 458,
+      "firstScreen": true
+     }
+    ],
+    "edgeText": [],
+    "edges": [
+     {
+      "x": 32,
+      "n": 5
+     },
+     {
+      "x": 68,
+      "n": 4
+     },
+     {
+      "x": 201,
+      "n": 2
+     },
+     {
+      "x": 497,
+      "n": 1
+     },
+     {
+      "x": 846,
+      "n": 1
+     },
+     {
+      "x": 963,
+      "n": 1
+     }
+    ],
+    "leftBlocks": 14,
+    "bodySize": 19,
+    "stage": false,
+    "explains": true,
+    "slivers": [],
+    "voidShare": 0.17,
+    "voidBox": {
+     "x": 0,
+     "y": 120,
+     "w": 720,
+     "h": 300
+    }
+   },
+   "app": null,
+   "consoleErrors": []
+  },
+  {
+   "width": 768,
+   "height": 1024,
+   "load": "load",
+   "screens": 9,
+   "filled": [
+    0.94,
+    0.68,
+    0.89,
+    0.98,
+    0.54,
+    0.56,
+    0.61,
+    0.97,
+    0.96
+   ],
+   "motion": {
+    "elements": 24,
+    "css": 8,
+    "transitions": 16,
+    "scripted": 0,
+    "videos": 0,
+    "playingVideos": 0
+   },
+   "metrics": {
+    "viewport": {
+     "w": 768,
+     "h": 1024
+    },
+    "page": {
+     "height": 8257,
+     "screens": 8.1,
+     "words": 427,
+     "img": 6,
+     "video": 0,
+     "canvas": 0,
+     "svg": 1,
+     "sections": 5,
+     "horizontalOverflow": 0,
+     "overflowCulprits": [],
+     "uiFragments": 0,
+     "uiAbuse": false,
+     "realPictures": 6,
+     "videoCount": 0,
+     "uiPictures": 0,
+     "pictureSamples": [
+      "image?url=%2Fimages%2Fsub%2Fac-work-3.jpg&w=828&",
+      "image?url=%2Fimages%2Fsub%2Feb-technique.jpg&w=6",
+      "image?url=%2Fimages%2Fsub%2Fac-section.png&w=750",
+      "image?url=%2Fimages%2Fsub%2Fac-work-1.jpg&w=828&",
+      "image?url=%2Fimages%2Fsub%2Fac-work-2.jpg&w=828&",
+      "image?url=%2Fimages%2Fsub%2Fel-technique.jpg&w=8"
+     ],
+     "blendText": 0,
+     "sideScrollers": 0,
+     "brokenImages": [],
+     "emoji": [],
+     "videosNoPoster": 0
+    },
+    "hero": {
+     "text": "Your aftercare guide",
+     "words": 3,
+     "chars": 20,
+     "lines": 2,
+     "size": 45.4,
+     "vw": 5.9,
+     "font": "chillax",
+     "weight": 600,
+     "tracking": -0.03,
+     "leading": 1,
+     "upper": false,
+     "italic": false,
+     "mono": false,
+     "align": "left",
+     "position": "center",
+     "widthRatio": 0.9,
+     "top": 111,
+     "tag": "h1",
+     "kind": "heading"
+    },
+    "h1": {
+     "text": "Your aftercare guide",
+     "words": 3,
+     "lines": 2,
+     "size": 45.4,
+     "font": "chillax"
+    },
+    "headings": [
+     {
+      "text": "Your aftercare guide",
+      "words": 3,
+      "chars": 20,
+      "lines": 2,
+      "size": 45.4,
+      "vw": 5.9,
+      "font": "chillax",
+      "weight": 600,
+      "tracking": -0.03,
+      "leading": 1,
+      "upper": false,
+      "italic": false,
+      "mono": false,
+      "align": "left",
+      "position": "center",
+      "widthRatio": 0.9,
+      "top": 111,
+      "tag": "h1",
+      "kind": "heading"
+     },
+     {
+      "text": "Your visit, day by day",
+      "words": 5,
+      "chars": 22,
+      "lines": 2,
+      "size": 45.4,
+      "vw": 5.9,
+      "font": "chillax",
+      "weight": 600,
+      "tracking": -0.03,
+      "leading": 1,
+      "upper": false,
+      "italic": false,
+      "mono": false,
+      "align": "left",
+      "position": "left",
+      "widthRatio": 0.39,
+      "top": 1106,
+      "tag": "h2",
+      "kind": "heading"
+     },
+     {
+      "text": "The full guide",
+      "words": 3,
+      "chars": 14,
+      "lines": 1,
+      "size": 45.4,
+      "vw": 5.9,
+      "font": "chillax",
+      "weight": 600,
+      "tracking": -0.03,
+      "leading": 1,
+      "upper": false,
+      "italic": false,
+      "mono": false,
+      "align": "left",
+      "position": "center",
+      "widthRatio": 0.96,
+      "top": 2619,
+      "tag": "h2",
+      "kind": "heading"
+     },
+     {
+      "text": "Settled and healed",
+      "words": 3,
+      "chars": 18,
+      "lines": 1,
+      "size": 45.4,
+      "vw": 5.9,
+      "font": "chillax",
+      "weight": 600,
+      "tracking": -0.03,
+      "leading": 1,
+      "upper": false,
+      "italic": false,
+      "mono": false,
+      "align": "left",
+      "position": "center",
+      "widthRatio": 0.96,
+      "top": 4318,
+      "tag": "h2",
+      "kind": "heading"
+     },
+     {
+      "text": "Book a consultation",
+      "words": 3,
+      "chars": 19,
+      "lines": 1,
+      "size": 45.4,
+      "vw": 5.9,
+      "font": "chillax",
+      "weight": 600,
+      "tracking": -0.03,
+      "leading": 1,
+      "upper": false,
+      "italic": false,
+      "mono": false,
+      "align": "left",
+      "position": "center",
+      "widthRatio": 0.85,
+      "top": 6260,
+      "tag": "h2",
+      "kind": "heading"
+     },
+     {
+      "text": "O N P O I N T",
+      "words": 7,
+      "chars": 13,
+      "lines": 1,
+      "size": 69.1,
+      "vw": 9,
+      "font": "chillax",
+      "weight": 600,
+      "tracking": -0.04,
+      "leading": 0.78,
+      "upper": false,
+      "italic": false,
+      "mono": false,
+      "align": "left",
+      "position": "center",
+      "widthRatio": 0.96,
+      "top": 7310,
+      "tag": "div",
+      "kind": "heading"
+     }
+    ],
+    "headingSummary": {
+     "count": 6,
+     "maxLines": 2,
+     "over2Lines": 0,
+     "statements": 0,
+     "centered": 0,
+     "medianWords": 3,
+     "mixedFontHeadings": 0
+    },
+    "type": {
+     "families": [
+      {
+       "family": "chillax",
+       "share": 1,
+       "mono": false
+      }
+     ],
+     "familyCount": 1,
+     "sizes": [
+      13,
+      18,
+      23,
+      45,
+      69
+     ],
+     "sizeCount": 5,
+     "notLoaded": [],
+     "body": {
+      "font": "chillax",
+      "size": 17.9,
+      "leading": 1.5,
+      "weight": 400,
+      "tracking": 0,
+      "contrast": 8.4
+     },
+     "measureChars": 31,
+     "max": {
+      "size": 69.1,
+      "vw": 9,
+      "font": "chillax",
+      "text": "O"
+     },
+     "monoShare": 0,
+     "monoProseShare": 0,
+     "monoFamilies": [],
+     "monoSamples": [],
+     "microLabels": 0,
+     "microLabelShare": 0,
+     "microSamples": [],
+     "upperShare": 0,
+     "centerShare": 0.01,
+     "smallText": 0
+    },
+    "eyebrows": [],
+    "numbered": [],
+    "color": {
+     "bodyBg": "#f7f9f8",
+     "bodyBgHsl": {
+      "h": 150,
+      "s": 0.14,
+      "l": 0.97
+     },
+     "dark": false,
+     "sectionBgs": [
+      {
+       "color": "#ebf0ee",
+       "top": 72,
+       "hsl": {
+        "h": 156,
+        "s": 0.14,
+        "l": 0.93
+       }
+      },
+      {
+       "color": "#06525c",
+       "top": 486,
+       "hsl": {
+        "h": 187,
+        "s": 0.88,
+        "l": 0.19
+       }
+      },
+      {
+       "color": "#145f69",
+       "top": 506,
+       "hsl": {
+        "h": 187,
+        "s": 0.68,
+        "l": 0.25
+       }
+      },
+      {
+       "color": "#bcd3d5",
+       "top": 2814,
+       "hsl": {
+        "h": 185,
+        "s": 0.23,
+        "l": 0.79
+       }
+      },
+      {
+       "color": "#d3e2e3",
+       "top": 6221,
+       "hsl": {
+        "h": 184,
+        "s": 0.22,
+        "l": 0.86
+       }
+      }
+     ],
+     "textColors": [
+      {
+       "color": "#06525c",
+       "share": 0.59
+      },
+      {
+       "color": "#f7f9f8",
+       "share": 0.38
+      },
+      {
+       "color": "#2f737d",
+       "share": 0.03
+      }
+     ],
+     "button": {
+      "bg": "#06525c",
+      "hsl": {
+       "h": 187,
+       "s": 0.88,
+       "l": 0.19
+      },
+      "fg": "#f7f9f8"
+     },
+     "lowContrast": []
+    },
+    "buttons": {
+     "count": 5,
+     "inHero": 3,
+     "radius": 0,
+     "height": 48,
+     "withShadow": 0,
+     "withGradient": 0,
+     "mono": 0,
+     "upper": 0,
+     "heroLabels": [
+      "Book a consultation",
+      "Book a consultation"
+     ]
+    },
+    "surfaces": {
+     "shadowStatic": 0,
+     "shadowOverlay": 0,
+     "shadowSamples": [],
+     "gradients": 0,
+     "scrims": 0,
+     "gradientSamples": [],
+     "gradientText": 0,
+     "hairlines": 0,
+     "hairlineSamples": [],
+     "outlinedBoxes": 0,
+     "dashed": 0,
+     "blurred": 0,
+     "roundedBoxes": 0,
+     "boxRadius": 0,
+     "squareMedia": 6,
+     "roundedMedia": 0,
+     "mediaRadius": 0,
+     "textShadow": 0,
+     "cardRows": []
+    },
+    "heroMedia": [
+     {
+      "type": "img",
+      "ratio": 0.45
+     }
+    ],
+    "nav": {
+     "links": 3,
+     "fixed": true,
+     "height": 72,
+     "floatingPill": false,
+     "blur": false
+    },
+    "fontsLoaded": [
+     "chillax"
+    ]
+   },
+   "layout": {
+    "viewport": {
+     "w": 768,
+     "h": 1024
+    },
+    "pageH": 8257,
+    "margins": {
+     "left": 17,
+     "right": 17
+    },
+    "sections": [
+     {
+      "sel": "section.phero",
+      "tag": "section",
+      "top": 72,
+      "height": 949,
+      "words": 32,
+      "media": 1,
+      "middle": 0,
+      "heading": {
+       "text": "Your aftercare",
+       "size": 45,
+       "tag": "h1"
+      },
+      "left": 25,
+      "right": 25,
+      "textLeft": 40,
+      "textRight": 198,
+      "fullBleed": false,
+      "footer": false,
+      "hero": true,
+      "continues": true,
+      "pinned": false
+     },
+     {
+      "sel": "section.section",
+      "tag": "section",
+      "top": 1021,
+      "height": 1513,
+      "words": 98,
+      "media": 1,
+      "middle": 0,
+      "heading": {
+       "text": "Your visit, day by day",
+       "size": 45,
+       "tag": "h2"
+      },
+      "left": 17,
+      "right": 17,
+      "textLeft": 17,
+      "textRight": 18,
+      "fullBleed": false,
+      "footer": false,
+      "hero": false,
+      "continues": true,
+      "pinned": false
+     },
+     {
+      "sel": "section.section.split--field",
+      "tag": "section",
+      "top": 2534,
+      "height": 1699,
+      "words": 141,
+      "media": 1,
+      "middle": 0,
+      "heading": {
+       "text": "The full guide",
+       "size": 45,
+       "tag": "h2"
+      },
+      "left": 17,
+      "right": 65,
+      "textLeft": 17,
+      "textRight": 65,
+      "fullBleed": false,
+      "footer": false,
+      "hero": false,
+      "continues": true,
+      "pinned": false
+     },
+     {
+      "sel": "section.section",
+      "tag": "section",
+      "top": 4233,
+      "height": 1903,
+      "words": 11,
+      "media": 3,
+      "middle": 0,
+      "heading": {
+       "text": "Settled and healed",
+       "size": 45,
+       "tag": "h2"
+      },
+      "left": 17,
+      "right": 17,
+      "textLeft": 17,
+      "textRight": 346,
+      "fullBleed": false,
+      "footer": false,
+      "hero": false,
+      "continues": true,
+      "pinned": false
+     },
+     {
+      "sel": "section#book.section",
+      "tag": "section",
+      "top": 6136,
+      "height": 1111,
+      "words": 53,
+      "media": 0,
+      "middle": 0,
+      "heading": {
+       "text": "Book a consultation",
+       "size": 45,
+       "tag": "h2"
+      },
+      "left": 56,
+      "right": 56,
+      "textLeft": 56,
+      "textRight": 284,
+      "fullBleed": false,
+      "footer": false,
+      "hero": false,
+      "continues": true,
+      "pinned": false
+     },
+     {
+      "sel": "footer.foot.on-dark",
+      "tag": "footer",
+      "top": 7247,
+      "height": 1010,
+      "words": 62,
+      "media": 0,
+      "middle": 6,
+      "heading": {
+       "text": "Treatments",
+       "size": 18,
+       "tag": "h2"
+      },
+      "left": 17,
+      "right": 52,
+      "textLeft": 17,
+      "textRight": 52,
+      "fullBleed": false,
+      "footer": true,
+      "hero": false,
+      "continues": false,
+      "pinned": false
+     }
+    ],
+    "gaps": [],
+    "h1s": [
+     {
+      "text": "Your aftercare guide",
+      "size": 45,
+      "top": 111,
+      "firstScreen": true
+     }
+    ],
+    "edgeText": [],
+    "edges": [
+     {
+      "x": 17,
+      "n": 7
+     },
+     {
+      "x": 34,
+      "n": 4
+     },
+     {
+      "x": 56,
+      "n": 2
+     },
+     {
+      "x": 390,
+      "n": 1
+     }
+    ],
+    "leftBlocks": 14,
+    "bodySize": 18,
+    "stage": false,
+    "explains": true,
+    "slivers": [],
+    "voidShare": 0,
+    "voidBox": null
+   },
+   "app": null,
+   "consoleErrors": []
+  },
+  {
+   "width": 390,
+   "height": 844,
+   "load": "load",
+   "screens": 9,
+   "filled": [
+    0.83,
+    0.75,
+    0.86,
+    0.97,
+    0.79,
+    0.5,
+    0.59,
+    0.81,
+    0.97
+   ],
+   "motion": {
+    "elements": 24,
+    "css": 8,
+    "transitions": 16,
+    "scripted": 0,
+    "videos": 0,
+    "playingVideos": 0
+   },
+   "metrics": {
+    "viewport": {
+     "w": 390,
+     "h": 844
+    },
+    "page": {
+     "height": 7176,
+     "screens": 8.5,
+     "words": 424,
+     "img": 6,
+     "video": 0,
+     "canvas": 0,
+     "svg": 1,
+     "sections": 5,
+     "horizontalOverflow": 0,
+     "overflowCulprits": [],
+     "uiFragments": 0,
+     "uiAbuse": false,
+     "realPictures": 6,
+     "videoCount": 0,
+     "uiPictures": 0,
+     "pictureSamples": [
+      "image?url=%2Fimages%2Fsub%2Fac-work-3.jpg&w=640&",
+      "image?url=%2Fimages%2Fsub%2Feb-technique.jpg&w=2",
+      "image?url=%2Fimages%2Fsub%2Fac-section.png&w=384",
+      "image?url=%2Fimages%2Fsub%2Fac-work-1.jpg&w=640&",
+      "image?url=%2Fimages%2Fsub%2Fac-work-2.jpg&w=640&",
+      "image?url=%2Fimages%2Fsub%2Fel-technique.jpg&w=6"
+     ],
+     "blendText": 0,
+     "sideScrollers": 0,
+     "brokenImages": [],
+     "emoji": [],
+     "videosNoPoster": 0
+    },
+    "hero": {
+     "text": "Your aftercare guide",
+     "words": 3,
+     "chars": 20,
+     "lines": 2,
+     "size": 33.3,
+     "vw": 8.5,
+     "font": "chillax",
+     "weight": 600,
+     "tracking": -0.03,
+     "leading": 1,
+     "upper": false,
+     "italic": false,
+     "mono": false,
+     "align": "left",
+     "position": "center",
+     "widthRatio": 0.82,
+     "top": 100,
+     "tag": "h1",
+     "kind": "heading"
+    },
+    "h1": {
+     "text": "Your aftercare guide",
+     "words": 3,
+     "lines": 2,
+     "size": 33.3,
+     "font": "chillax"
+    },
+    "headings": [
+     {
+      "text": "Your aftercare guide",
+      "words": 3,
+      "chars": 20,
+      "lines": 2,
+      "size": 33.3,
+      "vw": 8.5,
+      "font": "chillax",
+      "weight": 600,
+      "tracking": -0.03,
+      "leading": 1,
+      "upper": false,
+      "italic": false,
+      "mono": false,
+      "align": "left",
+      "position": "center",
+      "widthRatio": 0.82,
+      "top": 100,
+      "tag": "h1",
+      "kind": "heading"
+     },
+     {
+      "text": "Your visit, day by day",
+      "words": 5,
+      "chars": 22,
+      "lines": 1,
+      "size": 33.3,
+      "vw": 8.5,
+      "font": "chillax",
+      "weight": 600,
+      "tracking": -0.03,
+      "leading": 1,
+      "upper": false,
+      "italic": false,
+      "mono": false,
+      "align": "left",
+      "position": "center",
+      "widthRatio": 0.92,
+      "top": 846,
+      "tag": "h2",
+      "kind": "heading"
+     },
+     {
+      "text": "The full guide",
+      "words": 3,
+      "chars": 14,
+      "lines": 1,
+      "size": 33.3,
+      "vw": 8.5,
+      "font": "chillax",
+      "weight": 600,
+      "tracking": -0.03,
+      "leading": 1,
+      "upper": false,
+      "italic": false,
+      "mono": false,
+      "align": "left",
+      "position": "center",
+      "widthRatio": 0.92,
+      "top": 2337,
+      "tag": "h2",
+      "kind": "heading"
+     },
+     {
+      "text": "Settled and healed",
+      "words": 3,
+      "chars": 18,
+      "lines": 1,
+      "size": 33.3,
+      "vw": 8.5,
+      "font": "chillax",
+      "weight": 600,
+      "tracking": -0.03,
+      "leading": 1,
+      "upper": false,
+      "italic": false,
+      "mono": false,
+      "align": "left",
+      "position": "center",
+      "widthRatio": 0.92,
+      "top": 4063,
+      "tag": "h2",
+      "kind": "heading"
+     },
+     {
+      "text": "Book a consultation",
+      "words": 3,
+      "chars": 19,
+      "lines": 2,
+      "size": 33.3,
+      "vw": 8.5,
+      "font": "chillax",
+      "weight": 600,
+      "tracking": -0.03,
+      "leading": 1,
+      "upper": false,
+      "italic": false,
+      "mono": false,
+      "align": "left",
+      "position": "center",
+      "widthRatio": 0.75,
+      "top": 5171,
+      "tag": "h2",
+      "kind": "heading"
+     },
+     {
+      "text": "O N P O I N T",
+      "words": 7,
+      "chars": 13,
+      "lines": 1,
+      "size": 36,
+      "vw": 9.2,
+      "font": "chillax",
+      "weight": 600,
+      "tracking": -0.04,
+      "leading": 0.78,
+      "upper": false,
+      "italic": false,
+      "mono": false,
+      "align": "left",
+      "position": "center",
+      "widthRatio": 0.92,
+      "top": 6226,
+      "tag": "div",
+      "kind": "heading"
+     }
+    ],
+    "headingSummary": {
+     "count": 6,
+     "maxLines": 2,
+     "over2Lines": 0,
+     "statements": 0,
+     "centered": 0,
+     "medianWords": 3,
+     "mixedFontHeadings": 0
+    },
+    "type": {
+     "families": [
+      {
+       "family": "chillax",
+       "share": 1,
+       "mono": false
+      }
+     ],
+     "familyCount": 1,
+     "sizes": [
+      13,
+      17,
+      20,
+      33,
+      36
+     ],
+     "sizeCount": 5,
+     "notLoaded": [],
+     "body": {
+      "font": "chillax",
+      "size": 17,
+      "leading": 1.5,
+      "weight": 400,
+      "tracking": 0,
+      "contrast": 8.4
+     },
+     "measureChars": 35,
+     "max": {
+      "size": 36,
+      "vw": 9.2,
+      "font": "chillax",
+      "text": "O"
+     },
+     "monoShare": 0,
+     "monoProseShare": 0,
+     "monoFamilies": [],
+     "monoSamples": [],
+     "microLabels": 0,
+     "microLabelShare": 0,
+     "microSamples": [],
+     "upperShare": 0,
+     "centerShare": 0.01,
+     "smallText": 0
+    },
+    "eyebrows": [],
+    "numbered": [],
+    "color": {
+     "bodyBg": "#f7f9f8",
+     "bodyBgHsl": {
+      "h": 150,
+      "s": 0.14,
+      "l": 0.97
+     },
+     "dark": false,
+     "sectionBgs": [
+      {
+       "color": "#ebf0ee",
+       "top": 72,
+       "hsl": {
+        "h": 156,
+        "s": 0.14,
+        "l": 0.93
+       }
+      },
+      {
+       "color": "#06525c",
+       "top": 498,
+       "hsl": {
+        "h": 187,
+        "s": 0.88,
+        "l": 0.19
+       }
+      },
+      {
+       "color": "#bcd3d5",
+       "top": 2509,
+       "hsl": {
+        "h": 185,
+        "s": 0.23,
+        "l": 0.79
+       }
+      },
+      {
+       "color": "#d3e2e3",
+       "top": 5139,
+       "hsl": {
+        "h": 184,
+        "s": 0.22,
+        "l": 0.86
+       }
+      }
+     ],
+     "textColors": [
+      {
+       "color": "#06525c",
+       "share": 0.59
+      },
+      {
+       "color": "#f7f9f8",
+       "share": 0.37
+      },
+      {
+       "color": "#2f737d",
+       "share": 0.04
+      }
+     ],
+     "button": {
+      "bg": "#f7f9f8",
+      "hsl": {
+       "h": 150,
+       "s": 0.14,
+       "l": 0.97
+      },
+      "fg": "#06525c"
+     },
+     "lowContrast": []
+    },
+    "buttons": {
+     "count": 4,
+     "inHero": 2,
+     "radius": 0,
+     "height": 48,
+     "withShadow": 0,
+     "withGradient": 0,
+     "mono": 0,
+     "upper": 0,
+     "heroLabels": [
+      "Book a consultation"
+     ]
+    },
+    "surfaces": {
+     "shadowStatic": 0,
+     "shadowOverlay": 0,
+     "shadowSamples": [],
+     "gradients": 0,
+     "scrims": 0,
+     "gradientSamples": [],
+     "gradientText": 0,
+     "hairlines": 0,
+     "hairlineSamples": [],
+     "outlinedBoxes": 0,
+     "dashed": 0,
+     "blurred": 0,
+     "roundedBoxes": 0,
+     "boxRadius": 0,
+     "squareMedia": 5,
+     "roundedMedia": 0,
+     "mediaRadius": 0,
+     "textShadow": 0,
+     "cardRows": []
+    },
+    "heroMedia": [
+     {
+      "type": "img",
+      "ratio": 0.25
+     }
+    ],
+    "nav": {
+     "links": 2,
+     "fixed": true,
+     "height": 72,
+     "floatingPill": false,
+     "blur": false
+    },
+    "fontsLoaded": [
+     "chillax"
+    ]
+   },
+   "layout": {
+    "viewport": {
+     "w": 390,
+     "h": 844
+    },
+    "pageH": 7176,
+    "margins": {
+     "left": 16,
+     "right": 16
+    },
+    "sections": [
+     {
+      "sel": "section.phero",
+      "tag": "section",
+      "top": 72,
+      "height": 702,
+      "words": 32,
+      "media": 1,
+      "middle": 0,
+      "heading": {
+       "text": "Your aftercare",
+       "size": 33,
+       "tag": "h1"
+      },
+      "left": 24,
+      "right": 24,
+      "textLeft": 36,
+      "textRight": 41,
+      "fullBleed": false,
+      "footer": false,
+      "hero": true,
+      "continues": true,
+      "pinned": false
+     },
+     {
+      "sel": "section.section",
+      "tag": "section",
+      "top": 774,
+      "height": 1491,
+      "words": 98,
+      "media": 1,
+      "middle": 0,
+      "heading": {
+       "text": "Your visit, day by day",
+       "size": 33,
+       "tag": "h2"
+      },
+      "left": 16,
+      "right": 16,
+      "textLeft": 16,
+      "textRight": 21,
+      "fullBleed": false,
+      "footer": false,
+      "hero": false,
+      "continues": true,
+      "pinned": false
+     },
+     {
+      "sel": "section.section.split--field",
+      "tag": "section",
+      "top": 2265,
+      "height": 1726,
+      "words": 141,
+      "media": 1,
+      "middle": 0,
+      "heading": {
+       "text": "The full guide",
+       "size": 33,
+       "tag": "h2"
+      },
+      "left": 16,
+      "right": 16,
+      "textLeft": 16,
+      "textRight": 17,
+      "fullBleed": false,
+      "footer": false,
+      "hero": false,
+      "continues": true,
+      "pinned": false
+     },
+     {
+      "sel": "section.section",
+      "tag": "section",
+      "top": 3991,
+      "height": 1077,
+      "words": 11,
+      "media": 3,
+      "middle": 0,
+      "heading": {
+       "text": "Settled and healed",
+       "size": 33,
+       "tag": "h2"
+      },
+      "left": 16,
+      "right": 16,
+      "textLeft": 16,
+      "textRight": 77,
+      "fullBleed": false,
+      "footer": false,
+      "hero": false,
+      "continues": true,
+      "pinned": false
+     },
+     {
+      "sel": "section#book.section",
+      "tag": "section",
+      "top": 5067,
+      "height": 1111,
+      "words": 53,
+      "media": 0,
+      "middle": 0,
+      "heading": {
+       "text": "Book a consultation",
+       "size": 33,
+       "tag": "h2"
+      },
+      "left": 48,
+      "right": 48,
+      "textLeft": 48,
+      "textRight": 52,
+      "fullBleed": false,
+      "footer": false,
+      "hero": false,
+      "continues": true,
+      "pinned": false
+     },
+     {
+      "sel": "footer.foot.on-dark",
+      "tag": "footer",
+      "top": 6178,
+      "height": 998,
+      "words": 62,
+      "media": 0,
+      "middle": 0,
+      "heading": {
+       "text": "Treatments",
+       "size": 17,
+       "tag": "h2"
+      },
+      "left": 16,
+      "right": 46,
+      "textLeft": 16,
+      "textRight": 46,
+      "fullBleed": false,
+      "footer": true,
+      "hero": false,
+      "continues": false,
+      "pinned": false
+     }
+    ],
+    "gaps": [],
+    "h1s": [
+     {
+      "text": "Your aftercare guide",
+      "size": 33,
+      "top": 100,
+      "firstScreen": true
+     }
+    ],
+    "edgeText": [],
+    "edges": [
+     {
+      "x": 16,
+      "n": 8
+     },
+     {
+      "x": 32,
+      "n": 4
+     },
+     {
+      "x": 48,
+      "n": 2
+     }
+    ],
+    "leftBlocks": 14,
+    "bodySize": 17,
+    "stage": false,
+    "explains": true,
+    "slivers": [],
+    "voidShare": 0,
+    "voidBox": null
+   },
+   "app": null,
+   "consoleErrors": []
+  }
+ ],
+ "findings": [
+  {
+   "level": "WARN",
+   "id": "no-footage",
+   "width": 1440,
+   "message": "No video anywhere on the page.",
+   "fix": "Look for one honest clip with scripts/assets.mjs --video (the place, the material, the process) and use it as a muted loop with a poster frame. Defend its absence only if no clip fits the subject."
+  }
+ ],
+ "images": [
+  {
+   "viewport": "desktop",
+   "width": 1440,
+   "fold": "C:\\Users\\KingTheOne\\Desktop\\Projects\\on-point-cosmetic-tattoo\\.taste-skill\\after\\after-care\\desktop-fold.jpg",
+   "pages": [
+    "C:\\Users\\KingTheOne\\Desktop\\Projects\\on-point-cosmetic-tattoo\\.taste-skill\\after\\after-care\\desktop-page-01.jpg",
+    "C:\\Users\\KingTheOne\\Desktop\\Projects\\on-point-cosmetic-tattoo\\.taste-skill\\after\\after-care\\desktop-page-02.jpg"
+   ],
+   "film": []
+  },
+  {
+   "viewport": "tablet",
+   "width": 768,
+   "fold": "C:\\Users\\KingTheOne\\Desktop\\Projects\\on-point-cosmetic-tattoo\\.taste-skill\\after\\after-care\\tablet-fold.jpg",
+   "pages": [
+    "C:\\Users\\KingTheOne\\Desktop\\Projects\\on-point-cosmetic-tattoo\\.taste-skill\\after\\after-care\\tablet-page-01.jpg",
+    "C:\\Users\\KingTheOne\\Desktop\\Projects\\on-point-cosmetic-tattoo\\.taste-skill\\after\\after-care\\tablet-page-02.jpg"
+   ],
+   "film": []
+  },
+  {
+   "viewport": "mobile",
+   "width": 390,
+   "fold": "C:\\Users\\KingTheOne\\Desktop\\Projects\\on-point-cosmetic-tattoo\\.taste-skill\\after\\after-care\\mobile-fold.jpg",
+   "pages": [
+    "C:\\Users\\KingTheOne\\Desktop\\Projects\\on-point-cosmetic-tattoo\\.taste-skill\\after\\after-care\\mobile-page-01.jpg",
+    "C:\\Users\\KingTheOne\\Desktop\\Projects\\on-point-cosmetic-tattoo\\.taste-skill\\after\\after-care\\mobile-page-02.jpg"
+   ],
+   "film": []
+  }
+ ]
+}

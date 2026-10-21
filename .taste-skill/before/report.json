@@ -1,0 +1,2415 @@
+{
+ "url": "http://localhost:3123/",
+ "at": "2026-10-21T03:42:57.480Z",
+ "allow": [],
+ "viewports": [
+  {
+   "width": 1440,
+   "height": 900,
+   "load": "load",
+   "screens": 6,
+   "filled": [
+    1,
+    0.54,
+    0.2,
+    0.61,
+    0.4,
+    0.99
+   ],
+   "motion": {
+    "elements": 5,
+    "css": 0,
+    "transitions": 3,
+    "scripted": 2,
+    "videos": 0,
+    "playingVideos": 0
+   },
+   "metrics": {
+    "viewport": {
+     "w": 1440,
+     "h": 900
+    },
+    "page": {
+     "height": 5309,
+     "screens": 5.9,
+     "words": 607,
+     "img": 11,
+     "video": 0,
+     "canvas": 0,
+     "svg": 70,
+     "sections": 6,
+     "horizontalOverflow": 0,
+     "overflowCulprits": [],
+     "uiFragments": 0,
+     "uiAbuse": false,
+     "realPictures": 8,
+     "videoCount": 0,
+     "uiPictures": 0,
+     "pictureSamples": [
+      "image?url=%2Fimages%2Fhero.png&w=1920&q=75",
+      "image?url=%2Fimages%2Fwelcome-face.png&w=640&q=7",
+      "image?url=%2Fimages%2Fservice-eyebrows.png&w=640",
+      "image?url=%2Fimages%2Fservice-eyeliners.png&w=64",
+      "image?url=%2Fimages%2Fservice-lips.png&w=640&q=7",
+      "image?url=%2Fimages%2Fartist-lisa.jpg&w=640&q=75",
+      "image?url=%2Fimages%2Ffacial-treatment.jpg&w=192",
+      "image?url=%2Fimages%2Ffooter-bg.png&w=1080&q=75"
+     ],
+     "blendText": 0,
+     "sideScrollers": 0,
+     "brokenImages": [],
+     "emoji": [],
+     "videosNoPoster": 0
+    },
+    "hero": {
+     "text": "COSMETIC TATTOOING ON THE SUNSHINE COAST",
+     "words": 6,
+     "chars": 40,
+     "lines": 1,
+     "size": 50,
+     "vw": 3.5,
+     "font": "Montserrat",
+     "weight": 200,
+     "tracking": 0.02,
+     "leading": 1.25,
+     "upper": true,
+     "italic": false,
+     "mono": false,
+     "align": "center",
+     "position": "center",
+     "widthRatio": 0.97,
+     "top": 796,
+     "tag": "h1",
+     "kind": "heading"
+    },
+    "h1": {
+     "text": "COSMETIC TATTOOING ON THE SUNSHINE COAST",
+     "words": 6,
+     "lines": 1,
+     "size": 50,
+     "font": "Montserrat"
+    },
+    "headings": [
+     {
+      "text": "COSMETIC TATTOOING ON THE SUNSHINE COAST",
+      "words": 6,
+      "chars": 40,
+      "lines": 1,
+      "size": 50,
+      "vw": 3.5,
+      "font": "Montserrat",
+      "weight": 200,
+      "tracking": 0.02,
+      "leading": 1.25,
+      "upper": true,
+      "italic": false,
+      "mono": false,
+      "align": "center",
+      "position": "center",
+      "widthRatio": 0.97,
+      "top": 796,
+      "tag": "h1",
+      "kind": "heading"
+     },
+     {
+      "text": "Welcome to My Cosmetic Tattoo Studio",
+      "words": 6,
+      "chars": 36,
+      "lines": 2,
+      "size": 40,
+      "vw": 2.8,
+      "font": "Montserrat",
+      "weight": 300,
+      "tracking": 0,
+      "leading": 1.25,
+      "upper": false,
+      "italic": false,
+      "mono": false,
+      "align": "left",
+      "position": "right",
+      "widthRatio": 0.44,
+      "top": 1059,
+      "tag": "h2",
+      "kind": "heading"
+     },
+     {
+      "text": "Services",
+      "words": 1,
+      "chars": 8,
+      "lines": 1,
+      "size": 40,
+      "vw": 2.8,
+      "font": "Montserrat",
+      "weight": 300,
+      "tracking": 0,
+      "leading": 1.5,
+      "upper": false,
+      "italic": false,
+      "mono": false,
+      "align": "left",
+      "position": "left",
+      "widthRatio": 0.11,
+      "top": 1913,
+      "tag": "h2",
+      "kind": "heading"
+     },
+     {
+      "text": "Get in Touch",
+      "words": 3,
+      "chars": 12,
+      "lines": 1,
+      "size": 56,
+      "vw": 3.9,
+      "font": "Montserrat",
+      "weight": 300,
+      "tracking": 0,
+      "leading": 1.5,
+      "upper": false,
+      "italic": false,
+      "mono": false,
+      "align": "center",
+      "position": "center",
+      "widthRatio": 0.82,
+      "top": 2557,
+      "tag": "h2",
+      "kind": "heading"
+     },
+     {
+      "text": "Meet Your Artist",
+      "words": 3,
+      "chars": 16,
+      "lines": 1,
+      "size": 40,
+      "vw": 2.8,
+      "font": "Montserrat",
+      "weight": 300,
+      "tracking": 0,
+      "leading": 1.5,
+      "upper": false,
+      "italic": false,
+      "mono": false,
+      "align": "left",
+      "position": "right",
+      "widthRatio": 0.36,
+      "top": 3216,
+      "tag": "h2",
+      "kind": "heading"
+     },
+     {
+      "text": "Testimonials",
+      "words": 1,
+      "chars": 12,
+      "lines": 1,
+      "size": 40,
+      "vw": 2.8,
+      "font": "Montserrat",
+      "weight": 300,
+      "tracking": 0,
+      "leading": 1.5,
+      "upper": false,
+      "italic": false,
+      "mono": false,
+      "align": "center",
+      "position": "center",
+      "widthRatio": 0.76,
+      "top": 3917,
+      "tag": "h2",
+      "kind": "heading"
+     }
+    ],
+    "headingSummary": {
+     "count": 6,
+     "maxLines": 2,
+     "over2Lines": 0,
+     "statements": 0,
+     "centered": 3,
+     "medianWords": 3,
+     "mixedFontHeadings": 0
+    },
+    "type": {
+     "families": [
+      {
+       "family": "Source Sans 3",
+       "share": 0.92,
+       "mono": false
+      },
+      {
+       "family": "Montserrat",
+       "share": 0.05,
+       "mono": false
+      },
+      {
+       "family": "Josefin Sans",
+       "share": 0.03,
+       "mono": false
+      }
+     ],
+     "familyCount": 3,
+     "sizes": [
+      11,
+      12,
+      13,
+      14,
+      15,
+      16,
+      18,
+      22,
+      25,
+      40,
+      50,
+      56
+     ],
+     "sizeCount": 12,
+     "notLoaded": [],
+     "body": {
+      "font": "Source Sans 3",
+      "size": 14,
+      "leading": 1.6,
+      "weight": 400,
+      "tracking": 0,
+      "contrast": 7.5
+     },
+     "measureChars": 69,
+     "max": {
+      "size": 56,
+      "vw": 3.9,
+      "font": "Montserrat",
+      "text": "Get in Touch"
+     },
+     "monoShare": 0,
+     "monoProseShare": 0,
+     "monoFamilies": [],
+     "monoSamples": [],
+     "microLabels": 3,
+     "microLabelShare": 0.008,
+     "microSamples": [
+      "Site Links",
+      "Contact",
+      "Trading Hours"
+     ],
+     "upperShare": 0.04,
+     "centerShare": 0.15,
+     "smallText": 7
+    },
+    "eyebrows": [],
+    "numbered": [],
+    "color": {
+     "bodyBg": "#ffffff",
+     "bodyBgHsl": {
+      "h": 0,
+      "s": 0,
+      "l": 1
+     },
+     "dark": false,
+     "sectionBgs": [
+      {
+       "color": "#f7f3ea",
+       "top": 136,
+       "hsl": {
+        "h": 42,
+        "s": 0.45,
+        "l": 0.94
+       }
+      },
+      {
+       "color": "#ffffff",
+       "top": 979,
+       "hsl": {
+        "h": 0,
+        "s": 0,
+        "l": 1
+       }
+      }
+     ],
+     "textColors": [
+      {
+       "color": "#555555",
+       "share": 0.31
+      },
+      {
+       "color": "#444444",
+       "share": 0.28
+      },
+      {
+       "color": "#303030",
+       "share": 0.19
+      },
+      {
+       "color": "#ffffff",
+       "share": 0.11
+      },
+      {
+       "color": "#c09569",
+       "share": 0.05
+      }
+     ],
+     "button": {
+      "bg": "#f7f3ea",
+      "hsl": {
+       "h": 42,
+       "s": 0.45,
+       "l": 0.94
+      },
+      "fg": "#303030"
+     },
+     "lowContrast": [
+      {
+       "text": "Cosmetic Tattooing on the Sunshine Coast",
+       "ratio": 2.4,
+       "need": 3,
+       "size": 50,
+       "fg": "#c09569",
+       "bg": "#f7f3ea"
+      },
+      {
+       "text": "Meet Your Artist",
+       "ratio": 2.4,
+       "need": 3,
+       "size": 40,
+       "fg": "#c09569",
+       "bg": "#f7f3ea"
+      },
+      {
+       "text": "Welcome to My Cosmetic Tattoo Studio",
+       "ratio": 2.7,
+       "need": 3,
+       "size": 40,
+       "fg": "#c09569",
+       "bg": "#ffffff"
+      },
+      {
+       "text": "Services",
+       "ratio": 2.7,
+       "need": 3,
+       "size": 40,
+       "fg": "#c09569",
+       "bg": "#ffffff"
+      },
+      {
+       "text": "Get in Touch",
+       "ratio": 2.7,
+       "need": 3,
+       "size": 56,
+       "fg": "#c09569",
+       "bg": "#ffffff"
+      },
+      {
+       "text": "Testimonials",
+       "ratio": 2.7,
+       "need": 3,
+       "size": 40,
+       "fg": "#c09569",
+       "bg": "#ffffff"
+      }
+     ]
+    },
+    "buttons": {
+     "count": 6,
+     "inHero": 2,
+     "radius": 15,
+     "height": 53,
+     "withShadow": 0,
+     "withGradient": 0,
+     "mono": 0,
+     "upper": 0,
+     "heroLabels": [
+      "Book Now",
+      "0414 502 807"
+     ]
+    },
+    "surfaces": {
+     "shadowStatic": 7,
+     "shadowOverlay": 0,
+     "shadowSamples": [
+      "div.bg-white.border → rgba(0, 0, 0, 0) 0px 0px 0px 0px, rgba(0, 0, 0, 0) 0px 0px 0px 0px, rgba(0, 0, 0",
+      "div.bg-white.border → rgba(0, 0, 0, 0) 0px 0px 0px 0px, rgba(0, 0, 0, 0) 0px 0px 0px 0px, rgba(0, 0, 0",
+      "div.bg-white.border → rgba(0, 0, 0, 0) 0px 0px 0px 0px, rgba(0, 0, 0, 0) 0px 0px 0px 0px, rgba(0, 0, 0",
+      "div.bg-white.border → rgba(0, 0, 0, 0) 0px 0px 0px 0px, rgba(0, 0, 0, 0) 0px 0px 0px 0px, rgba(0, 0, 0"
+     ],
+     "gradients": 3,
+     "scrims": 0,
+     "gradientSamples": [
+      "div.absolute.inset-0 → linear-gradient(rgba(176, 161, 141, 0.55), rgba(48, 48, 48, 0.65))",
+      "div.absolute.inset-0 → linear-gradient(rgba(176, 161, 141, 0.55), rgba(48, 48, 48, 0.65))",
+      "div.absolute.inset-0 → linear-gradient(rgba(176, 161, 141, 0.55), rgba(48, 48, 48, 0.65))"
+     ],
+     "gradientText": 0,
+     "hairlines": 1,
+     "hairlineSamples": [
+      "div.flex.h-[92px] 1440px"
+     ],
+     "outlinedBoxes": 7,
+     "dashed": 0,
+     "blurred": 0,
+     "roundedBoxes": 10,
+     "boxRadius": 10,
+     "squareMedia": 3,
+     "roundedMedia": 5,
+     "mediaRadius": 8,
+     "textShadow": 0,
+     "cardRows": []
+    },
+    "heroMedia": [
+     {
+      "type": "img",
+      "ratio": 0.69
+     }
+    ],
+    "nav": {
+     "links": 13,
+     "fixed": true,
+     "height": 136,
+     "floatingPill": false,
+     "blur": false
+    },
+    "fontsLoaded": [
+     "montserrat",
+     "source sans 3",
+     "josefin sans"
+    ]
+   },
+   "layout": {
+    "viewport": {
+     "w": 1440,
+     "h": 900
+    },
+    "pageH": 5309,
+    "margins": {
+     "left": 120,
+     "right": 10
+    },
+    "sections": [
+     {
+      "sel": "section.w-full.bg-cream",
+      "tag": "section",
+      "top": 136,
+      "height": 843,
+      "words": 6,
+      "media": 1,
+      "middle": 0,
+      "heading": null,
+      "left": 79,
+      "right": 79,
+      "textLeft": 79,
+      "textRight": 79,
+      "fullBleed": true,
+      "footer": false,
+      "hero": true,
+      "continues": true,
+      "pinned": false
+     },
+     {
+      "sel": "section#about.bg-white.py-20",
+      "tag": "section",
+      "top": 979,
+      "height": 855,
+      "words": 161,
+      "media": 1,
+      "middle": 56,
+      "heading": {
+       "text": "Welcome to My Cosmetic Tattoo Studio",
+       "size": 40,
+       "tag": "h2"
+      },
+      "left": 120,
+      "right": 137,
+      "textLeft": 691,
+      "textRight": 137,
+      "fullBleed": false,
+      "footer": false,
+      "hero": false,
+      "continues": true,
+      "pinned": false
+     },
+     {
+      "sel": "section#services.bg-white.py-20",
+      "tag": "section",
+      "top": 1833,
+      "height": 644,
+      "words": 76,
+      "media": 3,
+      "middle": 24,
+      "heading": {
+       "text": "Services",
+       "size": 40,
+       "tag": "h2"
+      },
+      "left": 120,
+      "right": 120,
+      "textLeft": 120,
+      "textRight": 148,
+      "fullBleed": false,
+      "footer": false,
+      "hero": false,
+      "continues": true,
+      "pinned": false
+     },
+     {
+      "sel": "section#contact.bg-white.py-20",
+      "tag": "section",
+      "top": 2477,
+      "height": 619,
+      "words": 9,
+      "media": 0,
+      "middle": 0,
+      "heading": {
+       "text": "Get in Touch",
+       "size": 56,
+       "tag": "h2"
+      },
+      "left": 160,
+      "right": 160,
+      "textLeft": 160,
+      "textRight": 476,
+      "fullBleed": false,
+      "footer": false,
+      "hero": false,
+      "continues": true,
+      "pinned": false
+     },
+     {
+      "sel": "section#artist.bg-white.py-20",
+      "tag": "section",
+      "top": 3096,
+      "height": 751,
+      "words": 148,
+      "media": 1,
+      "middle": 88,
+      "heading": {
+       "text": "Meet Your Artist",
+       "size": 40,
+       "tag": "h2"
+      },
+      "left": 120,
+      "right": 174,
+      "textLeft": 761,
+      "textRight": 174,
+      "fullBleed": false,
+      "footer": false,
+      "hero": false,
+      "continues": true,
+      "pinned": false
+     },
+     {
+      "sel": "section#testimonials.bg-white.py-[70px]",
+      "tag": "section",
+      "top": 3847,
+      "height": 551,
+      "words": 187,
+      "media": 0,
+      "middle": 290,
+      "heading": {
+       "text": "Testimonials",
+       "size": 40,
+       "tag": "h2"
+      },
+      "left": 0,
+      "right": 0,
+      "textLeft": -168,
+      "textRight": -522,
+      "fullBleed": false,
+      "footer": false,
+      "hero": false,
+      "continues": true,
+      "pinned": false
+     },
+     {
+      "sel": "footer#footer",
+      "tag": "footer",
+      "top": 4398,
+      "height": 911,
+      "words": 68,
+      "media": 2,
+      "middle": 296,
+      "heading": {
+       "text": "Site Links",
+       "size": 14,
+       "tag": "h4"
+      },
+      "left": 170,
+      "right": 0,
+      "textLeft": 170,
+      "textRight": 250,
+      "fullBleed": true,
+      "footer": true,
+      "hero": false,
+      "continues": false,
+      "pinned": false
+     }
+    ],
+    "gaps": [],
+    "h1s": [
+     {
+      "text": "COSMETIC TATTOOING ON THE SUNSHINE COAST",
+      "size": 50,
+      "top": 796,
+      "firstScreen": true
+     }
+    ],
+    "edgeText": [
+     {
+      "text": "Kylie Roberts",
+      "side": "right",
+      "px": 10
+     },
+     {
+      "text": "6 months ago",
+      "side": "right",
+      "px": 9
+     }
+    ],
+    "edges": [
+     {
+      "x": 751,
+      "n": 12
+     },
+     {
+      "x": 691,
+      "n": 3
+     },
+     {
+      "x": 120,
+      "n": 1
+     },
+     {
+      "x": 199,
+      "n": 1
+     },
+     {
+      "x": 566,
+      "n": 1
+     },
+     {
+      "x": 932,
+      "n": 1
+     },
+     {
+      "x": 1299,
+      "n": 1
+     },
+     {
+      "x": 1666,
+      "n": 1
+     }
+    ],
+    "leftBlocks": 21,
+    "bodySize": 14,
+    "stage": false,
+    "explains": false,
+    "slivers": [],
+    "voidShare": 0.01,
+    "voidBox": {
+     "x": 0,
+     "y": 780,
+     "w": 60,
+     "h": 120
+    }
+   },
+   "app": null,
+   "consoleErrors": []
+  },
+  {
+   "width": 768,
+   "height": 1024,
+   "load": "load",
+   "screens": 7,
+   "filled": [
+    0.89,
+    0.52,
+    0.18,
+    0.47,
+    0.92,
+    0.58,
+    0.83
+   ],
+   "motion": {
+    "elements": 5,
+    "css": 0,
+    "transitions": 3,
+    "scripted": 2,
+    "videos": 0,
+    "playingVideos": 0
+   },
+   "metrics": {
+    "viewport": {
+     "w": 768,
+     "h": 1024
+    },
+    "page": {
+     "height": 6506,
+     "screens": 6.4,
+     "words": 617,
+     "img": 11,
+     "video": 0,
+     "canvas": 0,
+     "svg": 70,
+     "sections": 6,
+     "horizontalOverflow": 0,
+     "overflowCulprits": [],
+     "uiFragments": 0,
+     "uiAbuse": false,
+     "realPictures": 8,
+     "videoCount": 0,
+     "uiPictures": 0,
+     "pictureSamples": [
+      "image?url=%2Fimages%2Fhero.png&w=828&q=75",
+      "image?url=%2Fimages%2Fwelcome-face.png&w=640&q=7",
+      "image?url=%2Fimages%2Fservice-eyebrows.png&w=384",
+      "image?url=%2Fimages%2Fservice-eyeliners.png&w=38",
+      "image?url=%2Fimages%2Fservice-lips.png&w=384&q=7",
+      "image?url=%2Fimages%2Fartist-lisa.jpg&w=640&q=75",
+      "image?url=%2Fimages%2Ffacial-treatment.jpg&w=828",
+      "image?url=%2Fimages%2Ffooter-bg.png&w=1080&q=75"
+     ],
+     "blendText": 0,
+     "sideScrollers": 0,
+     "brokenImages": [],
+     "emoji": [],
+     "videosNoPoster": 0
+    },
+    "hero": {
+     "text": "COSMETIC TATTOOING ON THE SUNSHINE COAST",
+     "words": 6,
+     "chars": 40,
+     "lines": 2,
+     "size": 36,
+     "vw": 4.7,
+     "font": "Montserrat",
+     "weight": 200,
+     "tracking": 0.028,
+     "leading": 1.25,
+     "upper": true,
+     "italic": false,
+     "mono": false,
+     "align": "center",
+     "position": "center",
+     "widthRatio": 0.95,
+     "top": 616,
+     "tag": "h1",
+     "kind": "heading"
+    },
+    "h1": {
+     "text": "COSMETIC TATTOOING ON THE SUNSHINE COAST",
+     "words": 6,
+     "lines": 2,
+     "size": 36,
+     "font": "Montserrat"
+    },
+    "headings": [
+     {
+      "text": "COSMETIC TATTOOING ON THE SUNSHINE COAST",
+      "words": 6,
+      "chars": 40,
+      "lines": 2,
+      "size": 36,
+      "vw": 4.7,
+      "font": "Montserrat",
+      "weight": 200,
+      "tracking": 0.028,
+      "leading": 1.25,
+      "upper": true,
+      "italic": false,
+      "mono": false,
+      "align": "center",
+      "position": "center",
+      "widthRatio": 0.95,
+      "top": 616,
+      "tag": "h1",
+      "kind": "heading"
+     },
+     {
+      "text": "Welcome to My Cosmetic Tattoo Studio",
+      "words": 6,
+      "chars": 36,
+      "lines": 1,
+      "size": 32,
+      "vw": 4.2,
+      "font": "Montserrat",
+      "weight": 300,
+      "tracking": 0,
+      "leading": 1.25,
+      "upper": false,
+      "italic": false,
+      "mono": false,
+      "align": "left",
+      "position": "center",
+      "widthRatio": 0.94,
+      "top": 1474,
+      "tag": "h2",
+      "kind": "heading"
+     },
+     {
+      "text": "Services",
+      "words": 1,
+      "chars": 8,
+      "lines": 1,
+      "size": 40,
+      "vw": 5.2,
+      "font": "Montserrat",
+      "weight": 300,
+      "tracking": 0,
+      "leading": 1.5,
+      "upper": false,
+      "italic": false,
+      "mono": false,
+      "align": "left",
+      "position": "left",
+      "widthRatio": 0.21,
+      "top": 2242,
+      "tag": "h2",
+      "kind": "heading"
+     },
+     {
+      "text": "Get in Touch",
+      "words": 3,
+      "chars": 12,
+      "lines": 1,
+      "size": 42,
+      "vw": 5.5,
+      "font": "Montserrat",
+      "weight": 300,
+      "tracking": 0,
+      "leading": 1.5,
+      "upper": false,
+      "italic": false,
+      "mono": false,
+      "align": "center",
+      "position": "center",
+      "widthRatio": 0.94,
+      "top": 3222,
+      "tag": "h2",
+      "kind": "heading"
+     },
+     {
+      "text": "Meet Your Artist",
+      "words": 3,
+      "chars": 16,
+      "lines": 1,
+      "size": 40,
+      "vw": 5.2,
+      "font": "Montserrat",
+      "weight": 300,
+      "tracking": 0,
+      "leading": 1.5,
+      "upper": false,
+      "italic": false,
+      "mono": false,
+      "align": "left",
+      "position": "center",
+      "widthRatio": 0.85,
+      "top": 4638,
+      "tag": "h2",
+      "kind": "heading"
+     },
+     {
+      "text": "Testimonials",
+      "words": 1,
+      "chars": 12,
+      "lines": 1,
+      "size": 40,
+      "vw": 5.2,
+      "font": "Montserrat",
+      "weight": 300,
+      "tracking": 0,
+      "leading": 1.5,
+      "upper": false,
+      "italic": false,
+      "mono": false,
+      "align": "center",
+      "position": "center",
+      "widthRatio": 0.94,
+      "top": 5254,
+      "tag": "h2",
+      "kind": "heading"
+     }
+    ],
+    "headingSummary": {
+     "count": 6,
+     "maxLines": 2,
+     "over2Lines": 0,
+     "statements": 0,
+     "centered": 3,
+     "medianWords": 3,
+     "mixedFontHeadings": 0
+    },
+    "type": {
+     "families": [
+      {
+       "family": "Source Sans 3",
+       "share": 0.9,
+       "mono": false
+      },
+      {
+       "family": "Montserrat",
+       "share": 0.05,
+       "mono": false
+      },
+      {
+       "family": "Josefin Sans",
+       "share": 0.04,
+       "mono": false
+      }
+     ],
+     "familyCount": 3,
+     "sizes": [
+      11,
+      12,
+      13,
+      14,
+      15,
+      16,
+      18,
+      22,
+      25,
+      32,
+      36,
+      40,
+      42
+     ],
+     "sizeCount": 13,
+     "notLoaded": [],
+     "body": {
+      "font": "Source Sans 3",
+      "size": 14,
+      "leading": 1.6,
+      "weight": 400,
+      "tracking": 0,
+      "contrast": 7.5
+     },
+     "measureChars": 87,
+     "max": {
+      "size": 42,
+      "vw": 5.5,
+      "font": "Montserrat",
+      "text": "Get in Touch"
+     },
+     "monoShare": 0,
+     "monoProseShare": 0,
+     "monoFamilies": [],
+     "monoSamples": [],
+     "microLabels": 3,
+     "microLabelShare": 0.008,
+     "microSamples": [
+      "Site Links",
+      "Contact",
+      "Trading Hours"
+     ],
+     "upperShare": 0.06,
+     "centerShare": 0.16,
+     "smallText": 7
+    },
+    "eyebrows": [],
+    "numbered": [],
+    "color": {
+     "bodyBg": "#ffffff",
+     "bodyBgHsl": {
+      "h": 0,
+      "s": 0,
+      "l": 1
+     },
+     "dark": false,
+     "sectionBgs": [
+      {
+       "color": "#f7f3ea",
+       "top": 0,
+       "hsl": {
+        "h": 42,
+        "s": 0.45,
+        "l": 0.94
+       }
+      },
+      {
+       "color": "#ffffff",
+       "top": 826,
+       "hsl": {
+        "h": 0,
+        "s": 0,
+        "l": 1
+       }
+      }
+     ],
+     "textColors": [
+      {
+       "color": "#555555",
+       "share": 0.3
+      },
+      {
+       "color": "#444444",
+       "share": 0.27
+      },
+      {
+       "color": "#303030",
+       "share": 0.2
+      },
+      {
+       "color": "#ffffff",
+       "share": 0.11
+      },
+      {
+       "color": "#c09569",
+       "share": 0.05
+      }
+     ],
+     "button": {
+      "bg": "#f7f3ea",
+      "hsl": {
+       "h": 42,
+       "s": 0.45,
+       "l": 0.94
+      },
+      "fg": "#303030"
+     },
+     "lowContrast": [
+      {
+       "text": "Cosmetic Tattooing on the Sunshine Coast",
+       "ratio": 2.4,
+       "need": 3,
+       "size": 36,
+       "fg": "#c09569",
+       "bg": "#f7f3ea"
+      },
+      {
+       "text": "Meet Your Artist",
+       "ratio": 2.4,
+       "need": 3,
+       "size": 40,
+       "fg": "#c09569",
+       "bg": "#f7f3ea"
+      },
+      {
+       "text": "Welcome to My Cosmetic Tattoo Studio",
+       "ratio": 2.7,
+       "need": 3,
+       "size": 32,
+       "fg": "#c09569",
+       "bg": "#ffffff"
+      },
+      {
+       "text": "Services",
+       "ratio": 2.7,
+       "need": 3,
+       "size": 40,
+       "fg": "#c09569",
+       "bg": "#ffffff"
+      },
+      {
+       "text": "Get in Touch",
+       "ratio": 2.7,
+       "need": 3,
+       "size": 42,
+       "fg": "#c09569",
+       "bg": "#ffffff"
+      },
+      {
+       "text": "Testimonials",
+       "ratio": 2.7,
+       "need": 3,
+       "size": 40,
+       "fg": "#c09569",
+       "bg": "#ffffff"
+      }
+     ]
+    },
+    "buttons": {
+     "count": 6,
+     "inHero": 2,
+     "radius": 15,
+     "height": 53,
+     "withShadow": 0,
+     "withGradient": 0,
+     "mono": 0,
+     "upper": 0,
+     "heroLabels": [
+      "Book Now",
+      "0414 502 807"
+     ]
+    },
+    "surfaces": {
+     "shadowStatic": 7,
+     "shadowOverlay": 0,
+     "shadowSamples": [
+      "div.bg-white.border → rgba(0, 0, 0, 0) 0px 0px 0px 0px, rgba(0, 0, 0, 0) 0px 0px 0px 0px, rgba(0, 0, 0",
+      "div.bg-white.border → rgba(0, 0, 0, 0) 0px 0px 0px 0px, rgba(0, 0, 0, 0) 0px 0px 0px 0px, rgba(0, 0, 0",
+      "div.bg-white.border → rgba(0, 0, 0, 0) 0px 0px 0px 0px, rgba(0, 0, 0, 0) 0px 0px 0px 0px, rgba(0, 0, 0",
+      "div.bg-white.border → rgba(0, 0, 0, 0) 0px 0px 0px 0px, rgba(0, 0, 0, 0) 0px 0px 0px 0px, rgba(0, 0, 0"
+     ],
+     "gradients": 3,
+     "scrims": 0,
+     "gradientSamples": [
+      "div.absolute.inset-0 → linear-gradient(rgba(176, 161, 141, 0.55), rgba(48, 48, 48, 0.65))",
+      "div.absolute.inset-0 → linear-gradient(rgba(176, 161, 141, 0.55), rgba(48, 48, 48, 0.65))",
+      "div.absolute.inset-0 → linear-gradient(rgba(176, 161, 141, 0.55), rgba(48, 48, 48, 0.65))"
+     ],
+     "gradientText": 0,
+     "hairlines": 1,
+     "hairlineSamples": [
+      "div.flex.h-[92px] 768px"
+     ],
+     "outlinedBoxes": 6,
+     "dashed": 0,
+     "blurred": 0,
+     "roundedBoxes": 9,
+     "boxRadius": 10,
+     "squareMedia": 3,
+     "roundedMedia": 5,
+     "mediaRadius": 8,
+     "textShadow": 0,
+     "cardRows": []
+    },
+    "heroMedia": [
+     {
+      "type": "img",
+      "ratio": 0.43
+     }
+    ],
+    "nav": {
+     "links": 8,
+     "fixed": true,
+     "height": 136,
+     "floatingPill": false,
+     "blur": false
+    },
+    "fontsLoaded": [
+     "montserrat",
+     "source sans 3",
+     "josefin sans"
+    ]
+   },
+   "layout": {
+    "viewport": {
+     "w": 768,
+     "h": 1024
+    },
+    "pageH": 6506,
+    "margins": {
+     "left": 24,
+     "right": 24
+    },
+    "sections": [
+     {
+      "sel": "section.w-full.bg-cream",
+      "tag": "section",
+      "top": 136,
+      "height": 690,
+      "words": 6,
+      "media": 1,
+      "middle": 0,
+      "heading": {
+       "text": "Cosmetic Tattooing on the Sunshine Coast",
+       "size": 36,
+       "tag": "h1"
+      },
+      "left": 61,
+      "right": 91,
+      "textLeft": 91,
+      "textRight": 91,
+      "fullBleed": true,
+      "footer": false,
+      "hero": true,
+      "continues": true,
+      "pinned": false
+     },
+     {
+      "sel": "section#about.bg-white.py-20",
+      "tag": "section",
+      "top": 826,
+      "height": 1336,
+      "words": 161,
+      "media": 1,
+      "middle": 0,
+      "heading": null,
+      "left": 24,
+      "right": 32,
+      "textLeft": 24,
+      "textRight": 32,
+      "fullBleed": false,
+      "footer": false,
+      "hero": false,
+      "continues": true,
+      "pinned": false
+     },
+     {
+      "sel": "section#services.bg-white.py-20",
+      "tag": "section",
+      "top": 2162,
+      "height": 980,
+      "words": 76,
+      "media": 3,
+      "middle": 24,
+      "heading": {
+       "text": "Services",
+       "size": 40,
+       "tag": "h2"
+      },
+      "left": 24,
+      "right": 24,
+      "textLeft": 24,
+      "textRight": 53,
+      "fullBleed": false,
+      "footer": false,
+      "hero": false,
+      "continues": true,
+      "pinned": false
+     },
+     {
+      "sel": "section#contact.bg-white.py-20",
+      "tag": "section",
+      "top": 3142,
+      "height": 598,
+      "words": 9,
+      "media": 0,
+      "middle": 0,
+      "heading": {
+       "text": "Get in Touch",
+       "size": 42,
+       "tag": "h2"
+      },
+      "left": 24,
+      "right": 24,
+      "textLeft": 24,
+      "textRight": 207,
+      "fullBleed": false,
+      "footer": false,
+      "hero": false,
+      "continues": true,
+      "pinned": false
+     },
+     {
+      "sel": "section#artist.bg-white.py-20",
+      "tag": "section",
+      "top": 3740,
+      "height": 1445,
+      "words": 148,
+      "media": 1,
+      "middle": 0,
+      "heading": null,
+      "left": 24,
+      "right": 24,
+      "textLeft": 56,
+      "textRight": 61,
+      "fullBleed": false,
+      "footer": false,
+      "hero": false,
+      "continues": true,
+      "pinned": false
+     },
+     {
+      "sel": "section#testimonials.bg-white.py-[70px]",
+      "tag": "section",
+      "top": 5184,
+      "height": 551,
+      "words": 187,
+      "media": 0,
+      "middle": 909,
+      "heading": {
+       "text": "Testimonials",
+       "size": 40,
+       "tag": "h2"
+      },
+      "left": 0,
+      "right": 0,
+      "textLeft": -187,
+      "textRight": -1141,
+      "fullBleed": false,
+      "footer": false,
+      "hero": false,
+      "continues": true,
+      "pinned": false
+     },
+     {
+      "sel": "footer#footer",
+      "tag": "footer",
+      "top": 5735,
+      "height": 771,
+      "words": 68,
+      "media": 2,
+      "middle": 88,
+      "heading": {
+       "text": "Site Links",
+       "size": 14,
+       "tag": "h4"
+      },
+      "left": 24,
+      "right": 0,
+      "textLeft": 24,
+      "textRight": 24,
+      "fullBleed": true,
+      "footer": true,
+      "hero": false,
+      "continues": false,
+      "pinned": false
+     }
+    ],
+    "gaps": [],
+    "h1s": [
+     {
+      "text": "COSMETIC TATTOOING ON THE SUNSHINE COAST",
+      "size": 36,
+      "top": 616,
+      "firstScreen": true
+     }
+    ],
+    "edgeText": [],
+    "edges": [
+     {
+      "x": 56,
+      "n": 6
+     },
+     {
+      "x": 84,
+      "n": 6
+     },
+     {
+      "x": 24,
+      "n": 4
+     },
+     {
+      "x": 173,
+      "n": 1
+     },
+     {
+      "x": 533,
+      "n": 1
+     },
+     {
+      "x": 893,
+      "n": 1
+     },
+     {
+      "x": 1253,
+      "n": 1
+     },
+     {
+      "x": 1613,
+      "n": 1
+     }
+    ],
+    "leftBlocks": 21,
+    "bodySize": 14,
+    "stage": false,
+    "explains": false,
+    "slivers": [],
+    "voidShare": 0,
+    "voidBox": null
+   },
+   "app": null,
+   "consoleErrors": []
+  },
+  {
+   "width": 390,
+   "height": 844,
+   "load": "load",
+   "screens": 10,
+   "filled": [
+    0.87,
+    0.71,
+    0.36,
+    0.21,
+    0.38,
+    0.68,
+    0.81,
+    0.68,
+    0.97,
+    0.95
+   ],
+   "motion": {
+    "elements": 5,
+    "css": 0,
+    "transitions": 3,
+    "scripted": 2,
+    "videos": 0,
+    "playingVideos": 0
+   },
+   "metrics": {
+    "viewport": {
+     "w": 390,
+     "h": 844
+    },
+    "page": {
+     "height": 7747,
+     "screens": 9.2,
+     "words": 617,
+     "img": 11,
+     "video": 0,
+     "canvas": 0,
+     "svg": 70,
+     "sections": 6,
+     "horizontalOverflow": 0,
+     "overflowCulprits": [],
+     "uiFragments": 0,
+     "uiAbuse": false,
+     "realPictures": 8,
+     "videoCount": 0,
+     "uiPictures": 0,
+     "pictureSamples": [
+      "image?url=%2Fimages%2Fhero.png&w=640&q=75",
+      "image?url=%2Fimages%2Fwelcome-face.png&w=640&q=7",
+      "image?url=%2Fimages%2Fservice-eyebrows.png&w=640",
+      "image?url=%2Fimages%2Fservice-eyeliners.png&w=64",
+      "image?url=%2Fimages%2Fservice-lips.png&w=640&q=7",
+      "image?url=%2Fimages%2Fartist-lisa.jpg&w=640&q=75",
+      "image?url=%2Fimages%2Ffacial-treatment.jpg&w=640",
+      "image?url=%2Fimages%2Ffooter-bg.png&w=1080&q=75"
+     ],
+     "blendText": 0,
+     "sideScrollers": 0,
+     "brokenImages": [],
+     "emoji": [],
+     "videosNoPoster": 0
+    },
+    "hero": {
+     "text": "COSMETIC TATTOOING ON THE SUNSHINE COAST",
+     "words": 6,
+     "chars": 40,
+     "lines": 3,
+     "size": 26,
+     "vw": 6.7,
+     "font": "Montserrat",
+     "weight": 200,
+     "tracking": 0.038,
+     "leading": 1.25,
+     "upper": true,
+     "italic": false,
+     "mono": false,
+     "align": "center",
+     "position": "center",
+     "widthRatio": 0.9,
+     "top": 536,
+     "tag": "h1",
+     "kind": "heading"
+    },
+    "h1": {
+     "text": "COSMETIC TATTOOING ON THE SUNSHINE COAST",
+     "words": 6,
+     "lines": 3,
+     "size": 26,
+     "font": "Montserrat"
+    },
+    "headings": [
+     {
+      "text": "COSMETIC TATTOOING ON THE SUNSHINE COAST",
+      "words": 6,
+      "chars": 40,
+      "lines": 3,
+      "size": 26,
+      "vw": 6.7,
+      "font": "Montserrat",
+      "weight": 200,
+      "tracking": 0.038,
+      "leading": 1.25,
+      "upper": true,
+      "italic": false,
+      "mono": false,
+      "align": "center",
+      "position": "center",
+      "widthRatio": 0.9,
+      "top": 536,
+      "tag": "h1",
+      "kind": "heading"
+     },
+     {
+      "text": "Welcome to My Cosmetic Tattoo Studio",
+      "words": 6,
+      "chars": 36,
+      "lines": 3,
+      "size": 32,
+      "vw": 8.2,
+      "font": "Montserrat",
+      "weight": 300,
+      "tracking": 0,
+      "leading": 1.25,
+      "upper": false,
+      "italic": false,
+      "mono": false,
+      "align": "left",
+      "position": "center",
+      "widthRatio": 0.88,
+      "top": 1224,
+      "tag": "h2",
+      "kind": "heading"
+     },
+     {
+      "text": "Services",
+      "words": 1,
+      "chars": 8,
+      "lines": 1,
+      "size": 40,
+      "vw": 10.3,
+      "font": "Montserrat",
+      "weight": 300,
+      "tracking": 0,
+      "leading": 1.5,
+      "upper": false,
+      "italic": false,
+      "mono": false,
+      "align": "left",
+      "position": "left",
+      "widthRatio": 0.41,
+      "top": 2319,
+      "tag": "h2",
+      "kind": "heading"
+     },
+     {
+      "text": "Eyebrows",
+      "words": 1,
+      "chars": 8,
+      "lines": 1,
+      "size": 25,
+      "vw": 6.4,
+      "font": "Montserrat",
+      "weight": 100,
+      "tracking": 0,
+      "leading": 1.5,
+      "upper": false,
+      "italic": false,
+      "mono": false,
+      "align": "center",
+      "position": "center",
+      "widthRatio": 0.3,
+      "top": 2604,
+      "tag": "h3",
+      "kind": "heading"
+     },
+     {
+      "text": "Eye Liners",
+      "words": 2,
+      "chars": 10,
+      "lines": 1,
+      "size": 25,
+      "vw": 6.4,
+      "font": "Montserrat",
+      "weight": 100,
+      "tracking": 0,
+      "leading": 1.5,
+      "upper": false,
+      "italic": false,
+      "mono": false,
+      "align": "center",
+      "position": "center",
+      "widthRatio": 0.32,
+      "top": 2970,
+      "tag": "h3",
+      "kind": "heading"
+     },
+     {
+      "text": "Lips",
+      "words": 1,
+      "chars": 4,
+      "lines": 1,
+      "size": 25,
+      "vw": 6.4,
+      "font": "Montserrat",
+      "weight": 100,
+      "tracking": 0,
+      "leading": 1.5,
+      "upper": false,
+      "italic": false,
+      "mono": false,
+      "align": "center",
+      "position": "center",
+      "widthRatio": 0.13,
+      "top": 3325,
+      "tag": "h3",
+      "kind": "heading"
+     },
+     {
+      "text": "Get in Touch",
+      "words": 3,
+      "chars": 12,
+      "lines": 1,
+      "size": 42,
+      "vw": 10.8,
+      "font": "Montserrat",
+      "weight": 300,
+      "tracking": 0,
+      "leading": 1.5,
+      "upper": false,
+      "italic": false,
+      "mono": false,
+      "align": "center",
+      "position": "center",
+      "widthRatio": 0.88,
+      "top": 3722,
+      "tag": "h2",
+      "kind": "heading"
+     },
+     {
+      "text": "Meet Your Artist",
+      "words": 3,
+      "chars": 16,
+      "lines": 2,
+      "size": 40,
+      "vw": 10.3,
+      "font": "Montserrat",
+      "weight": 300,
+      "tracking": 0,
+      "leading": 1.5,
+      "upper": false,
+      "italic": false,
+      "mono": false,
+      "align": "left",
+      "position": "center",
+      "widthRatio": 0.71,
+      "top": 4944,
+      "tag": "h2",
+      "kind": "heading"
+     },
+     {
+      "text": "Lisa Eagles",
+      "words": 2,
+      "chars": 11,
+      "lines": 1,
+      "size": 25,
+      "vw": 6.4,
+      "font": "Montserrat",
+      "weight": 100,
+      "tracking": 0,
+      "leading": 1.5,
+      "upper": false,
+      "italic": false,
+      "mono": false,
+      "align": "left",
+      "position": "center",
+      "widthRatio": 0.71,
+      "top": 5070,
+      "tag": "h3",
+      "kind": "heading"
+     },
+     {
+      "text": "Testimonials",
+      "words": 1,
+      "chars": 12,
+      "lines": 1,
+      "size": 40,
+      "vw": 10.3,
+      "font": "Montserrat",
+      "weight": 300,
+      "tracking": 0,
+      "leading": 1.5,
+      "upper": false,
+      "italic": false,
+      "mono": false,
+      "align": "center",
+      "position": "center",
+      "widthRatio": 0.88,
+      "top": 5926,
+      "tag": "h2",
+      "kind": "heading"
+     },
+     {
+      "text": "5.0",
+      "words": 1,
+      "chars": 3,
+      "lines": 1,
+      "size": 22,
+      "vw": 5.6,
+      "font": "Source Sans 3",
+      "weight": 600,
+      "tracking": 0,
+      "leading": 1.5,
+      "upper": false,
+      "italic": false,
+      "mono": false,
+      "align": "center",
+      "position": "left",
+      "widthRatio": 0.07,
+      "top": 6032,
+      "tag": "span",
+      "kind": "heading"
+     }
+    ],
+    "headingSummary": {
+     "count": 11,
+     "maxLines": 3,
+     "over2Lines": 2,
+     "statements": 0,
+     "centered": 7,
+     "medianWords": 2,
+     "mixedFontHeadings": 0
+    },
+    "type": {
+     "families": [
+      {
+       "family": "Source Sans 3",
+       "share": 0.9,
+       "mono": false
+      },
+      {
+       "family": "Montserrat",
+       "share": 0.05,
+       "mono": false
+      },
+      {
+       "family": "Josefin Sans",
+       "share": 0.04,
+       "mono": false
+      }
+     ],
+     "familyCount": 3,
+     "sizes": [
+      11,
+      12,
+      13,
+      14,
+      15,
+      16,
+      18,
+      22,
+      25,
+      26,
+      32,
+      40,
+      42
+     ],
+     "sizeCount": 13,
+     "notLoaded": [],
+     "body": {
+      "font": "Source Sans 3",
+      "size": 14,
+      "leading": 1.6,
+      "weight": 400,
+      "tracking": 0,
+      "contrast": 7.5
+     },
+     "measureChars": 37,
+     "max": {
+      "size": 42,
+      "vw": 10.8,
+      "font": "Montserrat",
+      "text": "Get in Touch"
+     },
+     "monoShare": 0,
+     "monoProseShare": 0,
+     "monoFamilies": [],
+     "monoSamples": [],
+     "microLabels": 3,
+     "microLabelShare": 0.008,
+     "microSamples": [
+      "Site Links",
+      "Contact",
+      "Trading Hours"
+     ],
+     "upperShare": 0.06,
+     "centerShare": 0.16,
+     "smallText": 7
+    },
+    "eyebrows": [],
+    "numbered": [],
+    "color": {
+     "bodyBg": "#ffffff",
+     "bodyBgHsl": {
+      "h": 0,
+      "s": 0,
+      "l": 1
+     },
+     "dark": false,
+     "sectionBgs": [
+      {
+       "color": "#f7f3ea",
+       "top": 0,
+       "hsl": {
+        "h": 42,
+        "s": 0.45,
+        "l": 0.94
+       }
+      },
+      {
+       "color": "#ffffff",
+       "top": 754,
+       "hsl": {
+        "h": 0,
+        "s": 0,
+        "l": 1
+       }
+      }
+     ],
+     "textColors": [
+      {
+       "color": "#555555",
+       "share": 0.3
+      },
+      {
+       "color": "#444444",
+       "share": 0.27
+      },
+      {
+       "color": "#303030",
+       "share": 0.2
+      },
+      {
+       "color": "#ffffff",
+       "share": 0.11
+      },
+      {
+       "color": "#c09569",
+       "share": 0.05
+      }
+     ],
+     "button": {
+      "bg": "#f7f3ea",
+      "hsl": {
+       "h": 42,
+       "s": 0.45,
+       "l": 0.94
+      },
+      "fg": "#303030"
+     },
+     "lowContrast": [
+      {
+       "text": "Cosmetic Tattooing on the Sunshine Coast",
+       "ratio": 2.4,
+       "need": 3,
+       "size": 26,
+       "fg": "#c09569",
+       "bg": "#f7f3ea"
+      },
+      {
+       "text": "Meet Your Artist",
+       "ratio": 2.4,
+       "need": 3,
+       "size": 40,
+       "fg": "#c09569",
+       "bg": "#f7f3ea"
+      },
+      {
+       "text": "Welcome to My Cosmetic Tattoo Studio",
+       "ratio": 2.7,
+       "need": 3,
+       "size": 32,
+       "fg": "#c09569",
+       "bg": "#ffffff"
+      },
+      {
+       "text": "Services",
+       "ratio": 2.7,
+       "need": 3,
+       "size": 40,
+       "fg": "#c09569",
+       "bg": "#ffffff"
+      },
+      {
+       "text": "Get in Touch",
+       "ratio": 2.7,
+       "need": 3,
+       "size": 42,
+       "fg": "#c09569",
+       "bg": "#ffffff"
+      }
+     ]
+    },
+    "buttons": {
+     "count": 6,
+     "inHero": 2,
+     "radius": 15,
+     "height": 53,
+     "withShadow": 0,
+     "withGradient": 0,
+     "mono": 0,
+     "upper": 0,
+     "heroLabels": [
+      "Book Now",
+      "0414 502 807"
+     ]
+    },
+    "surfaces": {
+     "shadowStatic": 7,
+     "shadowOverlay": 0,
+     "shadowSamples": [
+      "div.bg-white.border → rgba(0, 0, 0, 0) 0px 0px 0px 0px, rgba(0, 0, 0, 0) 0px 0px 0px 0px, rgba(0, 0, 0",
+      "div.bg-white.border → rgba(0, 0, 0, 0) 0px 0px 0px 0px, rgba(0, 0, 0, 0) 0px 0px 0px 0px, rgba(0, 0, 0",
+      "div.bg-white.border → rgba(0, 0, 0, 0) 0px 0px 0px 0px, rgba(0, 0, 0, 0) 0px 0px 0px 0px, rgba(0, 0, 0",
+      "div.bg-white.border → rgba(0, 0, 0, 0) 0px 0px 0px 0px, rgba(0, 0, 0, 0) 0px 0px 0px 0px, rgba(0, 0, 0"
+     ],
+     "gradients": 3,
+     "scrims": 0,
+     "gradientSamples": [
+      "div.absolute.inset-0 → linear-gradient(rgba(176, 161, 141, 0.55), rgba(48, 48, 48, 0.65))",
+      "div.absolute.inset-0 → linear-gradient(rgba(176, 161, 141, 0.55), rgba(48, 48, 48, 0.65))",
+      "div.absolute.inset-0 → linear-gradient(rgba(176, 161, 141, 0.55), rgba(48, 48, 48, 0.65))"
+     ],
+     "gradientText": 0,
+     "hairlines": 1,
+     "hairlineSamples": [
+      "div.flex.h-[92px] 390px"
+     ],
+     "outlinedBoxes": 6,
+     "dashed": 0,
+     "blurred": 0,
+     "roundedBoxes": 9,
+     "boxRadius": 10,
+     "squareMedia": 3,
+     "roundedMedia": 5,
+     "mediaRadius": 8,
+     "textShadow": 0,
+     "cardRows": []
+    },
+    "heroMedia": [
+     {
+      "type": "img",
+      "ratio": 0.43
+     }
+    ],
+    "nav": {
+     "links": 8,
+     "fixed": true,
+     "height": 136,
+     "floatingPill": false,
+     "blur": false
+    },
+    "fontsLoaded": [
+     "montserrat",
+     "montserrat fallback",
+     "source sans 3",
+     "josefin sans"
+    ]
+   },
+   "layout": {
+    "viewport": {
+     "w": 390,
+     "h": 844
+    },
+    "pageH": 7747,
+    "margins": {
+     "left": 24,
+     "right": 24
+    },
+    "sections": [
+     {
+      "sel": "section.w-full.bg-cream",
+      "tag": "section",
+      "top": 136,
+      "height": 618,
+      "words": 6,
+      "media": 1,
+      "middle": 0,
+      "heading": {
+       "text": "Cosmetic Tattooing on the Sunshine Coast",
+       "size": 26,
+       "tag": "h1"
+      },
+      "left": 23,
+      "right": 38,
+      "textLeft": 38,
+      "textRight": 38,
+      "fullBleed": true,
+      "footer": false,
+      "hero": true,
+      "continues": true,
+      "pinned": false
+     },
+     {
+      "sel": "section#about.bg-white.py-20",
+      "tag": "section",
+      "top": 754,
+      "height": 1486,
+      "words": 161,
+      "media": 1,
+      "middle": 0,
+      "heading": {
+       "text": "Welcome to My Cosmetic Tattoo Studio",
+       "size": 32,
+       "tag": "h2"
+      },
+      "left": 24,
+      "right": 24,
+      "textLeft": 24,
+      "textRight": 25,
+      "fullBleed": false,
+      "footer": false,
+      "hero": false,
+      "continues": true,
+      "pinned": false
+     },
+     {
+      "sel": "section#services.bg-white.py-20",
+      "tag": "section",
+      "top": 2239,
+      "height": 1403,
+      "words": 76,
+      "media": 3,
+      "middle": 0,
+      "heading": {
+       "text": "Services",
+       "size": 40,
+       "tag": "h2"
+      },
+      "left": 24,
+      "right": 24,
+      "textLeft": 24,
+      "textRight": 45,
+      "fullBleed": false,
+      "footer": false,
+      "hero": false,
+      "continues": true,
+      "pinned": false
+     },
+     {
+      "sel": "section#contact.bg-white.py-20",
+      "tag": "section",
+      "top": 3642,
+      "height": 791,
+      "words": 9,
+      "media": 0,
+      "middle": 0,
+      "heading": {
+       "text": "Get in Touch",
+       "size": 42,
+       "tag": "h2"
+      },
+      "left": 24,
+      "right": 24,
+      "textLeft": 24,
+      "textRight": 64,
+      "fullBleed": false,
+      "footer": false,
+      "hero": false,
+      "continues": true,
+      "pinned": false
+     },
+     {
+      "sel": "section#artist.bg-white.py-20",
+      "tag": "section",
+      "top": 4433,
+      "height": 1423,
+      "words": 148,
+      "media": 1,
+      "middle": 0,
+      "heading": {
+       "text": "Meet Your Artist",
+       "size": 40,
+       "tag": "h2"
+      },
+      "left": 24,
+      "right": 24,
+      "textLeft": 56,
+      "textRight": 57,
+      "fullBleed": false,
+      "footer": false,
+      "hero": false,
+      "continues": true,
+      "pinned": false
+     },
+     {
+      "sel": "section#testimonials.bg-white.py-[70px]",
+      "tag": "section",
+      "top": 5856,
+      "height": 551,
+      "words": 187,
+      "media": 0,
+      "middle": 1323,
+      "heading": {
+       "text": "Testimonials",
+       "size": 40,
+       "tag": "h2"
+      },
+      "left": 0,
+      "right": 0,
+      "textLeft": -61,
+      "textRight": -1543,
+      "fullBleed": false,
+      "footer": false,
+      "hero": false,
+      "continues": true,
+      "pinned": false
+     },
+     {
+      "sel": "footer#footer",
+      "tag": "footer",
+      "top": 6407,
+      "height": 1341,
+      "words": 68,
+      "media": 2,
+      "middle": 0,
+      "heading": {
+       "text": "Site Links",
+       "size": 14,
+       "tag": "h4"
+      },
+      "left": 24,
+      "right": 47,
+      "textLeft": 24,
+      "textRight": 106,
+      "fullBleed": true,
+      "footer": true,
+      "hero": false,
+      "continues": false,
+      "pinned": false
+     }
+    ],
+    "gaps": [],
+    "h1s": [
+     {
+      "text": "COSMETIC TATTOOING ON THE SUNSHINE COAST",
+      "size": 26,
+      "top": 536,
+      "firstScreen": true
+     }
+    ],
+    "edgeText": [
+     {
+      "text": "2 months ago",
+      "side": "left",
+      "px": 3
+     }
+    ],
+    "edges": [
+     {
+      "x": 56,
+      "n": 6
+     },
+     {
+      "x": 84,
+      "n": 6
+     },
+     {
+      "x": 24,
+      "n": 4
+     },
+     {
+      "x": 281,
+      "n": 1
+     },
+     {
+      "x": 623,
+      "n": 1
+     },
+     {
+      "x": 965,
+      "n": 1
+     },
+     {
+      "x": 1307,
+      "n": 1
+     },
+     {
+      "x": 1649,
+      "n": 1
+     }
+    ],
+    "leftBlocks": 21,
+    "bodySize": 14,
+    "stage": false,
+    "explains": false,
+    "slivers": [],
+    "voidShare": 0,
+    "voidBox": null
+   },
+   "app": null,
+   "consoleErrors": []
+  }
+ ],
+ "findings": [
+  {
+   "level": "FAIL",
+   "id": "micro-label",
+   "width": 1440,
+   "message": "3 tiny uppercase letter-spaced labels (e.g. \"Site Links\", \"Contact\", \"Trading Hours\").",
+   "fix": "Use sentence-case text at a readable size, or delete the label.",
+   "alsoAt": [
+    768,
+    390
+   ]
+  },
+  {
+   "level": "FAIL",
+   "id": "gradient",
+   "width": 1440,
+   "message": "3 gradient fill(s): div.absolute.inset-0 → linear-gradient(rgba(176, 161, 141, 0.55), rgba(48, 48, 48, 0.65)) | div.absolute.inset-0 → linear-gradient(rgba(176, 161, 141, 0.55), rgba(48, 48, 48, 0.65)) | div.absolute.inset-0 → linear-gradient(rgba(176, 161, 141, 0.55), rgba(48, 48, 48, 0.65))",
+   "fix": "Use a flat colour or a real image. The only gradient allowed by default is a neutral scrim over a photo for legibility.",
+   "alsoAt": [
+    768,
+    390
+   ]
+  },
+  {
+   "level": "FAIL",
+   "id": "shadow",
+   "width": 1440,
+   "message": "7 box-shadow(s) on elements at rest: div.bg-white.border → rgba(0, 0, 0, 0) 0px 0px 0px 0px, rgba(0, 0, 0, 0) 0px 0px 0px 0px, rgba(0, 0, 0 | div.bg-white.border → rgba(0, 0, 0, 0) 0px 0px 0px 0px, rgba(0, 0, 0, 0) 0px 0px 0px 0px, rgba(0, 0, 0 | div.bg-white.border → rgba(0, 0, 0, 0) 0px 0px 0px 0px, rgba(0, 0, 0, 0) 0px 0px 0px 0px, rgba(0, 0, 0",
+   "fix": "Remove. Separate surfaces with a tone step or space. Shadows are for things that really float (menus, dialogs, sticky bars).",
+   "alsoAt": [
+    768,
+    390
+   ]
+  },
+  {
+   "level": "WARN",
+   "id": "hairline",
+   "width": 1440,
+   "message": "1 thin rule(s)/divider line(s): div.flex.h-[92px] 1440px",
+   "fix": "Delete. Separate with space, a tone change, or scale. Lines are only for real tables and form fields.",
+   "alsoAt": [
+    768,
+    390
+   ]
+  },
+  {
+   "level": "FAIL",
+   "id": "outlined-box",
+   "width": 1440,
+   "message": "7 boxes drawn with a 1px outline.",
+   "fix": "Define a surface by its fill (one tone step from the page) or leave the content unboxed.",
+   "alsoAt": [
+    768,
+    390
+   ]
+  },
+  {
+   "level": "FAIL",
+   "id": "palette-claude",
+   "width": 1440,
+   "message": "Cream + terracotta palette (section #f7f3ea, button #f7f3ea, text #c09569).",
+   "fix": "Re-draw the palette from the library. This pairing reads as an assistant brand, not yours.",
+   "alsoAt": [
+    768,
+    390
+   ]
+  },
+  {
+   "level": "FAIL",
+   "id": "contrast",
+   "width": 1440,
+   "message": "Unreadable text: \"Cosmetic Tattooing on the Sunshine Coast\" 2.4:1 (#c09569 on #f7f3ea); \"Meet Your Artist\" 2.4:1 (#c09569 on #f7f3ea)",
+   "fix": "Raise contrast to at least 4.5:1 for text, 3:1 for large display.",
+   "alsoAt": [
+    768,
+    390
+   ]
+  },
+  {
+   "level": "WARN",
+   "id": "font-count",
+   "width": 1440,
+   "message": "3 typefaces in use (Source Sans 3, Montserrat, Josefin Sans).",
+   "fix": "Two at most.",
+   "alsoAt": [
+    768,
+    390
+   ]
+  },
+  {
+   "level": "WARN",
+   "id": "size-count",
+   "width": 1440,
+   "message": "12 different font sizes (11, 12, 13, 14, 15, 16, 18, 22, 25, 40, 50, 56).",
+   "fix": "A page needs about five: display, heading, lead, body, small.",
+   "alsoAt": [
+    768,
+    390
+   ]
+  },
+  {
+   "level": "FAIL",
+   "id": "body-size",
+   "width": 1440,
+   "message": "Body text is 14px (the size most of the running text is set in).",
+   "fix": "Body copy 16–20px. Map small sizes from blueprints onto your body step.",
+   "alsoAt": [
+    768,
+    390
+   ]
+  },
+  {
+   "level": "WARN",
+   "id": "no-footage",
+   "width": 1440,
+   "message": "No video anywhere on the page.",
+   "fix": "Look for one honest clip with scripts/assets.mjs --video (the place, the material, the process) and use it as a muted loop with a poster frame. Defend its absence only if no clip fits the subject."
+  },
+  {
+   "level": "FAIL",
+   "id": "small-text",
+   "width": 1440,
+   "message": "7 text blocks under 13px.",
+   "fix": "Nothing meant to be read goes below 13px.",
+   "alsoAt": [
+    768,
+    390
+   ]
+  },
+  {
+   "level": "WARN",
+   "id": "font-not-dealt",
+   "width": 1440,
+   "message": "The sheet dealt Chillax and Chillax, but the page renders Source Sans 3, Montserrat.",
+   "fix": "Load the dealt face (the link on the sheet) and put it first in font-family. A build that falls back to a default face lands on the default look."
+  },
+  {
+   "level": "FAIL",
+   "id": "off-centre",
+   "width": 1440,
+   "message": "The page sits off-centre: its content comes to 120px from the left edge but only to 10px from the right, at 1440px.",
+   "fix": "Give the page one pair of equal margins. Check the wrapper for a max-width without margin-inline: auto, a grid with an empty last column, or padding on one side only. If one side is meant to hold air, it must still be closed by something that reaches the margin (a picture, the navigation's last item, a figure)."
+  },
+  {
+   "level": "FAIL",
+   "id": "edge-text",
+   "width": 1440,
+   "message": "2 text block(s) sit within 16px of the screen edge: \"Kylie Roberts\" (10px from the right); \"6 months ago\" (9px from the right)",
+   "fix": "Keep text inside the page margin (16–32px or more). Only display type deliberately bled past the edge may touch it.",
+   "alsoAt": [
+    390
+   ]
+  },
+  {
+   "level": "FAIL",
+   "id": "still-page",
+   "width": 1440,
+   "message": "Only 5 element(s) moved while the page loaded and scrolled.",
+   "fix": "Build the motion layer (SKILL.md step 9, references/motion.md): the signature move, an entrance for the parts of every section, feedback on every control, and one moving picture. Transform and opacity only, with a reduced-motion fallback."
+  },
+  {
+   "level": "WARN",
+   "id": "empty-middle",
+   "width": 768,
+   "message": "1 section(s) have content at both edges and 909px of nothing between: \"Testimonials\"",
+   "fix": "Bring the two parts together on the grid, or put the picture or figure of the section in the middle. An empty middle third reads as a hole, the same as an empty half."
+  },
+  {
+   "level": "FAIL",
+   "id": "headline-lines",
+   "width": 390,
+   "message": "2 headline(s) wrap past two lines at 390px: \"COSMETIC TATTOOING ON THE SUNSHINE COAST\" → 3 lines (6 words, 26px); \"Welcome to My Cosmetic Tattoo Studio\" → 3 lines (6 words, 32px)",
+   "fix": "Cut words first (a headline is a title, not a sentence). Then give it a wider measure. Lower the size only as a last resort and never below the scale you chose. A real statement paragraph belongs in a <p> or <blockquote> at 24px or less."
+  },
+  {
+   "level": "FAIL",
+   "id": "reduced-hidden",
+   "width": 1440,
+   "message": "With reduced motion requested, 4 text block(s) on the first screen stay invisible: \"Testimonials\", \"Eyebrows\", \"Eye Liners\", \"Lips\"",
+   "fix": "Put every hidden starting state inside @media (prefers-reduced-motion: no-preference); the reduced page is the finished page (references/motion.md §8)."
+  }
+ ],
+ "images": [
+  {
+   "viewport": "desktop",
+   "width": 1440,
+   "fold": "C:\\Users\\KingTheOne\\Desktop\\Projects\\on-point-cosmetic-tattoo\\.taste-skill\\before\\desktop-fold.jpg",
+   "pages": [
+    "C:\\Users\\KingTheOne\\Desktop\\Projects\\on-point-cosmetic-tattoo\\.taste-skill\\before\\desktop-page-01.jpg",
+    "C:\\Users\\KingTheOne\\Desktop\\Projects\\on-point-cosmetic-tattoo\\.taste-skill\\before\\desktop-page-02.jpg"
+   ],
+   "film": []
+  },
+  {
+   "viewport": "tablet",
+   "width": 768,
+   "fold": "C:\\Users\\KingTheOne\\Desktop\\Projects\\on-point-cosmetic-tattoo\\.taste-skill\\before\\tablet-fold.jpg",
+   "pages": [
+    "C:\\Users\\KingTheOne\\Desktop\\Projects\\on-point-cosmetic-tattoo\\.taste-skill\\before\\tablet-page-01.jpg",
+    "C:\\Users\\KingTheOne\\Desktop\\Projects\\on-point-cosmetic-tattoo\\.taste-skill\\before\\tablet-page-02.jpg"
+   ],
+   "film": []
+  },
+  {
+   "viewport": "mobile",
+   "width": 390,
+   "fold": "C:\\Users\\KingTheOne\\Desktop\\Projects\\on-point-cosmetic-tattoo\\.taste-skill\\before\\mobile-fold.jpg",
+   "pages": [
+    "C:\\Users\\KingTheOne\\Desktop\\Projects\\on-point-cosmetic-tattoo\\.taste-skill\\before\\mobile-page-01.jpg",
+    "C:\\Users\\KingTheOne\\Desktop\\Projects\\on-point-cosmetic-tattoo\\.taste-skill\\before\\mobile-page-02.jpg"
+   ],
+   "film": []
+  }
+ ]
+}

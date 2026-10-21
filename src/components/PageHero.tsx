@@ -1,19 +1,39 @@
 import Image from "next/image";
+import { PHONE, PHONE_HREF } from "@/lib/links";
+import { BookLink } from "@/components/BookLink";
+import { Flora } from "@/components/Flora";
+import { Tile, type Texture } from "@/components/Tile";
 
 interface PageHeroProps {
-  title: string;
+  /** Two short lines; joined as one heading. */
+  title: [string, string];
+  lead: string;
   image: string;
+  imageAlt: string;
+  /** Backing texture for the hero photo; each page gets its own. */
+  texture?: Texture;
 }
 
-export function PageHero({ title, image }: PageHeroProps) {
+export function PageHero({ title, lead, image, imageAlt, texture = "linen" }: PageHeroProps) {
   return (
-    <section className="relative w-full h-[280px] sm:h-[360px] lg:h-[440px]">
-      <Image src={image} alt="" fill priority className="object-cover" sizes="100vw" />
-      <div className="absolute inset-0 bg-black/25" />
-      <div className="relative mx-auto flex h-full max-w-[1200px] items-center justify-end px-8">
-        <h1 className="max-w-[520px] text-right font-heading text-[30px] font-[200] uppercase leading-tight tracking-[1px] text-white sm:text-[40px] lg:text-[52px]">
-          {title}
-        </h1>
+    <section aria-labelledby="page-title" className="has-flora">
+      <Flora at="bl" />
+      <div className="wrap phero__in">
+        <div className="phero__text">
+          <h1 id="page-title" className="t-display">
+            {title[0]} {title[1]}
+          </h1>
+          <p className="t-lead measure">{lead}</p>
+          <div className="hero__actions">
+            <BookLink className="btn">Book a consultation</BookLink>
+            <a href={PHONE_HREF} className="link">
+              Call {PHONE}
+            </a>
+          </div>
+        </div>
+        <Tile className="phero__pic" texture={texture} shape="disc">
+          <Image src={image} alt={imageAlt} width={900} height={1200} priority sizes="(min-width: 900px) 34vw, 90vw" />
+        </Tile>
       </div>
     </section>
   );

@@ -1,0 +1,206 @@
+- generic [active] [ref=e1]:
+  - banner [ref=e2]:
+    - generic [ref=e3]:
+      - link "On Point Cosmetic Tattoo Studio, home" [ref=e4] [cursor=pointer]:
+        - /url: /
+      - navigation "Main" [ref=e5]:
+        - link "Home" [ref=e6] [cursor=pointer]:
+          - /url: /
+        - button "Services" [ref=e8] [cursor=pointer]
+        - link "Aftercare" [ref=e9] [cursor=pointer]:
+          - /url: /after-care
+        - link "About Lisa" [ref=e10] [cursor=pointer]:
+          - /url: /#about
+      - generic [ref=e11]:
+        - link "0414 502 807" [ref=e12] [cursor=pointer]:
+          - /url: tel:0414502807
+        - link "Book a consultation" [ref=e13] [cursor=pointer]:
+          - /url: /contact
+  - main [ref=e14]:
+    - generic [ref=e15]:
+      - region [ref=e16]:
+        - generic [ref=e17]:
+          - generic [ref=e18]:
+            - heading "Eyeliner tattoos, line by line" [level=1] [ref=e19]
+            - paragraph [ref=e20]: Eyeliner enhancement and designer eyeliner, from a fine line through the lashes to a defined wing, in Buderim on the Sunshine Coast.
+            - generic [ref=e21]:
+              - link "Book a consultation" [ref=e22] [cursor=pointer]:
+                - /url: /contact#book
+              - link "Call 0414 502 807" [ref=e23] [cursor=pointer]:
+                - /url: tel:0414502807
+          - img "Designer eyeliner tattoo with a crisp wing on a brown eye" [ref=e26]
+      - region [ref=e27]:
+        - generic [ref=e28]:
+          - img "Fine designer eyeliner with a short wing, seen from above" [ref=e31]
+          - generic [ref=e32]:
+            - heading "Mapping the lash line" [level=2] [ref=e33]
+            - paragraph [ref=e34]: The lash line is one of the most precise areas of the face, which makes planning essential before any pigment is placed. At On Point Cosmetic Tattoo Studio in Buderim, I provide eyeliner tattoos for clients across the Sunshine Coast using structured mapping and controlled application methods.
+            - paragraph [ref=e35]: Options include eyeliner enhancement and designer eyeliner, ranging from a fine line through the lashes to a more defined shape. During consultation, I review eye shape, lid space, skin condition and lifestyle considerations before outlining the proposed design.
+            - generic [ref=e36]:
+              - group "Techniques" [ref=e37]:
+                - button "Eyeliner enhancement" [pressed] [ref=e38] [cursor=pointer]
+                - button "Designer eyeliner" [ref=e39] [cursor=pointer]
+              - paragraph [ref=e40]: Pigment placed within the lash line to define the base of the lashes.
+      - region [ref=e41]:
+        - generic [ref=e42]:
+          - img "A client with tattooed eyeliner and brows, looking at the camera" [ref=e45]
+          - generic [ref=e46]:
+            - heading "How the line is placed" [level=2] [ref=e47]
+            - paragraph [ref=e48]: Eyeliner tattoos require careful placement due to the sensitivity of the eye area. I begin by mapping the lash line and discussing thickness, tapering and wing positioning where applicable. With eyeliner enhancement, I place subtle pigment within the lash line. For designer eyeliner, I create a more visible shape along the lid.
+            - paragraph [ref=e49]: The selected method depends on anatomy, previous cosmetic tattoo work and personal preference. I outline preparation guidelines before the appointment and provide written aftercare instructions following treatment.
+            - list [ref=e50]:
+              - listitem [ref=e51]: Certified artist, with consultation protocols and hygiene standards suited to cosmetic tattoo
+              - listitem [ref=e52]: Shape, proportion and pigment tone mapped to your features and reviewed before treatment
+              - listitem [ref=e53]: Professional pigments and devices, with product details explained at your consultation
+            - generic [ref=e54]:
+              - link "Read the aftercare" [ref=e55] [cursor=pointer]:
+                - /url: /after-care
+              - link "Call 0414 502 807" [ref=e56] [cursor=pointer]:
+                - /url: tel:0414502807
+      - region "Lisa's eyeliner work" [ref=e57]:
+        - generic [ref=e58]:
+          - heading "Lisa's eyeliner work" [level=2] [ref=e59]
+          - generic [ref=e60]:
+            - figure "Designer eyeliner, fresh" [ref=e61]:
+              - 'button "View larger: Designer eyeliner, fresh" [ref=e62]':
+                - img "Designer eyeliner with a tapered wing on a green eye" [ref=e65]
+            - figure "Fine line with a short wing" [ref=e67]:
+              - 'button "View larger: Fine line with a short wing" [ref=e68]':
+                - img "Fine eyeliner set close to the lash line" [ref=e71]
+            - figure "Eyeliner with brows" [ref=e73]:
+              - 'button "View larger: Eyeliner with brows" [ref=e74]':
+                - img "Eyeliner and brows tattooed together" [ref=e77]
+      - region [ref=e79]:
+        - generic [ref=e80]:
+          - generic [ref=e81]:
+            - heading "Your questions" [level=2] [ref=e82]
+            - paragraph [ref=e83]:
+              - text: Something else on your mind? Call Lisa on
+              - link "0414 502 807" [ref=e84] [cursor=pointer]:
+                - /url: tel:0414502807
+              - text: .
+          - generic [ref=e86]:
+            - group [ref=e87]:
+              - generic "How long do eyeliner tattoos last?" [ref=e88] [cursor=pointer]
+              - paragraph [ref=e91]: Eyeliner tattoos are considered semi-permanent. Longevity varies depending on skin type, pigment choice, sun exposure and lifestyle factors. Fading occurs gradually over time, and many people schedule maintenance appointments to refresh colour. Individual results differ, and healing response can influence how the pigment settles in the skin.
+            - group [ref=e92]:
+              - generic "Do eyeliner tattoos hurt?" [ref=e93] [cursor=pointer]
+            - group [ref=e96]:
+              - generic "What is the difference between eyeliner enhancement and designer eyeliner?" [ref=e97] [cursor=pointer]
+      - region [ref=e100]:
+        - generic [ref=e101]:
+          - generic [ref=e102]:
+            - heading "Book a consultation" [level=2] [ref=e103]
+            - paragraph [ref=e104]: Tell Lisa what you have in mind and she'll come back to you with a time. If you reach voicemail, leave your name and number.
+            - paragraph [ref=e105]:
+              - link "0414 502 807" [ref=e106] [cursor=pointer]:
+                - /url: tel:0414502807
+            - generic [ref=e107]:
+              - generic [ref=e108]:
+                - term [ref=e109]: Mon – Fri
+                - definition [ref=e110]: 9am – 5pm
+              - generic [ref=e111]:
+                - term [ref=e112]: Sat – Sun
+                - definition [ref=e113]: By appointment
+          - generic [ref=e114]:
+            - generic [ref=e115]:
+              - generic [ref=e116]:
+                - generic [ref=e117]: Name
+                - textbox "Name" [ref=e118]
+              - generic [ref=e119]:
+                - generic [ref=e120]: Phone
+                - textbox "Phone" [ref=e121]
+            - generic [ref=e122]:
+              - generic [ref=e123]: Email
+              - textbox "Email" [ref=e124]
+            - group "Treatment" [ref=e125]:
+              - generic [ref=e127]:
+                - generic [ref=e128]:
+                  - radio "Eyebrows"
+                  - generic [ref=e129] [cursor=pointer]: Eyebrows
+                - generic [ref=e130]:
+                  - radio "Eyeliner"
+                  - generic [ref=e131] [cursor=pointer]: Eyeliner
+                - generic [ref=e132]:
+                  - radio "Lips"
+                  - generic [ref=e133] [cursor=pointer]: Lips
+                - generic [ref=e134]:
+                  - radio "Not sure yet" [checked]
+                  - generic [ref=e135] [cursor=pointer]: Not sure yet
+            - generic [ref=e136]:
+              - generic [ref=e137]: Message
+              - textbox "Message" [ref=e138]
+            - button "Send to Lisa" [ref=e139] [cursor=pointer]
+            - paragraph [ref=e140]: Sending opens your email app with the message ready to go.
+  - contentinfo [ref=e141]:
+    - generic [ref=e142]:
+      - generic [ref=e143]:
+        - img "On Point Cosmetic Tattoo Studio" [ref=e144]
+        - paragraph [ref=e145]: Brows, eyeliner and lips, mapped in Buderim since 2016.
+      - generic [ref=e146]:
+        - generic [ref=e147]:
+          - heading "Treatments" [level=2] [ref=e148]
+          - list [ref=e149]:
+            - listitem [ref=e150]:
+              - link "Eyebrow tattoos" [ref=e151] [cursor=pointer]:
+                - /url: /eyebrow-tattoos
+            - listitem [ref=e152]:
+              - link "Eyeliner tattoos" [ref=e153] [cursor=pointer]:
+                - /url: /eyeliner-tattoos
+            - listitem [ref=e154]:
+              - link "Lip tattoos" [ref=e155] [cursor=pointer]:
+                - /url: /lip-tattoos
+            - listitem [ref=e156]:
+              - link "Aftercare" [ref=e157] [cursor=pointer]:
+                - /url: /after-care
+        - generic [ref=e158]:
+          - heading "Studio" [level=2] [ref=e159]
+          - list [ref=e160]:
+            - listitem [ref=e161]:
+              - link "About Lisa" [ref=e162] [cursor=pointer]:
+                - /url: /#about
+            - listitem [ref=e163]:
+              - link "Reviews" [ref=e164] [cursor=pointer]:
+                - /url: /#testimonials
+            - listitem [ref=e165]:
+              - link "Areas we serve" [ref=e166] [cursor=pointer]:
+                - /url: /locations
+            - listitem [ref=e167]:
+              - link "Contact" [ref=e168] [cursor=pointer]:
+                - /url: /contact
+        - generic [ref=e169]:
+          - heading "Follow" [level=2] [ref=e170]
+          - list [ref=e171]:
+            - listitem [ref=e172]:
+              - link "Facebook" [ref=e173] [cursor=pointer]:
+                - /url: https://www.facebook.com/onpointcosmetictattoo/
+            - listitem [ref=e174]:
+              - link "Instagram" [ref=e175] [cursor=pointer]:
+                - /url: https://www.instagram.com/onpointcosmetictattoostudio/
+            - listitem [ref=e176]:
+              - link "Google reviews" [ref=e177] [cursor=pointer]:
+                - /url: https://maps.app.goo.gl/8NpoKzz7PLJGnELG6
+            - listitem [ref=e178]:
+              - link "Localsearch" [ref=e179] [cursor=pointer]:
+                - /url: https://www.localsearch.com.au/profile/on-point-cosmetic-tattoo-studio/buderim-qld/MaKp
+        - generic [ref=e180]:
+          - heading "Hours" [level=2] [ref=e181]
+          - list [ref=e182]:
+            - listitem [ref=e183]: Mon – Fri, 9am – 5pm
+            - listitem [ref=e184]: Sat – Sun, by appointment
+        - generic [ref=e185]:
+          - heading "Contact" [level=2] [ref=e186]
+          - list [ref=e187]:
+            - listitem [ref=e188]:
+              - link "0414 502 807" [ref=e189] [cursor=pointer]:
+                - /url: tel:0414502807
+            - listitem [ref=e190]:
+              - link "onpointcosmetictattoo@gmail.com" [ref=e191] [cursor=pointer]:
+                - /url: mailto:onpointcosmetictattoo@gmail.com
+            - listitem [ref=e192]:
+              - link "Buderim, QLD 4556" [ref=e193] [cursor=pointer]:
+                - /url: https://maps.app.goo.gl/UoricJLVFQzHepTm7
+      - generic [ref=e194]:
+        - paragraph [ref=e195]: © 2026 On Point Cosmetic Tattoo Studio
+        - paragraph [ref=e196]: Certified cosmetic tattoo artist. ABN 79 955 974 433
+  - button "Open Next.js Dev Tools" [ref=e202] [cursor=pointer]

@@ -1,0 +1,2212 @@
+{
+ "url": "http://localhost:3123/after-care",
+ "at": "2026-10-21T05:14:27.164Z",
+ "allow": [],
+ "viewports": [
+  {
+   "width": 1440,
+   "height": 900,
+   "load": "load",
+   "screens": 7,
+   "filled": [
+    0.37,
+    0.95,
+    0.46,
+    0.51,
+    0.98,
+    0.89,
+    0.89
+   ],
+   "motion": {
+    "elements": 0,
+    "css": 0,
+    "transitions": 0,
+    "scripted": 0,
+    "videos": 0,
+    "playingVideos": 0
+   },
+   "metrics": {
+    "viewport": {
+     "w": 1440,
+     "h": 900
+    },
+    "page": {
+     "height": 5692,
+     "screens": 6.3,
+     "words": 429,
+     "img": 8,
+     "video": 0,
+     "canvas": 0,
+     "svg": 0,
+     "sections": 5,
+     "horizontalOverflow": 0,
+     "overflowCulprits": [],
+     "uiFragments": 0,
+     "uiAbuse": false,
+     "realPictures": 6,
+     "videoCount": 0,
+     "uiPictures": 0,
+     "pictureSamples": [
+      "image?url=%2Fimages%2Fsub%2Fac-work-3.jpg&w=640&",
+      "image?url=%2Fimages%2Fsub%2Feb-technique.jpg&w=3",
+      "image?url=%2Fimages%2Fsub%2Fac-section.png&w=640",
+      "image?url=%2Fimages%2Fsub%2Fac-work-1.jpg&w=750&",
+      "image?url=%2Fimages%2Fsub%2Fac-work-2.jpg&w=750&",
+      "image?url=%2Fimages%2Fsub%2Fel-technique.jpg&w=7"
+     ],
+     "blendText": 0,
+     "sideScrollers": 0,
+     "brokenImages": [],
+     "emoji": [],
+     "videosNoPoster": 0
+    },
+    "hero": {
+     "text": "Your aftercare guide",
+     "words": 3,
+     "chars": 20,
+     "lines": 2,
+     "size": 92,
+     "vw": 6.4,
+     "font": "Bodoni Moda",
+     "weight": 400,
+     "tracking": -0.02,
+     "leading": 1.02,
+     "upper": false,
+     "italic": false,
+     "mono": false,
+     "align": "left",
+     "position": "left",
+     "widthRatio": 0.53,
+     "top": 426,
+     "tag": "h1",
+     "kind": "heading"
+    },
+    "h1": {
+     "text": "Your aftercare guide",
+     "words": 3,
+     "lines": 2,
+     "size": 92,
+     "font": "Bodoni Moda"
+    },
+    "headings": [
+     {
+      "text": "Your aftercare guide",
+      "words": 3,
+      "chars": 20,
+      "lines": 2,
+      "size": 92,
+      "vw": 6.4,
+      "font": "Bodoni Moda",
+      "weight": 400,
+      "tracking": -0.02,
+      "leading": 1.02,
+      "upper": false,
+      "italic": false,
+      "mono": false,
+      "align": "left",
+      "position": "left",
+      "widthRatio": 0.53,
+      "top": 426,
+      "tag": "h1",
+      "kind": "heading"
+     },
+     {
+      "text": "Your visit, day by day",
+      "words": 5,
+      "chars": 22,
+      "lines": 1,
+      "size": 56,
+      "vw": 3.9,
+      "font": "Bodoni Moda",
+      "weight": 400,
+      "tracking": -0.01,
+      "leading": 1.08,
+      "upper": false,
+      "italic": false,
+      "mono": false,
+      "align": "left",
+      "position": "left",
+      "widthRatio": 0.45,
+      "top": 1077,
+      "tag": "h2",
+      "kind": "heading"
+     },
+     {
+      "text": "Consultation",
+      "words": 1,
+      "chars": 12,
+      "lines": 1,
+      "size": 30,
+      "vw": 2.1,
+      "font": "Bodoni Moda",
+      "weight": 400,
+      "tracking": -0.01,
+      "leading": 1.08,
+      "upper": false,
+      "italic": false,
+      "mono": false,
+      "align": "left",
+      "position": "left",
+      "widthRatio": 0.69,
+      "top": 1493,
+      "tag": "h3",
+      "kind": "heading"
+     },
+     {
+      "text": "The full guide",
+      "words": 3,
+      "chars": 14,
+      "lines": 1,
+      "size": 56,
+      "vw": 3.9,
+      "font": "Bodoni Moda",
+      "weight": 400,
+      "tracking": -0.01,
+      "leading": 1.08,
+      "upper": false,
+      "italic": false,
+      "mono": false,
+      "align": "left",
+      "position": "left",
+      "widthRatio": 0.45,
+      "top": 2403,
+      "tag": "h2",
+      "kind": "heading"
+     },
+     {
+      "text": "Before your appointment",
+      "words": 3,
+      "chars": 23,
+      "lines": 1,
+      "size": 30,
+      "vw": 2.1,
+      "font": "Bodoni Moda",
+      "weight": 400,
+      "tracking": -0.01,
+      "leading": 1.08,
+      "upper": false,
+      "italic": false,
+      "mono": false,
+      "align": "left",
+      "position": "left",
+      "widthRatio": 0.29,
+      "top": 2911,
+      "tag": "h3",
+      "kind": "heading"
+     },
+     {
+      "text": "Straight afterwards",
+      "words": 2,
+      "chars": 19,
+      "lines": 1,
+      "size": 30,
+      "vw": 2.1,
+      "font": "Bodoni Moda",
+      "weight": 400,
+      "tracking": -0.01,
+      "leading": 1.08,
+      "upper": false,
+      "italic": false,
+      "mono": false,
+      "align": "left",
+      "position": "center",
+      "widthRatio": 0.29,
+      "top": 2911,
+      "tag": "h3",
+      "kind": "heading"
+     },
+     {
+      "text": "While it heals",
+      "words": 3,
+      "chars": 14,
+      "lines": 1,
+      "size": 30,
+      "vw": 2.1,
+      "font": "Bodoni Moda",
+      "weight": 400,
+      "tracking": -0.01,
+      "leading": 1.08,
+      "upper": false,
+      "italic": false,
+      "mono": false,
+      "align": "left",
+      "position": "right",
+      "widthRatio": 0.29,
+      "top": 2911,
+      "tag": "h3",
+      "kind": "heading"
+     },
+     {
+      "text": "Settled and healed",
+      "words": 3,
+      "chars": 18,
+      "lines": 1,
+      "size": 56,
+      "vw": 3.9,
+      "font": "Bodoni Moda",
+      "weight": 400,
+      "tracking": -0.01,
+      "leading": 1.08,
+      "upper": false,
+      "italic": false,
+      "mono": false,
+      "align": "left",
+      "position": "center",
+      "widthRatio": 0.92,
+      "top": 3497,
+      "tag": "h2",
+      "kind": "heading"
+     },
+     {
+      "text": "Book a consultation",
+      "words": 3,
+      "chars": 19,
+      "lines": 1,
+      "size": 56,
+      "vw": 3.9,
+      "font": "Bodoni Moda",
+      "weight": 400,
+      "tracking": -0.01,
+      "leading": 1.08,
+      "upper": false,
+      "italic": false,
+      "mono": false,
+      "align": "left",
+      "position": "left",
+      "widthRatio": 0.37,
+      "top": 4496,
+      "tag": "h2",
+      "kind": "heading"
+     },
+     {
+      "text": "0414 502 807",
+      "words": 3,
+      "chars": 12,
+      "lines": 1,
+      "size": 30,
+      "vw": 2.1,
+      "font": "Bodoni Moda",
+      "weight": 400,
+      "tracking": 0,
+      "leading": 1.6,
+      "upper": false,
+      "italic": false,
+      "mono": false,
+      "align": "left",
+      "position": "left",
+      "widthRatio": 0.37,
+      "top": 4708,
+      "tag": "p",
+      "kind": "statement"
+     },
+     {
+      "text": "Brows, eyeliner and lips, mapped in Buderim since 2016.",
+      "words": 9,
+      "chars": 55,
+      "lines": 3,
+      "size": 30,
+      "vw": 2.1,
+      "font": "Bodoni Moda",
+      "weight": 400,
+      "tracking": 0,
+      "leading": 1.2,
+      "upper": false,
+      "italic": false,
+      "mono": false,
+      "align": "left",
+      "position": "right",
+      "widthRatio": 0.29,
+      "top": 5240,
+      "tag": "p",
+      "kind": "statement"
+     }
+    ],
+    "headingSummary": {
+     "count": 11,
+     "maxLines": 3,
+     "over2Lines": 0,
+     "statements": 2,
+     "centered": 0,
+     "medianWords": 3,
+     "mixedFontHeadings": 0
+    },
+    "type": {
+     "families": [
+      {
+       "family": "Jost",
+       "share": 0.91,
+       "mono": false
+      },
+      {
+       "family": "Bodoni Moda",
+       "share": 0.09,
+       "mono": false
+      }
+     ],
+     "familyCount": 2,
+     "sizes": [
+      14,
+      17,
+      22,
+      30,
+      56,
+      92
+     ],
+     "sizeCount": 6,
+     "notLoaded": [],
+     "body": {
+      "font": "Jost",
+      "size": 22,
+      "leading": 1.5,
+      "weight": 400,
+      "tracking": 0,
+      "contrast": 11.9
+     },
+     "measureChars": 49,
+     "max": {
+      "size": 92,
+      "vw": 6.4,
+      "font": "Bodoni Moda",
+      "text": "Your aftercare guide"
+     },
+     "monoShare": 0,
+     "monoProseShare": 0,
+     "monoFamilies": [],
+     "monoSamples": [],
+     "microLabels": 0,
+     "microLabelShare": 0,
+     "microSamples": [],
+     "upperShare": 0,
+     "centerShare": 0,
+     "smallText": 0
+    },
+    "eyebrows": [],
+    "numbered": [],
+    "color": {
+     "bodyBg": "#f7f3ea",
+     "bodyBgHsl": {
+      "h": 42,
+      "s": 0.45,
+      "l": 0.94
+     },
+     "dark": false,
+     "sectionBgs": [
+      {
+       "color": "#ffffff",
+       "top": 934,
+       "hsl": {
+        "h": 0,
+        "s": 0,
+        "l": 1
+       }
+      },
+      {
+       "color": "#c09569",
+       "top": 4354,
+       "hsl": {
+        "h": 30,
+        "s": 0.41,
+        "l": 0.58
+       }
+      },
+      {
+       "color": "#303030",
+       "top": 5154,
+       "hsl": {
+        "h": 0,
+        "s": 0,
+        "l": 0.19
+       }
+      }
+     ],
+     "textColors": [
+      {
+       "color": "#303030",
+       "share": 0.7
+      },
+      {
+       "color": "#f7f3ea",
+       "share": 0.12
+      },
+      {
+       "color": "#5a524a",
+       "share": 0.1
+      },
+      {
+       "color": "#bdb3a6",
+       "share": 0.04
+      },
+      {
+       "color": "#c09569",
+       "share": 0.04
+      }
+     ],
+     "button": {
+      "bg": "#303030",
+      "hsl": {
+       "h": 0,
+       "s": 0,
+       "l": 0.19
+      },
+      "fg": "#f7f3ea"
+     },
+     "lowContrast": []
+    },
+    "buttons": {
+     "count": 3,
+     "inHero": 2,
+     "radius": "pill",
+     "height": 52,
+     "withShadow": 0,
+     "withGradient": 0,
+     "mono": 0,
+     "upper": 0,
+     "heroLabels": [
+      "Book a consultation",
+      "Book a consultation"
+     ]
+    },
+    "surfaces": {
+     "shadowStatic": 0,
+     "shadowOverlay": 0,
+     "shadowSamples": [],
+     "gradients": 0,
+     "scrims": 0,
+     "gradientSamples": [],
+     "gradientText": 0,
+     "hairlines": 1,
+     "hairlineSamples": [
+      "div.foot__top 1325px"
+     ],
+     "outlinedBoxes": 0,
+     "dashed": 0,
+     "blurred": 0,
+     "roundedBoxes": 7,
+     "boxRadius": 99,
+     "squareMedia": 0,
+     "roundedMedia": 6,
+     "mediaRadius": 999,
+     "textShadow": 0,
+     "cardRows": [
+      {
+       "count": 3,
+       "iconTopped": false,
+       "rounded": false,
+       "top": 2889
+      }
+     ]
+    },
+    "heroMedia": [
+     {
+      "type": "img",
+      "ratio": 0.24
+     }
+    ],
+    "nav": {
+     "links": 8,
+     "fixed": true,
+     "height": 80,
+     "floatingPill": false,
+     "blur": false
+    },
+    "fontsLoaded": [
+     "bodoni moda",
+     "jost",
+     "jost fallback"
+    ]
+   },
+   "layout": {
+    "viewport": {
+     "w": 1440,
+     "h": 900
+    },
+    "pageH": 5692,
+    "margins": {
+     "left": 58,
+     "right": 58
+    },
+    "sections": [
+     {
+      "sel": "section",
+      "tag": "section",
+      "top": 80,
+      "height": 854,
+      "words": 31,
+      "media": 1,
+      "middle": 257,
+      "heading": {
+       "text": "Your aftercare",
+       "size": 92,
+       "tag": "h1"
+      },
+      "left": 58,
+      "right": 58,
+      "textLeft": 58,
+      "textRight": 795,
+      "fullBleed": false,
+      "footer": false,
+      "hero": true,
+      "continues": true,
+      "pinned": false
+     },
+     {
+      "sel": "section.section.on-white",
+      "tag": "section",
+      "top": 934,
+      "height": 1042,
+      "words": 102,
+      "media": 1,
+      "middle": 29,
+      "heading": {
+       "text": "Your visit, day by day",
+       "size": 56,
+       "tag": "h2"
+      },
+      "left": 58,
+      "right": 58,
+      "textLeft": 58,
+      "textRight": 77,
+      "fullBleed": false,
+      "footer": false,
+      "hero": false,
+      "continues": true,
+      "pinned": false
+     },
+     {
+      "sel": "section.section",
+      "tag": "section",
+      "top": 1977,
+      "height": 1378,
+      "words": 141,
+      "media": 1,
+      "middle": 0,
+      "heading": {
+       "text": "The full guide",
+       "size": 56,
+       "tag": "h2"
+      },
+      "left": 58,
+      "right": 58,
+      "textLeft": 58,
+      "textRight": 74,
+      "fullBleed": false,
+      "footer": false,
+      "hero": false,
+      "continues": true,
+      "pinned": false
+     },
+     {
+      "sel": "section.section.on-white",
+      "tag": "section",
+      "top": 3355,
+      "height": 999,
+      "words": 11,
+      "media": 3,
+      "middle": 29,
+      "heading": {
+       "text": "Settled and healed",
+       "size": 56,
+       "tag": "h2"
+      },
+      "left": 58,
+      "right": 58,
+      "textLeft": 58,
+      "textRight": 315,
+      "fullBleed": false,
+      "footer": false,
+      "hero": false,
+      "continues": true,
+      "pinned": false
+     },
+     {
+      "sel": "section#book.section.book",
+      "tag": "section",
+      "top": 4354,
+      "height": 800,
+      "words": 58,
+      "media": 0,
+      "middle": 196,
+      "heading": {
+       "text": "Book a consultation",
+       "size": 56,
+       "tag": "h2"
+      },
+      "left": 58,
+      "right": 98,
+      "textLeft": 58,
+      "textRight": 303,
+      "fullBleed": false,
+      "footer": false,
+      "hero": false,
+      "continues": true,
+      "pinned": false
+     },
+     {
+      "sel": "footer.foot",
+      "tag": "footer",
+      "top": 5154,
+      "height": 538,
+      "words": 68,
+      "media": 0,
+      "middle": 144,
+      "heading": {
+       "text": "Brows, eyeliner and lips, mapped in Buderim since ",
+       "size": 30,
+       "tag": "p"
+      },
+      "left": 58,
+      "right": 58,
+      "textLeft": 58,
+      "textRight": 58,
+      "fullBleed": false,
+      "footer": true,
+      "hero": false,
+      "continues": false,
+      "pinned": false
+     }
+    ],
+    "gaps": [],
+    "h1s": [
+     {
+      "text": "Your aftercare guide",
+      "size": 92,
+      "top": 426,
+      "firstScreen": true
+     }
+    ],
+    "edgeText": [],
+    "edges": [
+     {
+      "x": 58,
+      "n": 10
+     },
+     {
+      "x": 101,
+      "n": 1
+     },
+     {
+      "x": 513,
+      "n": 1
+     },
+     {
+      "x": 734,
+      "n": 1
+     },
+     {
+      "x": 967,
+      "n": 1
+     }
+    ],
+    "leftBlocks": 14,
+    "bodySize": 17,
+    "stage": false,
+    "explains": true,
+    "slivers": [],
+    "voidShare": 0.17,
+    "voidBox": {
+     "x": 0,
+     "y": 120,
+     "w": 900,
+     "h": 240
+    }
+   },
+   "app": null,
+   "consoleErrors": []
+  },
+  {
+   "width": 768,
+   "height": 1024,
+   "load": "load",
+   "screens": 7,
+   "filled": [
+    0.47,
+    0.91,
+    0.73,
+    0.35,
+    0.93,
+    0.8,
+    0.97
+   ],
+   "motion": {
+    "elements": 0,
+    "css": 0,
+    "transitions": 0,
+    "scripted": 0,
+    "videos": 0,
+    "playingVideos": 0
+   },
+   "metrics": {
+    "viewport": {
+     "w": 768,
+     "h": 1024
+    },
+    "page": {
+     "height": 6747,
+     "screens": 6.6,
+     "words": 421,
+     "img": 8,
+     "video": 0,
+     "canvas": 0,
+     "svg": 0,
+     "sections": 5,
+     "horizontalOverflow": 0,
+     "overflowCulprits": [],
+     "uiFragments": 0,
+     "uiAbuse": false,
+     "realPictures": 6,
+     "videoCount": 0,
+     "uiPictures": 0,
+     "pictureSamples": [
+      "image?url=%2Fimages%2Fsub%2Fac-work-3.jpg&w=750&",
+      "image?url=%2Fimages%2Fsub%2Feb-technique.jpg&w=6",
+      "image?url=%2Fimages%2Fsub%2Fac-section.png&w=750",
+      "image?url=%2Fimages%2Fsub%2Fac-work-1.jpg&w=828&",
+      "image?url=%2Fimages%2Fsub%2Fac-work-2.jpg&w=828&",
+      "image?url=%2Fimages%2Fsub%2Fel-technique.jpg&w=8"
+     ],
+     "blendText": 0,
+     "sideScrollers": 0,
+     "brokenImages": [],
+     "emoji": [],
+     "videosNoPoster": 0
+    },
+    "hero": {
+     "text": "Your aftercare guide",
+     "words": 3,
+     "chars": 20,
+     "lines": 1,
+     "size": 62.5,
+     "vw": 8.1,
+     "font": "Bodoni Moda",
+     "weight": 400,
+     "tracking": -0.02,
+     "leading": 1.02,
+     "upper": false,
+     "italic": false,
+     "mono": false,
+     "align": "left",
+     "position": "center",
+     "widthRatio": 0.92,
+     "top": 118,
+     "tag": "h1",
+     "kind": "heading"
+    },
+    "h1": {
+     "text": "Your aftercare guide",
+     "words": 3,
+     "lines": 1,
+     "size": 62.5,
+     "font": "Bodoni Moda"
+    },
+    "headings": [
+     {
+      "text": "Your aftercare guide",
+      "words": 3,
+      "chars": 20,
+      "lines": 1,
+      "size": 62.5,
+      "vw": 8.1,
+      "font": "Bodoni Moda",
+      "weight": 400,
+      "tracking": -0.02,
+      "leading": 1.02,
+      "upper": false,
+      "italic": false,
+      "mono": false,
+      "align": "left",
+      "position": "center",
+      "widthRatio": 0.92,
+      "top": 118,
+      "tag": "h1",
+      "kind": "heading"
+     },
+     {
+      "text": "Your visit, day by day",
+      "words": 5,
+      "chars": 22,
+      "lines": 2,
+      "size": 42.5,
+      "vw": 5.5,
+      "font": "Bodoni Moda",
+      "weight": 400,
+      "tracking": -0.01,
+      "leading": 1.08,
+      "upper": false,
+      "italic": false,
+      "mono": false,
+      "align": "left",
+      "position": "left",
+      "widthRatio": 0.45,
+      "top": 1154,
+      "tag": "h2",
+      "kind": "heading"
+     },
+     {
+      "text": "Consultation",
+      "words": 1,
+      "chars": 12,
+      "lines": 1,
+      "size": 26.9,
+      "vw": 3.5,
+      "font": "Bodoni Moda",
+      "weight": 400,
+      "tracking": -0.01,
+      "leading": 1.08,
+      "upper": false,
+      "italic": false,
+      "mono": false,
+      "align": "left",
+      "position": "center",
+      "widthRatio": 0.86,
+      "top": 1981,
+      "tag": "h3",
+      "kind": "heading"
+     },
+     {
+      "text": "The full guide",
+      "words": 3,
+      "chars": 14,
+      "lines": 1,
+      "size": 42.5,
+      "vw": 5.5,
+      "font": "Bodoni Moda",
+      "weight": 400,
+      "tracking": -0.01,
+      "leading": 1.08,
+      "upper": false,
+      "italic": false,
+      "mono": false,
+      "align": "left",
+      "position": "center",
+      "widthRatio": 0.92,
+      "top": 2737,
+      "tag": "h2",
+      "kind": "heading"
+     },
+     {
+      "text": "Before your appointment",
+      "words": 3,
+      "chars": 23,
+      "lines": 1,
+      "size": 26.9,
+      "vw": 3.5,
+      "font": "Bodoni Moda",
+      "weight": 400,
+      "tracking": -0.01,
+      "leading": 1.08,
+      "upper": false,
+      "italic": false,
+      "mono": false,
+      "align": "left",
+      "position": "center",
+      "widthRatio": 0.92,
+      "top": 3478,
+      "tag": "h3",
+      "kind": "heading"
+     },
+     {
+      "text": "Straight afterwards",
+      "words": 2,
+      "chars": 19,
+      "lines": 1,
+      "size": 26.9,
+      "vw": 3.5,
+      "font": "Bodoni Moda",
+      "weight": 400,
+      "tracking": -0.01,
+      "leading": 1.08,
+      "upper": false,
+      "italic": false,
+      "mono": false,
+      "align": "left",
+      "position": "center",
+      "widthRatio": 0.92,
+      "top": 3757,
+      "tag": "h3",
+      "kind": "heading"
+     },
+     {
+      "text": "While it heals",
+      "words": 3,
+      "chars": 14,
+      "lines": 1,
+      "size": 26.9,
+      "vw": 3.5,
+      "font": "Bodoni Moda",
+      "weight": 400,
+      "tracking": -0.01,
+      "leading": 1.08,
+      "upper": false,
+      "italic": false,
+      "mono": false,
+      "align": "left",
+      "position": "center",
+      "widthRatio": 0.92,
+      "top": 3966,
+      "tag": "h3",
+      "kind": "heading"
+     },
+     {
+      "text": "Settled and healed",
+      "words": 3,
+      "chars": 18,
+      "lines": 1,
+      "size": 42.5,
+      "vw": 5.5,
+      "font": "Bodoni Moda",
+      "weight": 400,
+      "tracking": -0.01,
+      "leading": 1.08,
+      "upper": false,
+      "italic": false,
+      "mono": false,
+      "align": "left",
+      "position": "center",
+      "widthRatio": 0.92,
+      "top": 4352,
+      "tag": "h2",
+      "kind": "heading"
+     },
+     {
+      "text": "Book a consultation",
+      "words": 3,
+      "chars": 19,
+      "lines": 1,
+      "size": 42.5,
+      "vw": 5.5,
+      "font": "Bodoni Moda",
+      "weight": 400,
+      "tracking": -0.01,
+      "leading": 1.08,
+      "upper": false,
+      "italic": false,
+      "mono": false,
+      "align": "left",
+      "position": "center",
+      "widthRatio": 0.92,
+      "top": 4968,
+      "tag": "h2",
+      "kind": "heading"
+     },
+     {
+      "text": "0414 502 807",
+      "words": 3,
+      "chars": 12,
+      "lines": 1,
+      "size": 26.9,
+      "vw": 3.5,
+      "font": "Bodoni Moda",
+      "weight": 400,
+      "tracking": 0,
+      "leading": 1.6,
+      "upper": false,
+      "italic": false,
+      "mono": false,
+      "align": "left",
+      "position": "center",
+      "widthRatio": 0.92,
+      "top": 5157,
+      "tag": "p",
+      "kind": "statement"
+     },
+     {
+      "text": "Brows, eyeliner and lips, mapped in Buderim since 2016.",
+      "words": 9,
+      "chars": 55,
+      "lines": 2,
+      "size": 26.9,
+      "vw": 3.5,
+      "font": "Bodoni Moda",
+      "weight": 400,
+      "tracking": 0,
+      "leading": 1.2,
+      "upper": false,
+      "italic": false,
+      "mono": false,
+      "align": "left",
+      "position": "right",
+      "widthRatio": 0.54,
+      "top": 5973,
+      "tag": "p",
+      "kind": "statement"
+     }
+    ],
+    "headingSummary": {
+     "count": 11,
+     "maxLines": 2,
+     "over2Lines": 0,
+     "statements": 2,
+     "centered": 0,
+     "medianWords": 3,
+     "mixedFontHeadings": 0
+    },
+    "type": {
+     "families": [
+      {
+       "family": "Jost",
+       "share": 0.9,
+       "mono": false
+      },
+      {
+       "family": "Bodoni Moda",
+       "share": 0.1,
+       "mono": false
+      }
+     ],
+     "familyCount": 2,
+     "sizes": [
+      14,
+      17,
+      20,
+      27,
+      43,
+      63
+     ],
+     "sizeCount": 6,
+     "notLoaded": [],
+     "body": {
+      "font": "Jost",
+      "size": 20.3,
+      "leading": 1.5,
+      "weight": 400,
+      "tracking": 0,
+      "contrast": 11.9
+     },
+     "measureChars": 34,
+     "max": {
+      "size": 62.5,
+      "vw": 8.1,
+      "font": "Bodoni Moda",
+      "text": "Your aftercare guide"
+     },
+     "monoShare": 0,
+     "monoProseShare": 0,
+     "monoFamilies": [],
+     "monoSamples": [],
+     "microLabels": 0,
+     "microLabelShare": 0,
+     "microSamples": [],
+     "upperShare": 0,
+     "centerShare": 0.01,
+     "smallText": 0
+    },
+    "eyebrows": [],
+    "numbered": [],
+    "color": {
+     "bodyBg": "#f7f3ea",
+     "bodyBgHsl": {
+      "h": 42,
+      "s": 0.45,
+      "l": 0.94
+     },
+     "dark": false,
+     "sectionBgs": [
+      {
+       "color": "#ffffff",
+       "top": 1052,
+       "hsl": {
+        "h": 0,
+        "s": 0,
+        "l": 1
+       }
+      },
+      {
+       "color": "#c09569",
+       "top": 4866,
+       "hsl": {
+        "h": 30,
+        "s": 0.41,
+        "l": 0.58
+       }
+      },
+      {
+       "color": "#f7f3ea",
+       "top": 5332,
+       "hsl": {
+        "h": 42,
+        "s": 0.45,
+        "l": 0.94
+       }
+      },
+      {
+       "color": "#303030",
+       "top": 5917,
+       "hsl": {
+        "h": 0,
+        "s": 0,
+        "l": 0.19
+       }
+      }
+     ],
+     "textColors": [
+      {
+       "color": "#303030",
+       "share": 0.7
+      },
+      {
+       "color": "#f7f3ea",
+       "share": 0.12
+      },
+      {
+       "color": "#5a524a",
+       "share": 0.1
+      },
+      {
+       "color": "#bdb3a6",
+       "share": 0.04
+      },
+      {
+       "color": "#c09569",
+       "share": 0.04
+      }
+     ],
+     "button": {
+      "bg": "#303030",
+      "hsl": {
+       "h": 0,
+       "s": 0,
+       "l": 0.19
+      },
+      "fg": "#f7f3ea"
+     },
+     "lowContrast": []
+    },
+    "buttons": {
+     "count": 4,
+     "inHero": 3,
+     "radius": "pill",
+     "height": 44,
+     "withShadow": 0,
+     "withGradient": 0,
+     "mono": 0,
+     "upper": 0,
+     "heroLabels": [
+      "Book a consultation",
+      "Book a consultation"
+     ]
+    },
+    "surfaces": {
+     "shadowStatic": 0,
+     "shadowOverlay": 0,
+     "shadowSamples": [],
+     "gradients": 0,
+     "scrims": 0,
+     "gradientSamples": [],
+     "gradientText": 0,
+     "hairlines": 1,
+     "hairlineSamples": [
+      "div.foot__top 707px"
+     ],
+     "outlinedBoxes": 0,
+     "dashed": 0,
+     "blurred": 0,
+     "roundedBoxes": 7,
+     "boxRadius": 99,
+     "squareMedia": 0,
+     "roundedMedia": 6,
+     "mediaRadius": 999,
+     "textShadow": 0,
+     "cardRows": []
+    },
+    "heroMedia": [
+     {
+      "type": "img",
+      "ratio": 0.29
+     }
+    ],
+    "nav": {
+     "links": 3,
+     "fixed": true,
+     "height": 80,
+     "floatingPill": false,
+     "blur": false
+    },
+    "fontsLoaded": [
+     "bodoni moda",
+     "bodoni moda fallback",
+     "jost",
+     "jost fallback"
+    ]
+   },
+   "layout": {
+    "viewport": {
+     "w": 768,
+     "h": 1024
+    },
+    "pageH": 6747,
+    "margins": {
+     "left": 31,
+     "right": 31
+    },
+    "sections": [
+     {
+      "sel": "section",
+      "tag": "section",
+      "top": 80,
+      "height": 972,
+      "words": 31,
+      "media": 1,
+      "middle": 0,
+      "heading": {
+       "text": "Your aftercare",
+       "size": 62,
+       "tag": "h1"
+      },
+      "left": 31,
+      "right": 166,
+      "textLeft": 31,
+      "textRight": 166,
+      "fullBleed": false,
+      "footer": false,
+      "hero": true,
+      "continues": true,
+      "pinned": false
+     },
+     {
+      "sel": "section.section.on-white",
+      "tag": "section",
+      "top": 1052,
+      "height": 1583,
+      "words": 102,
+      "media": 1,
+      "middle": 0,
+      "heading": {
+       "text": "Your visit, day by day",
+       "size": 42,
+       "tag": "h2"
+      },
+      "left": 31,
+      "right": 31,
+      "textLeft": 31,
+      "textRight": 49,
+      "fullBleed": false,
+      "footer": false,
+      "hero": false,
+      "continues": true,
+      "pinned": false
+     },
+     {
+      "sel": "section.section",
+      "tag": "section",
+      "top": 2635,
+      "height": 1614,
+      "words": 141,
+      "media": 1,
+      "middle": 0,
+      "heading": {
+       "text": "The full guide",
+       "size": 42,
+       "tag": "h2"
+      },
+      "left": 31,
+      "right": 156,
+      "textLeft": 31,
+      "textRight": 156,
+      "fullBleed": false,
+      "footer": false,
+      "hero": false,
+      "continues": true,
+      "pinned": false
+     },
+     {
+      "sel": "section.section.on-white",
+      "tag": "section",
+      "top": 4249,
+      "height": 616,
+      "words": 11,
+      "media": 3,
+      "middle": 16,
+      "heading": {
+       "text": "Settled and healed",
+       "size": 42,
+       "tag": "h2"
+      },
+      "left": 31,
+      "right": 31,
+      "textLeft": 31,
+      "textRight": 91,
+      "fullBleed": false,
+      "footer": false,
+      "hero": false,
+      "continues": true,
+      "pinned": false
+     },
+     {
+      "sel": "section#book.section.book",
+      "tag": "section",
+      "top": 4866,
+      "height": 1052,
+      "words": 58,
+      "media": 0,
+      "middle": 0,
+      "heading": {
+       "text": "Book a consultation",
+       "size": 42,
+       "tag": "h2"
+      },
+      "left": 31,
+      "right": 55,
+      "textLeft": 31,
+      "textRight": 257,
+      "fullBleed": false,
+      "footer": false,
+      "hero": false,
+      "continues": true,
+      "pinned": false
+     },
+     {
+      "sel": "footer.foot",
+      "tag": "footer",
+      "top": 5917,
+      "height": 830,
+      "words": 68,
+      "media": 0,
+      "middle": 46,
+      "heading": {
+       "text": "Brows, eyeliner and lips, mapped in Buderim since ",
+       "size": 27,
+       "tag": "p"
+      },
+      "left": 31,
+      "right": 31,
+      "textLeft": 31,
+      "textRight": 31,
+      "fullBleed": false,
+      "footer": true,
+      "hero": false,
+      "continues": false,
+      "pinned": false
+     }
+    ],
+    "gaps": [],
+    "h1s": [
+     {
+      "text": "Your aftercare guide",
+      "size": 62,
+      "top": 118,
+      "firstScreen": true
+     }
+    ],
+    "edgeText": [],
+    "edges": [
+     {
+      "x": 31,
+      "n": 11
+     },
+     {
+      "x": 55,
+      "n": 1
+     },
+     {
+      "x": 392,
+      "n": 1
+     },
+     {
+      "x": 444,
+      "n": 1
+     }
+    ],
+    "leftBlocks": 14,
+    "bodySize": 17,
+    "stage": false,
+    "explains": true,
+    "slivers": [],
+    "voidShare": 0,
+    "voidBox": null
+   },
+   "app": null,
+   "consoleErrors": []
+  },
+  {
+   "width": 390,
+   "height": 844,
+   "load": "load",
+   "screens": 10,
+   "filled": [
+    0.61,
+    0.82,
+    0.94,
+    0.69,
+    0.34,
+    0.83,
+    0.97,
+    0.9,
+    0.68,
+    0.99
+   ],
+   "motion": {
+    "elements": 0,
+    "css": 0,
+    "transitions": 0,
+    "scripted": 0,
+    "videos": 0,
+    "playingVideos": 0
+   },
+   "metrics": {
+    "viewport": {
+     "w": 390,
+     "h": 844
+    },
+    "page": {
+     "height": 8380,
+     "screens": 9.9,
+     "words": 418,
+     "img": 8,
+     "video": 0,
+     "canvas": 0,
+     "svg": 0,
+     "sections": 5,
+     "horizontalOverflow": 0,
+     "overflowCulprits": [],
+     "uiFragments": 0,
+     "uiAbuse": false,
+     "realPictures": 6,
+     "videoCount": 0,
+     "uiPictures": 0,
+     "pictureSamples": [
+      "image?url=%2Fimages%2Fsub%2Fac-work-3.jpg&w=384&",
+      "image?url=%2Fimages%2Fsub%2Feb-technique.jpg&w=3",
+      "image?url=%2Fimages%2Fsub%2Fac-section.png&w=384",
+      "image?url=%2Fimages%2Fsub%2Fac-work-1.jpg&w=640&",
+      "image?url=%2Fimages%2Fsub%2Fac-work-2.jpg&w=640&",
+      "image?url=%2Fimages%2Fsub%2Fel-technique.jpg&w=6"
+     ],
+     "blendText": 0,
+     "sideScrollers": 0,
+     "brokenImages": [],
+     "emoji": [],
+     "videosNoPoster": 0
+    },
+    "hero": {
+     "text": "Your aftercare guide",
+     "words": 3,
+     "chars": 20,
+     "lines": 2,
+     "size": 44.3,
+     "vw": 11.4,
+     "font": "Bodoni Moda",
+     "weight": 400,
+     "tracking": -0.02,
+     "leading": 1.02,
+     "upper": false,
+     "italic": false,
+     "mono": false,
+     "align": "left",
+     "position": "center",
+     "widthRatio": 0.9,
+     "top": 112,
+     "tag": "h1",
+     "kind": "heading"
+    },
+    "h1": {
+     "text": "Your aftercare guide",
+     "words": 3,
+     "lines": 2,
+     "size": 44.3,
+     "font": "Bodoni Moda"
+    },
+    "headings": [
+     {
+      "text": "Your aftercare guide",
+      "words": 3,
+      "chars": 20,
+      "lines": 2,
+      "size": 44.3,
+      "vw": 11.4,
+      "font": "Bodoni Moda",
+      "weight": 400,
+      "tracking": -0.02,
+      "leading": 1.02,
+      "upper": false,
+      "italic": false,
+      "mono": false,
+      "align": "left",
+      "position": "center",
+      "widthRatio": 0.9,
+      "top": 112,
+      "tag": "h1",
+      "kind": "heading"
+     },
+     {
+      "text": "Your visit, day by day",
+      "words": 5,
+      "chars": 22,
+      "lines": 1,
+      "size": 34.2,
+      "vw": 8.8,
+      "font": "Bodoni Moda",
+      "weight": 400,
+      "tracking": -0.01,
+      "leading": 1.08,
+      "upper": false,
+      "italic": false,
+      "mono": false,
+      "align": "left",
+      "position": "center",
+      "widthRatio": 0.9,
+      "top": 1110,
+      "tag": "h2",
+      "kind": "heading"
+     },
+     {
+      "text": "Consultation",
+      "words": 1,
+      "chars": 12,
+      "lines": 1,
+      "size": 24,
+      "vw": 6.2,
+      "font": "Bodoni Moda",
+      "weight": 400,
+      "tracking": -0.01,
+      "leading": 1.08,
+      "upper": false,
+      "italic": false,
+      "mono": false,
+      "align": "left",
+      "position": "center",
+      "widthRatio": 0.77,
+      "top": 1990,
+      "tag": "h3",
+      "kind": "heading"
+     },
+     {
+      "text": "The full guide",
+      "words": 3,
+      "chars": 14,
+      "lines": 1,
+      "size": 34.2,
+      "vw": 8.8,
+      "font": "Bodoni Moda",
+      "weight": 400,
+      "tracking": -0.01,
+      "leading": 1.08,
+      "upper": false,
+      "italic": false,
+      "mono": false,
+      "align": "left",
+      "position": "center",
+      "widthRatio": 0.9,
+      "top": 2781,
+      "tag": "h2",
+      "kind": "heading"
+     },
+     {
+      "text": "Before your appointment",
+      "words": 3,
+      "chars": 23,
+      "lines": 1,
+      "size": 24,
+      "vw": 6.2,
+      "font": "Bodoni Moda",
+      "weight": 400,
+      "tracking": -0.01,
+      "leading": 1.08,
+      "upper": false,
+      "italic": false,
+      "mono": false,
+      "align": "left",
+      "position": "center",
+      "widthRatio": 0.9,
+      "top": 3492,
+      "tag": "h3",
+      "kind": "heading"
+     },
+     {
+      "text": "Straight afterwards",
+      "words": 2,
+      "chars": 19,
+      "lines": 1,
+      "size": 24,
+      "vw": 6.2,
+      "font": "Bodoni Moda",
+      "weight": 400,
+      "tracking": -0.01,
+      "leading": 1.08,
+      "upper": false,
+      "italic": false,
+      "mono": false,
+      "align": "left",
+      "position": "center",
+      "widthRatio": 0.9,
+      "top": 3876,
+      "tag": "h3",
+      "kind": "heading"
+     },
+     {
+      "text": "While it heals",
+      "words": 3,
+      "chars": 14,
+      "lines": 1,
+      "size": 24,
+      "vw": 6.2,
+      "font": "Bodoni Moda",
+      "weight": 400,
+      "tracking": -0.01,
+      "leading": 1.08,
+      "upper": false,
+      "italic": false,
+      "mono": false,
+      "align": "left",
+      "position": "center",
+      "widthRatio": 0.9,
+      "top": 4163,
+      "tag": "h3",
+      "kind": "heading"
+     },
+     {
+      "text": "Settled and healed",
+      "words": 3,
+      "chars": 18,
+      "lines": 1,
+      "size": 34.2,
+      "vw": 8.8,
+      "font": "Bodoni Moda",
+      "weight": 400,
+      "tracking": -0.01,
+      "leading": 1.08,
+      "upper": false,
+      "italic": false,
+      "mono": false,
+      "align": "left",
+      "position": "center",
+      "widthRatio": 0.9,
+      "top": 4556,
+      "tag": "h2",
+      "kind": "heading"
+     },
+     {
+      "text": "Book a consultation",
+      "words": 3,
+      "chars": 19,
+      "lines": 1,
+      "size": 34.2,
+      "vw": 8.8,
+      "font": "Bodoni Moda",
+      "weight": 400,
+      "tracking": -0.01,
+      "leading": 1.08,
+      "upper": false,
+      "italic": false,
+      "mono": false,
+      "align": "left",
+      "position": "center",
+      "widthRatio": 0.9,
+      "top": 6320,
+      "tag": "h2",
+      "kind": "heading"
+     },
+     {
+      "text": "0414 502 807",
+      "words": 3,
+      "chars": 12,
+      "lines": 1,
+      "size": 24,
+      "vw": 6.2,
+      "font": "Bodoni Moda",
+      "weight": 400,
+      "tracking": 0,
+      "leading": 1.6,
+      "upper": false,
+      "italic": false,
+      "mono": false,
+      "align": "left",
+      "position": "center",
+      "widthRatio": 0.9,
+      "top": 6495,
+      "tag": "p",
+      "kind": "statement"
+     },
+     {
+      "text": "Brows, eyeliner and lips, mapped in Buderim since 2016.",
+      "words": 9,
+      "chars": 55,
+      "lines": 2,
+      "size": 24,
+      "vw": 6.2,
+      "font": "Bodoni Moda",
+      "weight": 400,
+      "tracking": 0,
+      "leading": 1.2,
+      "upper": false,
+      "italic": false,
+      "mono": false,
+      "align": "left",
+      "position": "center",
+      "widthRatio": 0.9,
+      "top": 7552,
+      "tag": "p",
+      "kind": "statement"
+     }
+    ],
+    "headingSummary": {
+     "count": 11,
+     "maxLines": 2,
+     "over2Lines": 0,
+     "statements": 2,
+     "centered": 0,
+     "medianWords": 3,
+     "mixedFontHeadings": 0
+    },
+    "type": {
+     "families": [
+      {
+       "family": "Jost",
+       "share": 0.9,
+       "mono": false
+      },
+      {
+       "family": "Bodoni Moda",
+       "share": 0.1,
+       "mono": false
+      }
+     ],
+     "familyCount": 2,
+     "sizes": [
+      14,
+      17,
+      19,
+      24,
+      34,
+      44
+     ],
+     "sizeCount": 6,
+     "notLoaded": [],
+     "body": {
+      "font": "Jost",
+      "size": 19,
+      "leading": 1.5,
+      "weight": 400,
+      "tracking": 0,
+      "contrast": 11.9
+     },
+     "measureChars": 37,
+     "max": {
+      "size": 44.3,
+      "vw": 11.4,
+      "font": "Bodoni Moda",
+      "text": "Your aftercare guide"
+     },
+     "monoShare": 0,
+     "monoProseShare": 0,
+     "monoFamilies": [],
+     "monoSamples": [],
+     "microLabels": 0,
+     "microLabelShare": 0,
+     "microSamples": [],
+     "upperShare": 0,
+     "centerShare": 0.01,
+     "smallText": 0
+    },
+    "eyebrows": [],
+    "numbered": [],
+    "color": {
+     "bodyBg": "#f7f3ea",
+     "bodyBgHsl": {
+      "h": 42,
+      "s": 0.45,
+      "l": 0.94
+     },
+     "dark": false,
+     "sectionBgs": [
+      {
+       "color": "#b0a18d",
+       "top": 483,
+       "hsl": {
+        "h": 34,
+        "s": 0.18,
+        "l": 0.62
+       }
+      },
+      {
+       "color": "#ffffff",
+       "top": 1030,
+       "hsl": {
+        "h": 0,
+        "s": 0,
+        "l": 1
+       }
+      },
+      {
+       "color": "#c09569",
+       "top": 6240,
+       "hsl": {
+        "h": 30,
+        "s": 0.41,
+        "l": 0.58
+       }
+      },
+      {
+       "color": "#f7f3ea",
+       "top": 6665,
+       "hsl": {
+        "h": 42,
+        "s": 0.45,
+        "l": 0.94
+       }
+      },
+      {
+       "color": "#303030",
+       "top": 7431,
+       "hsl": {
+        "h": 0,
+        "s": 0,
+        "l": 0.19
+       }
+      }
+     ],
+     "textColors": [
+      {
+       "color": "#303030",
+       "share": 0.7
+      },
+      {
+       "color": "#f7f3ea",
+       "share": 0.12
+      },
+      {
+       "color": "#5a524a",
+       "share": 0.1
+      },
+      {
+       "color": "#bdb3a6",
+       "share": 0.04
+      },
+      {
+       "color": "#c09569",
+       "share": 0.04
+      }
+     ],
+     "button": {
+      "bg": "#303030",
+      "hsl": {
+       "h": 0,
+       "s": 0,
+       "l": 0.19
+      },
+      "fg": "#f7f3ea"
+     },
+     "lowContrast": []
+    },
+    "buttons": {
+     "count": 3,
+     "inHero": 2,
+     "radius": "pill",
+     "height": 52,
+     "withShadow": 0,
+     "withGradient": 0,
+     "mono": 0,
+     "upper": 0,
+     "heroLabels": [
+      "Book a consultation"
+     ]
+    },
+    "surfaces": {
+     "shadowStatic": 0,
+     "shadowOverlay": 0,
+     "shadowSamples": [],
+     "gradients": 0,
+     "scrims": 0,
+     "gradientSamples": [],
+     "gradientText": 0,
+     "hairlines": 1,
+     "hairlineSamples": [
+      "div.foot__top 350px"
+     ],
+     "outlinedBoxes": 0,
+     "dashed": 0,
+     "blurred": 0,
+     "roundedBoxes": 7,
+     "boxRadius": 99,
+     "squareMedia": 0,
+     "roundedMedia": 6,
+     "mediaRadius": 999,
+     "textShadow": 0,
+     "cardRows": [
+      {
+       "count": 3,
+       "iconTopped": false,
+       "rounded": false,
+       "top": 3470
+      }
+     ]
+    },
+    "heroMedia": [
+     {
+      "type": "img",
+      "ratio": 0.38
+     }
+    ],
+    "nav": {
+     "links": 2,
+     "fixed": true,
+     "height": 80,
+     "floatingPill": false,
+     "blur": false
+    },
+    "fontsLoaded": [
+     "bodoni moda",
+     "bodoni moda fallback",
+     "jost",
+     "jost fallback"
+    ]
+   },
+   "layout": {
+    "viewport": {
+     "w": 390,
+     "h": 844
+    },
+    "pageH": 8380,
+    "margins": {
+     "left": 20,
+     "right": 20
+    },
+    "sections": [
+     {
+      "sel": "section",
+      "tag": "section",
+      "top": 80,
+      "height": 950,
+      "words": 31,
+      "media": 1,
+      "middle": 0,
+      "heading": {
+       "text": "Your aftercare",
+       "size": 44,
+       "tag": "h1"
+      },
+      "left": 20,
+      "right": 20,
+      "textLeft": 20,
+      "textRight": 23,
+      "fullBleed": false,
+      "footer": false,
+      "hero": true,
+      "continues": true,
+      "pinned": false
+     },
+     {
+      "sel": "section.section.on-white",
+      "tag": "section",
+      "top": 1030,
+      "height": 1671,
+      "words": 102,
+      "media": 1,
+      "middle": 0,
+      "heading": {
+       "text": "Your visit, day by day",
+       "size": 34,
+       "tag": "h2"
+      },
+      "left": 20,
+      "right": 20,
+      "textLeft": 20,
+      "textRight": 42,
+      "fullBleed": false,
+      "footer": false,
+      "hero": false,
+      "continues": true,
+      "pinned": false
+     },
+     {
+      "sel": "section.section",
+      "tag": "section",
+      "top": 2701,
+      "height": 1776,
+      "words": 141,
+      "media": 1,
+      "middle": 0,
+      "heading": {
+       "text": "The full guide",
+       "size": 34,
+       "tag": "h2"
+      },
+      "left": 20,
+      "right": 20,
+      "textLeft": 20,
+      "textRight": 25,
+      "fullBleed": false,
+      "footer": false,
+      "hero": false,
+      "continues": true,
+      "pinned": false
+     },
+     {
+      "sel": "section.section.on-white",
+      "tag": "section",
+      "top": 4476,
+      "height": 1764,
+      "words": 11,
+      "media": 3,
+      "middle": 0,
+      "heading": {
+       "text": "Settled and healed",
+       "size": 34,
+       "tag": "h2"
+      },
+      "left": 20,
+      "right": 20,
+      "textLeft": 20,
+      "textRight": 83,
+      "fullBleed": false,
+      "footer": false,
+      "hero": false,
+      "continues": true,
+      "pinned": false
+     },
+     {
+      "sel": "section#book.section.book",
+      "tag": "section",
+      "top": 6240,
+      "height": 1191,
+      "words": 58,
+      "media": 0,
+      "middle": 0,
+      "heading": {
+       "text": "Book a consultation",
+       "size": 34,
+       "tag": "h2"
+      },
+      "left": 20,
+      "right": 31,
+      "textLeft": 20,
+      "textRight": 31,
+      "fullBleed": false,
+      "footer": false,
+      "hero": false,
+      "continues": true,
+      "pinned": false
+     },
+     {
+      "sel": "footer.foot",
+      "tag": "footer",
+      "top": 7431,
+      "height": 949,
+      "words": 68,
+      "media": 0,
+      "middle": 0,
+      "heading": {
+       "text": "Brows, eyeliner and lips, mapped in Buderim since ",
+       "size": 24,
+       "tag": "p"
+      },
+      "left": 20,
+      "right": 25,
+      "textLeft": 20,
+      "textRight": 25,
+      "fullBleed": false,
+      "footer": true,
+      "hero": false,
+      "continues": false,
+      "pinned": false
+     }
+    ],
+    "gaps": [],
+    "h1s": [
+     {
+      "text": "Your aftercare guide",
+      "size": 44,
+      "top": 112,
+      "firstScreen": true
+     }
+    ],
+    "edgeText": [],
+    "edges": [
+     {
+      "x": 20,
+      "n": 13
+     },
+     {
+      "x": 44,
+      "n": 1
+     }
+    ],
+    "leftBlocks": 14,
+    "bodySize": 17,
+    "stage": false,
+    "explains": true,
+    "slivers": [],
+    "voidShare": 0,
+    "voidBox": null
+   },
+   "app": null,
+   "consoleErrors": []
+  }
+ ],
+ "findings": [
+  {
+   "level": "WARN",
+   "id": "hairline",
+   "width": 1440,
+   "message": "1 thin rule(s)/divider line(s): div.foot__top 1325px",
+   "fix": "Delete. Separate with space, a tone change, or scale. Lines are only for real tables and form fields.",
+   "alsoAt": [
+    768,
+    390
+   ]
+  },
+  {
+   "level": "FAIL",
+   "id": "palette-claude",
+   "width": 1440,
+   "message": "Cream + terracotta palette (page background #f7f3ea, text #f7f3ea, section #c09569, text #c09569).",
+   "fix": "Re-draw the palette from the library. This pairing reads as an assistant brand, not yours.",
+   "alsoAt": [
+    768,
+    390
+   ]
+  },
+  {
+   "level": "WARN",
+   "id": "no-footage",
+   "width": 1440,
+   "message": "No video anywhere on the page.",
+   "fix": "Look for one honest clip with scripts/assets.mjs --video (the place, the material, the process) and use it as a muted loop with a poster frame. Defend its absence only if no clip fits the subject."
+  },
+  {
+   "level": "WARN",
+   "id": "font-not-dealt",
+   "width": 1440,
+   "message": "The sheet dealt Chillax and Chillax, but the page renders Jost, Bodoni Moda.",
+   "fix": "Load the dealt face (the link on the sheet) and put it first in font-family. A build that falls back to a default face lands on the default look."
+  },
+  {
+   "level": "FAIL",
+   "id": "still-page",
+   "width": 1440,
+   "message": "Only 0 element(s) moved while the page loaded and scrolled.",
+   "fix": "Build the motion layer (SKILL.md step 9, references/motion.md): the signature move, an entrance for the parts of every section, feedback on every control, and one moving picture. Transform and opacity only, with a reduced-motion fallback."
+  }
+ ],
+ "images": [
+  {
+   "viewport": "desktop",
+   "width": 1440,
+   "fold": "C:\\Users\\KingTheOne\\Desktop\\Projects\\on-point-cosmetic-tattoo\\.taste-skill\\v2\\after-care\\desktop-fold.jpg",
+   "pages": [
+    "C:\\Users\\KingTheOne\\Desktop\\Projects\\on-point-cosmetic-tattoo\\.taste-skill\\v2\\after-care\\desktop-page-01.jpg",
+    "C:\\Users\\KingTheOne\\Desktop\\Projects\\on-point-cosmetic-tattoo\\.taste-skill\\v2\\after-care\\desktop-page-02.jpg"
+   ],
+   "film": []
+  },
+  {
+   "viewport": "tablet",
+   "width": 768,
+   "fold": "C:\\Users\\KingTheOne\\Desktop\\Projects\\on-point-cosmetic-tattoo\\.taste-skill\\v2\\after-care\\tablet-fold.jpg",
+   "pages": [
+    "C:\\Users\\KingTheOne\\Desktop\\Projects\\on-point-cosmetic-tattoo\\.taste-skill\\v2\\after-care\\tablet-page-01.jpg",
+    "C:\\Users\\KingTheOne\\Desktop\\Projects\\on-point-cosmetic-tattoo\\.taste-skill\\v2\\after-care\\tablet-page-02.jpg"
+   ],
+   "film": []
+  },
+  {
+   "viewport": "mobile",
+   "width": 390,
+   "fold": "C:\\Users\\KingTheOne\\Desktop\\Projects\\on-point-cosmetic-tattoo\\.taste-skill\\v2\\after-care\\mobile-fold.jpg",
+   "pages": [
+    "C:\\Users\\KingTheOne\\Desktop\\Projects\\on-point-cosmetic-tattoo\\.taste-skill\\v2\\after-care\\mobile-page-01.jpg",
+    "C:\\Users\\KingTheOne\\Desktop\\Projects\\on-point-cosmetic-tattoo\\.taste-skill\\v2\\after-care\\mobile-page-02.jpg"
+   ],
+   "film": []
+  }
+ ]
+}

@@ -1,50 +1,51 @@
 import Image from "next/image";
+import { BookLink } from "@/components/BookLink";
+import { Flora } from "@/components/Flora";
+import { Tile } from "@/components/Tile";
 
 export function Artist() {
   return (
-    <section id="artist" className="bg-white py-20 px-6">
-      <div className="max-w-[1200px] mx-auto flex lg:flex-row flex-col gap-12 items-center">
-        <div className="lg:w-[48%] w-full">
+    <section id="about" aria-labelledby="about-title" className="section on-taupe has-flora">
+      <Flora at="br" />
+      <div className="wrap grid12 about">
+        <Tile className="about__pic" texture="charcoal" tilt="left">
           <Image
             src="/images/artist-lisa.jpg"
-            alt="Lisa Eagles - Certified Cosmetic Tattoo Artist"
-            width={629}
-            height={650}
-            className="w-full h-auto object-cover rounded-sm"
+            alt="Lisa Eagles, certified cosmetic tattoo artist and owner of On Point"
+            width={937}
+            height={960}
+            sizes="(min-width: 900px) 40vw, 90vw"
           />
-        </div>
-        <div className="lg:w-[52%] w-full">
-          <div className="bg-cream p-8 lg:p-10 rounded-md">
-            <h2 className="font-heading font-light text-gold text-[40px] mb-1.5">
-              Meet Your Artist
-            </h2>
-            <h3 className="font-heading font-thin text-ink text-[25px] mb-5">
-              Lisa Eagles
-            </h3>
-            <p className="text-[15px] text-[#444] leading-[1.7] mb-3.5">
-              Established in 2016, On Point Cosmetic Tattoo Studio operates from
-              Buderim, servicing clients across the Sunshine Coast. Lisa is the
-              certified cosmetic tattoo artist behind the studio.
+        </Tile>
+        <div className="about__text">
+          <h2 id="about-title" className="t-head">
+            Meet Lisa Eagles
+          </h2>
+          <div className="stack mt-6 measure-wide">
+            <p className="t-lead">
+              Lisa began in the cosmetic field working alongside a Gold Coast plastic surgeon, which
+              is where cosmetic tattoo caught her interest.
             </p>
-            <p className="text-[15px] text-[#444] leading-[1.7] mb-3.5">
-              Lisa began her career in the cosmetic field while working
-              alongside a Gold Coast plastic surgeon, where she developed an
-              interest in cosmetic tattoo procedures. She later trained in
-              cosmetic tattoo techniques in Australia and has continued
-              professional development through additional training with industry
-              educators, both nationally and internationally.
+            <p>
+              She trained in cosmetic tattoo techniques in Australia and keeps training with educators
+              here and overseas, updating her skills as techniques and application methods change.
             </p>
-            <p className="text-[15px] text-[#444] leading-[1.7] mb-3.5">
-              Ongoing education forms part of her practice. Lisa regularly
-              updates her skills to stay informed about current techniques and
-              application methods.
-            </p>
-            <p className="text-[15px] text-[#444] leading-[1.7] mb-3.5">
-              Her work includes nano realism hair strokes, feather touch
-              microblading, powder and combination brows, eyeliner enhancement,
-              designer eyeliner and lip tattoo techniques.
+            <p>
+              Her work covers nano realism hair strokes, feather touch microblading, powder and
+              combination brows, eyeliner enhancement, designer eyeliner and lip tattoo.
             </p>
           </div>
+          <dl className="about__facts">
+            <div>
+              <dt>Since 2016</dt>
+              <dd>On Point opened in Buderim</dd>
+            </div>
+            <div>
+              <dt>Certified artist</dt>
+              <dd>Lisa is the artist behind the studio</dd>
+            </div>
+          </dl>
+          <BookLink className="btn mt-8">Book with Lisa</BookLink>
         </div>
       </div>
     </section>

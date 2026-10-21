@@ -1,0 +1,186 @@
+- generic [active] [ref=e1]:
+  - banner [ref=e2]:
+    - generic [ref=e3]:
+      - link "On Point Cosmetic Tattoo Studio, home" [ref=e4] [cursor=pointer]:
+        - /url: /
+      - navigation "Main" [ref=e5]:
+        - link "Brows" [ref=e6] [cursor=pointer]:
+          - /url: /eyebrow-tattoos
+        - link "Eyeliner" [ref=e7] [cursor=pointer]:
+          - /url: /eyeliner-tattoos
+        - link "Lips" [ref=e8] [cursor=pointer]:
+          - /url: /lip-tattoos
+        - link "Aftercare" [ref=e9] [cursor=pointer]:
+          - /url: /after-care
+        - link "About Lisa" [ref=e10] [cursor=pointer]:
+          - /url: /#about
+      - generic [ref=e11]:
+        - link "0414 502 807" [ref=e12] [cursor=pointer]:
+          - /url: tel:0414502807
+        - link "Book a consultation" [ref=e13] [cursor=pointer]:
+          - /url: /contact#book
+  - main [ref=e14]:
+    - generic [ref=e15]:
+      - region [ref=e16]:
+        - generic [ref=e17]:
+          - generic [ref=e18]:
+            - heading "Talk to Lisa before you book" [level=1] [ref=e19]
+            - paragraph [ref=e20]: Ask about availability, preparation or which technique suits you. Every treatment starts with a consultation in the Buderim studio.
+            - generic [ref=e21]:
+              - link "Book a consultation" [ref=e22] [cursor=pointer]:
+                - /url: /contact#book
+              - link "Call 0414 502 807" [ref=e23] [cursor=pointer]:
+                - /url: tel:0414502807
+          - img "Feathered hair-stroke brows by Lisa" [ref=e26]
+      - region [ref=e27]:
+        - generic [ref=e28]:
+          - generic [ref=e29]:
+            - heading "Send Lisa a message" [level=2] [ref=e30]
+            - paragraph [ref=e31]: Tell Lisa what you have in mind and she'll come back to you with a time. If you reach voicemail, leave your name and number.
+            - paragraph [ref=e32]:
+              - link "0414 502 807" [ref=e33] [cursor=pointer]:
+                - /url: tel:0414502807
+            - generic [ref=e34]:
+              - generic [ref=e35]:
+                - term [ref=e36]: Mon – Fri
+                - definition [ref=e37]: 9am – 5pm
+              - generic [ref=e38]:
+                - term [ref=e39]: Sat – Sun
+                - definition [ref=e40]: By appointment
+          - generic [ref=e41]:
+            - generic [ref=e42]:
+              - generic [ref=e43]:
+                - generic [ref=e44]: Name
+                - textbox "Name" [ref=e45]
+              - generic [ref=e46]:
+                - generic [ref=e47]: Phone
+                - textbox "Phone" [ref=e48]
+            - generic [ref=e49]:
+              - generic [ref=e50]: Email
+              - textbox "Email" [ref=e51]
+            - group "Treatment" [ref=e52]:
+              - generic [ref=e54]:
+                - generic [ref=e55]:
+                  - radio "Eyebrows"
+                  - generic [ref=e56] [cursor=pointer]: Eyebrows
+                - generic [ref=e57]:
+                  - radio "Eyeliner"
+                  - generic [ref=e58] [cursor=pointer]: Eyeliner
+                - generic [ref=e59]:
+                  - radio "Lips"
+                  - generic [ref=e60] [cursor=pointer]: Lips
+                - generic [ref=e61]:
+                  - radio "Not sure yet" [checked]
+                  - generic [ref=e62] [cursor=pointer]: Not sure yet
+            - generic [ref=e63]:
+              - generic [ref=e64]: Message
+              - textbox "Message" [ref=e65]
+            - button "Send to Lisa" [ref=e66] [cursor=pointer]
+            - paragraph [ref=e67]: Sending opens your email app with the message ready to go.
+      - region "What you're booking" [ref=e68]:
+        - generic [ref=e69]:
+          - heading "What you're booking" [level=2] [ref=e70]
+          - generic [ref=e71]:
+            - figure "Brows, hair strokes" [ref=e72]:
+              - 'button "View larger: Brows, hair strokes" [ref=e73]':
+                - img "Hair-stroke eyebrow tattoo, close up" [ref=e76]
+            - figure "Designer eyeliner" [ref=e78]:
+              - 'button "View larger: Designer eyeliner" [ref=e79]':
+                - img "Designer eyeliner with a tapered wing" [ref=e82]
+            - figure "Full lip colour" [ref=e84]:
+              - 'button "View larger: Full lip colour" [ref=e85]':
+                - img "Full lip tattoo in a soft rose tone" [ref=e88]
+      - region [ref=e90]:
+        - generic [ref=e91]:
+          - img "Lisa Eagles in her studio" [ref=e94]
+          - generic [ref=e95]:
+            - heading "Here to help" [level=2] [ref=e96]
+            - paragraph [ref=e97]: On Point welcomes enquiries from anyone considering a consultation or wanting to know more about cosmetic tattoo. Call the studio to talk about availability, preparation or general questions before booking. If you reach voicemail, leave your name and number and Lisa will get back to you promptly.
+            - list [ref=e98]:
+              - listitem [ref=e99]:
+                - link "0414 502 807" [ref=e100] [cursor=pointer]:
+                  - /url: tel:0414502807
+              - listitem [ref=e101]:
+                - link "onpointcosmetictattoo@gmail.com" [ref=e102] [cursor=pointer]:
+                  - /url: mailto:onpointcosmetictattoo@gmail.com
+              - listitem [ref=e103]:
+                - link "Buderim, QLD 4556" [ref=e104] [cursor=pointer]:
+                  - /url: https://maps.app.goo.gl/UoricJLVFQzHepTm7
+      - region [ref=e105]:
+        - generic [ref=e106]:
+          - generic [ref=e107]:
+            - heading "Finding the studio" [level=2] [ref=e108]
+            - paragraph [ref=e109]: Lisa works from her studio in Buderim, QLD 4556, and sees clients from across the Sunshine Coast, including Noosa and Caloundra.
+          - iframe [ref=e111]
+  - contentinfo [ref=e112]:
+    - generic [ref=e113]:
+      - generic [ref=e114]:
+        - img "On Point Cosmetic Tattoo Studio" [ref=e115]
+        - paragraph [ref=e116]: Brows, eyeliner and lips, mapped in Buderim since 2016.
+      - generic [ref=e117]:
+        - generic [ref=e118]:
+          - heading "Treatments" [level=2] [ref=e119]
+          - list [ref=e120]:
+            - listitem [ref=e121]:
+              - link "Eyebrow tattoos" [ref=e122] [cursor=pointer]:
+                - /url: /eyebrow-tattoos
+            - listitem [ref=e123]:
+              - link "Eyeliner tattoos" [ref=e124] [cursor=pointer]:
+                - /url: /eyeliner-tattoos
+            - listitem [ref=e125]:
+              - link "Lip tattoos" [ref=e126] [cursor=pointer]:
+                - /url: /lip-tattoos
+            - listitem [ref=e127]:
+              - link "Aftercare" [ref=e128] [cursor=pointer]:
+                - /url: /after-care
+        - generic [ref=e129]:
+          - heading "Studio" [level=2] [ref=e130]
+          - list [ref=e131]:
+            - listitem [ref=e132]:
+              - link "About Lisa" [ref=e133] [cursor=pointer]:
+                - /url: /#about
+            - listitem [ref=e134]:
+              - link "Reviews" [ref=e135] [cursor=pointer]:
+                - /url: /#testimonials
+            - listitem [ref=e136]:
+              - link "Areas we serve" [ref=e137] [cursor=pointer]:
+                - /url: /locations
+            - listitem [ref=e138]:
+              - link "Contact" [ref=e139] [cursor=pointer]:
+                - /url: /contact
+        - generic [ref=e140]:
+          - heading "Follow" [level=2] [ref=e141]
+          - list [ref=e142]:
+            - listitem [ref=e143]:
+              - link "Facebook" [ref=e144] [cursor=pointer]:
+                - /url: https://www.facebook.com/onpointcosmetictattoo/
+            - listitem [ref=e145]:
+              - link "Instagram" [ref=e146] [cursor=pointer]:
+                - /url: https://www.instagram.com/onpointcosmetictattoostudio/
+            - listitem [ref=e147]:
+              - link "Google reviews" [ref=e148] [cursor=pointer]:
+                - /url: https://maps.app.goo.gl/8NpoKzz7PLJGnELG6
+            - listitem [ref=e149]:
+              - link "Localsearch" [ref=e150] [cursor=pointer]:
+                - /url: https://www.localsearch.com.au/profile/on-point-cosmetic-tattoo-studio/buderim-qld/MaKp
+        - generic [ref=e151]:
+          - heading "Hours" [level=2] [ref=e152]
+          - list [ref=e153]:
+            - listitem [ref=e154]: Mon – Fri, 9am – 5pm
+            - listitem [ref=e155]: Sat – Sun, by appointment
+        - generic [ref=e156]:
+          - heading "Contact" [level=2] [ref=e157]
+          - list [ref=e158]:
+            - listitem [ref=e159]:
+              - link "0414 502 807" [ref=e160] [cursor=pointer]:
+                - /url: tel:0414502807
+            - listitem [ref=e161]:
+              - link "onpointcosmetictattoo@gmail.com" [ref=e162] [cursor=pointer]:
+                - /url: mailto:onpointcosmetictattoo@gmail.com
+            - listitem [ref=e163]:
+              - link "Buderim, QLD 4556" [ref=e164] [cursor=pointer]:
+                - /url: https://maps.app.goo.gl/UoricJLVFQzHepTm7
+      - generic [ref=e165]:
+        - paragraph [ref=e166]: © 2026 On Point Cosmetic Tattoo Studio
+        - paragraph [ref=e167]: Certified cosmetic tattoo artist. ABN 79 955 974 433
+  - button "Open Next.js Dev Tools" [ref=e173] [cursor=pointer]

@@ -1,0 +1,2055 @@
+{
+ "url": "http://localhost:3123/eyebrow-tattoos",
+ "at": "2026-10-21T05:13:58.203Z",
+ "allow": [],
+ "viewports": [
+  {
+   "width": 1440,
+   "height": 900,
+   "load": "load",
+   "screens": 7,
+   "filled": [
+    0.43,
+    0.98,
+    0.59,
+    0.78,
+    0.48,
+    0.88,
+    0.89
+   ],
+   "motion": {
+    "elements": 0,
+    "css": 0,
+    "transitions": 0,
+    "scripted": 0,
+    "videos": 0,
+    "playingVideos": 0
+   },
+   "metrics": {
+    "viewport": {
+     "w": 1440,
+     "h": 900
+    },
+    "page": {
+     "height": 5912,
+     "screens": 6.6,
+     "words": 484,
+     "img": 8,
+     "video": 0,
+     "canvas": 0,
+     "svg": 0,
+     "sections": 6,
+     "horizontalOverflow": 0,
+     "overflowCulprits": [],
+     "uiFragments": 0,
+     "uiAbuse": false,
+     "realPictures": 6,
+     "videoCount": 0,
+     "uiPictures": 0,
+     "pictureSamples": [
+      "image?url=%2Fimages%2Fsub%2Feb-work-3.jpg&w=640&",
+      "image?url=%2Fimages%2Fsub%2Feb-design.jpg&w=640&",
+      "image?url=%2Fimages%2Fsub%2Feb-technique.jpg&w=6",
+      "image?url=%2Fimages%2Fsub%2Feb-work-1.jpg&w=750&",
+      "image?url=%2Fimages%2Fsub%2Feb-work-2.jpg&w=750&",
+      "image?url=%2Fimages%2Fsub%2Fac-work-3.jpg&w=750&"
+     ],
+     "blendText": 0,
+     "sideScrollers": 0,
+     "brokenImages": [],
+     "emoji": [],
+     "videosNoPoster": 0
+    },
+    "hero": {
+     "text": "Eyebrow tattoos, mapped to you",
+     "words": 5,
+     "chars": 30,
+     "lines": 2,
+     "size": 92,
+     "vw": 6.4,
+     "font": "Bodoni Moda",
+     "weight": 400,
+     "tracking": -0.02,
+     "leading": 1.02,
+     "upper": false,
+     "italic": false,
+     "mono": false,
+     "align": "left",
+     "position": "left",
+     "widthRatio": 0.53,
+     "top": 393,
+     "tag": "h1",
+     "kind": "heading"
+    },
+    "h1": {
+     "text": "Eyebrow tattoos, mapped to you",
+     "words": 5,
+     "lines": 2,
+     "size": 92,
+     "font": "Bodoni Moda"
+    },
+    "headings": [
+     {
+      "text": "Eyebrow tattoos, mapped to you",
+      "words": 5,
+      "chars": 30,
+      "lines": 2,
+      "size": 92,
+      "vw": 6.4,
+      "font": "Bodoni Moda",
+      "weight": 400,
+      "tracking": -0.02,
+      "leading": 1.02,
+      "upper": false,
+      "italic": false,
+      "mono": false,
+      "align": "left",
+      "position": "left",
+      "widthRatio": 0.53,
+      "top": 393,
+      "tag": "h1",
+      "kind": "heading"
+     },
+     {
+      "text": "Brow mapping and design",
+      "words": 4,
+      "chars": 23,
+      "lines": 2,
+      "size": 56,
+      "vw": 3.9,
+      "font": "Bodoni Moda",
+      "weight": 400,
+      "tracking": -0.01,
+      "leading": 1.08,
+      "upper": false,
+      "italic": false,
+      "mono": false,
+      "align": "left",
+      "position": "right",
+      "widthRatio": 0.45,
+      "top": 1195,
+      "tag": "h2",
+      "kind": "heading"
+     },
+     {
+      "text": "Choosing the technique",
+      "words": 3,
+      "chars": 22,
+      "lines": 1,
+      "size": 56,
+      "vw": 3.9,
+      "font": "Bodoni Moda",
+      "weight": 400,
+      "tracking": -0.01,
+      "leading": 1.08,
+      "upper": false,
+      "italic": false,
+      "mono": false,
+      "align": "left",
+      "position": "left",
+      "widthRatio": 0.45,
+      "top": 2135,
+      "tag": "h2",
+      "kind": "heading"
+     },
+     {
+      "text": "Lisa's brow work",
+      "words": 3,
+      "chars": 16,
+      "lines": 1,
+      "size": 56,
+      "vw": 3.9,
+      "font": "Bodoni Moda",
+      "weight": 400,
+      "tracking": -0.01,
+      "leading": 1.08,
+      "upper": false,
+      "italic": false,
+      "mono": false,
+      "align": "left",
+      "position": "center",
+      "widthRatio": 0.92,
+      "top": 3074,
+      "tag": "h2",
+      "kind": "heading"
+     },
+     {
+      "text": "Your questions",
+      "words": 2,
+      "chars": 14,
+      "lines": 1,
+      "size": 56,
+      "vw": 3.9,
+      "font": "Bodoni Moda",
+      "weight": 400,
+      "tracking": -0.01,
+      "leading": 1.08,
+      "upper": false,
+      "italic": false,
+      "mono": false,
+      "align": "left",
+      "position": "left",
+      "widthRatio": 0.29,
+      "top": 4072,
+      "tag": "h2",
+      "kind": "heading"
+     },
+     {
+      "text": "Book a consultation",
+      "words": 3,
+      "chars": 19,
+      "lines": 1,
+      "size": 56,
+      "vw": 3.9,
+      "font": "Bodoni Moda",
+      "weight": 400,
+      "tracking": -0.01,
+      "leading": 1.08,
+      "upper": false,
+      "italic": false,
+      "mono": false,
+      "align": "left",
+      "position": "left",
+      "widthRatio": 0.37,
+      "top": 4717,
+      "tag": "h2",
+      "kind": "heading"
+     },
+     {
+      "text": "0414 502 807",
+      "words": 3,
+      "chars": 12,
+      "lines": 1,
+      "size": 30,
+      "vw": 2.1,
+      "font": "Bodoni Moda",
+      "weight": 400,
+      "tracking": 0,
+      "leading": 1.6,
+      "upper": false,
+      "italic": false,
+      "mono": false,
+      "align": "left",
+      "position": "left",
+      "widthRatio": 0.37,
+      "top": 4928,
+      "tag": "p",
+      "kind": "statement"
+     },
+     {
+      "text": "Brows, eyeliner and lips, mapped in Buderim since 2016.",
+      "words": 9,
+      "chars": 55,
+      "lines": 3,
+      "size": 30,
+      "vw": 2.1,
+      "font": "Bodoni Moda",
+      "weight": 400,
+      "tracking": 0,
+      "leading": 1.2,
+      "upper": false,
+      "italic": false,
+      "mono": false,
+      "align": "left",
+      "position": "right",
+      "widthRatio": 0.29,
+      "top": 5461,
+      "tag": "p",
+      "kind": "statement"
+     }
+    ],
+    "headingSummary": {
+     "count": 8,
+     "maxLines": 3,
+     "over2Lines": 0,
+     "statements": 2,
+     "centered": 0,
+     "medianWords": 3,
+     "mixedFontHeadings": 0
+    },
+    "type": {
+     "families": [
+      {
+       "family": "Jost",
+       "share": 0.95,
+       "mono": false
+      },
+      {
+       "family": "Bodoni Moda",
+       "share": 0.05,
+       "mono": false
+      }
+     ],
+     "familyCount": 2,
+     "sizes": [
+      14,
+      17,
+      22,
+      30,
+      56,
+      92
+     ],
+     "sizeCount": 6,
+     "notLoaded": [],
+     "body": {
+      "font": "Jost",
+      "size": 17,
+      "leading": 1.6,
+      "weight": 400,
+      "tracking": 0,
+      "contrast": 13.2
+     },
+     "measureChars": 75,
+     "max": {
+      "size": 92,
+      "vw": 6.4,
+      "font": "Bodoni Moda",
+      "text": "Eyebrow tattoos, mapped to you"
+     },
+     "monoShare": 0,
+     "monoProseShare": 0,
+     "monoFamilies": [],
+     "monoSamples": [],
+     "microLabels": 0,
+     "microLabelShare": 0,
+     "microSamples": [],
+     "upperShare": 0,
+     "centerShare": 0,
+     "smallText": 0
+    },
+    "eyebrows": [],
+    "numbered": [],
+    "color": {
+     "bodyBg": "#f7f3ea",
+     "bodyBgHsl": {
+      "h": 42,
+      "s": 0.45,
+      "l": 0.94
+     },
+     "dark": false,
+     "sectionBgs": [
+      {
+       "color": "#ffffff",
+       "top": 934,
+       "hsl": {
+        "h": 0,
+        "s": 0,
+        "l": 1
+       }
+      },
+      {
+       "color": "#c09569",
+       "top": 4574,
+       "hsl": {
+        "h": 30,
+        "s": 0.41,
+        "l": 0.58
+       }
+      },
+      {
+       "color": "#303030",
+       "top": 5374,
+       "hsl": {
+        "h": 0,
+        "s": 0,
+        "l": 0.19
+       }
+      }
+     ],
+     "textColors": [
+      {
+       "color": "#303030",
+       "share": 0.56
+      },
+      {
+       "color": "#5a524a",
+       "share": 0.31
+      },
+      {
+       "color": "#f7f3ea",
+       "share": 0.08
+      },
+      {
+       "color": "#bdb3a6",
+       "share": 0.02
+      },
+      {
+       "color": "#c09569",
+       "share": 0.02
+      }
+     ],
+     "button": {
+      "bg": "#303030",
+      "hsl": {
+       "h": 0,
+       "s": 0,
+       "l": 0.19
+      },
+      "fg": "#f7f3ea"
+     },
+     "lowContrast": []
+    },
+    "buttons": {
+     "count": 4,
+     "inHero": 2,
+     "radius": "pill",
+     "height": 52,
+     "withShadow": 0,
+     "withGradient": 0,
+     "mono": 0,
+     "upper": 0,
+     "heroLabels": [
+      "Book a consultation",
+      "Book a consultation"
+     ]
+    },
+    "surfaces": {
+     "shadowStatic": 0,
+     "shadowOverlay": 0,
+     "shadowSamples": [],
+     "gradients": 0,
+     "scrims": 0,
+     "gradientSamples": [],
+     "gradientText": 0,
+     "hairlines": 5,
+     "hairlineSamples": [
+      "div.faq__list 761px",
+      "details 761px",
+      "details 761px",
+      "details 761px",
+      "div.foot__top 1325px"
+     ],
+     "outlinedBoxes": 0,
+     "dashed": 0,
+     "blurred": 0,
+     "roundedBoxes": 7,
+     "boxRadius": 99,
+     "squareMedia": 0,
+     "roundedMedia": 6,
+     "mediaRadius": 999,
+     "textShadow": 0,
+     "cardRows": []
+    },
+    "heroMedia": [
+     {
+      "type": "img",
+      "ratio": 0.24
+     }
+    ],
+    "nav": {
+     "links": 8,
+     "fixed": true,
+     "height": 80,
+     "floatingPill": false,
+     "blur": false
+    },
+    "fontsLoaded": [
+     "bodoni moda",
+     "jost",
+     "jost fallback"
+    ]
+   },
+   "layout": {
+    "viewport": {
+     "w": 1440,
+     "h": 900
+    },
+    "pageH": 5912,
+    "margins": {
+     "left": 58,
+     "right": 58
+    },
+    "sections": [
+     {
+      "sel": "section",
+      "tag": "section",
+      "top": 80,
+      "height": 854,
+      "words": 34,
+      "media": 1,
+      "middle": 173,
+      "heading": {
+       "text": "Eyebrow tattoos,",
+       "size": 92,
+       "tag": "h1"
+      },
+      "left": 58,
+      "right": 58,
+      "textLeft": 58,
+      "textRight": 711,
+      "fullBleed": false,
+      "footer": false,
+      "hero": true,
+      "continues": true,
+      "pinned": false
+     },
+     {
+      "sel": "section.section.on-white",
+      "tag": "section",
+      "top": 934,
+      "height": 998,
+      "words": 97,
+      "media": 1,
+      "middle": 142,
+      "heading": {
+       "text": "Brow mapping and design",
+       "size": 56,
+       "tag": "h2"
+      },
+      "left": 58,
+      "right": 86,
+      "textLeft": 734,
+      "textRight": 86,
+      "fullBleed": false,
+      "footer": false,
+      "hero": false,
+      "continues": true,
+      "pinned": false
+     },
+     {
+      "sel": "section.section",
+      "tag": "section",
+      "top": 1933,
+      "height": 998,
+      "words": 144,
+      "media": 1,
+      "middle": 149,
+      "heading": {
+       "text": "Choosing the technique",
+       "size": 56,
+       "tag": "h2"
+      },
+      "left": 58,
+      "right": 58,
+      "textLeft": 58,
+      "textRight": 742,
+      "fullBleed": false,
+      "footer": false,
+      "hero": false,
+      "continues": true,
+      "pinned": false
+     },
+     {
+      "sel": "section.section.on-white",
+      "tag": "section",
+      "top": 2931,
+      "height": 999,
+      "words": 18,
+      "media": 3,
+      "middle": 29,
+      "heading": {
+       "text": "Lisa's brow work",
+       "size": 56,
+       "tag": "h2"
+      },
+      "left": 58,
+      "right": 58,
+      "textLeft": 58,
+      "textRight": 210,
+      "fullBleed": false,
+      "footer": false,
+      "hero": false,
+      "continues": true,
+      "pinned": false
+     },
+     {
+      "sel": "section#questions.section",
+      "tag": "section",
+      "top": 3930,
+      "height": 644,
+      "words": 194,
+      "media": 0,
+      "middle": 189,
+      "heading": {
+       "text": "Your questions",
+       "size": 56,
+       "tag": "h2"
+      },
+      "left": 58,
+      "right": 192,
+      "textLeft": 58,
+      "textRight": 192,
+      "fullBleed": false,
+      "footer": false,
+      "hero": false,
+      "continues": true,
+      "pinned": false
+     },
+     {
+      "sel": "section#book.section.book",
+      "tag": "section",
+      "top": 4574,
+      "height": 800,
+      "words": 58,
+      "media": 0,
+      "middle": 196,
+      "heading": {
+       "text": "Book a consultation",
+       "size": 56,
+       "tag": "h2"
+      },
+      "left": 58,
+      "right": 98,
+      "textLeft": 58,
+      "textRight": 303,
+      "fullBleed": false,
+      "footer": false,
+      "hero": false,
+      "continues": true,
+      "pinned": false
+     },
+     {
+      "sel": "footer.foot",
+      "tag": "footer",
+      "top": 5374,
+      "height": 538,
+      "words": 68,
+      "media": 0,
+      "middle": 144,
+      "heading": {
+       "text": "Brows, eyeliner and lips, mapped in Buderim since ",
+       "size": 30,
+       "tag": "p"
+      },
+      "left": 58,
+      "right": 58,
+      "textLeft": 58,
+      "textRight": 58,
+      "fullBleed": false,
+      "footer": true,
+      "hero": false,
+      "continues": false,
+      "pinned": false
+     }
+    ],
+    "gaps": [],
+    "h1s": [
+     {
+      "text": "Eyebrow tattoos, mapped to you",
+      "size": 92,
+      "top": 393,
+      "firstScreen": true
+     }
+    ],
+    "edgeText": [],
+    "edges": [
+     {
+      "x": 58,
+      "n": 10
+     },
+     {
+      "x": 622,
+      "n": 3
+     },
+     {
+      "x": 734,
+      "n": 3
+     }
+    ],
+    "leftBlocks": 16,
+    "bodySize": 17,
+    "stage": false,
+    "explains": true,
+    "slivers": [],
+    "voidShare": 0.17,
+    "voidBox": {
+     "x": 0,
+     "y": 120,
+     "w": 900,
+     "h": 240
+    }
+   },
+   "app": null,
+   "consoleErrors": []
+  },
+  {
+   "width": 768,
+   "height": 1024,
+   "load": "load",
+   "screens": 7,
+   "filled": [
+    0.47,
+    0.9,
+    0.58,
+    0.66,
+    0.7,
+    0.77,
+    0.97
+   ],
+   "motion": {
+    "elements": 0,
+    "css": 0,
+    "transitions": 0,
+    "scripted": 0,
+    "videos": 0,
+    "playingVideos": 0
+   },
+   "metrics": {
+    "viewport": {
+     "w": 768,
+     "h": 1024
+    },
+    "page": {
+     "height": 6787,
+     "screens": 6.6,
+     "words": 476,
+     "img": 8,
+     "video": 0,
+     "canvas": 0,
+     "svg": 0,
+     "sections": 6,
+     "horizontalOverflow": 0,
+     "overflowCulprits": [],
+     "uiFragments": 0,
+     "uiAbuse": false,
+     "realPictures": 6,
+     "videoCount": 0,
+     "uiPictures": 0,
+     "pictureSamples": [
+      "image?url=%2Fimages%2Fsub%2Feb-work-3.jpg&w=750&",
+      "image?url=%2Fimages%2Fsub%2Feb-design.jpg&w=750&",
+      "image?url=%2Fimages%2Fsub%2Feb-technique.jpg&w=7",
+      "image?url=%2Fimages%2Fsub%2Feb-work-1.jpg&w=828&",
+      "image?url=%2Fimages%2Fsub%2Feb-work-2.jpg&w=828&",
+      "image?url=%2Fimages%2Fsub%2Fac-work-3.jpg&w=828&"
+     ],
+     "blendText": 0,
+     "sideScrollers": 0,
+     "brokenImages": [],
+     "emoji": [],
+     "videosNoPoster": 0
+    },
+    "hero": {
+     "text": "Eyebrow tattoos, mapped to you",
+     "words": 5,
+     "chars": 30,
+     "lines": 2,
+     "size": 62.5,
+     "vw": 8.1,
+     "font": "Bodoni Moda",
+     "weight": 400,
+     "tracking": -0.02,
+     "leading": 1.02,
+     "upper": false,
+     "italic": false,
+     "mono": false,
+     "align": "left",
+     "position": "center",
+     "widthRatio": 0.92,
+     "top": 118,
+     "tag": "h1",
+     "kind": "heading"
+    },
+    "h1": {
+     "text": "Eyebrow tattoos, mapped to you",
+     "words": 5,
+     "lines": 2,
+     "size": 62.5,
+     "font": "Bodoni Moda"
+    },
+    "headings": [
+     {
+      "text": "Eyebrow tattoos, mapped to you",
+      "words": 5,
+      "chars": 30,
+      "lines": 2,
+      "size": 62.5,
+      "vw": 8.1,
+      "font": "Bodoni Moda",
+      "weight": 400,
+      "tracking": -0.02,
+      "leading": 1.02,
+      "upper": false,
+      "italic": false,
+      "mono": false,
+      "align": "left",
+      "position": "center",
+      "widthRatio": 0.92,
+      "top": 118,
+      "tag": "h1",
+      "kind": "heading"
+     },
+     {
+      "text": "Brow mapping and design",
+      "words": 4,
+      "chars": 23,
+      "lines": 1,
+      "size": 42.5,
+      "vw": 5.5,
+      "font": "Bodoni Moda",
+      "weight": 400,
+      "tracking": -0.01,
+      "leading": 1.08,
+      "upper": false,
+      "italic": false,
+      "mono": false,
+      "align": "left",
+      "position": "center",
+      "widthRatio": 0.92,
+      "top": 1800,
+      "tag": "h2",
+      "kind": "heading"
+     },
+     {
+      "text": "Choosing the technique",
+      "words": 3,
+      "chars": 22,
+      "lines": 1,
+      "size": 42.5,
+      "vw": 5.5,
+      "font": "Bodoni Moda",
+      "weight": 400,
+      "tracking": -0.01,
+      "leading": 1.08,
+      "upper": false,
+      "italic": false,
+      "mono": false,
+      "align": "left",
+      "position": "center",
+      "widthRatio": 0.92,
+      "top": 2958,
+      "tag": "h2",
+      "kind": "heading"
+     },
+     {
+      "text": "Lisa's brow work",
+      "words": 3,
+      "chars": 16,
+      "lines": 1,
+      "size": 42.5,
+      "vw": 5.5,
+      "font": "Bodoni Moda",
+      "weight": 400,
+      "tracking": -0.01,
+      "leading": 1.08,
+      "upper": false,
+      "italic": false,
+      "mono": false,
+      "align": "left",
+      "position": "center",
+      "widthRatio": 0.92,
+      "top": 3687,
+      "tag": "h2",
+      "kind": "heading"
+     },
+     {
+      "text": "Your questions",
+      "words": 2,
+      "chars": 14,
+      "lines": 1,
+      "size": 42.5,
+      "vw": 5.5,
+      "font": "Bodoni Moda",
+      "weight": 400,
+      "tracking": -0.01,
+      "leading": 1.08,
+      "upper": false,
+      "italic": false,
+      "mono": false,
+      "align": "left",
+      "position": "center",
+      "widthRatio": 0.92,
+      "top": 4326,
+      "tag": "h2",
+      "kind": "heading"
+     },
+     {
+      "text": "Book a consultation",
+      "words": 3,
+      "chars": 19,
+      "lines": 1,
+      "size": 42.5,
+      "vw": 5.5,
+      "font": "Bodoni Moda",
+      "weight": 400,
+      "tracking": -0.01,
+      "leading": 1.08,
+      "upper": false,
+      "italic": false,
+      "mono": false,
+      "align": "left",
+      "position": "center",
+      "widthRatio": 0.92,
+      "top": 5007,
+      "tag": "h2",
+      "kind": "heading"
+     },
+     {
+      "text": "0414 502 807",
+      "words": 3,
+      "chars": 12,
+      "lines": 1,
+      "size": 26.9,
+      "vw": 3.5,
+      "font": "Bodoni Moda",
+      "weight": 400,
+      "tracking": 0,
+      "leading": 1.6,
+      "upper": false,
+      "italic": false,
+      "mono": false,
+      "align": "left",
+      "position": "center",
+      "widthRatio": 0.92,
+      "top": 5196,
+      "tag": "p",
+      "kind": "statement"
+     },
+     {
+      "text": "Brows, eyeliner and lips, mapped in Buderim since 2016.",
+      "words": 9,
+      "chars": 55,
+      "lines": 2,
+      "size": 26.9,
+      "vw": 3.5,
+      "font": "Bodoni Moda",
+      "weight": 400,
+      "tracking": 0,
+      "leading": 1.2,
+      "upper": false,
+      "italic": false,
+      "mono": false,
+      "align": "left",
+      "position": "right",
+      "widthRatio": 0.54,
+      "top": 6013,
+      "tag": "p",
+      "kind": "statement"
+     }
+    ],
+    "headingSummary": {
+     "count": 8,
+     "maxLines": 2,
+     "over2Lines": 0,
+     "statements": 2,
+     "centered": 0,
+     "medianWords": 3,
+     "mixedFontHeadings": 0
+    },
+    "type": {
+     "families": [
+      {
+       "family": "Jost",
+       "share": 0.95,
+       "mono": false
+      },
+      {
+       "family": "Bodoni Moda",
+       "share": 0.05,
+       "mono": false
+      }
+     ],
+     "familyCount": 2,
+     "sizes": [
+      14,
+      17,
+      20,
+      27,
+      43,
+      63
+     ],
+     "sizeCount": 6,
+     "notLoaded": [],
+     "body": {
+      "font": "Jost",
+      "size": 17,
+      "leading": 1.6,
+      "weight": 400,
+      "tracking": 0,
+      "contrast": 13.2
+     },
+     "measureChars": 75,
+     "max": {
+      "size": 62.5,
+      "vw": 8.1,
+      "font": "Bodoni Moda",
+      "text": "Eyebrow tattoos, mapped to you"
+     },
+     "monoShare": 0,
+     "monoProseShare": 0,
+     "monoFamilies": [],
+     "monoSamples": [],
+     "microLabels": 0,
+     "microLabelShare": 0,
+     "microSamples": [],
+     "upperShare": 0,
+     "centerShare": 0,
+     "smallText": 0
+    },
+    "eyebrows": [],
+    "numbered": [],
+    "color": {
+     "bodyBg": "#f7f3ea",
+     "bodyBgHsl": {
+      "h": 42,
+      "s": 0.45,
+      "l": 0.94
+     },
+     "dark": false,
+     "sectionBgs": [
+      {
+       "color": "#ffffff",
+       "top": 1146,
+       "hsl": {
+        "h": 0,
+        "s": 0,
+        "l": 1
+       }
+      },
+      {
+       "color": "#c09569",
+       "top": 4905,
+       "hsl": {
+        "h": 30,
+        "s": 0.41,
+        "l": 0.58
+       }
+      },
+      {
+       "color": "#f7f3ea",
+       "top": 5371,
+       "hsl": {
+        "h": 42,
+        "s": 0.45,
+        "l": 0.94
+       }
+      },
+      {
+       "color": "#303030",
+       "top": 5957,
+       "hsl": {
+        "h": 0,
+        "s": 0,
+        "l": 0.19
+       }
+      }
+     ],
+     "textColors": [
+      {
+       "color": "#303030",
+       "share": 0.55
+      },
+      {
+       "color": "#5a524a",
+       "share": 0.32
+      },
+      {
+       "color": "#f7f3ea",
+       "share": 0.08
+      },
+      {
+       "color": "#bdb3a6",
+       "share": 0.02
+      },
+      {
+       "color": "#c09569",
+       "share": 0.02
+      }
+     ],
+     "button": {
+      "bg": "#303030",
+      "hsl": {
+       "h": 0,
+       "s": 0,
+       "l": 0.19
+      },
+      "fg": "#f7f3ea"
+     },
+     "lowContrast": []
+    },
+    "buttons": {
+     "count": 5,
+     "inHero": 3,
+     "radius": "pill",
+     "height": 52,
+     "withShadow": 0,
+     "withGradient": 0,
+     "mono": 0,
+     "upper": 0,
+     "heroLabels": [
+      "Book a consultation",
+      "Book a consultation"
+     ]
+    },
+    "surfaces": {
+     "shadowStatic": 0,
+     "shadowOverlay": 0,
+     "shadowSamples": [],
+     "gradients": 0,
+     "scrims": 0,
+     "gradientSamples": [],
+     "gradientText": 0,
+     "hairlines": 5,
+     "hairlineSamples": [
+      "div.faq__list 707px",
+      "details 707px",
+      "details 707px",
+      "details 707px",
+      "div.foot__top 707px"
+     ],
+     "outlinedBoxes": 0,
+     "dashed": 0,
+     "blurred": 0,
+     "roundedBoxes": 7,
+     "boxRadius": 99,
+     "squareMedia": 0,
+     "roundedMedia": 6,
+     "mediaRadius": 999,
+     "textShadow": 0,
+     "cardRows": []
+    },
+    "heroMedia": [
+     {
+      "type": "img",
+      "ratio": 0.28
+     }
+    ],
+    "nav": {
+     "links": 3,
+     "fixed": true,
+     "height": 80,
+     "floatingPill": false,
+     "blur": false
+    },
+    "fontsLoaded": [
+     "bodoni moda",
+     "bodoni moda fallback",
+     "jost",
+     "jost fallback"
+    ]
+   },
+   "layout": {
+    "viewport": {
+     "w": 768,
+     "h": 1024
+    },
+    "pageH": 6787,
+    "margins": {
+     "left": 31,
+     "right": 31
+    },
+    "sections": [
+     {
+      "sel": "section",
+      "tag": "section",
+      "top": 80,
+      "height": 1066,
+      "words": 34,
+      "media": 1,
+      "middle": 0,
+      "heading": {
+       "text": "Eyebrow tattoos,",
+       "size": 62,
+       "tag": "h1"
+      },
+      "left": 31,
+      "right": 176,
+      "textLeft": 31,
+      "textRight": 194,
+      "fullBleed": false,
+      "footer": false,
+      "hero": true,
+      "continues": true,
+      "pinned": false
+     },
+     {
+      "sel": "section.section.on-white",
+      "tag": "section",
+      "top": 1146,
+      "height": 1158,
+      "words": 97,
+      "media": 1,
+      "middle": 0,
+      "heading": null,
+      "left": 31,
+      "right": 118,
+      "textLeft": 31,
+      "textRight": 118,
+      "fullBleed": false,
+      "footer": false,
+      "hero": false,
+      "continues": true,
+      "pinned": false
+     },
+     {
+      "sel": "section.section",
+      "tag": "section",
+      "top": 2304,
+      "height": 1281,
+      "words": 144,
+      "media": 1,
+      "middle": 0,
+      "heading": null,
+      "left": 31,
+      "right": 47,
+      "textLeft": 31,
+      "textRight": 47,
+      "fullBleed": false,
+      "footer": false,
+      "hero": false,
+      "continues": true,
+      "pinned": false
+     },
+     {
+      "sel": "section.section.on-white",
+      "tag": "section",
+      "top": 3585,
+      "height": 639,
+      "words": 18,
+      "media": 3,
+      "middle": 16,
+      "heading": {
+       "text": "Lisa's brow work",
+       "size": 42,
+       "tag": "h2"
+      },
+      "left": 31,
+      "right": 31,
+      "textLeft": 31,
+      "textRight": 40,
+      "fullBleed": false,
+      "footer": false,
+      "hero": false,
+      "continues": true,
+      "pinned": false
+     },
+     {
+      "sel": "section#questions.section",
+      "tag": "section",
+      "top": 4223,
+      "height": 682,
+      "words": 145,
+      "media": 0,
+      "middle": 0,
+      "heading": {
+       "text": "Your questions",
+       "size": 42,
+       "tag": "h2"
+      },
+      "left": 31,
+      "right": 111,
+      "textLeft": 31,
+      "textRight": 111,
+      "fullBleed": false,
+      "footer": false,
+      "hero": false,
+      "continues": true,
+      "pinned": false
+     },
+     {
+      "sel": "section#book.section.book",
+      "tag": "section",
+      "top": 4905,
+      "height": 1052,
+      "words": 58,
+      "media": 0,
+      "middle": 0,
+      "heading": {
+       "text": "Book a consultation",
+       "size": 42,
+       "tag": "h2"
+      },
+      "left": 31,
+      "right": 55,
+      "textLeft": 31,
+      "textRight": 257,
+      "fullBleed": false,
+      "footer": false,
+      "hero": false,
+      "continues": true,
+      "pinned": false
+     },
+     {
+      "sel": "footer.foot",
+      "tag": "footer",
+      "top": 5957,
+      "height": 830,
+      "words": 68,
+      "media": 0,
+      "middle": 46,
+      "heading": {
+       "text": "Brows, eyeliner and lips, mapped in Buderim since ",
+       "size": 27,
+       "tag": "p"
+      },
+      "left": 31,
+      "right": 31,
+      "textLeft": 31,
+      "textRight": 31,
+      "fullBleed": false,
+      "footer": true,
+      "hero": false,
+      "continues": false,
+      "pinned": false
+     }
+    ],
+    "gaps": [],
+    "h1s": [
+     {
+      "text": "Eyebrow tattoos, mapped to you",
+      "size": 62,
+      "top": 118,
+      "firstScreen": true
+     }
+    ],
+    "edgeText": [],
+    "edges": [
+     {
+      "x": 31,
+      "n": 16
+     }
+    ],
+    "leftBlocks": 16,
+    "bodySize": 17,
+    "stage": false,
+    "explains": true,
+    "slivers": [],
+    "voidShare": 0,
+    "voidBox": null
+   },
+   "app": null,
+   "consoleErrors": []
+  },
+  {
+   "width": 390,
+   "height": 844,
+   "load": "load",
+   "screens": 11,
+   "filled": [
+    0.62,
+    0.83,
+    0.81,
+    0.76,
+    0.59,
+    0.97,
+    0.8,
+    0.86,
+    0.63,
+    0.97,
+    0.99
+   ],
+   "motion": {
+    "elements": 0,
+    "css": 0,
+    "transitions": 0,
+    "scripted": 0,
+    "videos": 0,
+    "playingVideos": 0
+   },
+   "metrics": {
+    "viewport": {
+     "w": 390,
+     "h": 844
+    },
+    "page": {
+     "height": 8580,
+     "screens": 10.2,
+     "words": 473,
+     "img": 8,
+     "video": 0,
+     "canvas": 0,
+     "svg": 0,
+     "sections": 6,
+     "horizontalOverflow": 0,
+     "overflowCulprits": [],
+     "uiFragments": 0,
+     "uiAbuse": false,
+     "realPictures": 6,
+     "videoCount": 0,
+     "uiPictures": 0,
+     "pictureSamples": [
+      "image?url=%2Fimages%2Fsub%2Feb-work-3.jpg&w=384&",
+      "image?url=%2Fimages%2Fsub%2Feb-design.jpg&w=384&",
+      "image?url=%2Fimages%2Fsub%2Feb-technique.jpg&w=3",
+      "image?url=%2Fimages%2Fsub%2Feb-work-1.jpg&w=640&",
+      "image?url=%2Fimages%2Fsub%2Feb-work-2.jpg&w=640&",
+      "image?url=%2Fimages%2Fsub%2Fac-work-3.jpg&w=640&"
+     ],
+     "blendText": 0,
+     "sideScrollers": 0,
+     "brokenImages": [],
+     "emoji": [],
+     "videosNoPoster": 0
+    },
+    "hero": {
+     "text": "Eyebrow tattoos, mapped to you",
+     "words": 5,
+     "chars": 30,
+     "lines": 2,
+     "size": 44.3,
+     "vw": 11.4,
+     "font": "Bodoni Moda",
+     "weight": 400,
+     "tracking": -0.02,
+     "leading": 1.02,
+     "upper": false,
+     "italic": false,
+     "mono": false,
+     "align": "left",
+     "position": "center",
+     "widthRatio": 0.9,
+     "top": 112,
+     "tag": "h1",
+     "kind": "heading"
+    },
+    "h1": {
+     "text": "Eyebrow tattoos, mapped to you",
+     "words": 5,
+     "lines": 2,
+     "size": 44.3,
+     "font": "Bodoni Moda"
+    },
+    "headings": [
+     {
+      "text": "Eyebrow tattoos, mapped to you",
+      "words": 5,
+      "chars": 30,
+      "lines": 2,
+      "size": 44.3,
+      "vw": 11.4,
+      "font": "Bodoni Moda",
+      "weight": 400,
+      "tracking": -0.02,
+      "leading": 1.02,
+      "upper": false,
+      "italic": false,
+      "mono": false,
+      "align": "left",
+      "position": "center",
+      "widthRatio": 0.9,
+      "top": 112,
+      "tag": "h1",
+      "kind": "heading"
+     },
+     {
+      "text": "Brow mapping and design",
+      "words": 4,
+      "chars": 23,
+      "lines": 2,
+      "size": 34.2,
+      "vw": 8.8,
+      "font": "Bodoni Moda",
+      "weight": 400,
+      "tracking": -0.01,
+      "leading": 1.08,
+      "upper": false,
+      "italic": false,
+      "mono": false,
+      "align": "left",
+      "position": "center",
+      "widthRatio": 0.9,
+      "top": 1645,
+      "tag": "h2",
+      "kind": "heading"
+     },
+     {
+      "text": "Choosing the technique",
+      "words": 3,
+      "chars": 22,
+      "lines": 2,
+      "size": 34.2,
+      "vw": 8.8,
+      "font": "Bodoni Moda",
+      "weight": 400,
+      "tracking": -0.01,
+      "leading": 1.08,
+      "upper": false,
+      "italic": false,
+      "mono": false,
+      "align": "left",
+      "position": "center",
+      "widthRatio": 0.9,
+      "top": 2904,
+      "tag": "h2",
+      "kind": "heading"
+     },
+     {
+      "text": "Lisa's brow work",
+      "words": 3,
+      "chars": 16,
+      "lines": 1,
+      "size": 34.2,
+      "vw": 8.8,
+      "font": "Bodoni Moda",
+      "weight": 400,
+      "tracking": -0.01,
+      "leading": 1.08,
+      "upper": false,
+      "italic": false,
+      "mono": false,
+      "align": "left",
+      "position": "center",
+      "widthRatio": 0.9,
+      "top": 3996,
+      "tag": "h2",
+      "kind": "heading"
+     },
+     {
+      "text": "Your questions",
+      "words": 2,
+      "chars": 14,
+      "lines": 1,
+      "size": 34.2,
+      "vw": 8.8,
+      "font": "Bodoni Moda",
+      "weight": 400,
+      "tracking": -0.01,
+      "leading": 1.08,
+      "upper": false,
+      "italic": false,
+      "mono": false,
+      "align": "left",
+      "position": "center",
+      "widthRatio": 0.9,
+      "top": 5760,
+      "tag": "h2",
+      "kind": "heading"
+     },
+     {
+      "text": "Book a consultation",
+      "words": 3,
+      "chars": 19,
+      "lines": 1,
+      "size": 34.2,
+      "vw": 8.8,
+      "font": "Bodoni Moda",
+      "weight": 400,
+      "tracking": -0.01,
+      "leading": 1.08,
+      "upper": false,
+      "italic": false,
+      "mono": false,
+      "align": "left",
+      "position": "center",
+      "widthRatio": 0.9,
+      "top": 6520,
+      "tag": "h2",
+      "kind": "heading"
+     },
+     {
+      "text": "0414 502 807",
+      "words": 3,
+      "chars": 12,
+      "lines": 1,
+      "size": 24,
+      "vw": 6.2,
+      "font": "Bodoni Moda",
+      "weight": 400,
+      "tracking": 0,
+      "leading": 1.6,
+      "upper": false,
+      "italic": false,
+      "mono": false,
+      "align": "left",
+      "position": "center",
+      "widthRatio": 0.9,
+      "top": 6695,
+      "tag": "p",
+      "kind": "statement"
+     },
+     {
+      "text": "Brows, eyeliner and lips, mapped in Buderim since 2016.",
+      "words": 9,
+      "chars": 55,
+      "lines": 2,
+      "size": 24,
+      "vw": 6.2,
+      "font": "Bodoni Moda",
+      "weight": 400,
+      "tracking": 0,
+      "leading": 1.2,
+      "upper": false,
+      "italic": false,
+      "mono": false,
+      "align": "left",
+      "position": "center",
+      "widthRatio": 0.9,
+      "top": 7752,
+      "tag": "p",
+      "kind": "statement"
+     }
+    ],
+    "headingSummary": {
+     "count": 8,
+     "maxLines": 2,
+     "over2Lines": 0,
+     "statements": 2,
+     "centered": 0,
+     "medianWords": 3,
+     "mixedFontHeadings": 0
+    },
+    "type": {
+     "families": [
+      {
+       "family": "Jost",
+       "share": 0.95,
+       "mono": false
+      },
+      {
+       "family": "Bodoni Moda",
+       "share": 0.05,
+       "mono": false
+      }
+     ],
+     "familyCount": 2,
+     "sizes": [
+      14,
+      17,
+      19,
+      24,
+      34,
+      44
+     ],
+     "sizeCount": 6,
+     "notLoaded": [],
+     "body": {
+      "font": "Jost",
+      "size": 17,
+      "leading": 1.6,
+      "weight": 400,
+      "tracking": 0,
+      "contrast": 13.2
+     },
+     "measureChars": 41,
+     "max": {
+      "size": 44.3,
+      "vw": 11.4,
+      "font": "Bodoni Moda",
+      "text": "Eyebrow tattoos, mapped to you"
+     },
+     "monoShare": 0,
+     "monoProseShare": 0,
+     "monoFamilies": [],
+     "monoSamples": [],
+     "microLabels": 0,
+     "microLabelShare": 0,
+     "microSamples": [],
+     "upperShare": 0,
+     "centerShare": 0,
+     "smallText": 0
+    },
+    "eyebrows": [],
+    "numbered": [],
+    "color": {
+     "bodyBg": "#f7f3ea",
+     "bodyBgHsl": {
+      "h": 42,
+      "s": 0.45,
+      "l": 0.94
+     },
+     "dark": false,
+     "sectionBgs": [
+      {
+       "color": "#b0a18d",
+       "top": 512,
+       "hsl": {
+        "h": 34,
+        "s": 0.18,
+        "l": 0.62
+       }
+      },
+      {
+       "color": "#ffffff",
+       "top": 1058,
+       "hsl": {
+        "h": 0,
+        "s": 0,
+        "l": 1
+       }
+      },
+      {
+       "color": "#c09569",
+       "top": 6440,
+       "hsl": {
+        "h": 30,
+        "s": 0.41,
+        "l": 0.58
+       }
+      },
+      {
+       "color": "#f7f3ea",
+       "top": 6865,
+       "hsl": {
+        "h": 42,
+        "s": 0.45,
+        "l": 0.94
+       }
+      },
+      {
+       "color": "#303030",
+       "top": 7631,
+       "hsl": {
+        "h": 0,
+        "s": 0,
+        "l": 0.19
+       }
+      }
+     ],
+     "textColors": [
+      {
+       "color": "#303030",
+       "share": 0.55
+      },
+      {
+       "color": "#5a524a",
+       "share": 0.32
+      },
+      {
+       "color": "#f7f3ea",
+       "share": 0.08
+      },
+      {
+       "color": "#bdb3a6",
+       "share": 0.02
+      },
+      {
+       "color": "#c09569",
+       "share": 0.02
+      }
+     ],
+     "button": {
+      "bg": "#303030",
+      "hsl": {
+       "h": 0,
+       "s": 0,
+       "l": 0.19
+      },
+      "fg": "#f7f3ea"
+     },
+     "lowContrast": []
+    },
+    "buttons": {
+     "count": 4,
+     "inHero": 2,
+     "radius": "pill",
+     "height": 52,
+     "withShadow": 0,
+     "withGradient": 0,
+     "mono": 0,
+     "upper": 0,
+     "heroLabels": [
+      "Book a consultation"
+     ]
+    },
+    "surfaces": {
+     "shadowStatic": 0,
+     "shadowOverlay": 0,
+     "shadowSamples": [],
+     "gradients": 0,
+     "scrims": 0,
+     "gradientSamples": [],
+     "gradientText": 0,
+     "hairlines": 5,
+     "hairlineSamples": [
+      "div.faq__list 350px",
+      "details 350px",
+      "details 350px",
+      "details 350px",
+      "div.foot__top 350px"
+     ],
+     "outlinedBoxes": 0,
+     "dashed": 0,
+     "blurred": 0,
+     "roundedBoxes": 7,
+     "boxRadius": 99,
+     "squareMedia": 0,
+     "roundedMedia": 6,
+     "mediaRadius": 999,
+     "textShadow": 0,
+     "cardRows": []
+    },
+    "heroMedia": [
+     {
+      "type": "img",
+      "ratio": 0.35
+     }
+    ],
+    "nav": {
+     "links": 2,
+     "fixed": true,
+     "height": 80,
+     "floatingPill": false,
+     "blur": false
+    },
+    "fontsLoaded": [
+     "bodoni moda",
+     "bodoni moda fallback",
+     "jost",
+     "jost fallback"
+    ]
+   },
+   "layout": {
+    "viewport": {
+     "w": 390,
+     "h": 844
+    },
+    "pageH": 8580,
+    "margins": {
+     "left": 20,
+     "right": 20
+    },
+    "sections": [
+     {
+      "sel": "section",
+      "tag": "section",
+      "top": 80,
+      "height": 978,
+      "words": 34,
+      "media": 1,
+      "middle": 0,
+      "heading": {
+       "text": "Eyebrow tattoos,",
+       "size": 44,
+       "tag": "h1"
+      },
+      "left": 20,
+      "right": 20,
+      "textLeft": 20,
+      "textRight": 23,
+      "fullBleed": false,
+      "footer": false,
+      "hero": true,
+      "continues": true,
+      "pinned": false
+     },
+     {
+      "sel": "section.section.on-white",
+      "tag": "section",
+      "top": 1058,
+      "height": 1260,
+      "words": 97,
+      "media": 1,
+      "middle": 0,
+      "heading": null,
+      "left": 20,
+      "right": 20,
+      "textLeft": 20,
+      "textRight": 21,
+      "fullBleed": false,
+      "footer": false,
+      "hero": false,
+      "continues": true,
+      "pinned": false
+     },
+     {
+      "sel": "section.section",
+      "tag": "section",
+      "top": 2318,
+      "height": 1598,
+      "words": 144,
+      "media": 1,
+      "middle": 0,
+      "heading": {
+       "text": "Choosing the technique",
+       "size": 34,
+       "tag": "h2"
+      },
+      "left": 20,
+      "right": 20,
+      "textLeft": 20,
+      "textRight": 22,
+      "fullBleed": false,
+      "footer": false,
+      "hero": false,
+      "continues": true,
+      "pinned": false
+     },
+     {
+      "sel": "section.section.on-white",
+      "tag": "section",
+      "top": 3916,
+      "height": 1764,
+      "words": 18,
+      "media": 3,
+      "middle": 0,
+      "heading": {
+       "text": "Lisa's brow work",
+       "size": 34,
+       "tag": "h2"
+      },
+      "left": 20,
+      "right": 20,
+      "textLeft": 20,
+      "textRight": 100,
+      "fullBleed": false,
+      "footer": false,
+      "hero": false,
+      "continues": true,
+      "pinned": false
+     },
+     {
+      "sel": "section#questions.section",
+      "tag": "section",
+      "top": 5680,
+      "height": 761,
+      "words": 88,
+      "media": 0,
+      "middle": 0,
+      "heading": {
+       "text": "Your questions",
+       "size": 34,
+       "tag": "h2"
+      },
+      "left": 20,
+      "right": 21,
+      "textLeft": 20,
+      "textRight": 21,
+      "fullBleed": false,
+      "footer": false,
+      "hero": false,
+      "continues": true,
+      "pinned": false
+     },
+     {
+      "sel": "section#book.section.book",
+      "tag": "section",
+      "top": 6440,
+      "height": 1191,
+      "words": 58,
+      "media": 0,
+      "middle": 0,
+      "heading": {
+       "text": "Book a consultation",
+       "size": 34,
+       "tag": "h2"
+      },
+      "left": 20,
+      "right": 31,
+      "textLeft": 20,
+      "textRight": 31,
+      "fullBleed": false,
+      "footer": false,
+      "hero": false,
+      "continues": true,
+      "pinned": false
+     },
+     {
+      "sel": "footer.foot",
+      "tag": "footer",
+      "top": 7631,
+      "height": 949,
+      "words": 68,
+      "media": 0,
+      "middle": 0,
+      "heading": {
+       "text": "Brows, eyeliner and lips, mapped in Buderim since ",
+       "size": 24,
+       "tag": "p"
+      },
+      "left": 20,
+      "right": 25,
+      "textLeft": 20,
+      "textRight": 25,
+      "fullBleed": false,
+      "footer": true,
+      "hero": false,
+      "continues": false,
+      "pinned": false
+     }
+    ],
+    "gaps": [],
+    "h1s": [
+     {
+      "text": "Eyebrow tattoos, mapped to you",
+      "size": 44,
+      "top": 112,
+      "firstScreen": true
+     }
+    ],
+    "edgeText": [],
+    "edges": [
+     {
+      "x": 20,
+      "n": 16
+     }
+    ],
+    "leftBlocks": 16,
+    "bodySize": 17,
+    "stage": false,
+    "explains": true,
+    "slivers": [],
+    "voidShare": 0,
+    "voidBox": null
+   },
+   "app": null,
+   "consoleErrors": []
+  }
+ ],
+ "findings": [
+  {
+   "level": "FAIL",
+   "id": "hairline",
+   "width": 1440,
+   "message": "5 thin rule(s)/divider line(s): div.faq__list 761px | details 761px | details 761px | details 761px",
+   "fix": "Delete. Separate with space, a tone change, or scale. Lines are only for real tables and form fields.",
+   "alsoAt": [
+    768,
+    390
+   ]
+  },
+  {
+   "level": "FAIL",
+   "id": "palette-claude",
+   "width": 1440,
+   "message": "Cream + terracotta palette (page background #f7f3ea, text #f7f3ea, section #c09569, text #c09569).",
+   "fix": "Re-draw the palette from the library. This pairing reads as an assistant brand, not yours.",
+   "alsoAt": [
+    768,
+    390
+   ]
+  },
+  {
+   "level": "WARN",
+   "id": "no-footage",
+   "width": 1440,
+   "message": "No video anywhere on the page.",
+   "fix": "Look for one honest clip with scripts/assets.mjs --video (the place, the material, the process) and use it as a muted loop with a poster frame. Defend its absence only if no clip fits the subject."
+  },
+  {
+   "level": "WARN",
+   "id": "font-not-dealt",
+   "width": 1440,
+   "message": "The sheet dealt Chillax and Chillax, but the page renders Jost, Bodoni Moda.",
+   "fix": "Load the dealt face (the link on the sheet) and put it first in font-family. A build that falls back to a default face lands on the default look."
+  },
+  {
+   "level": "FAIL",
+   "id": "still-page",
+   "width": 1440,
+   "message": "Only 0 element(s) moved while the page loaded and scrolled.",
+   "fix": "Build the motion layer (SKILL.md step 9, references/motion.md): the signature move, an entrance for the parts of every section, feedback on every control, and one moving picture. Transform and opacity only, with a reduced-motion fallback."
+  }
+ ],
+ "images": [
+  {
+   "viewport": "desktop",
+   "width": 1440,
+   "fold": "C:\\Users\\KingTheOne\\Desktop\\Projects\\on-point-cosmetic-tattoo\\.taste-skill\\v2\\eyebrow-tattoos\\desktop-fold.jpg",
+   "pages": [
+    "C:\\Users\\KingTheOne\\Desktop\\Projects\\on-point-cosmetic-tattoo\\.taste-skill\\v2\\eyebrow-tattoos\\desktop-page-01.jpg",
+    "C:\\Users\\KingTheOne\\Desktop\\Projects\\on-point-cosmetic-tattoo\\.taste-skill\\v2\\eyebrow-tattoos\\desktop-page-02.jpg"
+   ],
+   "film": []
+  },
+  {
+   "viewport": "tablet",
+   "width": 768,
+   "fold": "C:\\Users\\KingTheOne\\Desktop\\Projects\\on-point-cosmetic-tattoo\\.taste-skill\\v2\\eyebrow-tattoos\\tablet-fold.jpg",
+   "pages": [
+    "C:\\Users\\KingTheOne\\Desktop\\Projects\\on-point-cosmetic-tattoo\\.taste-skill\\v2\\eyebrow-tattoos\\tablet-page-01.jpg",
+    "C:\\Users\\KingTheOne\\Desktop\\Projects\\on-point-cosmetic-tattoo\\.taste-skill\\v2\\eyebrow-tattoos\\tablet-page-02.jpg"
+   ],
+   "film": []
+  },
+  {
+   "viewport": "mobile",
+   "width": 390,
+   "fold": "C:\\Users\\KingTheOne\\Desktop\\Projects\\on-point-cosmetic-tattoo\\.taste-skill\\v2\\eyebrow-tattoos\\mobile-fold.jpg",
+   "pages": [
+    "C:\\Users\\KingTheOne\\Desktop\\Projects\\on-point-cosmetic-tattoo\\.taste-skill\\v2\\eyebrow-tattoos\\mobile-page-01.jpg",
+    "C:\\Users\\KingTheOne\\Desktop\\Projects\\on-point-cosmetic-tattoo\\.taste-skill\\v2\\eyebrow-tattoos\\mobile-page-02.jpg"
+   ],
+   "film": []
+  }
+ ]
+}

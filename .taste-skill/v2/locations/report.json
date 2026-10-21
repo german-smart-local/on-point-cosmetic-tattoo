@@ -1,0 +1,1875 @@
+{
+ "url": "http://localhost:3123/locations",
+ "at": "2026-10-21T05:15:19.693Z",
+ "allow": [],
+ "viewports": [
+  {
+   "width": 1440,
+   "height": 900,
+   "load": "load",
+   "screens": 5,
+   "filled": [
+    0.4,
+    0.96,
+    0.92,
+    0.88,
+    0.89
+   ],
+   "motion": {
+    "elements": 0,
+    "css": 0,
+    "transitions": 0,
+    "scripted": 0,
+    "videos": 0,
+    "playingVideos": 0
+   },
+   "metrics": {
+    "viewport": {
+     "w": 1440,
+     "h": 900
+    },
+    "page": {
+     "height": 4234,
+     "screens": 4.7,
+     "words": 288,
+     "img": 6,
+     "video": 0,
+     "canvas": 0,
+     "svg": 0,
+     "sections": 3,
+     "horizontalOverflow": 0,
+     "overflowCulprits": [],
+     "uiFragments": 0,
+     "uiAbuse": false,
+     "realPictures": 4,
+     "videoCount": 0,
+     "uiPictures": 0,
+     "pictureSamples": [
+      "image?url=%2Fimages%2Fsub%2Fhero-locations.jpg&w",
+      "image?url=%2Fimages%2Fsub%2Floc-noosa.jpg&w=640&",
+      "image?url=%2Fimages%2Fsub%2Floc-buderim.jpg&w=64",
+      "image?url=%2Fimages%2Fsub%2Floc-caloundra.jpg&w="
+     ],
+     "blendText": 0,
+     "sideScrollers": 0,
+     "brokenImages": [],
+     "emoji": [],
+     "videosNoPoster": 0
+    },
+    "hero": {
+     "text": "Across the Sunshine Coast",
+     "words": 4,
+     "chars": 25,
+     "lines": 2,
+     "size": 92,
+     "vw": 6.4,
+     "font": "Bodoni Moda",
+     "weight": 400,
+     "tracking": -0.02,
+     "leading": 1.02,
+     "upper": false,
+     "italic": false,
+     "mono": false,
+     "align": "left",
+     "position": "left",
+     "widthRatio": 0.53,
+     "top": 360,
+     "tag": "h1",
+     "kind": "heading"
+    },
+    "h1": {
+     "text": "Across the Sunshine Coast",
+     "words": 4,
+     "lines": 2,
+     "size": 92,
+     "font": "Bodoni Moda"
+    },
+    "headings": [
+     {
+      "text": "Across the Sunshine Coast",
+      "words": 4,
+      "chars": 25,
+      "lines": 2,
+      "size": 92,
+      "vw": 6.4,
+      "font": "Bodoni Moda",
+      "weight": 400,
+      "tracking": -0.02,
+      "leading": 1.02,
+      "upper": false,
+      "italic": false,
+      "mono": false,
+      "align": "left",
+      "position": "left",
+      "widthRatio": 0.53,
+      "top": 360,
+      "tag": "h1",
+      "kind": "heading"
+     },
+     {
+      "text": "Where clients come from",
+      "words": 4,
+      "chars": 23,
+      "lines": 1,
+      "size": 56,
+      "vw": 3.9,
+      "font": "Bodoni Moda",
+      "weight": 400,
+      "tracking": -0.01,
+      "leading": 1.08,
+      "upper": false,
+      "italic": false,
+      "mono": false,
+      "align": "left",
+      "position": "left",
+      "widthRatio": 0.45,
+      "top": 1077,
+      "tag": "h2",
+      "kind": "heading"
+     },
+     {
+      "text": "Buderim",
+      "words": 1,
+      "chars": 7,
+      "lines": 1,
+      "size": 56,
+      "vw": 3.9,
+      "font": "Bodoni Moda",
+      "weight": 400,
+      "tracking": -0.01,
+      "leading": 1.08,
+      "upper": false,
+      "italic": false,
+      "mono": false,
+      "align": "left",
+      "position": "left",
+      "widthRatio": 0.37,
+      "top": 1326,
+      "tag": "h3",
+      "kind": "heading"
+     },
+     {
+      "text": "Noosa",
+      "words": 1,
+      "chars": 5,
+      "lines": 1,
+      "size": 56,
+      "vw": 3.9,
+      "font": "Bodoni Moda",
+      "weight": 400,
+      "tracking": -0.01,
+      "leading": 1.08,
+      "upper": false,
+      "italic": false,
+      "mono": false,
+      "align": "left",
+      "position": "left",
+      "widthRatio": 0.37,
+      "top": 1847,
+      "tag": "h3",
+      "kind": "heading"
+     },
+     {
+      "text": "Caloundra",
+      "words": 1,
+      "chars": 9,
+      "lines": 1,
+      "size": 56,
+      "vw": 3.9,
+      "font": "Bodoni Moda",
+      "weight": 400,
+      "tracking": -0.01,
+      "leading": 1.08,
+      "upper": false,
+      "italic": false,
+      "mono": false,
+      "align": "left",
+      "position": "left",
+      "widthRatio": 0.37,
+      "top": 2368,
+      "tag": "h3",
+      "kind": "heading"
+     },
+     {
+      "text": "Book a consultation",
+      "words": 3,
+      "chars": 19,
+      "lines": 1,
+      "size": 56,
+      "vw": 3.9,
+      "font": "Bodoni Moda",
+      "weight": 400,
+      "tracking": -0.01,
+      "leading": 1.08,
+      "upper": false,
+      "italic": false,
+      "mono": false,
+      "align": "left",
+      "position": "left",
+      "widthRatio": 0.37,
+      "top": 3039,
+      "tag": "h2",
+      "kind": "heading"
+     },
+     {
+      "text": "0414 502 807",
+      "words": 3,
+      "chars": 12,
+      "lines": 1,
+      "size": 30,
+      "vw": 2.1,
+      "font": "Bodoni Moda",
+      "weight": 400,
+      "tracking": 0,
+      "leading": 1.6,
+      "upper": false,
+      "italic": false,
+      "mono": false,
+      "align": "left",
+      "position": "left",
+      "widthRatio": 0.37,
+      "top": 3251,
+      "tag": "p",
+      "kind": "statement"
+     },
+     {
+      "text": "Brows, eyeliner and lips, mapped in Buderim since 2016.",
+      "words": 9,
+      "chars": 55,
+      "lines": 3,
+      "size": 30,
+      "vw": 2.1,
+      "font": "Bodoni Moda",
+      "weight": 400,
+      "tracking": 0,
+      "leading": 1.2,
+      "upper": false,
+      "italic": false,
+      "mono": false,
+      "align": "left",
+      "position": "right",
+      "widthRatio": 0.29,
+      "top": 3783,
+      "tag": "p",
+      "kind": "statement"
+     }
+    ],
+    "headingSummary": {
+     "count": 8,
+     "maxLines": 3,
+     "over2Lines": 0,
+     "statements": 2,
+     "centered": 0,
+     "medianWords": 3,
+     "mixedFontHeadings": 0
+    },
+    "type": {
+     "families": [
+      {
+       "family": "Jost",
+       "share": 0.91,
+       "mono": false
+      },
+      {
+       "family": "Bodoni Moda",
+       "share": 0.09,
+       "mono": false
+      }
+     ],
+     "familyCount": 2,
+     "sizes": [
+      14,
+      17,
+      22,
+      30,
+      56,
+      92
+     ],
+     "sizeCount": 6,
+     "notLoaded": [],
+     "body": {
+      "font": "Jost",
+      "size": 22,
+      "leading": 1.5,
+      "weight": 400,
+      "tracking": 0,
+      "contrast": 11.9
+     },
+     "measureChars": 49,
+     "max": {
+      "size": 92,
+      "vw": 6.4,
+      "font": "Bodoni Moda",
+      "text": "Across the Sunshine Coast"
+     },
+     "monoShare": 0,
+     "monoProseShare": 0,
+     "monoFamilies": [],
+     "monoSamples": [],
+     "microLabels": 0,
+     "microLabelShare": 0,
+     "microSamples": [],
+     "upperShare": 0,
+     "centerShare": 0.01,
+     "smallText": 0
+    },
+    "eyebrows": [],
+    "numbered": [],
+    "color": {
+     "bodyBg": "#f7f3ea",
+     "bodyBgHsl": {
+      "h": 42,
+      "s": 0.45,
+      "l": 0.94
+     },
+     "dark": false,
+     "sectionBgs": [
+      {
+       "color": "#ffffff",
+       "top": 934,
+       "hsl": {
+        "h": 0,
+        "s": 0,
+        "l": 1
+       }
+      },
+      {
+       "color": "#c09569",
+       "top": 2897,
+       "hsl": {
+        "h": 30,
+        "s": 0.41,
+        "l": 0.58
+       }
+      },
+      {
+       "color": "#303030",
+       "top": 3697,
+       "hsl": {
+        "h": 0,
+        "s": 0,
+        "l": 0.19
+       }
+      }
+     ],
+     "textColors": [
+      {
+       "color": "#303030",
+       "share": 0.68
+      },
+      {
+       "color": "#f7f3ea",
+       "share": 0.17
+      },
+      {
+       "color": "#bdb3a6",
+       "share": 0.05
+      },
+      {
+       "color": "#c09569",
+       "share": 0.05
+      },
+      {
+       "color": "#5a524a",
+       "share": 0.04
+      }
+     ],
+     "button": {
+      "bg": "#303030",
+      "hsl": {
+       "h": 0,
+       "s": 0,
+       "l": 0.19
+      },
+      "fg": "#f7f3ea"
+     },
+     "lowContrast": []
+    },
+    "buttons": {
+     "count": 3,
+     "inHero": 2,
+     "radius": "pill",
+     "height": 52,
+     "withShadow": 0,
+     "withGradient": 0,
+     "mono": 0,
+     "upper": 0,
+     "heroLabels": [
+      "Book a consultation",
+      "Book a consultation"
+     ]
+    },
+    "surfaces": {
+     "shadowStatic": 0,
+     "shadowOverlay": 0,
+     "shadowSamples": [],
+     "gradients": 0,
+     "scrims": 0,
+     "gradientSamples": [],
+     "gradientText": 0,
+     "hairlines": 4,
+     "hairlineSamples": [
+      "div.grid12.area 1325px",
+      "div.grid12.area 1325px",
+      "div.grid12.area 1325px",
+      "div.foot__top 1325px"
+     ],
+     "outlinedBoxes": 0,
+     "dashed": 0,
+     "blurred": 0,
+     "roundedBoxes": 2,
+     "boxRadius": 99,
+     "squareMedia": 0,
+     "roundedMedia": 4,
+     "mediaRadius": 6,
+     "textShadow": 0,
+     "cardRows": []
+    },
+    "heroMedia": [
+     {
+      "type": "img",
+      "ratio": 0.24
+     }
+    ],
+    "nav": {
+     "links": 8,
+     "fixed": true,
+     "height": 80,
+     "floatingPill": false,
+     "blur": false
+    },
+    "fontsLoaded": [
+     "bodoni moda",
+     "jost",
+     "jost fallback"
+    ]
+   },
+   "layout": {
+    "viewport": {
+     "w": 1440,
+     "h": 900
+    },
+    "pageH": 4234,
+    "margins": {
+     "left": 58,
+     "right": 58
+    },
+    "sections": [
+     {
+      "sel": "section",
+      "tag": "section",
+      "top": 80,
+      "height": 854,
+      "words": 39,
+      "media": 1,
+      "middle": 224,
+      "heading": {
+       "text": "Across the",
+       "size": 92,
+       "tag": "h1"
+      },
+      "left": 58,
+      "right": 58,
+      "textLeft": 58,
+      "textRight": 761,
+      "fullBleed": false,
+      "footer": false,
+      "hero": true,
+      "continues": true,
+      "pinned": false
+     },
+     {
+      "sel": "section.section.on-white",
+      "tag": "section",
+      "top": 934,
+      "height": 1962,
+      "words": 108,
+      "media": 3,
+      "middle": 40,
+      "heading": {
+       "text": "Where clients come from",
+       "size": 56,
+       "tag": "h2"
+      },
+      "left": 58,
+      "right": 58,
+      "textLeft": 58,
+      "textRight": 98,
+      "fullBleed": false,
+      "footer": false,
+      "hero": false,
+      "continues": true,
+      "pinned": false
+     },
+     {
+      "sel": "section#book.section.book",
+      "tag": "section",
+      "top": 2897,
+      "height": 800,
+      "words": 58,
+      "media": 0,
+      "middle": 196,
+      "heading": {
+       "text": "Book a consultation",
+       "size": 56,
+       "tag": "h2"
+      },
+      "left": 58,
+      "right": 98,
+      "textLeft": 58,
+      "textRight": 303,
+      "fullBleed": false,
+      "footer": false,
+      "hero": false,
+      "continues": true,
+      "pinned": false
+     },
+     {
+      "sel": "footer.foot",
+      "tag": "footer",
+      "top": 3697,
+      "height": 538,
+      "words": 68,
+      "media": 0,
+      "middle": 144,
+      "heading": {
+       "text": "Brows, eyeliner and lips, mapped in Buderim since ",
+       "size": 30,
+       "tag": "p"
+      },
+      "left": 58,
+      "right": 58,
+      "textLeft": 58,
+      "textRight": 58,
+      "fullBleed": false,
+      "footer": true,
+      "hero": false,
+      "continues": false,
+      "pinned": false
+     }
+    ],
+    "gaps": [],
+    "h1s": [
+     {
+      "text": "Across the Sunshine Coast",
+      "size": 92,
+      "top": 360,
+      "firstScreen": true
+     }
+    ],
+    "edgeText": [],
+    "edges": [
+     {
+      "x": 58,
+      "n": 12
+     },
+     {
+      "x": 847,
+      "n": 1
+     }
+    ],
+    "leftBlocks": 13,
+    "bodySize": 22,
+    "stage": false,
+    "explains": true,
+    "slivers": [],
+    "voidShare": 0.13,
+    "voidBox": {
+     "x": 0,
+     "y": 120,
+     "w": 900,
+     "h": 180
+    }
+   },
+   "app": null,
+   "consoleErrors": []
+  },
+  {
+   "width": 768,
+   "height": 1024,
+   "load": "load",
+   "screens": 6,
+   "filled": [
+    0.45,
+    0.9,
+    0.86,
+    0.86,
+    0.77,
+    0.97
+   ],
+   "motion": {
+    "elements": 0,
+    "css": 0,
+    "transitions": 0,
+    "scripted": 0,
+    "videos": 0,
+    "playingVideos": 0
+   },
+   "metrics": {
+    "viewport": {
+     "w": 768,
+     "h": 1024
+    },
+    "page": {
+     "height": 5760,
+     "screens": 5.6,
+     "words": 280,
+     "img": 6,
+     "video": 0,
+     "canvas": 0,
+     "svg": 0,
+     "sections": 3,
+     "horizontalOverflow": 0,
+     "overflowCulprits": [],
+     "uiFragments": 0,
+     "uiAbuse": false,
+     "realPictures": 4,
+     "videoCount": 0,
+     "uiPictures": 0,
+     "pictureSamples": [
+      "image?url=%2Fimages%2Fsub%2Fhero-locations.jpg&w",
+      "image?url=%2Fimages%2Fsub%2Floc-noosa.jpg&w=828&",
+      "image?url=%2Fimages%2Fsub%2Floc-buderim.jpg&w=82",
+      "image?url=%2Fimages%2Fsub%2Floc-caloundra.jpg&w="
+     ],
+     "blendText": 0,
+     "sideScrollers": 0,
+     "brokenImages": [],
+     "emoji": [],
+     "videosNoPoster": 0
+    },
+    "hero": {
+     "text": "Across the Sunshine Coast",
+     "words": 4,
+     "chars": 25,
+     "lines": 2,
+     "size": 62.5,
+     "vw": 8.1,
+     "font": "Bodoni Moda",
+     "weight": 400,
+     "tracking": -0.02,
+     "leading": 1.02,
+     "upper": false,
+     "italic": false,
+     "mono": false,
+     "align": "left",
+     "position": "center",
+     "widthRatio": 0.92,
+     "top": 118,
+     "tag": "h1",
+     "kind": "heading"
+    },
+    "h1": {
+     "text": "Across the Sunshine Coast",
+     "words": 4,
+     "lines": 2,
+     "size": 62.5,
+     "font": "Bodoni Moda"
+    },
+    "headings": [
+     {
+      "text": "Across the Sunshine Coast",
+      "words": 4,
+      "chars": 25,
+      "lines": 2,
+      "size": 62.5,
+      "vw": 8.1,
+      "font": "Bodoni Moda",
+      "weight": 400,
+      "tracking": -0.02,
+      "leading": 1.02,
+      "upper": false,
+      "italic": false,
+      "mono": false,
+      "align": "left",
+      "position": "center",
+      "widthRatio": 0.92,
+      "top": 118,
+      "tag": "h1",
+      "kind": "heading"
+     },
+     {
+      "text": "Where clients come from",
+      "words": 4,
+      "chars": 23,
+      "lines": 1,
+      "size": 42.5,
+      "vw": 5.5,
+      "font": "Bodoni Moda",
+      "weight": 400,
+      "tracking": -0.01,
+      "leading": 1.08,
+      "upper": false,
+      "italic": false,
+      "mono": false,
+      "align": "left",
+      "position": "center",
+      "widthRatio": 0.92,
+      "top": 1248,
+      "tag": "h2",
+      "kind": "heading"
+     },
+     {
+      "text": "Buderim",
+      "words": 1,
+      "chars": 7,
+      "lines": 1,
+      "size": 42.5,
+      "vw": 5.5,
+      "font": "Bodoni Moda",
+      "weight": 400,
+      "tracking": -0.01,
+      "leading": 1.08,
+      "upper": false,
+      "italic": false,
+      "mono": false,
+      "align": "left",
+      "position": "center",
+      "widthRatio": 0.92,
+      "top": 1929,
+      "tag": "h3",
+      "kind": "heading"
+     },
+     {
+      "text": "Noosa",
+      "words": 1,
+      "chars": 5,
+      "lines": 1,
+      "size": 42.5,
+      "vw": 5.5,
+      "font": "Bodoni Moda",
+      "weight": 400,
+      "tracking": -0.01,
+      "leading": 1.08,
+      "upper": false,
+      "italic": false,
+      "mono": false,
+      "align": "left",
+      "position": "center",
+      "widthRatio": 0.92,
+      "top": 2714,
+      "tag": "h3",
+      "kind": "heading"
+     },
+     {
+      "text": "Caloundra",
+      "words": 1,
+      "chars": 9,
+      "lines": 1,
+      "size": 42.5,
+      "vw": 5.5,
+      "font": "Bodoni Moda",
+      "weight": 400,
+      "tracking": -0.01,
+      "leading": 1.08,
+      "upper": false,
+      "italic": false,
+      "mono": false,
+      "align": "left",
+      "position": "center",
+      "widthRatio": 0.92,
+      "top": 3498,
+      "tag": "h3",
+      "kind": "heading"
+     },
+     {
+      "text": "Book a consultation",
+      "words": 3,
+      "chars": 19,
+      "lines": 1,
+      "size": 42.5,
+      "vw": 5.5,
+      "font": "Bodoni Moda",
+      "weight": 400,
+      "tracking": -0.01,
+      "leading": 1.08,
+      "upper": false,
+      "italic": false,
+      "mono": false,
+      "align": "left",
+      "position": "center",
+      "widthRatio": 0.92,
+      "top": 3980,
+      "tag": "h2",
+      "kind": "heading"
+     },
+     {
+      "text": "0414 502 807",
+      "words": 3,
+      "chars": 12,
+      "lines": 1,
+      "size": 26.9,
+      "vw": 3.5,
+      "font": "Bodoni Moda",
+      "weight": 400,
+      "tracking": 0,
+      "leading": 1.6,
+      "upper": false,
+      "italic": false,
+      "mono": false,
+      "align": "left",
+      "position": "center",
+      "widthRatio": 0.92,
+      "top": 4169,
+      "tag": "p",
+      "kind": "statement"
+     },
+     {
+      "text": "Brows, eyeliner and lips, mapped in Buderim since 2016.",
+      "words": 9,
+      "chars": 55,
+      "lines": 2,
+      "size": 26.9,
+      "vw": 3.5,
+      "font": "Bodoni Moda",
+      "weight": 400,
+      "tracking": 0,
+      "leading": 1.2,
+      "upper": false,
+      "italic": false,
+      "mono": false,
+      "align": "left",
+      "position": "right",
+      "widthRatio": 0.54,
+      "top": 4986,
+      "tag": "p",
+      "kind": "statement"
+     }
+    ],
+    "headingSummary": {
+     "count": 8,
+     "maxLines": 2,
+     "over2Lines": 0,
+     "statements": 2,
+     "centered": 0,
+     "medianWords": 3,
+     "mixedFontHeadings": 0
+    },
+    "type": {
+     "families": [
+      {
+       "family": "Jost",
+       "share": 0.9,
+       "mono": false
+      },
+      {
+       "family": "Bodoni Moda",
+       "share": 0.1,
+       "mono": false
+      }
+     ],
+     "familyCount": 2,
+     "sizes": [
+      14,
+      17,
+      20,
+      27,
+      43,
+      63
+     ],
+     "sizeCount": 6,
+     "notLoaded": [],
+     "body": {
+      "font": "Jost",
+      "size": 20.3,
+      "leading": 1.5,
+      "weight": 400,
+      "tracking": 0,
+      "contrast": 11.9
+     },
+     "measureChars": 54,
+     "max": {
+      "size": 62.5,
+      "vw": 8.1,
+      "font": "Bodoni Moda",
+      "text": "Across the Sunshine Coast"
+     },
+     "monoShare": 0,
+     "monoProseShare": 0,
+     "monoFamilies": [],
+     "monoSamples": [],
+     "microLabels": 0,
+     "microLabelShare": 0,
+     "microSamples": [],
+     "upperShare": 0,
+     "centerShare": 0.01,
+     "smallText": 0
+    },
+    "eyebrows": [],
+    "numbered": [],
+    "color": {
+     "bodyBg": "#f7f3ea",
+     "bodyBgHsl": {
+      "h": 42,
+      "s": 0.45,
+      "l": 0.94
+     },
+     "dark": false,
+     "sectionBgs": [
+      {
+       "color": "#ffffff",
+       "top": 1146,
+       "hsl": {
+        "h": 0,
+        "s": 0,
+        "l": 1
+       }
+      },
+      {
+       "color": "#c09569",
+       "top": 3878,
+       "hsl": {
+        "h": 30,
+        "s": 0.41,
+        "l": 0.58
+       }
+      },
+      {
+       "color": "#f7f3ea",
+       "top": 4344,
+       "hsl": {
+        "h": 42,
+        "s": 0.45,
+        "l": 0.94
+       }
+      },
+      {
+       "color": "#303030",
+       "top": 4930,
+       "hsl": {
+        "h": 0,
+        "s": 0,
+        "l": 0.19
+       }
+      }
+     ],
+     "textColors": [
+      {
+       "color": "#303030",
+       "share": 0.67
+      },
+      {
+       "color": "#f7f3ea",
+       "share": 0.18
+      },
+      {
+       "color": "#bdb3a6",
+       "share": 0.06
+      },
+      {
+       "color": "#c09569",
+       "share": 0.06
+      },
+      {
+       "color": "#5a524a",
+       "share": 0.04
+      }
+     ],
+     "button": {
+      "bg": "#303030",
+      "hsl": {
+       "h": 0,
+       "s": 0,
+       "l": 0.19
+      },
+      "fg": "#f7f3ea"
+     },
+     "lowContrast": []
+    },
+    "buttons": {
+     "count": 4,
+     "inHero": 3,
+     "radius": "pill",
+     "height": 44,
+     "withShadow": 0,
+     "withGradient": 0,
+     "mono": 0,
+     "upper": 0,
+     "heroLabels": [
+      "Book a consultation",
+      "Book a consultation"
+     ]
+    },
+    "surfaces": {
+     "shadowStatic": 0,
+     "shadowOverlay": 0,
+     "shadowSamples": [],
+     "gradients": 0,
+     "scrims": 0,
+     "gradientSamples": [],
+     "gradientText": 0,
+     "hairlines": 4,
+     "hairlineSamples": [
+      "div.grid12.area 707px",
+      "div.grid12.area 707px",
+      "div.grid12.area 707px",
+      "div.foot__top 707px"
+     ],
+     "outlinedBoxes": 0,
+     "dashed": 0,
+     "blurred": 0,
+     "roundedBoxes": 2,
+     "boxRadius": 99,
+     "squareMedia": 0,
+     "roundedMedia": 4,
+     "mediaRadius": 6,
+     "textShadow": 0,
+     "cardRows": []
+    },
+    "heroMedia": [
+     {
+      "type": "img",
+      "ratio": 0.28
+     }
+    ],
+    "nav": {
+     "links": 3,
+     "fixed": true,
+     "height": 80,
+     "floatingPill": false,
+     "blur": false
+    },
+    "fontsLoaded": [
+     "bodoni moda",
+     "bodoni moda fallback",
+     "jost",
+     "jost fallback"
+    ]
+   },
+   "layout": {
+    "viewport": {
+     "w": 768,
+     "h": 1024
+    },
+    "pageH": 5760,
+    "margins": {
+     "left": 31,
+     "right": 31
+    },
+    "sections": [
+     {
+      "sel": "section",
+      "tag": "section",
+      "top": 80,
+      "height": 1066,
+      "words": 39,
+      "media": 1,
+      "middle": 0,
+      "heading": {
+       "text": "Across the",
+       "size": 62,
+       "tag": "h1"
+      },
+      "left": 31,
+      "right": 176,
+      "textLeft": 31,
+      "textRight": 203,
+      "fullBleed": false,
+      "footer": false,
+      "hero": true,
+      "continues": true,
+      "pinned": false
+     },
+     {
+      "sel": "div.wrap.grid12",
+      "tag": "div",
+      "top": 1248,
+      "height": 127,
+      "words": 18,
+      "media": 0,
+      "middle": 0,
+      "heading": null,
+      "left": 31,
+      "right": 204,
+      "textLeft": 31,
+      "textRight": 204,
+      "fullBleed": false,
+      "footer": false,
+      "hero": false,
+      "continues": true,
+      "pinned": false
+     },
+     {
+      "sel": "div.mt-12",
+      "tag": "div",
+      "top": 1423,
+      "height": 2353,
+      "words": 86,
+      "media": 3,
+      "middle": 0,
+      "heading": {
+       "text": "Buderim",
+       "size": 42,
+       "tag": "h3"
+      },
+      "left": 31,
+      "right": 31,
+      "textLeft": 31,
+      "textRight": 199,
+      "fullBleed": false,
+      "footer": false,
+      "hero": false,
+      "continues": true,
+      "pinned": false
+     },
+     {
+      "sel": "section#book.section.book",
+      "tag": "section",
+      "top": 3878,
+      "height": 1052,
+      "words": 58,
+      "media": 0,
+      "middle": 0,
+      "heading": {
+       "text": "Book a consultation",
+       "size": 42,
+       "tag": "h2"
+      },
+      "left": 31,
+      "right": 55,
+      "textLeft": 31,
+      "textRight": 257,
+      "fullBleed": false,
+      "footer": false,
+      "hero": false,
+      "continues": true,
+      "pinned": false
+     },
+     {
+      "sel": "footer.foot",
+      "tag": "footer",
+      "top": 4930,
+      "height": 830,
+      "words": 68,
+      "media": 0,
+      "middle": 46,
+      "heading": {
+       "text": "Treatments",
+       "size": 17,
+       "tag": "h2"
+      },
+      "left": 31,
+      "right": 31,
+      "textLeft": 31,
+      "textRight": 31,
+      "fullBleed": false,
+      "footer": true,
+      "hero": false,
+      "continues": false,
+      "pinned": false
+     }
+    ],
+    "gaps": [],
+    "h1s": [
+     {
+      "text": "Across the Sunshine Coast",
+      "size": 62,
+      "top": 118,
+      "firstScreen": true
+     }
+    ],
+    "edgeText": [],
+    "edges": [
+     {
+      "x": 31,
+      "n": 13
+     }
+    ],
+    "leftBlocks": 13,
+    "bodySize": 20,
+    "stage": false,
+    "explains": true,
+    "slivers": [],
+    "voidShare": 0,
+    "voidBox": null
+   },
+   "app": null,
+   "consoleErrors": []
+  },
+  {
+   "width": 390,
+   "height": 844,
+   "load": "load",
+   "screens": 7,
+   "filled": [
+    0.62,
+    0.89,
+    0.89,
+    0.89,
+    0.7,
+    0.91,
+    0.99
+   ],
+   "motion": {
+    "elements": 0,
+    "css": 0,
+    "transitions": 0,
+    "scripted": 0,
+    "videos": 0,
+    "playingVideos": 0
+   },
+   "metrics": {
+    "viewport": {
+     "w": 390,
+     "h": 844
+    },
+    "page": {
+     "height": 5353,
+     "screens": 6.3,
+     "words": 277,
+     "img": 6,
+     "video": 0,
+     "canvas": 0,
+     "svg": 0,
+     "sections": 3,
+     "horizontalOverflow": 0,
+     "overflowCulprits": [],
+     "uiFragments": 0,
+     "uiAbuse": false,
+     "realPictures": 4,
+     "videoCount": 0,
+     "uiPictures": 0,
+     "pictureSamples": [
+      "image?url=%2Fimages%2Fsub%2Fhero-locations.jpg&w",
+      "image?url=%2Fimages%2Fsub%2Floc-noosa.jpg&w=640&",
+      "image?url=%2Fimages%2Fsub%2Floc-buderim.jpg&w=64",
+      "image?url=%2Fimages%2Fsub%2Floc-caloundra.jpg&w="
+     ],
+     "blendText": 0,
+     "sideScrollers": 0,
+     "brokenImages": [],
+     "emoji": [],
+     "videosNoPoster": 0
+    },
+    "hero": {
+     "text": "Across the Sunshine Coast",
+     "words": 4,
+     "chars": 25,
+     "lines": 2,
+     "size": 44.3,
+     "vw": 11.4,
+     "font": "Bodoni Moda",
+     "weight": 400,
+     "tracking": -0.02,
+     "leading": 1.02,
+     "upper": false,
+     "italic": false,
+     "mono": false,
+     "align": "left",
+     "position": "center",
+     "widthRatio": 0.9,
+     "top": 112,
+     "tag": "h1",
+     "kind": "heading"
+    },
+    "h1": {
+     "text": "Across the Sunshine Coast",
+     "words": 4,
+     "lines": 2,
+     "size": 44.3,
+     "font": "Bodoni Moda"
+    },
+    "headings": [
+     {
+      "text": "Across the Sunshine Coast",
+      "words": 4,
+      "chars": 25,
+      "lines": 2,
+      "size": 44.3,
+      "vw": 11.4,
+      "font": "Bodoni Moda",
+      "weight": 400,
+      "tracking": -0.02,
+      "leading": 1.02,
+      "upper": false,
+      "italic": false,
+      "mono": false,
+      "align": "left",
+      "position": "center",
+      "widthRatio": 0.9,
+      "top": 112,
+      "tag": "h1",
+      "kind": "heading"
+     },
+     {
+      "text": "Where clients come from",
+      "words": 4,
+      "chars": 23,
+      "lines": 2,
+      "size": 34.2,
+      "vw": 8.8,
+      "font": "Bodoni Moda",
+      "weight": 400,
+      "tracking": -0.01,
+      "leading": 1.08,
+      "upper": false,
+      "italic": false,
+      "mono": false,
+      "align": "left",
+      "position": "center",
+      "widthRatio": 0.9,
+      "top": 1167,
+      "tag": "h2",
+      "kind": "heading"
+     },
+     {
+      "text": "Buderim",
+      "words": 1,
+      "chars": 7,
+      "lines": 1,
+      "size": 34.2,
+      "vw": 8.8,
+      "font": "Bodoni Moda",
+      "weight": 400,
+      "tracking": -0.01,
+      "leading": 1.08,
+      "upper": false,
+      "italic": false,
+      "mono": false,
+      "align": "left",
+      "position": "center",
+      "widthRatio": 0.9,
+      "top": 1678,
+      "tag": "h3",
+      "kind": "heading"
+     },
+     {
+      "text": "Noosa",
+      "words": 1,
+      "chars": 5,
+      "lines": 1,
+      "size": 34.2,
+      "vw": 8.8,
+      "font": "Bodoni Moda",
+      "weight": 400,
+      "tracking": -0.01,
+      "leading": 1.08,
+      "upper": false,
+      "italic": false,
+      "mono": false,
+      "align": "left",
+      "position": "center",
+      "widthRatio": 0.9,
+      "top": 2258,
+      "tag": "h3",
+      "kind": "heading"
+     },
+     {
+      "text": "Caloundra",
+      "words": 1,
+      "chars": 9,
+      "lines": 1,
+      "size": 34.2,
+      "vw": 8.8,
+      "font": "Bodoni Moda",
+      "weight": 400,
+      "tracking": -0.01,
+      "leading": 1.08,
+      "upper": false,
+      "italic": false,
+      "mono": false,
+      "align": "left",
+      "position": "center",
+      "widthRatio": 0.9,
+      "top": 2837,
+      "tag": "h3",
+      "kind": "heading"
+     },
+     {
+      "text": "Book a consultation",
+      "words": 3,
+      "chars": 19,
+      "lines": 1,
+      "size": 34.2,
+      "vw": 8.8,
+      "font": "Bodoni Moda",
+      "weight": 400,
+      "tracking": -0.01,
+      "leading": 1.08,
+      "upper": false,
+      "italic": false,
+      "mono": false,
+      "align": "left",
+      "position": "center",
+      "widthRatio": 0.9,
+      "top": 3293,
+      "tag": "h2",
+      "kind": "heading"
+     },
+     {
+      "text": "0414 502 807",
+      "words": 3,
+      "chars": 12,
+      "lines": 1,
+      "size": 24,
+      "vw": 6.2,
+      "font": "Bodoni Moda",
+      "weight": 400,
+      "tracking": 0,
+      "leading": 1.6,
+      "upper": false,
+      "italic": false,
+      "mono": false,
+      "align": "left",
+      "position": "center",
+      "widthRatio": 0.9,
+      "top": 3468,
+      "tag": "p",
+      "kind": "statement"
+     },
+     {
+      "text": "Brows, eyeliner and lips, mapped in Buderim since 2016.",
+      "words": 9,
+      "chars": 55,
+      "lines": 2,
+      "size": 24,
+      "vw": 6.2,
+      "font": "Bodoni Moda",
+      "weight": 400,
+      "tracking": 0,
+      "leading": 1.2,
+      "upper": false,
+      "italic": false,
+      "mono": false,
+      "align": "left",
+      "position": "center",
+      "widthRatio": 0.9,
+      "top": 4525,
+      "tag": "p",
+      "kind": "statement"
+     }
+    ],
+    "headingSummary": {
+     "count": 8,
+     "maxLines": 2,
+     "over2Lines": 0,
+     "statements": 2,
+     "centered": 0,
+     "medianWords": 3,
+     "mixedFontHeadings": 0
+    },
+    "type": {
+     "families": [
+      {
+       "family": "Jost",
+       "share": 0.9,
+       "mono": false
+      },
+      {
+       "family": "Bodoni Moda",
+       "share": 0.1,
+       "mono": false
+      }
+     ],
+     "familyCount": 2,
+     "sizes": [
+      14,
+      17,
+      19,
+      24,
+      34,
+      44
+     ],
+     "sizeCount": 6,
+     "notLoaded": [],
+     "body": {
+      "font": "Jost",
+      "size": 19,
+      "leading": 1.5,
+      "weight": 400,
+      "tracking": 0,
+      "contrast": 11.9
+     },
+     "measureChars": 37,
+     "max": {
+      "size": 44.3,
+      "vw": 11.4,
+      "font": "Bodoni Moda",
+      "text": "Across the Sunshine Coast"
+     },
+     "monoShare": 0,
+     "monoProseShare": 0,
+     "monoFamilies": [],
+     "monoSamples": [],
+     "microLabels": 0,
+     "microLabelShare": 0,
+     "microSamples": [],
+     "upperShare": 0,
+     "centerShare": 0.01,
+     "smallText": 0
+    },
+    "eyebrows": [],
+    "numbered": [],
+    "color": {
+     "bodyBg": "#f7f3ea",
+     "bodyBgHsl": {
+      "h": 42,
+      "s": 0.45,
+      "l": 0.94
+     },
+     "dark": false,
+     "sectionBgs": [
+      {
+       "color": "#b0a18d",
+       "top": 540,
+       "hsl": {
+        "h": 34,
+        "s": 0.18,
+        "l": 0.62
+       }
+      },
+      {
+       "color": "#ffffff",
+       "top": 1087,
+       "hsl": {
+        "h": 0,
+        "s": 0,
+        "l": 1
+       }
+      },
+      {
+       "color": "#c09569",
+       "top": 3213,
+       "hsl": {
+        "h": 30,
+        "s": 0.41,
+        "l": 0.58
+       }
+      },
+      {
+       "color": "#f7f3ea",
+       "top": 3638,
+       "hsl": {
+        "h": 42,
+        "s": 0.45,
+        "l": 0.94
+       }
+      },
+      {
+       "color": "#303030",
+       "top": 4404,
+       "hsl": {
+        "h": 0,
+        "s": 0,
+        "l": 0.19
+       }
+      }
+     ],
+     "textColors": [
+      {
+       "color": "#303030",
+       "share": 0.68
+      },
+      {
+       "color": "#f7f3ea",
+       "share": 0.17
+      },
+      {
+       "color": "#bdb3a6",
+       "share": 0.06
+      },
+      {
+       "color": "#c09569",
+       "share": 0.06
+      },
+      {
+       "color": "#5a524a",
+       "share": 0.04
+      }
+     ],
+     "button": {
+      "bg": "#303030",
+      "hsl": {
+       "h": 0,
+       "s": 0,
+       "l": 0.19
+      },
+      "fg": "#f7f3ea"
+     },
+     "lowContrast": []
+    },
+    "buttons": {
+     "count": 3,
+     "inHero": 2,
+     "radius": "pill",
+     "height": 52,
+     "withShadow": 0,
+     "withGradient": 0,
+     "mono": 0,
+     "upper": 0,
+     "heroLabels": [
+      "Book a consultation"
+     ]
+    },
+    "surfaces": {
+     "shadowStatic": 0,
+     "shadowOverlay": 0,
+     "shadowSamples": [],
+     "gradients": 0,
+     "scrims": 0,
+     "gradientSamples": [],
+     "gradientText": 0,
+     "hairlines": 4,
+     "hairlineSamples": [
+      "div.grid12.area 350px",
+      "div.grid12.area 350px",
+      "div.grid12.area 350px",
+      "div.foot__top 350px"
+     ],
+     "outlinedBoxes": 0,
+     "dashed": 0,
+     "blurred": 0,
+     "roundedBoxes": 2,
+     "boxRadius": 99,
+     "squareMedia": 0,
+     "roundedMedia": 4,
+     "mediaRadius": 6,
+     "textShadow": 0,
+     "cardRows": []
+    },
+    "heroMedia": [
+     {
+      "type": "img",
+      "ratio": 0.32
+     }
+    ],
+    "nav": {
+     "links": 2,
+     "fixed": true,
+     "height": 80,
+     "floatingPill": false,
+     "blur": false
+    },
+    "fontsLoaded": [
+     "bodoni moda",
+     "jost",
+     "jost fallback"
+    ]
+   },
+   "layout": {
+    "viewport": {
+     "w": 390,
+     "h": 844
+    },
+    "pageH": 5353,
+    "margins": {
+     "left": 20,
+     "right": 20
+    },
+    "sections": [
+     {
+      "sel": "section",
+      "tag": "section",
+      "top": 80,
+      "height": 1007,
+      "words": 39,
+      "media": 1,
+      "middle": 0,
+      "heading": {
+       "text": "Across the",
+       "size": 44,
+       "tag": "h1"
+      },
+      "left": 20,
+      "right": 20,
+      "textLeft": 20,
+      "textRight": 21,
+      "fullBleed": false,
+      "footer": false,
+      "hero": true,
+      "continues": true,
+      "pinned": false
+     },
+     {
+      "sel": "div.wrap.grid12",
+      "tag": "div",
+      "top": 1167,
+      "height": 179,
+      "words": 18,
+      "media": 0,
+      "middle": 0,
+      "heading": null,
+      "left": 20,
+      "right": 46,
+      "textLeft": 20,
+      "textRight": 46,
+      "fullBleed": false,
+      "footer": false,
+      "hero": false,
+      "continues": true,
+      "pinned": false
+     },
+     {
+      "sel": "div.mt-12",
+      "tag": "div",
+      "top": 1394,
+      "height": 1739,
+      "words": 86,
+      "media": 3,
+      "middle": 0,
+      "heading": {
+       "text": "Buderim",
+       "size": 34,
+       "tag": "h3"
+      },
+      "left": 20,
+      "right": 20,
+      "textLeft": 20,
+      "textRight": 25,
+      "fullBleed": false,
+      "footer": false,
+      "hero": false,
+      "continues": true,
+      "pinned": false
+     },
+     {
+      "sel": "section#book.section.book",
+      "tag": "section",
+      "top": 3213,
+      "height": 1191,
+      "words": 58,
+      "media": 0,
+      "middle": 0,
+      "heading": {
+       "text": "Book a consultation",
+       "size": 34,
+       "tag": "h2"
+      },
+      "left": 20,
+      "right": 31,
+      "textLeft": 20,
+      "textRight": 31,
+      "fullBleed": false,
+      "footer": false,
+      "hero": false,
+      "continues": true,
+      "pinned": false
+     },
+     {
+      "sel": "footer.foot",
+      "tag": "footer",
+      "top": 4404,
+      "height": 949,
+      "words": 68,
+      "media": 0,
+      "middle": 0,
+      "heading": {
+       "text": "Treatments",
+       "size": 17,
+       "tag": "h2"
+      },
+      "left": 20,
+      "right": 25,
+      "textLeft": 20,
+      "textRight": 25,
+      "fullBleed": false,
+      "footer": true,
+      "hero": false,
+      "continues": false,
+      "pinned": false
+     }
+    ],
+    "gaps": [],
+    "h1s": [
+     {
+      "text": "Across the Sunshine Coast",
+      "size": 44,
+      "top": 112,
+      "firstScreen": true
+     }
+    ],
+    "edgeText": [],
+    "edges": [
+     {
+      "x": 20,
+      "n": 13
+     }
+    ],
+    "leftBlocks": 13,
+    "bodySize": 19,
+    "stage": false,
+    "explains": true,
+    "slivers": [],
+    "voidShare": 0,
+    "voidBox": null
+   },
+   "app": null,
+   "consoleErrors": []
+  }
+ ],
+ "findings": [
+  {
+   "level": "FAIL",
+   "id": "hairline",
+   "width": 1440,
+   "message": "4 thin rule(s)/divider line(s): div.grid12.area 1325px | div.grid12.area 1325px | div.grid12.area 1325px | div.foot__top 1325px",
+   "fix": "Delete. Separate with space, a tone change, or scale. Lines are only for real tables and form fields.",
+   "alsoAt": [
+    768,
+    390
+   ]
+  },
+  {
+   "level": "FAIL",
+   "id": "palette-claude",
+   "width": 1440,
+   "message": "Cream + terracotta palette (page background #f7f3ea, text #f7f3ea, section #c09569, text #c09569).",
+   "fix": "Re-draw the palette from the library. This pairing reads as an assistant brand, not yours.",
+   "alsoAt": [
+    768,
+    390
+   ]
+  },
+  {
+   "level": "WARN",
+   "id": "no-footage",
+   "width": 1440,
+   "message": "No video anywhere on the page.",
+   "fix": "Look for one honest clip with scripts/assets.mjs --video (the place, the material, the process) and use it as a muted loop with a poster frame. Defend its absence only if no clip fits the subject."
+  },
+  {
+   "level": "WARN",
+   "id": "font-not-dealt",
+   "width": 1440,
+   "message": "The sheet dealt Chillax and Chillax, but the page renders Jost, Bodoni Moda.",
+   "fix": "Load the dealt face (the link on the sheet) and put it first in font-family. A build that falls back to a default face lands on the default look."
+  },
+  {
+   "level": "FAIL",
+   "id": "still-page",
+   "width": 1440,
+   "message": "Only 0 element(s) moved while the page loaded and scrolled.",
+   "fix": "Build the motion layer (SKILL.md step 9, references/motion.md): the signature move, an entrance for the parts of every section, feedback on every control, and one moving picture. Transform and opacity only, with a reduced-motion fallback."
+  }
+ ],
+ "images": [
+  {
+   "viewport": "desktop",
+   "width": 1440,
+   "fold": "C:\\Users\\KingTheOne\\Desktop\\Projects\\on-point-cosmetic-tattoo\\.taste-skill\\v2\\locations\\desktop-fold.jpg",
+   "pages": [
+    "C:\\Users\\KingTheOne\\Desktop\\Projects\\on-point-cosmetic-tattoo\\.taste-skill\\v2\\locations\\desktop-page-01.jpg",
+    "C:\\Users\\KingTheOne\\Desktop\\Projects\\on-point-cosmetic-tattoo\\.taste-skill\\v2\\locations\\desktop-page-02.jpg"
+   ],
+   "film": []
+  },
+  {
+   "viewport": "tablet",
+   "width": 768,
+   "fold": "C:\\Users\\KingTheOne\\Desktop\\Projects\\on-point-cosmetic-tattoo\\.taste-skill\\v2\\locations\\tablet-fold.jpg",
+   "pages": [
+    "C:\\Users\\KingTheOne\\Desktop\\Projects\\on-point-cosmetic-tattoo\\.taste-skill\\v2\\locations\\tablet-page-01.jpg"
+   ],
+   "film": []
+  },
+  {
+   "viewport": "mobile",
+   "width": 390,
+   "fold": "C:\\Users\\KingTheOne\\Desktop\\Projects\\on-point-cosmetic-tattoo\\.taste-skill\\v2\\locations\\mobile-fold.jpg",
+   "pages": [
+    "C:\\Users\\KingTheOne\\Desktop\\Projects\\on-point-cosmetic-tattoo\\.taste-skill\\v2\\locations\\mobile-page-01.jpg"
+   ],
+   "film": []
+  }
+ ]
+}

@@ -1,0 +1,202 @@
+- generic [active] [ref=f2e1]:
+  - banner [ref=f2e2]:
+    - generic [ref=f2e3]:
+      - link "On Point Cosmetic Tattoo Studio, home" [ref=f2e4] [cursor=pointer]:
+        - /url: /
+      - navigation "Main" [ref=f2e5]:
+        - link "Brows" [ref=f2e6] [cursor=pointer]:
+          - /url: /eyebrow-tattoos
+        - link "Eyeliner" [ref=f2e7] [cursor=pointer]:
+          - /url: /eyeliner-tattoos
+        - link "Lips" [ref=f2e8] [cursor=pointer]:
+          - /url: /lip-tattoos
+        - link "Aftercare" [ref=f2e9] [cursor=pointer]:
+          - /url: /after-care
+        - link "About Lisa" [ref=f2e10] [cursor=pointer]:
+          - /url: /#about
+      - generic [ref=f2e11]:
+        - link "0414 502 807" [ref=f2e12] [cursor=pointer]:
+          - /url: tel:0414502807
+        - link "Book a consultation" [ref=f2e13] [cursor=pointer]:
+          - /url: /contact
+  - main [ref=f2e14]:
+    - region [ref=f2e15]:
+      - generic [ref=f2e16]:
+        - generic [ref=f2e17]:
+          - heading "Eyebrow tattoos, mapped to you" [level=1] [ref=f2e18]
+          - paragraph [ref=f2e19]: Feather touch, microblading, nano realism hair strokes, powder and combination brows, from Lisa's studio in Buderim on the Sunshine Coast.
+          - generic [ref=f2e20]:
+            - link "Book a consultation" [ref=f2e21] [cursor=pointer]:
+              - /url: /contact
+            - link "Call 0414 502 807" [ref=f2e22] [cursor=pointer]:
+              - /url: tel:0414502807
+        - img "Hair-stroke eyebrow tattoo with a soft, natural arch" [ref=f2e24]
+    - region [ref=f2e25]:
+      - generic [ref=f2e26]:
+        - img "Freshly tattooed hair-stroke brows, seen from above" [ref=f2e28]
+        - generic [ref=f2e29]:
+          - heading "Brow mapping and design" [level=2] [ref=f2e30]
+          - paragraph [ref=f2e31]: Small changes in brow structure can alter overall facial balance, which is why planning matters. At On Point Cosmetic Tattoo Studio in Buderim, I provide eyebrow tattoos for clients across the Sunshine Coast using structured mapping and technique selection.
+          - paragraph [ref=f2e32]: Options include feather touch brows, microblading, nano realism hair strokes, powder brows and combination brows. During consultation, I assess natural brow growth, skin type, symmetry and pigment tone before recommending a suitable approach.
+          - list [ref=f2e33]:
+            - listitem [ref=f2e34]: Nano realism hair strokes
+            - listitem [ref=f2e35]: Feather touch microblading
+            - listitem [ref=f2e36]: Powder brows
+            - listitem [ref=f2e37]: Combination brows
+    - region [ref=f2e38]:
+      - generic [ref=f2e39]:
+        - img "A client in the studio chair with finished, natural-looking brows" [ref=f2e41]
+        - generic [ref=f2e42]:
+          - heading "Choosing the technique" [level=2] [ref=f2e43]
+          - paragraph [ref=f2e44]: Different eyebrow tattoo techniques create different visual effects, so I explain each method clearly before proceeding. Hair stroke techniques, such as nano realism and microblading, create fine lines through manual or machine application. Powder brows use a soft shading method, while combination brows blend hair strokes with shading for added structure.
+          - paragraph [ref=f2e45]: The chosen method depends on skin condition, previous tattoo work and personal preference. I'll outline preparation requirements, discuss healing stages and provide written aftercare guidance following treatment.
+          - list [ref=f2e46]:
+            - listitem [ref=f2e47]: Certified artist, with consultation protocols and hygiene standards suited to cosmetic tattoo
+            - listitem [ref=f2e48]: Shape, proportion and pigment tone mapped to your features and reviewed before treatment
+            - listitem [ref=f2e49]: Professional pigments and devices, with product details explained at your consultation
+          - generic [ref=f2e50]:
+            - link "Read the aftercare" [ref=f2e51] [cursor=pointer]:
+              - /url: /after-care
+            - link "Call 0414 502 807" [ref=f2e52] [cursor=pointer]:
+              - /url: tel:0414502807
+    - region "Lisa's brow work" [ref=f2e53]:
+      - generic [ref=f2e54]:
+        - heading "Lisa's brow work" [level=2] [ref=f2e55]
+        - generic [ref=f2e56]:
+          - figure "Feather touch hair strokes, fresh" [ref=f2e57]:
+            - 'button "View larger: Feather touch hair strokes, fresh" [ref=f2e58]':
+              - img "Feathered hair-stroke brows on a client with brown eyes" [ref=f2e60]
+          - figure "Hair strokes, fresh" [ref=f2e62]:
+            - 'button "View larger: Hair strokes, fresh" [ref=f2e63]':
+              - img "Hair-stroke brow with a defined tail" [ref=f2e65]
+          - figure "Healed after one session, before the touch-up" [ref=f2e67]:
+            - 'button "View larger: Healed after one session, before the touch-up" [ref=f2e68]':
+              - img "Healed brows after one session, before the touch-up" [ref=f2e70]
+    - region [ref=f2e72]:
+      - generic [ref=f2e73]:
+        - generic [ref=f2e74]:
+          - heading "Your questions" [level=2] [ref=f2e75]
+          - paragraph [ref=f2e76]:
+            - text: Something else on your mind? Call Lisa on
+            - link "0414 502 807" [ref=f2e77] [cursor=pointer]:
+              - /url: tel:0414502807
+            - text: .
+        - generic [ref=f2e79]:
+          - group [ref=f2e80]:
+            - generic "How long do eyebrow tattoos last? −" [ref=f2e81] [cursor=pointer]
+            - paragraph [ref=f2e82]: Eyebrow tattoos are a semi-permanent cosmetic procedure. Longevity varies depending on skin type, lifestyle, sun exposure and pigment choice. Most treatments require a follow-up appointment and periodic maintenance over time. Fading occurs gradually, and individual results differ based on skin response and aftercare practices.
+          - group [ref=f2e83]:
+            - generic "What should be avoided before an eyebrow tattoo appointment? +" [ref=f2e84] [cursor=pointer]
+          - group [ref=f2e85]:
+            - generic "Does an eyebrow tattoo hurt? +" [ref=f2e86] [cursor=pointer]
+    - region [ref=f2e87]:
+      - generic [ref=f2e88]:
+        - generic [ref=f2e89]:
+          - heading "Book a consultation" [level=2] [ref=f2e90]
+          - paragraph [ref=f2e91]: Tell Lisa what you have in mind and she'll come back to you with a time. If you reach voicemail, leave your name and number.
+          - paragraph [ref=f2e92]:
+            - link "0414 502 807" [ref=f2e93] [cursor=pointer]:
+              - /url: tel:0414502807
+          - generic [ref=f2e94]:
+            - generic [ref=f2e95]:
+              - term [ref=f2e96]: Mon – Fri
+              - definition [ref=f2e97]: 9am – 5pm
+            - generic [ref=f2e98]:
+              - term [ref=f2e99]: Sat – Sun
+              - definition [ref=f2e100]: By appointment
+        - generic [ref=f2e101]:
+          - generic [ref=f2e102]:
+            - generic [ref=f2e103]:
+              - generic [ref=f2e104]: Name
+              - textbox "Name" [ref=f2e105]
+            - generic [ref=f2e106]:
+              - generic [ref=f2e107]: Phone
+              - textbox "Phone" [ref=f2e108]
+          - generic [ref=f2e109]:
+            - generic [ref=f2e110]:
+              - generic [ref=f2e111]: Email
+              - textbox "Email" [ref=f2e112]
+            - generic [ref=f2e113]:
+              - generic [ref=f2e114]: Treatment
+              - combobox "Treatment" [ref=f2e115]:
+                - option "Not sure yet" [selected]
+                - option "Eyebrows"
+                - option "Eyeliner"
+                - option "Lips"
+          - generic [ref=f2e116]:
+            - generic [ref=f2e117]: Message
+            - textbox "Message" [ref=f2e118]
+          - button "Send to Lisa" [ref=f2e119] [cursor=pointer]
+          - paragraph [ref=f2e120]: Sending opens your email app with the message ready to go.
+  - contentinfo [ref=f2e121]:
+    - generic [ref=f2e122]:
+      - generic [ref=f2e123]:
+        - img "On Point Cosmetic Tattoo Studio" [ref=f2e124]
+        - paragraph [ref=f2e125]: Brows, eyeliner and lips, mapped in Buderim since 2016.
+      - generic [ref=f2e126]:
+        - generic [ref=f2e127]:
+          - heading "Treatments" [level=2] [ref=f2e128]
+          - list [ref=f2e129]:
+            - listitem [ref=f2e130]:
+              - link "Eyebrow tattoos" [ref=f2e131] [cursor=pointer]:
+                - /url: /eyebrow-tattoos
+            - listitem [ref=f2e132]:
+              - link "Eyeliner tattoos" [ref=f2e133] [cursor=pointer]:
+                - /url: /eyeliner-tattoos
+            - listitem [ref=f2e134]:
+              - link "Lip tattoos" [ref=f2e135] [cursor=pointer]:
+                - /url: /lip-tattoos
+            - listitem [ref=f2e136]:
+              - link "Aftercare" [ref=f2e137] [cursor=pointer]:
+                - /url: /after-care
+        - generic [ref=f2e138]:
+          - heading "Studio" [level=2] [ref=f2e139]
+          - list [ref=f2e140]:
+            - listitem [ref=f2e141]:
+              - link "About Lisa" [ref=f2e142] [cursor=pointer]:
+                - /url: /#about
+            - listitem [ref=f2e143]:
+              - link "Reviews" [ref=f2e144] [cursor=pointer]:
+                - /url: /#testimonials
+            - listitem [ref=f2e145]:
+              - link "Areas we serve" [ref=f2e146] [cursor=pointer]:
+                - /url: /locations
+            - listitem [ref=f2e147]:
+              - link "Contact" [ref=f2e148] [cursor=pointer]:
+                - /url: /contact
+        - generic [ref=f2e149]:
+          - heading "Follow" [level=2] [ref=f2e150]
+          - list [ref=f2e151]:
+            - listitem [ref=f2e152]:
+              - link "Facebook" [ref=f2e153] [cursor=pointer]:
+                - /url: https://www.facebook.com/onpointcosmetictattoo/
+            - listitem [ref=f2e154]:
+              - link "Instagram" [ref=f2e155] [cursor=pointer]:
+                - /url: https://www.instagram.com/onpointcosmetictattoostudio/
+            - listitem [ref=f2e156]:
+              - link "Google reviews" [ref=f2e157] [cursor=pointer]:
+                - /url: https://maps.app.goo.gl/8NpoKzz7PLJGnELG6
+            - listitem [ref=f2e158]:
+              - link "Localsearch" [ref=f2e159] [cursor=pointer]:
+                - /url: https://www.localsearch.com.au/profile/on-point-cosmetic-tattoo-studio/buderim-qld/MaKp
+        - generic [ref=f2e160]:
+          - heading "Hours" [level=2] [ref=f2e161]
+          - list [ref=f2e162]:
+            - listitem [ref=f2e163]: Mon – Fri, 9am – 5pm
+            - listitem [ref=f2e164]: Sat – Sun, by appointment
+        - generic [ref=f2e165]:
+          - heading "Contact" [level=2] [ref=f2e166]
+          - list [ref=f2e167]:
+            - listitem [ref=f2e168]:
+              - link "0414 502 807" [ref=f2e169] [cursor=pointer]:
+                - /url: tel:0414502807
+            - listitem [ref=f2e170]:
+              - link "onpointcosmetictattoo@gmail.com" [ref=f2e171] [cursor=pointer]:
+                - /url: mailto:onpointcosmetictattoo@gmail.com
+            - listitem [ref=f2e172]:
+              - link "Buderim, QLD 4556" [ref=f2e173] [cursor=pointer]:
+                - /url: https://maps.app.goo.gl/UoricJLVFQzHepTm7
+      - generic [ref=f2e174]:
+        - paragraph [ref=f2e175]: © 2026 On Point Cosmetic Tattoo Studio
+        - paragraph [ref=f2e176]: Certified cosmetic tattoo artist. ABN 79 955 974 433
+  - alert [ref=f2e177]

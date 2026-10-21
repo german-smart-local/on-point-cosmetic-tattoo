@@ -1,27 +1,23 @@
 import type { Metadata } from "next";
-import { Montserrat, Source_Sans_3, Josefin_Sans } from "next/font/google";
+import { Bodoni_Moda, Jost } from "next/font/google";
 import "./globals.css";
 import { Header } from "@/components/Header";
 import { Footer } from "@/components/Footer";
+import { ActionBar } from "@/components/ActionBar";
+import { Reveals } from "@/components/Reveals";
 
-const montserrat = Montserrat({
-  variable: "--font-montserrat",
+// Bodoni echoes the hairline capitals of the On Point logo; Jost matches its spaced sans subtitle.
+const bodoni = Bodoni_Moda({
+  variable: "--font-bodoni",
   subsets: ["latin"],
-  weight: ["100", "200", "300", "400", "500", "600", "700"],
+  weight: ["400", "500"],
   display: "swap",
 });
 
-const sourceSans = Source_Sans_3({
-  variable: "--font-source-sans",
+const jost = Jost({
+  variable: "--font-jost",
   subsets: ["latin"],
-  weight: ["300", "400", "600", "700"],
-  display: "swap",
-});
-
-const josefin = Josefin_Sans({
-  variable: "--font-josefin",
-  subsets: ["latin"],
-  weight: ["300", "400", "500", "600"],
+  weight: ["400", "500"],
   display: "swap",
 });
 
@@ -49,16 +45,17 @@ export default function RootLayout({
   children: React.ReactNode;
 }>) {
   return (
-    <html
-      lang="en"
-      className={`${montserrat.variable} ${sourceSans.variable} ${josefin.variable} h-full antialiased`}
-    >
-      <body className="min-h-full flex flex-col">
+    <html lang="en-AU" className={`${bodoni.variable} ${jost.variable}`} suppressHydrationWarning>
+      <head>
+        {/* The hero's brow map only hides its lines (to draw them) once this class is set. */}
+        <script dangerouslySetInnerHTML={{ __html: "document.documentElement.classList.add('js')" }} />
+      </head>
+      <body>
         <Header />
-        <main id="top" className="flex-1 pt-[136px]">
-          {children}
-        </main>
+        <main id="top">{children}</main>
         <Footer />
+        <ActionBar />
+        <Reveals />
       </body>
     </html>
   );

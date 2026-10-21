@@ -1,0 +1,2383 @@
+{
+ "url": "http://localhost:3123/",
+ "at": "2026-10-21T04:15:03.818Z",
+ "allow": [],
+ "viewports": [
+  {
+   "width": 1440,
+   "height": 900,
+   "load": "load",
+   "screens": 11,
+   "filled": [
+    0.9,
+    0.66,
+    0.8,
+    0.81,
+    0.75,
+    0.98,
+    0.79,
+    0.43,
+    0.48,
+    0.76,
+    0.89
+   ],
+   "motion": {
+    "elements": 54,
+    "css": 11,
+    "transitions": 43,
+    "scripted": 0,
+    "videos": 0,
+    "playingVideos": 0
+   },
+   "metrics": {
+    "viewport": {
+     "w": 1440,
+     "h": 900
+    },
+    "page": {
+     "height": 9265,
+     "screens": 10.3,
+     "words": 912,
+     "img": 9,
+     "video": 0,
+     "canvas": 0,
+     "svg": 1,
+     "sections": 7,
+     "horizontalOverflow": 0,
+     "overflowCulprits": [],
+     "uiFragments": 0,
+     "uiAbuse": false,
+     "realPictures": 9,
+     "videoCount": 0,
+     "uiPictures": 0,
+     "pictureSamples": [
+      "image?url=%2Fimages%2Fsub%2Feb-design.jpg&w=640&",
+      "image?url=%2Fimages%2Fsub%2Fel-work-1.jpg&w=640&",
+      "image?url=%2Fimages%2Fsub%2Flip-work-1.jpg&w=640",
+      "image?url=%2Fimages%2Fsub%2Feb-work-1.jpg&w=640&",
+      "image?url=%2Fimages%2Fsub%2Feb-work-2.jpg&w=1080",
+      "image?url=%2Fimages%2Fsub%2Fel-work-3.jpg&w=1080",
+      "image?url=%2Fimages%2Fsub%2Flip-technique.jpg&w=",
+      "image?url=%2Fimages%2Fsub%2Feb-technique.jpg&w=3"
+     ],
+     "blendText": 0,
+     "sideScrollers": 0,
+     "brokenImages": [],
+     "emoji": [],
+     "videosNoPoster": 0
+    },
+    "hero": {
+     "text": "Cosmetic tattoo, on point",
+     "words": 4,
+     "chars": 25,
+     "lines": 2,
+     "size": 72.6,
+     "vw": 5,
+     "font": "chillax",
+     "weight": 600,
+     "tracking": -0.035,
+     "leading": 0.98,
+     "upper": false,
+     "italic": false,
+     "mono": false,
+     "align": "left",
+     "position": "left",
+     "widthRatio": 0.47,
+     "top": 131,
+     "tag": "h1",
+     "kind": "heading"
+    },
+    "h1": {
+     "text": "Cosmetic tattoo, on point",
+     "words": 4,
+     "lines": 2,
+     "size": 72.6,
+     "font": "chillax"
+    },
+    "headings": [
+     {
+      "text": "Cosmetic tattoo, on point",
+      "words": 4,
+      "chars": 25,
+      "lines": 2,
+      "size": 72.6,
+      "vw": 5,
+      "font": "chillax",
+      "weight": 600,
+      "tracking": -0.035,
+      "leading": 0.98,
+      "upper": false,
+      "italic": false,
+      "mono": false,
+      "align": "left",
+      "position": "left",
+      "widthRatio": 0.47,
+      "top": 131,
+      "tag": "h1",
+      "kind": "heading"
+     },
+     {
+      "text": "Three treatments",
+      "words": 2,
+      "chars": 16,
+      "lines": 1,
+      "size": 64,
+      "vw": 4.4,
+      "font": "chillax",
+      "weight": 600,
+      "tracking": -0.03,
+      "leading": 1,
+      "upper": false,
+      "italic": false,
+      "mono": false,
+      "align": "left",
+      "position": "left",
+      "widthRatio": 0.47,
+      "top": 1082,
+      "tag": "h2",
+      "kind": "heading"
+     },
+     {
+      "text": "Brows",
+      "words": 1,
+      "chars": 5,
+      "lines": 1,
+      "size": 27.5,
+      "vw": 1.9,
+      "font": "chillax",
+      "weight": 600,
+      "tracking": -0.02,
+      "leading": 1.5,
+      "upper": false,
+      "italic": false,
+      "mono": false,
+      "align": "left",
+      "position": "left",
+      "widthRatio": 0.19,
+      "top": 1245,
+      "tag": "a",
+      "kind": "heading"
+     },
+     {
+      "text": "Eyeliner",
+      "words": 1,
+      "chars": 8,
+      "lines": 1,
+      "size": 27.5,
+      "vw": 1.9,
+      "font": "chillax",
+      "weight": 600,
+      "tracking": -0.02,
+      "leading": 1.5,
+      "upper": false,
+      "italic": false,
+      "mono": false,
+      "align": "left",
+      "position": "left",
+      "widthRatio": 0.19,
+      "top": 1945,
+      "tag": "a",
+      "kind": "heading"
+     },
+     {
+      "text": "Lips",
+      "words": 1,
+      "chars": 4,
+      "lines": 1,
+      "size": 27.5,
+      "vw": 1.9,
+      "font": "chillax",
+      "weight": 600,
+      "tracking": -0.02,
+      "leading": 1.5,
+      "upper": false,
+      "italic": false,
+      "mono": false,
+      "align": "left",
+      "position": "center",
+      "widthRatio": 0.19,
+      "top": 2645,
+      "tag": "a",
+      "kind": "heading"
+     },
+     {
+      "text": "Your visit, day by day",
+      "words": 5,
+      "chars": 22,
+      "lines": 2,
+      "size": 64,
+      "vw": 4.4,
+      "font": "chillax",
+      "weight": 600,
+      "tracking": -0.03,
+      "leading": 1,
+      "upper": false,
+      "italic": false,
+      "mono": false,
+      "align": "left",
+      "position": "left",
+      "widthRatio": 0.39,
+      "top": 3454,
+      "tag": "h2",
+      "kind": "heading"
+     },
+     {
+      "text": "Consultation",
+      "words": 1,
+      "chars": 12,
+      "lines": 1,
+      "size": 64,
+      "vw": 4.4,
+      "font": "chillax",
+      "weight": 600,
+      "tracking": -0.03,
+      "leading": 1,
+      "upper": false,
+      "italic": false,
+      "mono": false,
+      "align": "left",
+      "position": "left",
+      "widthRatio": 0.34,
+      "top": 3789,
+      "tag": "h3",
+      "kind": "heading"
+     },
+     {
+      "text": "Meet Lisa, your artist",
+      "words": 4,
+      "chars": 22,
+      "lines": 2,
+      "size": 64,
+      "vw": 4.4,
+      "font": "chillax",
+      "weight": 600,
+      "tracking": -0.03,
+      "leading": 1,
+      "upper": false,
+      "italic": false,
+      "mono": false,
+      "align": "left",
+      "position": "left",
+      "widthRatio": 0.5,
+      "top": 4467,
+      "tag": "h2",
+      "kind": "heading"
+     },
+     {
+      "text": "5.0 from 34 Google reviews",
+      "words": 5,
+      "chars": 26,
+      "lines": 2,
+      "size": 64,
+      "vw": 4.4,
+      "font": "chillax",
+      "weight": 600,
+      "tracking": -0.03,
+      "leading": 1,
+      "upper": false,
+      "italic": false,
+      "mono": false,
+      "align": "left",
+      "position": "left",
+      "widthRatio": 0.31,
+      "top": 5510,
+      "tag": "h2",
+      "kind": "heading"
+     },
+     {
+      "text": "Questions, answered",
+      "words": 2,
+      "chars": 19,
+      "lines": 2,
+      "size": 64,
+      "vw": 4.4,
+      "font": "chillax",
+      "weight": 600,
+      "tracking": -0.03,
+      "leading": 1,
+      "upper": false,
+      "italic": false,
+      "mono": false,
+      "align": "left",
+      "position": "left",
+      "widthRatio": 0.39,
+      "top": 6558,
+      "tag": "h2",
+      "kind": "heading"
+     },
+     {
+      "text": "Book a consultation",
+      "words": 3,
+      "chars": 19,
+      "lines": 2,
+      "size": 64,
+      "vw": 4.4,
+      "font": "chillax",
+      "weight": 600,
+      "tracking": -0.03,
+      "leading": 1,
+      "upper": false,
+      "italic": false,
+      "mono": false,
+      "align": "left",
+      "position": "left",
+      "widthRatio": 0.29,
+      "top": 7851,
+      "tag": "h2",
+      "kind": "heading"
+     },
+     {
+      "text": "O N P O I N T",
+      "words": 7,
+      "chars": 13,
+      "lines": 1,
+      "size": 129.6,
+      "vw": 9,
+      "font": "chillax",
+      "weight": 600,
+      "tracking": -0.04,
+      "leading": 0.78,
+      "upper": false,
+      "italic": false,
+      "mono": false,
+      "align": "left",
+      "position": "center",
+      "widthRatio": 0.96,
+      "top": 8598,
+      "tag": "div",
+      "kind": "heading"
+     }
+    ],
+    "headingSummary": {
+     "count": 12,
+     "maxLines": 2,
+     "over2Lines": 0,
+     "statements": 0,
+     "centered": 0,
+     "medianWords": 2,
+     "mixedFontHeadings": 0
+    },
+    "type": {
+     "families": [
+      {
+       "family": "chillax",
+       "share": 1,
+       "mono": false
+      }
+     ],
+     "familyCount": 1,
+     "sizes": [
+      14,
+      19,
+      20,
+      26,
+      28,
+      64,
+      73,
+      130
+     ],
+     "sizeCount": 8,
+     "notLoaded": [],
+     "body": {
+      "font": "chillax",
+      "size": 19,
+      "leading": 1.5,
+      "weight": 400,
+      "tracking": 0,
+      "contrast": 8.4
+     },
+     "measureChars": 65,
+     "max": {
+      "size": 129.6,
+      "vw": 9,
+      "font": "chillax",
+      "text": "O"
+     },
+     "monoShare": 0,
+     "monoProseShare": 0,
+     "monoFamilies": [],
+     "monoSamples": [],
+     "microLabels": 0,
+     "microLabelShare": 0,
+     "microSamples": [],
+     "upperShare": 0,
+     "centerShare": 0,
+     "smallText": 0
+    },
+    "eyebrows": [],
+    "numbered": [],
+    "color": {
+     "bodyBg": "#f7f9f8",
+     "bodyBgHsl": {
+      "h": 150,
+      "s": 0.14,
+      "l": 0.97
+     },
+     "dark": false,
+     "sectionBgs": [
+      {
+       "color": "#06525c",
+       "top": 72,
+       "hsl": {
+        "h": 187,
+        "s": 0.88,
+        "l": 0.19
+       }
+      },
+      {
+       "color": "#ebf0ee",
+       "top": 72,
+       "hsl": {
+        "h": 156,
+        "s": 0.14,
+        "l": 0.93
+       }
+      },
+      {
+       "color": "#bcd3d5",
+       "top": 2009,
+       "hsl": {
+        "h": 185,
+        "s": 0.23,
+        "l": 0.79
+       }
+      },
+      {
+       "color": "#e2ebeb",
+       "top": 2709,
+       "hsl": {
+        "h": 180,
+        "s": 0.18,
+        "l": 0.9
+       }
+      },
+      {
+       "color": "#145f69",
+       "top": 4842,
+       "hsl": {
+        "h": 187,
+        "s": 0.68,
+        "l": 0.25
+       }
+      },
+      {
+       "color": "#d3e2e3",
+       "top": 7798,
+       "hsl": {
+        "h": 184,
+        "s": 0.22,
+        "l": 0.86
+       }
+      }
+     ],
+     "textColors": [
+      {
+       "color": "#06525c",
+       "share": 0.58
+      },
+      {
+       "color": "#f7f9f8",
+       "share": 0.39
+      },
+      {
+       "color": "#2f737d",
+       "share": 0.03
+      }
+     ],
+     "button": {
+      "bg": "#06525c",
+      "hsl": {
+       "h": 187,
+       "s": 0.88,
+       "l": 0.19
+      },
+      "fg": "#f7f9f8"
+     },
+     "lowContrast": []
+    },
+    "buttons": {
+     "count": 11,
+     "inHero": 2,
+     "radius": 0,
+     "height": 60,
+     "withShadow": 0,
+     "withGradient": 0,
+     "mono": 0,
+     "upper": 0,
+     "heroLabels": [
+      "Book a consultation",
+      "Book a consultation"
+     ]
+    },
+    "surfaces": {
+     "shadowStatic": 0,
+     "shadowOverlay": 0,
+     "shadowSamples": [],
+     "gradients": 0,
+     "scrims": 0,
+     "gradientSamples": [],
+     "gradientText": 0,
+     "hairlines": 0,
+     "hairlineSamples": [],
+     "outlinedBoxes": 0,
+     "dashed": 0,
+     "blurred": 0,
+     "roundedBoxes": 0,
+     "boxRadius": 0,
+     "squareMedia": 9,
+     "roundedMedia": 0,
+     "mediaRadius": 0,
+     "textShadow": 0,
+     "cardRows": []
+    },
+    "heroMedia": [
+     {
+      "type": "img",
+      "ratio": 0.32
+     },
+     {
+      "type": "img",
+      "ratio": 0.28
+     },
+     {
+      "type": "img",
+      "ratio": 0.28
+     },
+     {
+      "type": "img",
+      "ratio": 0.28
+     }
+    ],
+    "nav": {
+     "links": 8,
+     "fixed": true,
+     "height": 72,
+     "floatingPill": false,
+     "blur": false
+    },
+    "fontsLoaded": [
+     "chillax"
+    ]
+   },
+   "layout": {
+    "viewport": {
+     "w": 1440,
+     "h": 900
+    },
+    "pageH": 9265,
+    "margins": {
+     "left": 32,
+     "right": 37
+    },
+    "sections": [
+     {
+      "sel": "section.hero",
+      "tag": "section",
+      "top": 72,
+      "height": 828,
+      "words": 55,
+      "media": 1,
+      "middle": 185,
+      "heading": {
+       "text": "Cosmetic tattoo,",
+       "size": 73,
+       "tag": "h1"
+      },
+      "left": 91,
+      "right": 53,
+      "textLeft": 91,
+      "textRight": 416,
+      "fullBleed": false,
+      "footer": false,
+      "hero": true,
+      "continues": true,
+      "pinned": false
+     },
+     {
+      "sel": "div.wrap.grid12",
+      "tag": "div",
+      "top": 1082,
+      "height": 162,
+      "words": 22,
+      "media": 0,
+      "middle": 0,
+      "heading": {
+       "text": "Lisa works only on brows, eyeliner and lips. Each ",
+       "size": 26,
+       "tag": "p"
+      },
+      "left": 846,
+      "right": 66,
+      "textLeft": 846,
+      "textRight": 66,
+      "fullBleed": false,
+      "footer": false,
+      "hero": false,
+      "continues": true,
+      "pinned": false
+     },
+     {
+      "sel": "div",
+      "tag": "div",
+      "top": 1245,
+      "height": 2100,
+      "words": 203,
+      "media": 3,
+      "middle": 96,
+      "heading": {
+       "text": "Brows",
+       "size": 28,
+       "tag": "a"
+      },
+      "left": 32,
+      "right": 35,
+      "textLeft": 32,
+      "textRight": 35,
+      "fullBleed": false,
+      "footer": false,
+      "hero": false,
+      "continues": true,
+      "pinned": true
+     },
+     {
+      "sel": "section#your-visit.section",
+      "tag": "section",
+      "top": 3345,
+      "height": 1066,
+      "words": 98,
+      "media": 1,
+      "middle": 80,
+      "heading": {
+       "text": "Your visit, day by day",
+       "size": 64,
+       "tag": "h2"
+      },
+      "left": 32,
+      "right": 32,
+      "textLeft": 32,
+      "textRight": 64,
+      "fullBleed": false,
+      "footer": false,
+      "hero": false,
+      "continues": true,
+      "pinned": false
+     },
+     {
+      "sel": "section#about.about.on-dark",
+      "tag": "section",
+      "top": 4411,
+      "height": 990,
+      "words": 83,
+      "media": 0,
+      "middle": 472,
+      "heading": {
+       "text": "Meet Lisa,",
+       "size": 64,
+       "tag": "h2"
+      },
+      "left": 65,
+      "right": 236,
+      "textLeft": 65,
+      "textRight": 236,
+      "fullBleed": false,
+      "footer": false,
+      "hero": false,
+      "continues": true,
+      "pinned": false
+     },
+     {
+      "sel": "section#testimonials.reviews.section",
+      "tag": "section",
+      "top": 5401,
+      "height": 1048,
+      "words": 194,
+      "media": 0,
+      "middle": 52,
+      "heading": {
+       "text": "5.0 from 34",
+       "size": 64,
+       "tag": "h2"
+      },
+      "left": 32,
+      "right": 32,
+      "textLeft": 32,
+      "textRight": 32,
+      "fullBleed": false,
+      "footer": false,
+      "hero": false,
+      "continues": true,
+      "pinned": false
+     },
+     {
+      "sel": "section#questions.section",
+      "tag": "section",
+      "top": 6448,
+      "height": 1241,
+      "words": 247,
+      "media": 0,
+      "middle": 0,
+      "heading": {
+       "text": "Questions, answered",
+       "size": 64,
+       "tag": "h2"
+      },
+      "left": 264,
+      "right": 287,
+      "textLeft": 264,
+      "textRight": 287,
+      "fullBleed": false,
+      "footer": false,
+      "hero": false,
+      "continues": true,
+      "pinned": false
+     },
+     {
+      "sel": "section#book.section",
+      "tag": "section",
+      "top": 7689,
+      "height": 820,
+      "words": 53,
+      "media": 0,
+      "middle": 127,
+      "heading": {
+       "text": "Book a consultation",
+       "size": 64,
+       "tag": "h2"
+      },
+      "left": 201,
+      "right": 201,
+      "textLeft": 201,
+      "textRight": 294,
+      "fullBleed": false,
+      "footer": false,
+      "hero": false,
+      "continues": true,
+      "pinned": false
+     },
+     {
+      "sel": "footer.foot.on-dark",
+      "tag": "footer",
+      "top": 8509,
+      "height": 756,
+      "words": 62,
+      "media": 0,
+      "middle": 97,
+      "heading": {
+       "text": "Treatments",
+       "size": 19,
+       "tag": "h2"
+      },
+      "left": 32,
+      "right": 67,
+      "textLeft": 32,
+      "textRight": 67,
+      "fullBleed": false,
+      "footer": true,
+      "hero": false,
+      "continues": false,
+      "pinned": false
+     }
+    ],
+    "gaps": [],
+    "h1s": [
+     {
+      "text": "Cosmetic tattoo, on point",
+      "size": 73,
+      "top": 131,
+      "firstScreen": true
+     }
+    ],
+    "edgeText": [],
+    "edges": [
+     {
+      "x": 846,
+      "n": 12
+     },
+     {
+      "x": 293,
+      "n": 6
+     },
+     {
+      "x": 32,
+      "n": 5
+     },
+     {
+      "x": 65,
+      "n": 3
+     },
+     {
+      "x": 91,
+      "n": 3
+     },
+     {
+      "x": 201,
+      "n": 2
+     },
+     {
+      "x": 743,
+      "n": 2
+     },
+     {
+      "x": 1053,
+      "n": 2
+     },
+     {
+      "x": 105,
+      "n": 1
+     },
+     {
+      "x": 120,
+      "n": 1
+     },
+     {
+      "x": 264,
+      "n": 1
+     },
+     {
+      "x": 428,
+      "n": 1
+     }
+    ],
+    "leftBlocks": 39,
+    "bodySize": 19,
+    "stage": false,
+    "explains": true,
+    "slivers": [],
+    "voidShare": 0.12,
+    "voidBox": {
+     "x": 0,
+     "y": 540,
+     "w": 840,
+     "h": 180
+    }
+   },
+   "app": null,
+   "consoleErrors": []
+  },
+  {
+   "width": 768,
+   "height": 1024,
+   "load": "load",
+   "screens": 12,
+   "filled": [
+    0.94,
+    0.72,
+    0.9,
+    0.94,
+    0.59,
+    0.84,
+    0.97,
+    0.72,
+    0.73,
+    0.77,
+    0.72,
+    0.96
+   ],
+   "motion": {
+    "elements": 53,
+    "css": 11,
+    "transitions": 42,
+    "scripted": 0,
+    "videos": 0,
+    "playingVideos": 0
+   },
+   "metrics": {
+    "viewport": {
+     "w": 768,
+     "h": 1024
+    },
+    "page": {
+     "height": 11988,
+     "screens": 11.7,
+     "words": 901,
+     "img": 9,
+     "video": 0,
+     "canvas": 0,
+     "svg": 1,
+     "sections": 7,
+     "horizontalOverflow": 0,
+     "overflowCulprits": [],
+     "uiFragments": 0,
+     "uiAbuse": false,
+     "realPictures": 9,
+     "videoCount": 0,
+     "uiPictures": 0,
+     "pictureSamples": [
+      "image?url=%2Fimages%2Fsub%2Feb-design.jpg&w=640&",
+      "image?url=%2Fimages%2Fsub%2Fel-work-1.jpg&w=640&",
+      "image?url=%2Fimages%2Fsub%2Flip-work-1.jpg&w=640",
+      "image?url=%2Fimages%2Fsub%2Feb-work-1.jpg&w=640&",
+      "image?url=%2Fimages%2Fsub%2Feb-work-2.jpg&w=828&",
+      "image?url=%2Fimages%2Fsub%2Fel-work-3.jpg&w=828&",
+      "image?url=%2Fimages%2Fsub%2Flip-technique.jpg&w=",
+      "image?url=%2Fimages%2Fsub%2Feb-technique.jpg&w=6"
+     ],
+     "blendText": 0,
+     "sideScrollers": 0,
+     "brokenImages": [],
+     "emoji": [],
+     "videosNoPoster": 0
+    },
+    "hero": {
+     "text": "Cosmetic tattoo, on point",
+     "words": 4,
+     "chars": 25,
+     "lines": 2,
+     "size": 41.7,
+     "vw": 5.4,
+     "font": "chillax",
+     "weight": 600,
+     "tracking": -0.035,
+     "leading": 0.98,
+     "upper": false,
+     "italic": false,
+     "mono": false,
+     "align": "left",
+     "position": "center",
+     "widthRatio": 0.9,
+     "top": 591,
+     "tag": "h1",
+     "kind": "heading"
+    },
+    "h1": {
+     "text": "Cosmetic tattoo, on point",
+     "words": 4,
+     "lines": 2,
+     "size": 41.7,
+     "font": "chillax"
+    },
+    "headings": [
+     {
+      "text": "Cosmetic tattoo, on point",
+      "words": 4,
+      "chars": 25,
+      "lines": 2,
+      "size": 41.7,
+      "vw": 5.4,
+      "font": "chillax",
+      "weight": 600,
+      "tracking": -0.035,
+      "leading": 0.98,
+      "upper": false,
+      "italic": false,
+      "mono": false,
+      "align": "left",
+      "position": "center",
+      "widthRatio": 0.9,
+      "top": 591,
+      "tag": "h1",
+      "kind": "heading"
+     },
+     {
+      "text": "Three treatments",
+      "words": 2,
+      "chars": 16,
+      "lines": 2,
+      "size": 45.4,
+      "vw": 5.9,
+      "font": "chillax",
+      "weight": 600,
+      "tracking": -0.03,
+      "leading": 1,
+      "upper": false,
+      "italic": false,
+      "mono": false,
+      "align": "left",
+      "position": "left",
+      "widthRatio": 0.47,
+      "top": 1207,
+      "tag": "h2",
+      "kind": "heading"
+     },
+     {
+      "text": "Your visit, day by day",
+      "words": 5,
+      "chars": 22,
+      "lines": 2,
+      "size": 45.4,
+      "vw": 5.9,
+      "font": "chillax",
+      "weight": 600,
+      "tracking": -0.03,
+      "leading": 1,
+      "upper": false,
+      "italic": false,
+      "mono": false,
+      "align": "left",
+      "position": "left",
+      "widthRatio": 0.39,
+      "top": 4555,
+      "tag": "h2",
+      "kind": "heading"
+     },
+     {
+      "text": "Meet Lisa, your artist",
+      "words": 4,
+      "chars": 22,
+      "lines": 2,
+      "size": 45.4,
+      "vw": 5.9,
+      "font": "chillax",
+      "weight": 600,
+      "tracking": -0.03,
+      "leading": 1,
+      "upper": false,
+      "italic": false,
+      "mono": false,
+      "align": "left",
+      "position": "center",
+      "widthRatio": 0.89,
+      "top": 6053,
+      "tag": "h2",
+      "kind": "heading"
+     },
+     {
+      "text": "5.0 from 34 Google reviews",
+      "words": 5,
+      "chars": 26,
+      "lines": 2,
+      "size": 45.4,
+      "vw": 5.9,
+      "font": "chillax",
+      "weight": 600,
+      "tracking": -0.03,
+      "leading": 1,
+      "upper": false,
+      "italic": false,
+      "mono": false,
+      "align": "left",
+      "position": "left",
+      "widthRatio": 0.42,
+      "top": 7423,
+      "tag": "h2",
+      "kind": "heading"
+     },
+     {
+      "text": "Questions, answered",
+      "words": 2,
+      "chars": 19,
+      "lines": 1,
+      "size": 45.4,
+      "vw": 5.9,
+      "font": "chillax",
+      "weight": 600,
+      "tracking": -0.03,
+      "leading": 1,
+      "upper": false,
+      "italic": false,
+      "mono": false,
+      "align": "left",
+      "position": "center",
+      "widthRatio": 0.96,
+      "top": 8797,
+      "tag": "h2",
+      "kind": "heading"
+     },
+     {
+      "text": "Book a consultation",
+      "words": 3,
+      "chars": 19,
+      "lines": 1,
+      "size": 45.4,
+      "vw": 5.9,
+      "font": "chillax",
+      "weight": 600,
+      "tracking": -0.03,
+      "leading": 1,
+      "upper": false,
+      "italic": false,
+      "mono": false,
+      "align": "left",
+      "position": "center",
+      "widthRatio": 0.85,
+      "top": 9991,
+      "tag": "h2",
+      "kind": "heading"
+     },
+     {
+      "text": "O N P O I N T",
+      "words": 7,
+      "chars": 13,
+      "lines": 1,
+      "size": 69.1,
+      "vw": 9,
+      "font": "chillax",
+      "weight": 600,
+      "tracking": -0.04,
+      "leading": 0.78,
+      "upper": false,
+      "italic": false,
+      "mono": false,
+      "align": "left",
+      "position": "center",
+      "widthRatio": 0.96,
+      "top": 11041,
+      "tag": "div",
+      "kind": "heading"
+     }
+    ],
+    "headingSummary": {
+     "count": 8,
+     "maxLines": 2,
+     "over2Lines": 0,
+     "statements": 0,
+     "centered": 0,
+     "medianWords": 4,
+     "mixedFontHeadings": 0
+    },
+    "type": {
+     "families": [
+      {
+       "family": "chillax",
+       "share": 1,
+       "mono": false
+      }
+     ],
+     "familyCount": 1,
+     "sizes": [
+      13,
+      18,
+      22,
+      23,
+      42,
+      45,
+      69
+     ],
+     "sizeCount": 7,
+     "notLoaded": [],
+     "body": {
+      "font": "chillax",
+      "size": 17.9,
+      "leading": 1.5,
+      "weight": 400,
+      "tracking": 0,
+      "contrast": 8.4
+     },
+     "measureChars": 65,
+     "max": {
+      "size": 69.1,
+      "vw": 9,
+      "font": "chillax",
+      "text": "O"
+     },
+     "monoShare": 0,
+     "monoProseShare": 0,
+     "monoFamilies": [],
+     "monoSamples": [],
+     "microLabels": 0,
+     "microLabelShare": 0,
+     "microSamples": [],
+     "upperShare": 0,
+     "centerShare": 0,
+     "smallText": 0
+    },
+    "eyebrows": [],
+    "numbered": [],
+    "color": {
+     "bodyBg": "#f7f9f8",
+     "bodyBgHsl": {
+      "h": 150,
+      "s": 0.14,
+      "l": 0.97
+     },
+     "dark": false,
+     "sectionBgs": [
+      {
+       "color": "#06525c",
+       "top": 72,
+       "hsl": {
+        "h": 187,
+        "s": 0.88,
+        "l": 0.19
+       }
+      },
+      {
+       "color": "#ebf0ee",
+       "top": 552,
+       "hsl": {
+        "h": 156,
+        "s": 0.14,
+        "l": 0.93
+       }
+      },
+      {
+       "color": "#286d76",
+       "top": 1535,
+       "hsl": {
+        "h": 187,
+        "s": 0.49,
+        "l": 0.31
+       }
+      },
+      {
+       "color": "#bcd3d5",
+       "top": 2524,
+       "hsl": {
+        "h": 185,
+        "s": 0.23,
+        "l": 0.79
+       }
+      },
+      {
+       "color": "#e2ebeb",
+       "top": 3511,
+       "hsl": {
+        "h": 180,
+        "s": 0.18,
+        "l": 0.9
+       }
+      },
+      {
+       "color": "#145f69",
+       "top": 6571,
+       "hsl": {
+        "h": 187,
+        "s": 0.68,
+        "l": 0.25
+       }
+      },
+      {
+       "color": "#d3e2e3",
+       "top": 9952,
+       "hsl": {
+        "h": 184,
+        "s": 0.22,
+        "l": 0.86
+       }
+      }
+     ],
+     "textColors": [
+      {
+       "color": "#06525c",
+       "share": 0.58
+      },
+      {
+       "color": "#f7f9f8",
+       "share": 0.39
+      },
+      {
+       "color": "#2f737d",
+       "share": 0.03
+      }
+     ],
+     "button": {
+      "bg": "#06525c",
+      "hsl": {
+       "h": 187,
+       "s": 0.88,
+       "l": 0.19
+      },
+      "fg": "#f7f9f8"
+     },
+     "lowContrast": []
+    },
+    "buttons": {
+     "count": 12,
+     "inHero": 3,
+     "radius": 0,
+     "height": 60,
+     "withShadow": 0,
+     "withGradient": 0,
+     "mono": 0,
+     "upper": 0,
+     "heroLabels": [
+      "Book a consultation",
+      "Book a consultation"
+     ]
+    },
+    "surfaces": {
+     "shadowStatic": 0,
+     "shadowOverlay": 0,
+     "shadowSamples": [],
+     "gradients": 0,
+     "scrims": 0,
+     "gradientSamples": [],
+     "gradientText": 0,
+     "hairlines": 0,
+     "hairlineSamples": [],
+     "outlinedBoxes": 0,
+     "dashed": 0,
+     "blurred": 0,
+     "roundedBoxes": 0,
+     "boxRadius": 0,
+     "squareMedia": 9,
+     "roundedMedia": 0,
+     "mediaRadius": 0,
+     "textShadow": 0,
+     "cardRows": []
+    },
+    "heroMedia": [
+     {
+      "type": "img",
+      "ratio": 0.16
+     },
+     {
+      "type": "img",
+      "ratio": 0.16
+     },
+     {
+      "type": "img",
+      "ratio": 0.16
+     },
+     {
+      "type": "img",
+      "ratio": 0.16
+     }
+    ],
+    "nav": {
+     "links": 3,
+     "fixed": true,
+     "height": 72,
+     "floatingPill": false,
+     "blur": false
+    },
+    "fontsLoaded": [
+     "chillax",
+     "chillax fallback"
+    ]
+   },
+   "layout": {
+    "viewport": {
+     "w": 768,
+     "h": 1024
+    },
+    "pageH": 11988,
+    "margins": {
+     "left": 17,
+     "right": 17
+    },
+    "sections": [
+     {
+      "sel": "section.hero",
+      "tag": "section",
+      "top": 72,
+      "height": 993,
+      "words": 52,
+      "media": 2,
+      "middle": 0,
+      "heading": {
+       "text": "Cosmetic tattoo,",
+       "size": 42,
+       "tag": "h1"
+      },
+      "left": 37,
+      "right": 145,
+      "textLeft": 37,
+      "textRight": 145,
+      "fullBleed": false,
+      "footer": false,
+      "hero": true,
+      "continues": true,
+      "pinned": false
+     },
+     {
+      "sel": "div.wrap.grid12",
+      "tag": "div",
+      "top": 1207,
+      "height": 197,
+      "words": 22,
+      "media": 0,
+      "middle": 0,
+      "heading": null,
+      "left": 452,
+      "right": 33,
+      "textLeft": 452,
+      "textRight": 33,
+      "fullBleed": false,
+      "footer": false,
+      "hero": false,
+      "continues": true,
+      "pinned": false
+     },
+     {
+      "sel": "div",
+      "tag": "div",
+      "top": 1404,
+      "height": 3066,
+      "words": 203,
+      "media": 3,
+      "middle": 0,
+      "heading": null,
+      "left": 17,
+      "right": 17,
+      "textLeft": 17,
+      "textRight": 34,
+      "fullBleed": false,
+      "footer": false,
+      "hero": false,
+      "continues": true,
+      "pinned": false
+     },
+     {
+      "sel": "section#your-visit.section",
+      "tag": "section",
+      "top": 4469,
+      "height": 1513,
+      "words": 98,
+      "media": 1,
+      "middle": 0,
+      "heading": {
+       "text": "Your visit, day by day",
+       "size": 45,
+       "tag": "h2"
+      },
+      "left": 17,
+      "right": 17,
+      "textLeft": 17,
+      "textRight": 18,
+      "fullBleed": false,
+      "footer": false,
+      "hero": false,
+      "continues": true,
+      "pinned": false
+     },
+     {
+      "sel": "section#about.about.on-dark",
+      "tag": "section",
+      "top": 5982,
+      "height": 1356,
+      "words": 79,
+      "media": 0,
+      "middle": 0,
+      "heading": {
+       "text": "Where she started",
+       "size": 23,
+       "tag": "h3"
+      },
+      "left": 41,
+      "right": 71,
+      "textLeft": 41,
+      "textRight": 71,
+      "fullBleed": false,
+      "footer": false,
+      "hero": false,
+      "continues": true,
+      "pinned": false
+     },
+     {
+      "sel": "section#testimonials.reviews.section",
+      "tag": "section",
+      "top": 7338,
+      "height": 1374,
+      "words": 194,
+      "media": 0,
+      "middle": 0,
+      "heading": {
+       "text": "5.0 from 34",
+       "size": 45,
+       "tag": "h2"
+      },
+      "left": 17,
+      "right": 17,
+      "textLeft": 17,
+      "textRight": 17,
+      "fullBleed": false,
+      "footer": false,
+      "hero": false,
+      "continues": true,
+      "pinned": false
+     },
+     {
+      "sel": "section#questions.section",
+      "tag": "section",
+      "top": 8712,
+      "height": 1154,
+      "words": 247,
+      "media": 0,
+      "middle": 0,
+      "heading": {
+       "text": "Questions, answered",
+       "size": 45,
+       "tag": "h2"
+      },
+      "left": 17,
+      "right": 83,
+      "textLeft": 17,
+      "textRight": 83,
+      "fullBleed": false,
+      "footer": false,
+      "hero": false,
+      "continues": true,
+      "pinned": false
+     },
+     {
+      "sel": "section#book.section",
+      "tag": "section",
+      "top": 9866,
+      "height": 1111,
+      "words": 53,
+      "media": 0,
+      "middle": 0,
+      "heading": {
+       "text": "Book a consultation",
+       "size": 45,
+       "tag": "h2"
+      },
+      "left": 56,
+      "right": 56,
+      "textLeft": 56,
+      "textRight": 284,
+      "fullBleed": false,
+      "footer": false,
+      "hero": false,
+      "continues": true,
+      "pinned": false
+     },
+     {
+      "sel": "footer.foot.on-dark",
+      "tag": "footer",
+      "top": 10978,
+      "height": 1010,
+      "words": 62,
+      "media": 0,
+      "middle": 6,
+      "heading": {
+       "text": "Treatments",
+       "size": 18,
+       "tag": "h2"
+      },
+      "left": 17,
+      "right": 52,
+      "textLeft": 17,
+      "textRight": 52,
+      "fullBleed": false,
+      "footer": true,
+      "hero": false,
+      "continues": false,
+      "pinned": false
+     }
+    ],
+    "gaps": [],
+    "h1s": [
+     {
+      "text": "Cosmetic tattoo, on point",
+      "size": 42,
+      "top": 591,
+      "firstScreen": true
+     }
+    ],
+    "edgeText": [],
+    "edges": [
+     {
+      "x": 34,
+      "n": 18
+     },
+     {
+      "x": 17,
+      "n": 11
+     },
+     {
+      "x": 170,
+      "n": 3
+     },
+     {
+      "x": 56,
+      "n": 2
+     },
+     {
+      "x": 390,
+      "n": 1
+     },
+     {
+      "x": 452,
+      "n": 1
+     }
+    ],
+    "leftBlocks": 36,
+    "bodySize": 18,
+    "stage": false,
+    "explains": true,
+    "slivers": [],
+    "voidShare": 0,
+    "voidBox": null
+   },
+   "app": null,
+   "consoleErrors": []
+  },
+  {
+   "width": 390,
+   "height": 844,
+   "load": "load",
+   "screens": 12,
+   "filled": [
+    0.89,
+    0.64,
+    0.88,
+    0.93,
+    0.8,
+    0.84,
+    0.77,
+    0.93,
+    0.68,
+    0.66,
+    0.82,
+    0.84
+   ],
+   "motion": {
+    "elements": 52,
+    "css": 11,
+    "transitions": 41,
+    "scripted": 0,
+    "videos": 0,
+    "playingVideos": 0
+   },
+   "metrics": {
+    "viewport": {
+     "w": 390,
+     "h": 844
+    },
+    "page": {
+     "height": 11670,
+     "screens": 13.8,
+     "words": 898,
+     "img": 9,
+     "video": 0,
+     "canvas": 0,
+     "svg": 1,
+     "sections": 7,
+     "horizontalOverflow": 0,
+     "overflowCulprits": [],
+     "uiFragments": 0,
+     "uiAbuse": false,
+     "realPictures": 9,
+     "videoCount": 0,
+     "uiPictures": 0,
+     "pictureSamples": [
+      "image?url=%2Fimages%2Fsub%2Feb-design.jpg&w=384&",
+      "image?url=%2Fimages%2Fsub%2Fel-work-1.jpg&w=384&",
+      "image?url=%2Fimages%2Fsub%2Flip-work-1.jpg&w=384",
+      "image?url=%2Fimages%2Fsub%2Feb-work-1.jpg&w=384&",
+      "image?url=%2Fimages%2Fsub%2Feb-work-2.jpg&w=640&",
+      "image?url=%2Fimages%2Fsub%2Fel-work-3.jpg&w=640&",
+      "image?url=%2Fimages%2Fsub%2Flip-technique.jpg&w=",
+      "image?url=%2Fimages%2Fsub%2Feb-technique.jpg&w=2"
+     ],
+     "blendText": 0,
+     "sideScrollers": 0,
+     "brokenImages": [],
+     "emoji": [],
+     "videosNoPoster": 0
+    },
+    "hero": {
+     "text": "Cosmetic tattoo, on point",
+     "words": 4,
+     "chars": 25,
+     "lines": 2,
+     "size": 34,
+     "vw": 8.7,
+     "font": "chillax",
+     "weight": 600,
+     "tracking": -0.035,
+     "leading": 0.98,
+     "upper": false,
+     "italic": false,
+     "mono": false,
+     "align": "left",
+     "position": "center",
+     "widthRatio": 0.82,
+     "top": 493,
+     "tag": "h1",
+     "kind": "heading"
+    },
+    "h1": {
+     "text": "Cosmetic tattoo, on point",
+     "words": 4,
+     "lines": 2,
+     "size": 34,
+     "font": "chillax"
+    },
+    "headings": [
+     {
+      "text": "Cosmetic tattoo, on point",
+      "words": 4,
+      "chars": 25,
+      "lines": 2,
+      "size": 34,
+      "vw": 8.7,
+      "font": "chillax",
+      "weight": 600,
+      "tracking": -0.035,
+      "leading": 0.98,
+      "upper": false,
+      "italic": false,
+      "mono": false,
+      "align": "left",
+      "position": "center",
+      "widthRatio": 0.82,
+      "top": 493,
+      "tag": "h1",
+      "kind": "heading"
+     },
+     {
+      "text": "Three treatments",
+      "words": 2,
+      "chars": 16,
+      "lines": 1,
+      "size": 33.3,
+      "vw": 8.5,
+      "font": "chillax",
+      "weight": 600,
+      "tracking": -0.03,
+      "leading": 1,
+      "upper": false,
+      "italic": false,
+      "mono": false,
+      "align": "left",
+      "position": "center",
+      "widthRatio": 0.92,
+      "top": 1174,
+      "tag": "h2",
+      "kind": "heading"
+     },
+     {
+      "text": "Your visit, day by day",
+      "words": 5,
+      "chars": 22,
+      "lines": 1,
+      "size": 33.3,
+      "vw": 8.5,
+      "font": "chillax",
+      "weight": 600,
+      "tracking": -0.03,
+      "leading": 1,
+      "upper": false,
+      "italic": false,
+      "mono": false,
+      "align": "left",
+      "position": "center",
+      "widthRatio": 0.92,
+      "top": 4015,
+      "tag": "h2",
+      "kind": "heading"
+     },
+     {
+      "text": "Meet Lisa, your artist",
+      "words": 4,
+      "chars": 22,
+      "lines": 2,
+      "size": 33.3,
+      "vw": 8.5,
+      "font": "chillax",
+      "weight": 600,
+      "tracking": -0.03,
+      "leading": 1,
+      "upper": false,
+      "italic": false,
+      "mono": false,
+      "align": "left",
+      "position": "center",
+      "widthRatio": 0.86,
+      "top": 5474,
+      "tag": "h2",
+      "kind": "heading"
+     },
+     {
+      "text": "5.0 from 34 Google reviews",
+      "words": 5,
+      "chars": 26,
+      "lines": 2,
+      "size": 33.3,
+      "vw": 8.5,
+      "font": "chillax",
+      "weight": 600,
+      "tracking": -0.03,
+      "leading": 1,
+      "upper": false,
+      "italic": false,
+      "mono": false,
+      "align": "left",
+      "position": "left",
+      "widthRatio": 0.6,
+      "top": 6596,
+      "tag": "h2",
+      "kind": "heading"
+     },
+     {
+      "text": "Questions, answered",
+      "words": 2,
+      "chars": 19,
+      "lines": 1,
+      "size": 33.3,
+      "vw": 8.5,
+      "font": "chillax",
+      "weight": 600,
+      "tracking": -0.03,
+      "leading": 1,
+      "upper": false,
+      "italic": false,
+      "mono": false,
+      "align": "left",
+      "position": "center",
+      "widthRatio": 0.92,
+      "top": 8405,
+      "tag": "h2",
+      "kind": "heading"
+     },
+     {
+      "text": "Book a consultation",
+      "words": 3,
+      "chars": 19,
+      "lines": 2,
+      "size": 33.3,
+      "vw": 8.5,
+      "font": "chillax",
+      "weight": 600,
+      "tracking": -0.03,
+      "leading": 1,
+      "upper": false,
+      "italic": false,
+      "mono": false,
+      "align": "left",
+      "position": "center",
+      "widthRatio": 0.75,
+      "top": 9665,
+      "tag": "h2",
+      "kind": "heading"
+     },
+     {
+      "text": "O N P O I N T",
+      "words": 7,
+      "chars": 13,
+      "lines": 1,
+      "size": 36,
+      "vw": 9.2,
+      "font": "chillax",
+      "weight": 600,
+      "tracking": -0.04,
+      "leading": 0.78,
+      "upper": false,
+      "italic": false,
+      "mono": false,
+      "align": "left",
+      "position": "center",
+      "widthRatio": 0.92,
+      "top": 10744,
+      "tag": "div",
+      "kind": "heading"
+     }
+    ],
+    "headingSummary": {
+     "count": 8,
+     "maxLines": 2,
+     "over2Lines": 0,
+     "statements": 0,
+     "centered": 0,
+     "medianWords": 4,
+     "mixedFontHeadings": 0
+    },
+    "type": {
+     "families": [
+      {
+       "family": "chillax",
+       "share": 1,
+       "mono": false
+      }
+     ],
+     "familyCount": 1,
+     "sizes": [
+      13,
+      17,
+      20,
+      33,
+      34,
+      36
+     ],
+     "sizeCount": 6,
+     "notLoaded": [],
+     "body": {
+      "font": "chillax",
+      "size": 17,
+      "leading": 1.5,
+      "weight": 400,
+      "tracking": 0,
+      "contrast": 8.4
+     },
+     "measureChars": 42,
+     "max": {
+      "size": 36,
+      "vw": 9.2,
+      "font": "chillax",
+      "text": "O"
+     },
+     "monoShare": 0,
+     "monoProseShare": 0,
+     "monoFamilies": [],
+     "monoSamples": [],
+     "microLabels": 0,
+     "microLabelShare": 0,
+     "microSamples": [],
+     "upperShare": 0,
+     "centerShare": 0,
+     "smallText": 0
+    },
+    "eyebrows": [],
+    "numbered": [],
+    "color": {
+     "bodyBg": "#f7f9f8",
+     "bodyBgHsl": {
+      "h": 150,
+      "s": 0.14,
+      "l": 0.97
+     },
+     "dark": false,
+     "sectionBgs": [
+      {
+       "color": "#06525c",
+       "top": 72,
+       "hsl": {
+        "h": 187,
+        "s": 0.88,
+        "l": 0.19
+       }
+      },
+      {
+       "color": "#ebf0ee",
+       "top": 465,
+       "hsl": {
+        "h": 156,
+        "s": 0.14,
+        "l": 0.93
+       }
+      },
+      {
+       "color": "#bcd3d5",
+       "top": 2332,
+       "hsl": {
+        "h": 185,
+        "s": 0.23,
+        "l": 0.79
+       }
+      },
+      {
+       "color": "#e2ebeb",
+       "top": 3191,
+       "hsl": {
+        "h": 180,
+        "s": 0.18,
+        "l": 0.9
+       }
+      },
+      {
+       "color": "#145f69",
+       "top": 6132,
+       "hsl": {
+        "h": 187,
+        "s": 0.68,
+        "l": 0.25
+       }
+      },
+      {
+       "color": "#f7f9f8",
+       "top": 6745,
+       "hsl": {
+        "h": 150,
+        "s": 0.14,
+        "l": 0.97
+       }
+      },
+      {
+       "color": "#d3e2e3",
+       "top": 9633,
+       "hsl": {
+        "h": 184,
+        "s": 0.22,
+        "l": 0.86
+       }
+      }
+     ],
+     "textColors": [
+      {
+       "color": "#06525c",
+       "share": 0.58
+      },
+      {
+       "color": "#f7f9f8",
+       "share": 0.39
+      },
+      {
+       "color": "#2f737d",
+       "share": 0.03
+      }
+     ],
+     "button": {
+      "bg": "#06525c",
+      "hsl": {
+       "h": 187,
+       "s": 0.88,
+       "l": 0.19
+      },
+      "fg": "#06525c"
+     },
+     "lowContrast": []
+    },
+    "buttons": {
+     "count": 11,
+     "inHero": 2,
+     "radius": 0,
+     "height": 60,
+     "withShadow": 0,
+     "withGradient": 0,
+     "mono": 0,
+     "upper": 0,
+     "heroLabels": [
+      "Book a consultation"
+     ]
+    },
+    "surfaces": {
+     "shadowStatic": 0,
+     "shadowOverlay": 0,
+     "shadowSamples": [],
+     "gradients": 0,
+     "scrims": 0,
+     "gradientSamples": [],
+     "gradientText": 0,
+     "hairlines": 0,
+     "hairlineSamples": [],
+     "outlinedBoxes": 0,
+     "dashed": 0,
+     "blurred": 0,
+     "roundedBoxes": 0,
+     "boxRadius": 0,
+     "squareMedia": 8,
+     "roundedMedia": 0,
+     "mediaRadius": 0,
+     "textShadow": 0,
+     "cardRows": []
+    },
+    "heroMedia": [
+     {
+      "type": "img",
+      "ratio": 0.26
+     },
+     {
+      "type": "img",
+      "ratio": 0.25
+     },
+     {
+      "type": "img",
+      "ratio": 0.25
+     },
+     {
+      "type": "img",
+      "ratio": 0.25
+     }
+    ],
+    "nav": {
+     "links": 2,
+     "fixed": true,
+     "height": 72,
+     "floatingPill": false,
+     "blur": false
+    },
+    "fontsLoaded": [
+     "chillax"
+    ]
+   },
+   "layout": {
+    "viewport": {
+     "w": 390,
+     "h": 844
+    },
+    "pageH": 11670,
+    "margins": {
+     "left": 16,
+     "right": 16
+    },
+    "sections": [
+     {
+      "sel": "section.hero",
+      "tag": "section",
+      "top": 72,
+      "height": 982,
+      "words": 52,
+      "media": 2,
+      "middle": 0,
+      "heading": {
+       "text": "Cosmetic tattoo,",
+       "size": 34,
+       "tag": "h1"
+      },
+      "left": 36,
+      "right": 39,
+      "textLeft": 36,
+      "textRight": 39,
+      "fullBleed": false,
+      "footer": false,
+      "hero": true,
+      "continues": true,
+      "pinned": false
+     },
+     {
+      "sel": "div.wrap.grid12",
+      "tag": "div",
+      "top": 1174,
+      "height": 199,
+      "words": 22,
+      "media": 0,
+      "middle": 0,
+      "heading": null,
+      "left": 16,
+      "right": 29,
+      "textLeft": 16,
+      "textRight": 29,
+      "fullBleed": false,
+      "footer": false,
+      "hero": false,
+      "continues": true,
+      "pinned": false
+     },
+     {
+      "sel": "div",
+      "tag": "div",
+      "top": 1373,
+      "height": 2570,
+      "words": 203,
+      "media": 3,
+      "middle": 0,
+      "heading": null,
+      "left": 16,
+      "right": 16,
+      "textLeft": 16,
+      "textRight": 18,
+      "fullBleed": false,
+      "footer": false,
+      "hero": false,
+      "continues": true,
+      "pinned": false
+     },
+     {
+      "sel": "section#your-visit.section",
+      "tag": "section",
+      "top": 3943,
+      "height": 1491,
+      "words": 98,
+      "media": 1,
+      "middle": 0,
+      "heading": {
+       "text": "Your visit, day by day",
+       "size": 33,
+       "tag": "h2"
+      },
+      "left": 16,
+      "right": 16,
+      "textLeft": 16,
+      "textRight": 21,
+      "fullBleed": false,
+      "footer": false,
+      "hero": false,
+      "continues": true,
+      "pinned": false
+     },
+     {
+      "sel": "section#about.about.on-dark",
+      "tag": "section",
+      "top": 5434,
+      "height": 1089,
+      "words": 83,
+      "media": 0,
+      "middle": 0,
+      "heading": {
+       "text": "Meet Lisa,",
+       "size": 33,
+       "tag": "h2"
+      },
+      "left": 34,
+      "right": 25,
+      "textLeft": 34,
+      "textRight": 25,
+      "fullBleed": false,
+      "footer": false,
+      "hero": false,
+      "continues": true,
+      "pinned": false
+     },
+     {
+      "sel": "section#testimonials.reviews.section",
+      "tag": "section",
+      "top": 6524,
+      "height": 1810,
+      "words": 189,
+      "media": 0,
+      "middle": 0,
+      "heading": {
+       "text": "5.0 from 34",
+       "size": 33,
+       "tag": "h2"
+      },
+      "left": 16,
+      "right": 50,
+      "textLeft": 16,
+      "textRight": 50,
+      "fullBleed": false,
+      "footer": false,
+      "hero": false,
+      "continues": true,
+      "pinned": false
+     },
+     {
+      "sel": "section#questions.section",
+      "tag": "section",
+      "top": 8333,
+      "height": 1227,
+      "words": 247,
+      "media": 0,
+      "middle": 0,
+      "heading": {
+       "text": "Questions, answered",
+       "size": 33,
+       "tag": "h2"
+      },
+      "left": 16,
+      "right": 24,
+      "textLeft": 16,
+      "textRight": 24,
+      "fullBleed": false,
+      "footer": false,
+      "hero": false,
+      "continues": true,
+      "pinned": false
+     },
+     {
+      "sel": "section#book.section",
+      "tag": "section",
+      "top": 9561,
+      "height": 1111,
+      "words": 53,
+      "media": 0,
+      "middle": 0,
+      "heading": {
+       "text": "Book a consultation",
+       "size": 33,
+       "tag": "h2"
+      },
+      "left": 48,
+      "right": 48,
+      "textLeft": 48,
+      "textRight": 52,
+      "fullBleed": false,
+      "footer": false,
+      "hero": false,
+      "continues": true,
+      "pinned": false
+     },
+     {
+      "sel": "footer.foot.on-dark",
+      "tag": "footer",
+      "top": 10672,
+      "height": 998,
+      "words": 62,
+      "media": 0,
+      "middle": 0,
+      "heading": {
+       "text": "Treatments",
+       "size": 17,
+       "tag": "h2"
+      },
+      "left": 16,
+      "right": 46,
+      "textLeft": 16,
+      "textRight": 46,
+      "fullBleed": false,
+      "footer": true,
+      "hero": false,
+      "continues": false,
+      "pinned": false
+     }
+    ],
+    "gaps": [],
+    "h1s": [
+     {
+      "text": "Cosmetic tattoo, on point",
+      "size": 34,
+      "top": 493,
+      "firstScreen": true
+     }
+    ],
+    "edgeText": [],
+    "edges": [
+     {
+      "x": 32,
+      "n": 19
+     },
+     {
+      "x": 16,
+      "n": 13
+     },
+     {
+      "x": 43,
+      "n": 3
+     },
+     {
+      "x": 99,
+      "n": 3
+     }
+    ],
+    "leftBlocks": 38,
+    "bodySize": 17,
+    "stage": false,
+    "explains": true,
+    "slivers": [],
+    "voidShare": 0,
+    "voidBox": null
+   },
+   "app": null,
+   "consoleErrors": []
+  }
+ ],
+ "findings": [
+  {
+   "level": "WARN",
+   "id": "no-footage",
+   "width": 1440,
+   "message": "No video anywhere on the page.",
+   "fix": "Look for one honest clip with scripts/assets.mjs --video (the place, the material, the process) and use it as a muted loop with a poster frame. Defend its absence only if no clip fits the subject."
+  },
+  {
+   "level": "WARN",
+   "id": "ragged-edges",
+   "width": 1440,
+   "message": "Left-aligned text starts at 12 different lines (846px, 293px, 32px, 65px, 91px, 201px, 743px); the three most used hold only 59% of it.",
+   "fix": "Pick two or three anchor lines from the grid and start every heading and paragraph on one of them."
+  },
+  {
+   "level": "WARN",
+   "id": "lopsided",
+   "width": 768,
+   "message": "A section keeps its content on one side and leaves 452px of the width empty: div.wrap.grid12.",
+   "fix": "Fill the other side with what the section has (its picture, a second column, the figure), or defend the void in one sentence."
+  }
+ ],
+ "images": [
+  {
+   "viewport": "desktop",
+   "width": 1440,
+   "fold": "C:\\Users\\KingTheOne\\Desktop\\Projects\\on-point-cosmetic-tattoo\\.taste-skill\\after\\home\\desktop-fold.jpg",
+   "pages": [
+    "C:\\Users\\KingTheOne\\Desktop\\Projects\\on-point-cosmetic-tattoo\\.taste-skill\\after\\home\\desktop-page-01.jpg",
+    "C:\\Users\\KingTheOne\\Desktop\\Projects\\on-point-cosmetic-tattoo\\.taste-skill\\after\\home\\desktop-page-02.jpg",
+    "C:\\Users\\KingTheOne\\Desktop\\Projects\\on-point-cosmetic-tattoo\\.taste-skill\\after\\home\\desktop-page-03.jpg"
+   ],
+   "film": []
+  },
+  {
+   "viewport": "tablet",
+   "width": 768,
+   "fold": "C:\\Users\\KingTheOne\\Desktop\\Projects\\on-point-cosmetic-tattoo\\.taste-skill\\after\\home\\tablet-fold.jpg",
+   "pages": [
+    "C:\\Users\\KingTheOne\\Desktop\\Projects\\on-point-cosmetic-tattoo\\.taste-skill\\after\\home\\tablet-page-01.jpg",
+    "C:\\Users\\KingTheOne\\Desktop\\Projects\\on-point-cosmetic-tattoo\\.taste-skill\\after\\home\\tablet-page-02.jpg"
+   ],
+   "film": []
+  },
+  {
+   "viewport": "mobile",
+   "width": 390,
+   "fold": "C:\\Users\\KingTheOne\\Desktop\\Projects\\on-point-cosmetic-tattoo\\.taste-skill\\after\\home\\mobile-fold.jpg",
+   "pages": [
+    "C:\\Users\\KingTheOne\\Desktop\\Projects\\on-point-cosmetic-tattoo\\.taste-skill\\after\\home\\mobile-page-01.jpg",
+    "C:\\Users\\KingTheOne\\Desktop\\Projects\\on-point-cosmetic-tattoo\\.taste-skill\\after\\home\\mobile-page-02.jpg"
+   ],
+   "film": []
+  }
+ ]
+}

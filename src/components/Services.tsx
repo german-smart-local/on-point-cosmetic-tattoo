@@ -1,87 +1,77 @@
 import Image from "next/image";
 import Link from "next/link";
-import { ANCHORS, PHONE, PHONE_HREF, ROUTES } from "@/lib/links";
+import { ROUTES } from "@/lib/links";
+import { TechniquePicker } from "@/components/TechniquePicker";
+import { Flora } from "@/components/Flora";
+import { Tile } from "@/components/Tile";
 
-const cards = [
+const TREATMENTS = [
   {
-    title: "Eyebrows",
-    image: "/images/service-eyebrows.png",
+    id: "brows" as const,
+    name: "Eyebrows",
+    kind: "Hair strokes, powder or a mix of both",
+    image: "/images/sub/eb-work-2.jpg",
+    alt: "Hair-stroke eyebrow tattoo, close up",
+    text: "Small changes in brow structure alter the balance of the whole face. Lisa looks at your natural growth, skin type, symmetry and tone, maps a shape, then recommends the technique that suits it.",
     href: ROUTES.eyebrows,
-    desc: "My eyebrow tattoo services include feather touch brows, microblading, powder brows, combination brows and hair strokes.",
+    cta: "About eyebrow tattoos",
   },
   {
-    title: "Eye Liners",
-    image: "/images/service-eyeliners.png",
+    id: "eyeliner" as const,
+    name: "Eyeliner",
+    kind: "From a fine lash line to a defined wing",
+    image: "/images/sub/el-work-3.jpg",
+    alt: "Eyeliner tattoo set close to the lash line",
+    text: "The lash line is one of the most precise areas of the face. Lisa reviews eye shape, lid space, skin and how you wear make-up before designing the line.",
     href: ROUTES.eyeliners,
-    desc: "At my studio, I offer cosmetic eyeliner tattoos, including eyeliner enhancement and designer eyeliner.",
+    cta: "About eyeliner tattoos",
   },
   {
-    title: "Lips",
-    image: "/images/service-lips.png",
+    id: "lips" as const,
+    name: "Lips",
+    kind: "Defined edge, soft blend or full colour",
+    image: "/images/sub/lip-work-1-h.jpg",
+    alt: "Full lip tattoo in a soft rose tone",
+    text: "Lip borders and natural colour change over time, so the outline is mapped and the shade is matched to your own tone before any colour goes in.",
     href: ROUTES.lips,
-    desc: "My lip tattoo options include lip liner tattoo, lip blend tattoo and full lip tattoo. During consultation, I review lip tone, border definition and colour selection.",
+    cta: "About lip tattoos",
   },
 ];
 
 export function Services() {
   return (
-    <section id="services" className="bg-white py-20 px-6 relative overflow-hidden">
-      <div className="max-w-[1200px] mx-auto relative">
-        <div className="absolute right-[-60px] top-[120px] w-[340px] h-[340px] rounded-full border border-gold/40 pointer-events-none hidden lg:block" />
-
-        <div className="flex justify-between items-center mb-10 flex-col gap-4 items-start sm:flex-row sm:gap-0 sm:items-center">
-          <h2 className="font-heading font-light text-gold text-[40px]">
-            Services
+    <section id="treatments" aria-labelledby="treatments-title" className="section on-white has-flora">
+      <Flora at="bl" />
+      <div className="wrap">
+        <div className="grid12 index__head">
+          <h2 id="treatments-title" className="t-head">
+            Three treatments, one artist
           </h2>
-          <div className="flex gap-3">
-            <Link
-              href={ANCHORS.contact}
-              className="bg-cream border border-ink rounded-[15px] px-7 py-3 font-josefin text-[18px] text-ink hover:bg-gold hover:text-white hover:border-gold transition-colors"
-            >
-              Book Now
-            </Link>
-            <a
-              href={PHONE_HREF}
-              className="bg-cream border border-ink rounded-[10px] px-7 py-3 font-josefin text-[18px] text-ink hover:bg-gold hover:text-white hover:border-gold transition-colors"
-            >
-              {PHONE}
-            </a>
-          </div>
+          <p className="t-lead">
+            Lisa works only on brows, eyeliner and lips, and every appointment starts with a
+            consultation and a mapped design.
+          </p>
+          <Image src="/images/arch-monogram.png" alt="" width={324} height={364} className="index__mark" aria-hidden />
         </div>
 
-        <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6 relative z-10">
-          {cards.map((card) => (
-            <Link
-              key={card.title}
-              href={card.href}
-              className="group relative aspect-square rounded-md overflow-hidden cursor-pointer block"
-            >
-              <Image
-                src={card.image}
-                alt={card.title}
-                fill
-                sizes="(max-width: 640px) 100vw, (max-width: 1024px) 50vw, 33vw"
-                className="object-cover transition-transform duration-500 group-hover:scale-105"
-              />
-              <div
-                className="absolute inset-0 transition-colors duration-400"
-                style={{
-                  background:
-                    "linear-gradient(to bottom, rgba(176,161,141,0.55), rgba(48,48,48,0.65))",
-                }}
-              />
-              <div className="absolute inset-0 bg-black/0 group-hover:bg-black/25 transition-colors duration-400" />
-              <div className="absolute inset-0 flex flex-col items-center justify-center text-center px-5 text-white z-10">
-                <h3 className="font-heading font-thin text-[25px] mb-2.5 text-white">
-                  {card.title}
-                </h3>
-                <p className="text-[14px] leading-[1.5] text-white/95">
-                  {card.desc}
-                </p>
-              </div>
-            </Link>
-          ))}
-        </div>
+        {TREATMENTS.map((t) => (
+          <article key={t.name} className="grid12 row" aria-labelledby={`t-${t.name}`}>
+            <div className="row__name">
+              <h3 id={`t-${t.name}`}>{t.name}</h3>
+              <p>{t.kind}</p>
+            </div>
+            <div className="row__text">
+              <p>{t.text}</p>
+              <TechniquePicker treatment={t.id} />
+              <Link href={t.href} className="btn">
+                {t.cta}
+              </Link>
+            </div>
+            <Tile className="row__pic" texture="none">
+              <Image src={t.image} alt={t.alt} width={900} height={900} sizes="(min-width: 900px) 22vw, 90vw" />
+            </Tile>
+          </article>
+        ))}
       </div>
     </section>
   );

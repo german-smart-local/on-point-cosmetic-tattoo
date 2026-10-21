@@ -1,213 +1,165 @@
 "use client";
 
-import { useEffect, useState } from "react";
+import { useEffect, useRef, useState } from "react";
 import Image from "next/image";
 import Link from "next/link";
+import { usePathname } from "next/navigation";
 import { cn } from "@/lib/utils";
-import { ANCHORS, EXTERNAL, NAV_LINKS, PHONE, PHONE_HREF, ROUTES, SOCIAL_LINKS } from "@/lib/links";
-import {
-  MapPinIcon,
-  ChevronDownIcon,
-  MenuIcon,
-  CloseIcon,
-} from "@/components/icons";
-
-const SERVICE_LINKS = [
-  { label: "Eyebrows", href: ROUTES.eyebrows },
-  { label: "Eye Liners", href: ROUTES.eyeliners },
-  { label: "Lips", href: ROUTES.lips },
-];
+import { BookLink } from "@/components/BookLink";
+import { ANCHORS, BAR_LINKS, NAV_LINKS, PHONE, PHONE_HREF, ROUTES, SERVICE_LINKS } from "@/lib/links";
 
 export function Header() {
-  const [drawerOpen, setDrawerOpen] = useState(false);
+  const pathname = usePathname();
+  const [open, setOpen] = useState(false);
   const [scrolled, setScrolled] = useState(false);
 
+  // The bar stays on screen at all times; once the page has scrolled it gains a bottom line.
   useEffect(() => {
-    const onScroll = () => setScrolled(window.scrollY > 10);
-    onScroll();
+    let ticking = false;
+    const update = () => {
+      setScrolled(window.scrollY > 8);
+      ticking = false;
+    };
+    const onScroll = () => {
+      if (!ticking) {
+        ticking = true;
+        window.requestAnimationFrame(update);
+      }
+    };
     window.addEventListener("scroll", onScroll, { passive: true });
     return () => window.removeEventListener("scroll", onScroll);
   }, []);
 
-  const closeDrawer = () => setDrawerOpen(false);
+  useEffect(() => {
+    if (!open) return;
+    const onKey = (e: KeyboardEvent) => e.key === "Escape" && setOpen(false);
+    window.addEventListener("keydown", onKey);
+    return () => window.removeEventListener("keydown", onKey);
+  }, [open]);
+
+  // Services dropdown (desktop): opens on hover, click or keyboard; closes on Escape or a click outside.
+  const [services, setServices] = useState(false);
+  const menuRef = useRef<HTMLDivElement>(null);
+  useEffect(() => {
+    if (!services) return;
+    const onKey = (e: KeyboardEvent) => e.key === "Escape" && setServices(false);
+    const onDown = (e: PointerEvent) => {
+      if (!menuRef.current?.contains(e.target as Node)) setServices(false);
+    };
+    window.addEventListener("keydown", onKey);
+    window.addEventListener("pointerdown", onDown);
+    return () => {
+      window.removeEventListener("keydown", onKey);
+      window.removeEventListener("pointerdown", onDown);
+    };
+  }, [services]);
+  const onService = SERVICE_LINKS.some((s) => s.href === pathname);
+
+  const close = () => setOpen(false);
+  const tab = open ? 0 : -1;
 
   return (
-    <header className={cn(
-      "fixed inset-x-0 top-0 z-50 w-full transition-transform duration-300",
-      scrolled && "-translate-y-11"
-    )}>
-      {/* Top bar */}
-      <div className="flex h-11 items-center justify-between bg-cream px-6">
-        <a
-          href={EXTERNAL.maps}
-          target="_blank"
-          rel="noopener noreferrer"
-          className="flex items-center gap-2 transition-colors hover:text-gold"
-        >
-          <MapPinIcon className="text-[16px] text-gold" />
-          <span className="text-[14px] text-ink">Buderim, QLD 4556</span>
-        </a>
-        <div className="flex items-center gap-2">
-          {SOCIAL_LINKS.map(({ Icon, label, href }) => (
-            <a
-              key={label}
-              href={href}
-              target="_blank"
-              rel="noopener noreferrer"
-              aria-label={label}
-              className="flex h-[30px] w-[30px] items-center justify-center rounded-full bg-ink text-white transition-colors hover:bg-gold"
-            >
-              <Icon className="text-[15px]" />
-            </a>
-          ))}
-        </div>
-      </div>
+    <header className={cn("bar", scrolled && "is-scrolled")}>
+      <div className="wrap bar__in">
+        <Link href={ROUTES.home} onClick={close} className="bar__logo" aria-label="On Point Cosmetic Tattoo Studio, home">
+          <Image src="/images/arch-monogram.png" alt="" width={324} height={364} priority className="bar__mark" />
+          <Image src="/images/logo.png" alt="" width={470} height={80} priority className="bar__word" />
+        </Link>
 
-      {/* Main nav row */}
-      <div className="flex h-[92px] items-center justify-between border-b border-black/5 bg-white/90 px-8">
-        {/* Left: desktop nav links */}
-        <nav className="hidden items-center gap-7 lg:flex">
-          <div className="group relative">
-            <Link
-              href={ANCHORS.about}
-              className="flex items-center gap-1 font-josefin text-[15px] uppercase tracking-wide text-ink transition-colors hover:text-gold"
+        <nav className="bar__nav" aria-label="Main">
+          <Link href={ROUTES.home} aria-current={pathname === ROUTES.home ? "page" : undefined}>
+            Home
+          </Link>
+          <div
+            ref={menuRef}
+            className={cn("navmenu", services && "is-open", onService && "is-current")}
+            onMouseEnter={() => setServices(true)}
+            onMouseLeave={() => setServices(false)}
+          >
+            <button
+              type="button"
+              className="navmenu__btn"
+              aria-expanded={services}
+              aria-controls="services-menu"
+              onClick={(e) => {
+                // With a mouse the hover has already opened it, so a click must not shut it again;
+                // touch and keyboard (detail 0) toggle.
+                const mouse = e.detail > 0 && window.matchMedia("(hover: hover) and (pointer: fine)").matches;
+                setServices((v) => (mouse ? true : !v));
+              }}
             >
-              About Us
-              <ChevronDownIcon className="text-[14px]" />
-            </Link>
-            <div className="invisible absolute left-0 top-full z-50 pt-3 opacity-0 transition group-hover:visible group-hover:opacity-100">
-              <div className="min-w-[160px] rounded-lg bg-white py-1 shadow-[0_4px_20px_rgba(0,0,0,0.08)]">
+              Services
+            </button>
+            <div id="services-menu" className="navmenu__panel">
+              {SERVICE_LINKS.map(({ label, href, note }) => (
                 <Link
-                  href={ANCHORS.testimonials}
-                  className="block px-4 py-2 font-josefin text-[15px] text-ink transition-colors hover:text-gold"
+                  key={label}
+                  href={href}
+                  aria-current={pathname === href ? "page" : undefined}
+                  tabIndex={services ? 0 : -1}
+                  onClick={() => setServices(false)}
                 >
-                  Testimonials
+                  <strong>{label}</strong>
+                  <span>{note}</span>
+                </Link>
+              ))}
+              <div className="navmenu__all">
+                <Link href={ANCHORS.treatments} tabIndex={services ? 0 : -1} onClick={() => setServices(false)}>
+                  <strong>All treatments</strong>
+                  <span>Compare brows, eyeliner and lips</span>
                 </Link>
               </div>
             </div>
           </div>
-
-          <div className="group relative">
-            <Link
-              href={ANCHORS.services}
-              className="flex items-center gap-1 font-josefin text-[15px] uppercase tracking-wide text-ink transition-colors hover:text-gold"
-            >
-              Services
-              <ChevronDownIcon className="text-[14px]" />
-            </Link>
-            <div className="invisible absolute left-0 top-full z-50 pt-3 opacity-0 transition group-hover:visible group-hover:opacity-100">
-              <div className="min-w-[160px] rounded-lg bg-white py-1 shadow-[0_4px_20px_rgba(0,0,0,0.08)]">
-                {SERVICE_LINKS.map(({ label, href }) => (
-                  <Link
-                    key={label}
-                    href={href}
-                    className="block px-4 py-2 font-josefin text-[15px] text-ink transition-colors hover:text-gold"
-                  >
-                    {label}
-                  </Link>
-                ))}
-              </div>
-            </div>
-          </div>
-
-          <Link
-            href={ROUTES.afterCare}
-            className="font-josefin text-[15px] uppercase tracking-wide text-ink transition-colors hover:text-gold"
-          >
-            After Care
-          </Link>
-        </nav>
-
-        {/* Center: logo */}
-        <Link href={ROUTES.home} className="flex items-center">
-          <Image
-            src="/images/logo.png"
-            alt="On Point Cosmetic Tattoo"
-            width={300}
-            height={52}
-            priority
-            className="h-[40px] w-auto lg:h-[52px]"
-          />
-        </Link>
-
-        {/* Right: desktop buttons */}
-        <div className="hidden items-center gap-3 lg:flex">
-          <Link
-            href={ROUTES.contact}
-            className="rounded-[15px] border border-ink bg-transparent px-7 py-3 font-josefin text-[18px] text-ink transition-colors hover:border-gold hover:bg-gold hover:text-white"
-          >
-            Book Now
-          </Link>
-          <a
-            href={PHONE_HREF}
-            className="rounded-[10px] border border-ink bg-cream px-6 py-3 font-josefin text-[18px] text-ink transition-colors hover:border-gold hover:bg-gold hover:text-white"
-          >
-            {PHONE}
-          </a>
-        </div>
-
-        {/* Mobile: hamburger */}
-        <button
-          type="button"
-          aria-label="Open menu"
-          onClick={() => setDrawerOpen(true)}
-          className="text-[28px] text-ink lg:hidden"
-        >
-          <MenuIcon />
-        </button>
-      </div>
-
-      {/* Mobile drawer + overlay */}
-      <div
-        aria-hidden={!drawerOpen}
-        onClick={closeDrawer}
-        className={cn(
-          "fixed inset-0 z-[100] bg-black/40 transition-opacity lg:hidden",
-          drawerOpen ? "opacity-100" : "pointer-events-none opacity-0"
-        )}
-      />
-      <div
-        className={cn(
-          "fixed left-0 top-0 z-[101] flex h-full w-[280px] flex-col bg-cream p-6 transition-transform lg:hidden",
-          drawerOpen ? "translate-x-0" : "-translate-x-full"
-        )}
-      >
-        <button
-          type="button"
-          aria-label="Close menu"
-          onClick={closeDrawer}
-          className="self-end text-[28px] text-ink"
-        >
-          <CloseIcon />
-        </button>
-
-        <nav className="mt-4 flex flex-col">
-          {NAV_LINKS.map(({ label, href }) => (
-            <Link
-              key={label}
-              href={href}
-              onClick={closeDrawer}
-              className="py-2 font-josefin text-[15px] uppercase tracking-wide text-ink transition-colors hover:text-gold"
-            >
+          {BAR_LINKS.map(({ label, href }) => (
+            <Link key={label} href={href} aria-current={pathname === href ? "page" : undefined}>
               {label}
             </Link>
           ))}
         </nav>
 
-        <div className="mt-auto flex flex-col gap-3 pt-6">
-          <Link
-            href={ROUTES.contact}
-            onClick={closeDrawer}
-            className="rounded-[15px] border border-ink bg-transparent px-7 py-3 text-center font-josefin text-[18px] text-ink transition-colors hover:border-gold hover:bg-gold hover:text-white"
-          >
-            Book Now
-          </Link>
-          <a
-            href={PHONE_HREF}
-            onClick={closeDrawer}
-            className="rounded-[10px] border border-ink bg-white px-6 py-3 text-center font-josefin text-[18px] text-ink transition-colors hover:border-gold hover:bg-gold hover:text-white"
-          >
+        <div className="bar__actions">
+          <a href={PHONE_HREF} className="bar__phone">
             {PHONE}
+          </a>
+          <BookLink to="top" className="btn hidden sm:inline-flex">
+            Book a consultation
+          </BookLink>
+          <button
+            type="button"
+            className="bar__menu"
+            aria-expanded={open}
+            aria-controls="drawer"
+            onClick={() => setOpen((v) => !v)}
+          >
+            {open ? "Close" : "Menu"}
+          </button>
+        </div>
+      </div>
+
+      <div id="drawer" className={cn("drawer", open && "is-open")} aria-hidden={!open}>
+        <nav aria-label="Menu">
+          <Link href={ROUTES.home} onClick={close} tabIndex={tab}>
+            Home
+          </Link>
+          {NAV_LINKS.map(({ label, href }) => (
+            <Link key={label} href={href} onClick={close} tabIndex={tab}>
+              {label}
+            </Link>
+          ))}
+          <Link href={ROUTES.locations} onClick={close} tabIndex={tab}>
+            Areas we serve
+          </Link>
+          <Link href={ROUTES.contact} onClick={close} tabIndex={tab}>
+            Contact
+          </Link>
+        </nav>
+        <div className="drawer__foot">
+          <BookLink to="top" onClick={close} className="btn" tabIndex={tab}>
+            Book a consultation
+          </BookLink>
+          <a href={PHONE_HREF} className="link" tabIndex={tab}>
+            Call Lisa on {PHONE}
           </a>
         </div>
       </div>

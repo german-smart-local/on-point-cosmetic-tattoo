@@ -1,0 +1,202 @@
+- generic [active] [ref=e1]:
+  - banner [ref=e2]:
+    - generic [ref=e3]:
+      - link "On Point Cosmetic Tattoo Studio, home" [ref=e4] [cursor=pointer]:
+        - /url: /
+      - navigation "Main" [ref=e5]:
+        - link "Brows" [ref=e6] [cursor=pointer]:
+          - /url: /eyebrow-tattoos
+        - link "Eyeliner" [ref=e7] [cursor=pointer]:
+          - /url: /eyeliner-tattoos
+        - link "Lips" [ref=e8] [cursor=pointer]:
+          - /url: /lip-tattoos
+        - link "Aftercare" [ref=e9] [cursor=pointer]:
+          - /url: /after-care
+        - link "About Lisa" [ref=e10] [cursor=pointer]:
+          - /url: /#about
+      - generic [ref=e11]:
+        - link "0414 502 807" [ref=e12] [cursor=pointer]:
+          - /url: tel:0414502807
+        - link "Book a consultation" [ref=e13] [cursor=pointer]:
+          - /url: /contact
+  - main [ref=e14]:
+    - generic [ref=e15]:
+      - region [ref=e16]:
+        - generic [ref=e17]:
+          - generic [ref=e18]:
+            - heading "Lip tattoos, in your own tone" [level=1] [ref=e19]
+            - paragraph [ref=e20]: Lip liner, lip blend and full lip tattoo, with the outline mapped and the colour matched to your natural base, in Buderim on the Sunshine Coast.
+            - generic [ref=e21]:
+              - link "Book a consultation" [ref=e22] [cursor=pointer]:
+                - /url: /contact
+              - link "Call 0414 502 807" [ref=e23] [cursor=pointer]:
+                - /url: tel:0414502807
+          - img "Full lip tattoo in a warm coral tone" [ref=e25]
+      - region [ref=e26]:
+        - generic [ref=e27]:
+          - img "Freshly tattooed lips in a soft rose, seen from below" [ref=e29]
+          - generic [ref=e30]:
+            - heading "Lip line and colour" [level=2] [ref=e31]
+            - paragraph [ref=e32]: Lip borders and natural pigment can change over time, which is why careful mapping is essential before placing any colour. At On Point Cosmetic Tattoo Studio in Buderim, I provide lip tattoos for clients across the Sunshine Coast using structured planning and controlled application methods.
+            - paragraph [ref=e33]: Options include lip liner tattoo, lip blend tattoo and full lip tattoo. During consultation, I assess natural lip tone, symmetry, skin condition and outline preferences before confirming pigment selection.
+            - list [ref=e34]:
+              - listitem [ref=e35]: Lip liner tattoo, to define the edge
+              - listitem [ref=e36]: Lip blend tattoo, softening colour toward the centre
+              - listitem [ref=e37]: Full lip tattoo, colour across the whole lip
+      - region [ref=e38]:
+        - generic [ref=e39]:
+          - img "Lip tattoo in a muted rose, close up" [ref=e41]
+          - generic [ref=e42]:
+            - heading "The lip tattoo process" [level=2] [ref=e43]
+            - paragraph [ref=e44]: Lip tattoos require thoughtful pigment selection and measured application due to the sensitivity of the area. I begin by mapping the lip border and reviewing colour tones suited to your natural base. Lip liner tattoo defines the edge, lip blend softens colour toward the centre and full lip tattoo distributes pigment across the entire lip area.
+            - paragraph [ref=e45]: The chosen technique depends on previous tattoo work, skin response and personal preference discussed during consultation. I outline preparation guidelines before the appointment and provide written aftercare instructions following treatment.
+            - list [ref=e46]:
+              - listitem [ref=e47]: Certified artist, with consultation protocols and hygiene standards suited to cosmetic tattoo
+              - listitem [ref=e48]: Shape, proportion and pigment tone mapped to your features and reviewed before treatment
+              - listitem [ref=e49]: Professional pigments and devices, with product details explained at your consultation
+            - generic [ref=e50]:
+              - link "Read the aftercare" [ref=e51] [cursor=pointer]:
+                - /url: /after-care
+              - link "Call 0414 502 807" [ref=e52] [cursor=pointer]:
+                - /url: tel:0414502807
+      - region "Lisa's lip work" [ref=e53]:
+        - generic [ref=e54]:
+          - heading "Lisa's lip work" [level=2] [ref=e55]
+          - generic [ref=e56]:
+            - figure "Full lip, fresh" [ref=e57]:
+              - 'button "View larger: Full lip, fresh" [ref=e58]':
+                - img "Full lip tattoo in a soft rose tone" [ref=e60]
+            - figure "Straight after the appointment" [ref=e62]:
+              - 'button "View larger: Straight after the appointment" [ref=e63]':
+                - img "Bright, glossy lips straight after a lip tattoo" [ref=e65]
+            - figure "Lip colour, fresh" [ref=e67]:
+              - 'button "View larger: Lip colour, fresh" [ref=e68]':
+                - img "Lip tattoo in a soft rose, seen from below" [ref=e70]
+      - region [ref=e72]:
+        - generic [ref=e73]:
+          - generic [ref=e74]:
+            - heading "Your questions" [level=2] [ref=e75]
+            - paragraph [ref=e76]:
+              - text: Something else on your mind? Call Lisa on
+              - link "0414 502 807" [ref=e77] [cursor=pointer]:
+                - /url: tel:0414502807
+              - text: .
+          - generic [ref=e79]:
+            - group [ref=e80]:
+              - generic "How long do lip tattoos last? −" [ref=e81] [cursor=pointer]
+              - paragraph [ref=e82]: Lip tattoos are considered semi-permanent cosmetic procedures. Longevity varies depending on skin type, lifestyle, sun exposure and pigment choice. Fading happens gradually over time, and many people schedule maintenance appointments to refresh colour. Individual healing response and aftercare practices can influence how pigment settles in the lips.
+            - group [ref=e83]:
+              - generic "Do lip tattoos hurt? +" [ref=e84] [cursor=pointer]
+            - group [ref=e85]:
+              - generic "What should be avoided before a lip tattoo appointment? +" [ref=e86] [cursor=pointer]
+      - region [ref=e87]:
+        - generic [ref=e88]:
+          - generic [ref=e89]:
+            - heading "Book a consultation" [level=2] [ref=e90]
+            - paragraph [ref=e91]: Tell Lisa what you have in mind and she'll come back to you with a time. If you reach voicemail, leave your name and number.
+            - paragraph [ref=e92]:
+              - link "0414 502 807" [ref=e93] [cursor=pointer]:
+                - /url: tel:0414502807
+            - generic [ref=e94]:
+              - generic [ref=e95]:
+                - term [ref=e96]: Mon – Fri
+                - definition [ref=e97]: 9am – 5pm
+              - generic [ref=e98]:
+                - term [ref=e99]: Sat – Sun
+                - definition [ref=e100]: By appointment
+          - generic [ref=e101]:
+            - generic [ref=e102]:
+              - generic [ref=e103]:
+                - generic [ref=e104]: Name
+                - textbox "Name" [ref=e105]
+              - generic [ref=e106]:
+                - generic [ref=e107]: Phone
+                - textbox "Phone" [ref=e108]
+            - generic [ref=e109]:
+              - generic [ref=e110]:
+                - generic [ref=e111]: Email
+                - textbox "Email" [ref=e112]
+              - generic [ref=e113]:
+                - generic [ref=e114]: Treatment
+                - combobox "Treatment" [ref=e115]:
+                  - option "Not sure yet" [selected]
+                  - option "Eyebrows"
+                  - option "Eyeliner"
+                  - option "Lips"
+            - generic [ref=e116]:
+              - generic [ref=e117]: Message
+              - textbox "Message" [ref=e118]
+            - button "Send to Lisa" [ref=e119] [cursor=pointer]
+            - paragraph [ref=e120]: Sending opens your email app with the message ready to go.
+  - contentinfo [ref=e121]:
+    - generic [ref=e122]:
+      - generic [ref=e123]:
+        - img "On Point Cosmetic Tattoo Studio" [ref=e124]
+        - paragraph [ref=e125]: Brows, eyeliner and lips, mapped in Buderim since 2016.
+      - generic [ref=e126]:
+        - generic [ref=e127]:
+          - heading "Treatments" [level=2] [ref=e128]
+          - list [ref=e129]:
+            - listitem [ref=e130]:
+              - link "Eyebrow tattoos" [ref=e131] [cursor=pointer]:
+                - /url: /eyebrow-tattoos
+            - listitem [ref=e132]:
+              - link "Eyeliner tattoos" [ref=e133] [cursor=pointer]:
+                - /url: /eyeliner-tattoos
+            - listitem [ref=e134]:
+              - link "Lip tattoos" [ref=e135] [cursor=pointer]:
+                - /url: /lip-tattoos
+            - listitem [ref=e136]:
+              - link "Aftercare" [ref=e137] [cursor=pointer]:
+                - /url: /after-care
+        - generic [ref=e138]:
+          - heading "Studio" [level=2] [ref=e139]
+          - list [ref=e140]:
+            - listitem [ref=e141]:
+              - link "About Lisa" [ref=e142] [cursor=pointer]:
+                - /url: /#about
+            - listitem [ref=e143]:
+              - link "Reviews" [ref=e144] [cursor=pointer]:
+                - /url: /#testimonials
+            - listitem [ref=e145]:
+              - link "Areas we serve" [ref=e146] [cursor=pointer]:
+                - /url: /locations
+            - listitem [ref=e147]:
+              - link "Contact" [ref=e148] [cursor=pointer]:
+                - /url: /contact
+        - generic [ref=e149]:
+          - heading "Follow" [level=2] [ref=e150]
+          - list [ref=e151]:
+            - listitem [ref=e152]:
+              - link "Facebook" [ref=e153] [cursor=pointer]:
+                - /url: https://www.facebook.com/onpointcosmetictattoo/
+            - listitem [ref=e154]:
+              - link "Instagram" [ref=e155] [cursor=pointer]:
+                - /url: https://www.instagram.com/onpointcosmetictattoostudio/
+            - listitem [ref=e156]:
+              - link "Google reviews" [ref=e157] [cursor=pointer]:
+                - /url: https://maps.app.goo.gl/8NpoKzz7PLJGnELG6
+            - listitem [ref=e158]:
+              - link "Localsearch" [ref=e159] [cursor=pointer]:
+                - /url: https://www.localsearch.com.au/profile/on-point-cosmetic-tattoo-studio/buderim-qld/MaKp
+        - generic [ref=e160]:
+          - heading "Hours" [level=2] [ref=e161]
+          - list [ref=e162]:
+            - listitem [ref=e163]: Mon – Fri, 9am – 5pm
+            - listitem [ref=e164]: Sat – Sun, by appointment
+        - generic [ref=e165]:
+          - heading "Contact" [level=2] [ref=e166]
+          - list [ref=e167]:
+            - listitem [ref=e168]:
+              - link "0414 502 807" [ref=e169] [cursor=pointer]:
+                - /url: tel:0414502807
+            - listitem [ref=e170]:
+              - link "onpointcosmetictattoo@gmail.com" [ref=e171] [cursor=pointer]:
+                - /url: mailto:onpointcosmetictattoo@gmail.com
+            - listitem [ref=e172]:
+              - link "Buderim, QLD 4556" [ref=e173] [cursor=pointer]:
+                - /url: https://maps.app.goo.gl/UoricJLVFQzHepTm7
+      - generic [ref=e174]:
+        - paragraph [ref=e175]: © 2026 On Point Cosmetic Tattoo Studio
+        - paragraph [ref=e176]: Certified cosmetic tattoo artist. ABN 79 955 974 433
+  - alert [ref=e177]

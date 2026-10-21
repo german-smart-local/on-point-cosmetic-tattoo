@@ -1,101 +1,155 @@
 "use client";
 
 import { useState } from "react";
+import { EMAIL, HOURS, PHONE, PHONE_HREF } from "@/lib/links";
+import { Flora } from "@/components/Flora";
 
-export function GetInTouch() {
-  const [name, setName] = useState("");
-  const [email, setEmail] = useState("");
-  const [phone, setPhone] = useState("");
-  const [message, setMessage] = useState("");
-  const [submitted, setSubmitted] = useState(false);
+/**
+ * There is no form backend, so sending opens the visitor's email app with the enquiry written out
+ * to the studio's address.
+ */
+export function GetInTouch({ title = "Book a consultation" }: { title?: string }) {
+  const [opened, setOpened] = useState(false);
+  const [treatment, setTreatment] = useState("");
+  const [errors, setErrors] = useState<{ name?: string; contact?: string }>({});
 
   function handleSubmit(e: React.FormEvent<HTMLFormElement>) {
     e.preventDefault();
-    setSubmitted(true);
+    const data = new FormData(e.currentTarget);
+    const get = (k: string) => String(data.get(k) ?? "").trim();
+    const name = get("name");
+
+    // Lisa needs a name and one way to reply; say which is missing, next to the field.
+    const found: typeof errors = {};
+    if (!name) found.name = "Add your name so Lisa knows who to reply to.";
+    if (!get("phone") && !get("email")) found.contact = "Add a phone number or an email so Lisa can reply.";
+    setErrors(found);
+    if (found.name || found.contact) {
+      e.currentTarget.querySelector<HTMLInputElement>(found.name ? "#book-name" : "#book-phone")?.focus();
+      return;
+    }
+
+    const body = [
+      "Hi Lisa,",
+      "",
+      `I'd like to book a consultation${treatment ? ` for ${treatment.toLowerCase()}` : ""}.`,
+      "",
+      get("message"),
+      "",
+      name,
+      get("phone"),
+      get("email"),
+    ].join("\n");
+    const subject = `Consultation enquiry${name ? ` from ${name}` : ""}`;
+    window.location.href = `mailto:${EMAIL}?subject=${encodeURIComponent(subject)}&body=${encodeURIComponent(body)}`;
+    setOpened(true);
   }
 
   return (
-    <section id="contact" className="bg-white py-20 px-6">
-      <div className="max-w-[1180px] mx-auto">
-        <h2 className="font-heading font-light text-gold text-[42px] lg:text-[56px] text-center mb-12">
-          Get in Touch
-        </h2>
-        <form onSubmit={handleSubmit} className="max-w-[1120px] mx-auto">
-          <div className="grid grid-cols-1 md:grid-cols-3 gap-6 mb-6">
+    <section id="book" aria-labelledby="book-title" className="section book has-flora">
+      <Flora at="bl" />
+      <div className="wrap grid12 book__in">
+        <div className="book__text">
+          <h2 id="book-title" className="t-head">
+            {title}
+          </h2>
+          <p className="t-lead measure">
+            Tell Lisa what you have in mind and she&apos;ll come back to you with a time. If you reach
+            voicemail, leave your name and number.
+          </p>
+          <p className="mt-8">
+            <a href={PHONE_HREF} className="t-h3 font-serif underline decoration-1 underline-offset-[0.2em]">
+              {PHONE}
+            </a>
+          </p>
+          <dl>
+            {HOURS.map((h) => (
+              <div key={h.days} className="contents">
+                <dt>{h.days}</dt>
+                <dd>{h.time}</dd>
+              </div>
+            ))}
+          </dl>
+        </div>
+
+        <form className="book__form" onSubmit={handleSubmit} noValidate>
+          <div className="pair">
             <div>
-              <label
-                htmlFor="name"
-                className="block text-[15px] font-semibold text-ink mb-1.5"
-              >
-                Name
-              </label>
+              <label htmlFor="book-name">Name</label>
               <input
-                id="name"
+                id="book-name"
+                name="name"
                 type="text"
-                value={name}
-                onChange={(e) => setName(e.target.value)}
-                className="w-full bg-cream border-0 rounded-sm h-11 px-3 text-[16px] text-ink outline-none focus:ring-2 focus:ring-gold/40"
+                autoComplete="name"
+                aria-invalid={Boolean(errors.name)}
+                aria-describedby={errors.name ? "book-name-error" : undefined}
+                onInput={() => errors.name && setErrors((x) => ({ ...x, name: undefined }))}
               />
+              {errors.name && (
+                <p id="book-name-error" className="book__error">
+                  {errors.name}
+                </p>
+              )}
             </div>
             <div>
-              <label
-                htmlFor="email"
-                className="block text-[15px] font-semibold text-ink mb-1.5"
-              >
-                Email
-              </label>
+              <label htmlFor="book-phone">Phone</label>
               <input
-                id="email"
-                type="email"
-                value={email}
-                onChange={(e) => setEmail(e.target.value)}
-                className="w-full bg-cream border-0 rounded-sm h-11 px-3 text-[16px] text-ink outline-none focus:ring-2 focus:ring-gold/40"
-              />
-            </div>
-            <div>
-              <label
-                htmlFor="phone"
-                className="block text-[15px] font-semibold text-ink mb-1.5"
-              >
-                Phone
-              </label>
-              <input
-                id="phone"
+                id="book-phone"
+                name="phone"
                 type="tel"
-                value={phone}
-                onChange={(e) => setPhone(e.target.value)}
-                className="w-full bg-cream border-0 rounded-sm h-11 px-3 text-[16px] text-ink outline-none focus:ring-2 focus:ring-gold/40"
+                autoComplete="tel"
+                aria-invalid={Boolean(errors.contact)}
+                aria-describedby={errors.contact ? "book-contact-error" : undefined}
+                onInput={() => errors.contact && setErrors((x) => ({ ...x, contact: undefined }))}
               />
             </div>
           </div>
-          <div className="mb-7">
-            <label
-              htmlFor="message"
-              className="block text-[15px] font-semibold text-ink mb-1.5"
-            >
-              Message
-            </label>
-            <textarea
-              id="message"
-              value={message}
-              onChange={(e) => setMessage(e.target.value)}
-              className="w-full bg-cream border-0 rounded-sm min-h-[110px] p-3 text-[16px] text-ink outline-none focus:ring-2 focus:ring-gold/40 resize-y"
+          <div>
+            <label htmlFor="book-email">Email</label>
+            <input
+              id="book-email"
+              name="email"
+              type="email"
+              autoComplete="email"
+              aria-invalid={Boolean(errors.contact)}
+              aria-describedby={errors.contact ? "book-contact-error" : undefined}
+              onInput={() => errors.contact && setErrors((x) => ({ ...x, contact: undefined }))}
             />
-          </div>
-          <div className="text-center">
-            <button
-              type="submit"
-              className="bg-cream border border-ink rounded-[15px] px-12 py-3.5 font-josefin text-[18px] text-ink hover:bg-gold hover:text-white hover:border-gold transition-colors"
-            >
-              Book Now
-            </button>
-            {submitted && (
-              <p className="text-gold text-center mt-5">
-                Thank you for contacting On Point Cosmetic Tattoo Studio. We will
-                get back to you as soon as possible.
+            {errors.contact && (
+              <p id="book-contact-error" className="book__error">
+                {errors.contact}
               </p>
             )}
           </div>
+          <fieldset className="book__choice">
+            <legend>Treatment</legend>
+            <div>
+              {["Eyebrows", "Eyeliner", "Lips", "Not sure yet"].map((t) => (
+                <label key={t} className="chip">
+                  <input
+                    type="radio"
+                    name="treatment"
+                    value={t === "Not sure yet" ? "" : t}
+                    checked={treatment === (t === "Not sure yet" ? "" : t)}
+                    onChange={(e) => setTreatment(e.target.value)}
+                  />
+                  <span>{t}</span>
+                </label>
+              ))}
+            </div>
+          </fieldset>
+          <div>
+            <label htmlFor="book-message">Message</label>
+            <textarea id="book-message" name="message" />
+          </div>
+          <button type="submit" className="btn btn--block">
+            Send to Lisa
+          </button>
+          <p className="book__note" aria-live="polite">
+            {opened
+              ? `Your email app should have opened with the message. If it didn't, write to ${EMAIL}.`
+              : "Sending opens your email app with the message ready to go."}
+          </p>
         </form>
       </div>
     </section>

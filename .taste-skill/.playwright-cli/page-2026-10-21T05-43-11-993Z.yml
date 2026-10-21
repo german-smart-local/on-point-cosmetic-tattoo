@@ -1,0 +1,335 @@
+- generic [active] [ref=e1]:
+  - banner [ref=e2]:
+    - generic [ref=e3]:
+      - link "On Point Cosmetic Tattoo Studio, home" [ref=e4] [cursor=pointer]:
+        - /url: /
+      - navigation "Main" [ref=e5]:
+        - link "Brows" [ref=e6] [cursor=pointer]:
+          - /url: /eyebrow-tattoos
+        - link "Eyeliner" [ref=e7] [cursor=pointer]:
+          - /url: /eyeliner-tattoos
+        - link "Lips" [ref=e8] [cursor=pointer]:
+          - /url: /lip-tattoos
+        - link "Aftercare" [ref=e9] [cursor=pointer]:
+          - /url: /after-care
+        - link "About Lisa" [ref=e10] [cursor=pointer]:
+          - /url: /#about
+      - generic [ref=e11]:
+        - link "0414 502 807" [ref=e12] [cursor=pointer]:
+          - /url: tel:0414502807
+        - link "Book a consultation" [ref=e13] [cursor=pointer]:
+          - /url: /contact
+  - main [ref=e14]:
+    - generic [ref=e15]:
+      - region [ref=e16]:
+        - generic [ref=e17]:
+          - generic [ref=e18]:
+            - heading "Cosmetic tattoo, mapped to your face" [level=1] [ref=e19]
+            - paragraph [ref=e20]: Eyebrow, eyeliner and lip tattooing by Lisa Eagles, a certified artist working from her studio in Buderim on the Sunshine Coast.
+            - generic [ref=e21]:
+              - link "Book a consultation" [ref=e22] [cursor=pointer]:
+                - /url: /contact
+              - link "Call 0414 502 807" [ref=e23] [cursor=pointer]:
+                - /url: tel:0414502807
+            - generic [ref=e24]:
+              - group "Show the map for" [ref=e25]:
+                - button "Brows" [pressed] [ref=e26] [cursor=pointer]
+                - button "Eyeliner" [ref=e27] [cursor=pointer]
+                - button "Lips" [ref=e28] [cursor=pointer]
+              - paragraph [ref=e29]:
+                - strong [ref=e30]: Every brow starts as a map.
+                - text: Lines from the side of the nose set where it begins, arches and ends, so the shape suits your face before any pigment goes in.
+              - link "More about brows" [ref=e31] [cursor=pointer]:
+                - /url: /eyebrow-tattoos
+          - figure "Brows map on the hero photograph" [ref=e32]:
+            - generic [ref=e33]:
+              - img "A woman with defined brows, eyeliner and full lips, tilting her face toward the camera" [ref=e34]
+              - generic [aria-hidden] [ref=e42]: Start
+              - generic [aria-hidden] [ref=e43]: Arch
+              - generic [aria-hidden] [ref=e44]: Tail
+      - region [ref=e45]:
+        - generic [ref=e46]:
+          - generic [ref=e47]:
+            - heading "Three treatments, one artist" [level=2] [ref=e48]
+            - paragraph [ref=e49]: Lisa works only on brows, eyeliner and lips, and every appointment starts with a consultation and a mapped design.
+          - article [ref=e51]:
+            - generic [ref=e52]:
+              - heading "Eyebrows" [level=3] [ref=e53]
+              - paragraph [ref=e54]: Hair strokes, powder or a mix of both
+            - generic [ref=e55]:
+              - paragraph [ref=e56]: Small changes in brow structure alter the balance of the whole face. Lisa looks at your natural growth, skin type, symmetry and tone, maps a shape, then recommends the technique that suits it.
+              - list [ref=e57]:
+                - listitem [ref=e58]: Nano realism hair strokes
+                - listitem [ref=e59]: Feather touch microblading
+                - listitem [ref=e60]: Powder brows
+                - listitem [ref=e61]: Combination brows
+              - link "About eyebrow tattoos" [ref=e62] [cursor=pointer]:
+                - /url: /eyebrow-tattoos
+            - img "Hair-stroke eyebrow tattoo, close up" [ref=e64]
+          - article [ref=e65]:
+            - generic [ref=e66]:
+              - heading "Eyeliner" [level=3] [ref=e67]
+              - paragraph [ref=e68]: From a fine lash line to a defined wing
+            - generic [ref=e69]:
+              - paragraph [ref=e70]: The lash line is one of the most precise areas of the face. Lisa reviews eye shape, lid space, skin and how you wear make-up before designing the line.
+              - list [ref=e71]:
+                - listitem [ref=e72]: Eyeliner enhancement, within the lashes
+                - listitem [ref=e73]: Designer eyeliner, a visible shape on the lid
+              - link "About eyeliner tattoos" [ref=e74] [cursor=pointer]:
+                - /url: /eyeliner-tattoos
+            - img "Eyeliner tattoo set close to the lash line" [ref=e76]
+          - article [ref=e77]:
+            - generic [ref=e78]:
+              - heading "Lips" [level=3] [ref=e79]
+              - paragraph [ref=e80]: Defined edge, soft blend or full colour
+            - generic [ref=e81]:
+              - paragraph [ref=e82]: Lip borders and natural colour change over time, so the outline is mapped and the shade is matched to your own tone before any colour goes in.
+              - list [ref=e83]:
+                - listitem [ref=e84]: Lip liner tattoo
+                - listitem [ref=e85]: Lip blend tattoo
+                - listitem [ref=e86]: Full lip tattoo
+              - link "About lip tattoos" [ref=e87] [cursor=pointer]:
+                - /url: /lip-tattoos
+            - img "Full lip tattoo in a soft rose tone" [ref=e89]
+      - generic [ref=e92]:
+        - generic [ref=e93]:
+          - heading "Your visit, day by day" [level=2] [ref=e94]
+          - generic [ref=e95]:
+            - paragraph [ref=e96]: Choose a treatment and a date. The calendar fills in what to do, and when, from the studio's own preparation and aftercare guide.
+            - generic [ref=e97]:
+              - group "Treatment" [ref=e98]:
+                - generic [ref=e100]:
+                  - radio "Brows" [checked]
+                  - generic [ref=e101] [cursor=pointer]: Brows
+                - generic [ref=e102]:
+                  - radio "Eyeliner"
+                  - generic [ref=e103] [cursor=pointer]: Eyeliner
+                - generic [ref=e104]:
+                  - radio "Lips"
+                  - generic [ref=e105] [cursor=pointer]: Lips
+              - generic [ref=e106]:
+                - generic [ref=e107]: Appointment date
+                - textbox "Appointment date" [ref=e108]
+        - list "Your visit, day by day" [ref=e109]:
+          - listitem [ref=e110]:
+            - button "Consultation Before you book" [pressed] [ref=e111] [cursor=pointer]:
+              - generic [ref=e113]:
+                - generic [ref=e114]: Consultation
+                - generic [ref=e115]: Before you book
+          - listitem [ref=e116]:
+            - button "One week before 7 days to go" [ref=e117] [cursor=pointer]:
+              - generic [ref=e119]:
+                - generic [ref=e120]: One week before
+                - generic [ref=e121]: 7 days to go
+          - listitem [ref=e122]:
+            - button "Two days before 48 hours to go" [ref=e123] [cursor=pointer]:
+              - generic [ref=e125]:
+                - generic [ref=e126]: Two days before
+                - generic [ref=e127]: 48 hours to go
+          - listitem [ref=e128]:
+            - button "Your appointment The day" [ref=e129] [cursor=pointer]:
+              - generic [ref=e131]:
+                - generic [ref=e132]: Your appointment
+                - generic [ref=e133]: The day
+          - listitem [ref=e134]:
+            - button "Healing The first weeks" [ref=e135] [cursor=pointer]:
+              - generic [ref=e137]:
+                - generic [ref=e138]: Healing
+                - generic [ref=e139]: The first weeks
+          - listitem [ref=e140]:
+            - button "Follow-up 6 to 8 weeks later" [ref=e141] [cursor=pointer]:
+              - generic [ref=e143]:
+                - generic [ref=e144]: Follow-up
+                - generic [ref=e145]: 6 to 8 weeks later
+        - generic [ref=e146]:
+          - generic [ref=e147]:
+            - heading "Consultation" [level=3] [ref=e148]
+            - paragraph [ref=e149]: Before you book
+            - list [ref=e150]:
+              - listitem [ref=e151]: Skin type, medical considerations and the technique that suits you
+              - listitem [ref=e152]: Shape, proportion and pigment tone, mapped and reviewed with you
+              - listitem [ref=e153]: Preparation and the stages of healing, explained
+          - img "A client relaxed in the studio chair before treatment" [ref=e155]
+      - region [ref=e156]:
+        - generic [ref=e157]:
+          - img "Lisa Eagles, certified cosmetic tattoo artist and owner of On Point" [ref=e159]
+          - generic [ref=e160]:
+            - heading "Meet Lisa Eagles" [level=2] [ref=e161]
+            - generic [ref=e162]:
+              - paragraph [ref=e163]: Lisa began in the cosmetic field working alongside a Gold Coast plastic surgeon, which is where cosmetic tattoo caught her interest.
+              - paragraph [ref=e164]: She trained in cosmetic tattoo techniques in Australia and keeps training with educators here and overseas, updating her skills as techniques and application methods change.
+              - paragraph [ref=e165]: Her work covers nano realism hair strokes, feather touch microblading, powder and combination brows, eyeliner enhancement, designer eyeliner and lip tattoo.
+            - generic [ref=e166]:
+              - generic [ref=e167]:
+                - term [ref=e168]: Since 2016
+                - definition [ref=e169]: On Point opened in Buderim
+              - generic [ref=e170]:
+                - term [ref=e171]: Certified artist
+                - definition [ref=e172]: Lisa is the artist behind the studio
+            - link "Book with Lisa" [ref=e173] [cursor=pointer]:
+              - /url: /contact
+      - region [ref=e174]:
+        - generic [ref=e175]:
+          - generic [ref=e176]:
+            - heading "Rated 5.0 from 34 Google reviews" [level=2] [ref=e177]
+            - link "Read them all on Google" [ref=e178] [cursor=pointer]:
+              - /url: https://maps.app.goo.gl/8NpoKzz7PLJGnELG6
+          - generic [ref=e179]:
+            - figure [ref=e180]:
+              - blockquote [ref=e181]:
+                - paragraph [ref=e182]: On the day, she ensured I was comfortable with everything, talked me through every step and was OBSESSIVE over the colour choices and mapping of my brows.
+              - generic [ref=e183]:
+                - strong [ref=e184]: Lisa Barrett
+                - text: ", nano brows"
+            - generic [ref=e185]:
+              - figure [ref=e186]:
+                - blockquote [ref=e187]:
+                  - paragraph [ref=e188]: She took the time to carefully assess my face shape and natural brows, ensuring the final result was perfectly suited to me.
+                - generic [ref=e189]:
+                  - strong [ref=e190]: Alegra Horstman
+                  - text: ", nano brows"
+              - figure [ref=e191]:
+                - blockquote [ref=e192]:
+                  - paragraph [ref=e193]: Lisa did an amazing job and her attention to detail was exceptional. I'm already planning to book in for lip blushing with her soon!
+                - generic [ref=e194]:
+                  - strong [ref=e195]: Kate Roberts
+                  - text: ", brows"
+              - figure [ref=e196]:
+                - blockquote [ref=e197]:
+                  - paragraph [ref=e198]: Lisa was amazing & I would never go to someone else again! She is a perfectionist and this is the clinic to book.
+                - generic [ref=e199]:
+                  - strong [ref=e200]: Shanelle Wilson
+                  - text: ", Google review"
+      - region [ref=e201]:
+        - generic [ref=e202]:
+          - generic [ref=e203]:
+            - heading "Questions, answered" [level=2] [ref=e204]
+            - paragraph [ref=e205]:
+              - text: Something else on your mind? Call Lisa on
+              - link "0414 502 807" [ref=e206] [cursor=pointer]:
+                - /url: tel:0414502807
+              - text: .
+          - generic [ref=e208]:
+            - group [ref=e209]:
+              - generic "How long does a cosmetic tattoo last? −" [ref=e210] [cursor=pointer]
+              - paragraph [ref=e211]: Cosmetic tattoo is semi-permanent. How long it lasts depends on your skin type, lifestyle, sun exposure and the pigment chosen. Colour fades gradually, most treatments include a follow-up visit, and many people book a refresh over time.
+            - group [ref=e212]:
+              - generic "Does it hurt? +" [ref=e213] [cursor=pointer]
+            - group [ref=e214]:
+              - generic "What should I avoid before my appointment? +" [ref=e215] [cursor=pointer]
+            - group [ref=e216]:
+              - generic "What is the difference between eyeliner enhancement and designer eyeliner? +" [ref=e217] [cursor=pointer]
+            - group [ref=e218]:
+              - generic "I get cold sores. Can I still have a lip tattoo? +" [ref=e219] [cursor=pointer]
+            - group [ref=e220]:
+              - generic "Why does the colour look so dark at first? +" [ref=e221] [cursor=pointer]
+      - region [ref=e222]:
+        - generic [ref=e223]:
+          - generic [ref=e224]:
+            - heading "Book a consultation" [level=2] [ref=e225]
+            - paragraph [ref=e226]: Tell Lisa what you have in mind and she'll come back to you with a time. If you reach voicemail, leave your name and number.
+            - paragraph [ref=e227]:
+              - link "0414 502 807" [ref=e228] [cursor=pointer]:
+                - /url: tel:0414502807
+            - generic [ref=e229]:
+              - generic [ref=e230]:
+                - term [ref=e231]: Mon – Fri
+                - definition [ref=e232]: 9am – 5pm
+              - generic [ref=e233]:
+                - term [ref=e234]: Sat – Sun
+                - definition [ref=e235]: By appointment
+          - generic [ref=e236]:
+            - generic [ref=e237]:
+              - generic [ref=e238]:
+                - generic [ref=e239]: Name
+                - textbox "Name" [ref=e240]
+              - generic [ref=e241]:
+                - generic [ref=e242]: Phone
+                - textbox "Phone" [ref=e243]
+            - generic [ref=e244]:
+              - generic [ref=e245]:
+                - generic [ref=e246]: Email
+                - textbox "Email" [ref=e247]
+              - generic [ref=e248]:
+                - generic [ref=e249]: Treatment
+                - combobox "Treatment" [ref=e250]:
+                  - option "Not sure yet" [selected]
+                  - option "Eyebrows"
+                  - option "Eyeliner"
+                  - option "Lips"
+            - generic [ref=e251]:
+              - generic [ref=e252]: Message
+              - textbox "Message" [ref=e253]
+            - button "Send to Lisa" [ref=e254] [cursor=pointer]
+            - paragraph [ref=e255]: Sending opens your email app with the message ready to go.
+  - contentinfo [ref=e256]:
+    - generic [ref=e257]:
+      - generic [ref=e258]:
+        - img "On Point Cosmetic Tattoo Studio" [ref=e259]
+        - paragraph [ref=e260]: Brows, eyeliner and lips, mapped in Buderim since 2016.
+      - generic [ref=e261]:
+        - generic [ref=e262]:
+          - heading "Treatments" [level=2] [ref=e263]
+          - list [ref=e264]:
+            - listitem [ref=e265]:
+              - link "Eyebrow tattoos" [ref=e266] [cursor=pointer]:
+                - /url: /eyebrow-tattoos
+            - listitem [ref=e267]:
+              - link "Eyeliner tattoos" [ref=e268] [cursor=pointer]:
+                - /url: /eyeliner-tattoos
+            - listitem [ref=e269]:
+              - link "Lip tattoos" [ref=e270] [cursor=pointer]:
+                - /url: /lip-tattoos
+            - listitem [ref=e271]:
+              - link "Aftercare" [ref=e272] [cursor=pointer]:
+                - /url: /after-care
+        - generic [ref=e273]:
+          - heading "Studio" [level=2] [ref=e274]
+          - list [ref=e275]:
+            - listitem [ref=e276]:
+              - link "About Lisa" [ref=e277] [cursor=pointer]:
+                - /url: /#about
+            - listitem [ref=e278]:
+              - link "Reviews" [ref=e279] [cursor=pointer]:
+                - /url: /#testimonials
+            - listitem [ref=e280]:
+              - link "Areas we serve" [ref=e281] [cursor=pointer]:
+                - /url: /locations
+            - listitem [ref=e282]:
+              - link "Contact" [ref=e283] [cursor=pointer]:
+                - /url: /contact
+        - generic [ref=e284]:
+          - heading "Follow" [level=2] [ref=e285]
+          - list [ref=e286]:
+            - listitem [ref=e287]:
+              - link "Facebook" [ref=e288] [cursor=pointer]:
+                - /url: https://www.facebook.com/onpointcosmetictattoo/
+            - listitem [ref=e289]:
+              - link "Instagram" [ref=e290] [cursor=pointer]:
+                - /url: https://www.instagram.com/onpointcosmetictattoostudio/
+            - listitem [ref=e291]:
+              - link "Google reviews" [ref=e292] [cursor=pointer]:
+                - /url: https://maps.app.goo.gl/8NpoKzz7PLJGnELG6
+            - listitem [ref=e293]:
+              - link "Localsearch" [ref=e294] [cursor=pointer]:
+                - /url: https://www.localsearch.com.au/profile/on-point-cosmetic-tattoo-studio/buderim-qld/MaKp
+        - generic [ref=e295]:
+          - heading "Hours" [level=2] [ref=e296]
+          - list [ref=e297]:
+            - listitem [ref=e298]: Mon – Fri, 9am – 5pm
+            - listitem [ref=e299]: Sat – Sun, by appointment
+        - generic [ref=e300]:
+          - heading "Contact" [level=2] [ref=e301]
+          - list [ref=e302]:
+            - listitem [ref=e303]:
+              - link "0414 502 807" [ref=e304] [cursor=pointer]:
+                - /url: tel:0414502807
+            - listitem [ref=e305]:
+              - link "onpointcosmetictattoo@gmail.com" [ref=e306] [cursor=pointer]:
+                - /url: mailto:onpointcosmetictattoo@gmail.com
+            - listitem [ref=e307]:
+              - link "Buderim, QLD 4556" [ref=e308] [cursor=pointer]:
+                - /url: https://maps.app.goo.gl/UoricJLVFQzHepTm7
+      - generic [ref=e309]:
+        - paragraph [ref=e310]: © 2026 On Point Cosmetic Tattoo Studio
+        - paragraph [ref=e311]: Certified cosmetic tattoo artist. ABN 79 955 974 433
