@@ -47,8 +47,15 @@ export default function RootLayout({
   return (
     <html lang="en-AU" className={`${bodoni.variable} ${jost.variable}`} suppressHydrationWarning>
       <head>
-        {/* The hero's brow map only hides its lines (to draw them) once this class is set. */}
-        <script dangerouslySetInnerHTML={{ __html: "document.documentElement.classList.add('js')" }} />
+        {/* The hero's brow map only hides its lines (to draw them) once this class is set.
+            Opening or reloading a page always starts at the top (no remembered scroll position);
+            links to a section such as /contact#book still land on that section. */}
+        <script
+          dangerouslySetInnerHTML={{
+            __html:
+              "document.documentElement.classList.add('js');if('scrollRestoration' in history)history.scrollRestoration='manual';",
+          }}
+        />
       </head>
       <body>
         <Header />
