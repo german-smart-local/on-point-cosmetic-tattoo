@@ -14,6 +14,16 @@ export default function EyebrowTattoosPage() {
       heroLead="Feather touch, microblading, nano realism hair strokes, powder and combination brows, from Lisa's studio in Buderim on the Sunshine Coast."
       heroImage="/images/sub/eb-work-1.jpg"
       heroAlt="Feathered hair-stroke brows on a client with brown eyes"
+      heroMap={{
+        // Lines from the side of the nose to where the brow starts, arches and ends.
+        view: [0, 0, 1440, 1440],
+        paths: ["M470,1040 L688,628", "M470,1040 L960,676", "M470,1040 L1122,894"],
+        markers: [
+          { label: "Start", x: 688, y: 628 },
+          { label: "Arch", x: 960, y: 676 },
+          { label: "Tail", x: 1122, y: 894 },
+        ],
+      }}
       mappingTitle="Brow mapping and design"
       mappingParas={[
         "Small changes in brow structure can alter overall facial balance, which is why planning matters. At On Point Cosmetic Tattoo Studio in Buderim, I provide eyebrow tattoos for clients across the Sunshine Coast using structured mapping and technique selection.",

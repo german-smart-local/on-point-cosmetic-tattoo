@@ -1,6 +1,6 @@
 "use client";
 
-import { useState } from "react";
+import { useState, type CSSProperties } from "react";
 import Image from "next/image";
 import Link from "next/link";
 import { PHONE, PHONE_HREF, ROUTES } from "@/lib/links";
@@ -45,11 +45,12 @@ const MAPS: Record<Mode, Map> = {
   },
   eyeliner: {
     label: "Eyeliner",
-    paths: ["M1272,322 C1240,300 1190,282 1143,284 L1104,266"],
+    // Runs along the top of the upper lashes so the eye itself stays clear.
+    paths: ["M1266,310 C1240,282 1190,268 1145,272 L1102,254"],
     markers: [
-      { label: "Inner corner", x: 1272, y: 322, side: "right" },
-      { label: "Lash line", x: 1205, y: 288, side: "below" },
-      { label: "Wing", x: 1104, y: 266, side: "left" },
+      { label: "Inner corner", x: 1266, y: 310, side: "right" },
+      { label: "Lash line", x: 1200, y: 272, side: "above" },
+      { label: "Wing", x: 1102, y: 254, side: "left" },
     ],
     title: "The line follows the lashes.",
     note: "Thickness, taper and where a wing lifts are planned along your lash line and lid space, from a fine line within the lashes to a defined wing.",
@@ -73,10 +74,9 @@ const MAPS: Record<Mode, Map> = {
 
 const MODES = Object.keys(MAPS) as Mode[];
 
-// On desktop the frame shows the right-hand 1472 units of the photo (aspect 1.15, anchored right).
-const VISIBLE_FROM = 1920 - 1280 * 1.15;
-const toLeft = (x: number) => `${((x - VISIBLE_FROM) / (1920 - VISIBLE_FROM)) * 100}%`;
-const toTop = (y: number) => `${(y / 1280) * 100}%`;
+// Labels get the marker's photo coordinates; CSS turns them into a position for the crop
+// the frame shows at each breakpoint (see .map__label).
+const toVars = (m: Marker) => ({ "--x": m.x, "--y": m.y }) as CSSProperties;
 
 export function Hero() {
   const [mode, setMode] = useState<Mode>("brows");
@@ -151,7 +151,7 @@ export function Hero() {
               <span
                 key={`${mode}-${m.label}`}
                 className={`map__label map__label--${i} map__label--${m.side ?? "above"}`}
-                style={{ left: toLeft(m.x), top: toTop(m.y) }}
+                style={toVars(m)}
                 aria-hidden
               >
                 {m.label}

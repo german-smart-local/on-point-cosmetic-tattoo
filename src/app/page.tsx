@@ -5,7 +5,6 @@ import { Artist } from "@/components/Artist";
 import { Testimonials } from "@/components/Testimonials";
 import { Faq, type FaqItem } from "@/components/Faq";
 import { GetInTouch } from "@/components/GetInTouch";
-import { Flora } from "@/components/Flora";
 
 const FAQ: FaqItem[] = [
   {
@@ -40,7 +39,6 @@ export default function Home() {
       <Hero />
       <Services />
       <section id="your-visit" className="section has-flora">
-        <Flora at="tr" />
         <div className="wrap">
           <HealingCalendar />
         </div>

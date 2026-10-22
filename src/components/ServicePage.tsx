@@ -9,6 +9,7 @@ import type { TreatmentId } from "@/lib/techniques";
 import { PHONE, PHONE_HREF, ROUTES } from "@/lib/links";
 import { Flora } from "@/components/Flora";
 import { Tile, type Texture } from "@/components/Tile";
+import type { FaceMapData } from "@/components/FaceMap";
 
 // Each treatment page's hero photo sits on its own line pattern, like a mapping sheet.
 const HERO_TEXTURE: Record<TreatmentId, Texture> = {
@@ -22,6 +23,8 @@ export interface ServicePageData {
   heroLead: string;
   heroImage: string;
   heroAlt: string;
+  /** Mapping lines over the hero photo, in that photo's own pixels. */
+  heroMap: FaceMapData;
   mappingTitle: string;
   mappingParas: string[];
   designImage: string;
@@ -51,6 +54,7 @@ export function ServicePage(data: ServicePageData) {
         image={data.heroImage}
         imageAlt={data.heroAlt}
         texture={HERO_TEXTURE[data.treatment]}
+        map={data.heroMap}
       />
 
       {/* Mapping & design */}
@@ -76,7 +80,6 @@ export function ServicePage(data: ServicePageData) {
 
       {/* Technique */}
       <section className="section has-flora" aria-labelledby="technique-title">
-        <Flora at="tl" />
         <div className="wrap grid12 split split--flip">
           <Tile className="split__pic" texture="stripe" tilt="left">
             <Image src={data.techniqueImage} alt={data.techniqueAlt} width={1000} height={1400} sizes="(min-width: 900px) 40vw, 90vw" />

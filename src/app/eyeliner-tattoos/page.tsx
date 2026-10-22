@@ -14,6 +14,16 @@ export default function EyelinerTattoosPage() {
       heroLead="Eyeliner enhancement and designer eyeliner, from a fine line through the lashes to a defined wing, in Buderim on the Sunshine Coast."
       heroImage="/images/sub/el-work-2.jpg"
       heroAlt="Designer eyeliner tattoo with a crisp wing on a brown eye"
+      heroMap={{
+        // Along the top edge of the liner, from the inner corner out to the wing tip.
+        view: [0, 0, 1080, 1080],
+        paths: ["M1020,366 C900,290 760,274 640,290 C500,306 410,370 330,470 C260,560 180,700 100,802"],
+        markers: [
+          { label: "Inner corner", x: 1020, y: 366, side: "left" },
+          { label: "Lash line", x: 640, y: 290 },
+          { label: "Wing", x: 100, y: 802, side: "right" },
+        ],
+      }}
       mappingTitle="Mapping the lash line"
       mappingParas={[
         "The lash line is one of the most precise areas of the face, which makes planning essential before any pigment is placed. At On Point Cosmetic Tattoo Studio in Buderim, I provide eyeliner tattoos for clients across the Sunshine Coast using structured mapping and controlled application methods.",

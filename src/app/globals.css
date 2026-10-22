@@ -302,10 +302,11 @@
   }
   .bar__mark {
     width: auto;
-    height: 3.25rem;
+    height: 3.75rem;
   }
+  /* logo-nav.png is the wordmark with its hairlines thickened and the gold deepened to read at this size. */
   .bar__word {
-    width: clamp(9rem, 7rem + 5vw, 12.5rem);
+    width: clamp(10.5rem, 8rem + 6vw, 16rem);
     height: auto;
   }
   .bar__nav {
@@ -544,9 +545,11 @@
     width: 100%;
     height: 100%;
   }
+  /* The photo is cropped flat across the shoulders: fade that edge into the page instead. */
   .map__frame img {
     object-fit: cover;
     object-position: right center;
+    mask-image: linear-gradient(to bottom, #000 68%, transparent 97%);
   }
   .map__line {
     fill: none;
@@ -561,8 +564,33 @@
     stroke-width: 2;
     vector-effect: non-scaling-stroke;
   }
+  /* Labels sit on the marker's photo coordinates (--x, --y in the 1920 × 1280 viewBox).
+     --from is the first photo unit the crop shows: the frame is anchored right, so a square
+     frame shows the right-hand 1280 units and the wider desktop frame shows 1472. */
+  .map__frame {
+    --from: 640;
+  }
   .map__label {
-    display: none;
+    position: absolute;
+    left: calc((var(--x) - var(--from)) / (1920 - var(--from)) * 100%);
+    top: calc(var(--y) / 1280 * 100%);
+    padding: 0.1rem 0.5rem;
+    border-radius: 999px;
+    background: var(--cream);
+    color: var(--ink);
+    font-size: 0.75rem;
+    line-height: 1.4;
+    white-space: nowrap;
+    transform: translate(-50%, -130%);
+  }
+  .map__label--below {
+    transform: translate(-50%, 45%);
+  }
+  .map__label--left {
+    transform: translate(calc(-100% - 0.5rem), -50%);
+  }
+  .map__label--right {
+    transform: translate(0.5rem, -50%);
   }
   /* On phones the map sits between the actions and its tabs, so a tap changes what is in view. */
   @media (max-width: 899px) {
@@ -635,24 +663,14 @@
       padding-bottom: 2rem;
     }
     .map__frame {
+      --from: 448;
       aspect-ratio: 1.15;
       margin-left: 0;
       margin-right: calc(-1 * var(--margin));
     }
     .map__label {
-      display: block;
-      position: absolute;
       padding: 0.2rem 0.65rem;
-      border-radius: 999px;
-      background: var(--cream);
-      color: var(--ink);
       font-size: var(--fs-small);
-      line-height: 1.4;
-      white-space: nowrap;
-      transform: translate(-50%, -130%);
-    }
-    .map__label--below {
-      transform: translate(-50%, 45%);
     }
     .map__label--left {
       transform: translate(calc(-100% - 0.75rem), -50%);
@@ -920,6 +938,12 @@
     }
     .tile:hover .tile__photo img {
       transform: scale(1.04);
+    }
+    .tile:hover .tile__photo .facemap {
+      transform: scale(1.04);
+    }
+    .tile:hover .tile__photo .facemap img {
+      transform: none;
     }
   }
   @media (min-width: 900px) {
@@ -1466,40 +1490,34 @@
     isolation: isolate;
     overflow: clip;
   }
+  /* The stems are cut flat at the bottom of the drawing, and the sway lifts and tilts them.
+     Tuck them past the section edge and fade them out towards it, so no cut end ever shows. */
   .flora {
+    --flora-tuck: -2rem;
     position: absolute;
     z-index: -1;
     width: clamp(9rem, 6rem + 12vw, 19rem);
     aspect-ratio: 688 / 849;
     background: var(--gold);
     opacity: 0.55;
-    mask: url(/images/flowers-line.png) no-repeat center / contain;
-    -webkit-mask: url(/images/flowers-line.png) no-repeat center / contain;
+    mask-image: url(/images/flowers-line.png), linear-gradient(to bottom, #000 68%, transparent 95%);
+    mask-size: contain, 100% 100%;
+    mask-position: center;
+    mask-repeat: no-repeat;
+    mask-composite: intersect;
     pointer-events: none;
   }
-  /* Grow up from the bottom edge, or hang down from the top. */
+  /* Grow up from the bottom-left or bottom-right corner. */
   .flora--bl {
     left: 0;
-    bottom: -0.5rem;
+    bottom: var(--flora-tuck);
     transform-origin: 50% 100%;
     scale: -1 1;
   }
   .flora--br {
     right: 0;
-    bottom: -0.5rem;
+    bottom: var(--flora-tuck);
     transform-origin: 50% 100%;
-  }
-  .flora--tl {
-    left: 0;
-    top: -0.5rem;
-    transform-origin: 50% 0;
-    scale: 1 -1;
-  }
-  .flora--tr {
-    right: 0;
-    top: -0.5rem;
-    transform-origin: 50% 0;
-    scale: -1 -1;
   }
   .on-white .flora {
     opacity: 0.7;
@@ -1797,6 +1815,52 @@
     justify-self: center;
     width: min(100%, 26rem);
     aspect-ratio: 1;
+  }
+  /* A mapped photo (src/components/FaceMap.tsx): the wrapper carries the photo's zoom, drift and
+     hover motion instead of the image, so the lines and labels stay on the features. */
+  .facemap {
+    position: absolute;
+    inset: 0;
+    transition: transform 700ms var(--ease);
+  }
+  .facemap svg {
+    position: absolute;
+    inset: 0;
+    width: 100%;
+    height: 100%;
+  }
+  .tile__photo .facemap img {
+    transform: none;
+  }
+  /* Pulse rings only appear when motion is allowed (see the animations below). */
+  .facemap__pulse {
+    fill: none;
+    opacity: 0;
+    stroke: var(--white);
+    stroke-width: 2;
+    vector-effect: non-scaling-stroke;
+    transform-box: fill-box;
+    transform-origin: center;
+  }
+  @media (prefers-reduced-motion: no-preference) {
+    /* Draw the map once the photo has faded and settled in, so the drawing is seen. */
+    .js .facemap .map__line {
+      animation-delay: 1100ms;
+    }
+    .js .facemap .map__line:nth-of-type(2) { animation-delay: 1300ms; }
+    .js .facemap .map__line:nth-of-type(3) { animation-delay: 1500ms; }
+    .js .facemap .map__dot--0,
+    .js .facemap .map__label--0 { animation-delay: 1800ms; }
+    .js .facemap .map__dot--1,
+    .js .facemap .map__label--1 { animation-delay: 2000ms; }
+    .js .facemap .map__dot--2,
+    .js .facemap .map__label--2 { animation-delay: 2200ms; }
+    /* Then each dot sends out a soft ring, one after another. */
+    .facemap__pulse {
+      animation: pulse 2400ms ease-out 2600ms infinite;
+    }
+    .facemap__pulse--1 { animation-delay: 3400ms; }
+    .facemap__pulse--2 { animation-delay: 4200ms; }
   }
   @media (min-width: 900px) {
     .phero__in {
@@ -2171,6 +2235,12 @@
   .js .phero__pic img {
     animation: settle 1600ms var(--ease) 150ms both;
   }
+  .js .phero__pic .facemap {
+    animation: settle 1600ms var(--ease) 150ms both;
+  }
+  .js .phero__pic .facemap img {
+    animation: none;
+  }
 
   /* Answers and calendar details animate when they change. */
   .faq__list details[open] p {
@@ -2202,6 +2272,17 @@
       animation: settle 1600ms var(--ease) 150ms both, drift linear both;
       animation-timeline: auto, view();
       animation-range: normal, cover 0% cover 100%;
+    }
+    .js .phero__pic .facemap {
+      scale: 1.06;
+      animation: settle 1600ms var(--ease) 150ms both, drift linear both;
+      animation-timeline: auto, view();
+      animation-range: normal, cover 0% cover 100%;
+    }
+    .tile__photo .facemap img,
+    .js .phero__pic .facemap img {
+      scale: 1;
+      animation: none;
     }
   }
 }
@@ -2286,8 +2367,7 @@
   .flora {
     animation: sway 16s ease-in-out infinite alternate;
   }
-  .flora--br,
-  .flora--tr {
+  .flora--br {
     animation-delay: -6s;
   }
 }
@@ -2352,5 +2432,15 @@
 @keyframes appear {
   to {
     opacity: 1;
+  }
+}
+@keyframes pulse {
+  from {
+    opacity: 0.9;
+    transform: scale(1);
+  }
+  to {
+    opacity: 0;
+    transform: scale(3.2);
   }
 }

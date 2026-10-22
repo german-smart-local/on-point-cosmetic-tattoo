@@ -3,6 +3,7 @@ import { PHONE, PHONE_HREF } from "@/lib/links";
 import { BookLink } from "@/components/BookLink";
 import { Flora } from "@/components/Flora";
 import { Tile, type Texture } from "@/components/Tile";
+import { FaceMap, type FaceMapData } from "@/components/FaceMap";
 
 interface PageHeroProps {
   /** Two short lines; joined as one heading. */
@@ -12,9 +13,13 @@ interface PageHeroProps {
   imageAlt: string;
   /** Backing texture for the hero photo; each page gets its own. */
   texture?: Texture;
+  /** Mapping lines drawn over the photo, as on the homepage hero. */
+  map?: FaceMapData;
 }
 
-export function PageHero({ title, lead, image, imageAlt, texture = "linen" }: PageHeroProps) {
+export function PageHero({ title, lead, image, imageAlt, texture = "linen", map }: PageHeroProps) {
+  const photo = <Image src={image} alt={imageAlt} width={900} height={1200} priority sizes="(min-width: 900px) 34vw, 90vw" />;
+
   return (
     <section aria-labelledby="page-title" className="has-flora">
       <Flora at="bl" />
@@ -32,7 +37,7 @@ export function PageHero({ title, lead, image, imageAlt, texture = "linen" }: Pa
           </div>
         </div>
         <Tile className="phero__pic" texture={texture} shape="disc">
-          <Image src={image} alt={imageAlt} width={900} height={1200} priority sizes="(min-width: 900px) 34vw, 90vw" />
+          {map ? <FaceMap map={map}>{photo}</FaceMap> : photo}
         </Tile>
       </div>
     </section>

@@ -37,7 +37,7 @@ export function Header() {
     return () => window.removeEventListener("keydown", onKey);
   }, [open]);
 
-  // Services dropdown (desktop): opens on hover, click or keyboard; closes on Escape or a click outside.
+  // Services dropdown (desktop): opens on hover or keyboard focus; closes on Escape or a click outside.
   const [services, setServices] = useState(false);
   const menuRef = useRef<HTMLDivElement>(null);
   useEffect(() => {
@@ -63,7 +63,7 @@ export function Header() {
       <div className="wrap bar__in">
         <Link href={ROUTES.home} onClick={close} className="bar__logo" aria-label="On Point Cosmetic Tattoo Studio, home">
           <Image src="/images/arch-monogram.png" alt="" width={324} height={364} priority className="bar__mark" />
-          <Image src="/images/logo.png" alt="" width={470} height={80} priority className="bar__word" />
+          <Image src="/images/logo-nav.png" alt="" width={840} height={134} priority className="bar__word" />
         </Link>
 
         <nav className="bar__nav" aria-label="Main">
@@ -76,20 +76,17 @@ export function Header() {
             onMouseEnter={() => setServices(true)}
             onMouseLeave={() => setServices(false)}
           >
-            <button
-              type="button"
+            {/* Clicking "Services" goes to Brows; hover or keyboard focus opens the menu for the rest. */}
+            <Link
+              href={ROUTES.eyebrows}
               className="navmenu__btn"
               aria-expanded={services}
               aria-controls="services-menu"
-              onClick={(e) => {
-                // With a mouse the hover has already opened it, so a click must not shut it again;
-                // touch and keyboard (detail 0) toggle.
-                const mouse = e.detail > 0 && window.matchMedia("(hover: hover) and (pointer: fine)").matches;
-                setServices((v) => (mouse ? true : !v));
-              }}
+              onFocus={() => setServices(true)}
+              onClick={() => setServices(false)}
             >
               Services
-            </button>
+            </Link>
             <div id="services-menu" className="navmenu__panel">
               {SERVICE_LINKS.map(({ label, href, note }) => (
                 <Link

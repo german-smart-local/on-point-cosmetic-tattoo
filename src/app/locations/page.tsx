@@ -4,7 +4,6 @@ import Link from "next/link";
 import { PageHero } from "@/components/PageHero";
 import { GetInTouch } from "@/components/GetInTouch";
 import { ROUTES } from "@/lib/links";
-import { Flora } from "@/components/Flora";
 
 export const metadata: Metadata = {
   title: "Areas Near Us | On Point Cosmetic Tattoo Studio",
@@ -44,7 +43,6 @@ export default function LocationsPage() {
       />
 
       <section className="section on-white has-flora" aria-labelledby="areas-title">
-        <Flora at="tr" />
         <div className="wrap grid12">
           <h2 id="areas-title" className="t-head col-span-12 min-[900px]:col-span-6">
             Where clients come from

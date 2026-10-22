@@ -14,6 +14,19 @@ export default function LipTattoosPage() {
       heroLead="Lip liner, lip blend and full lip tattoo, with the outline mapped and the colour matched to your natural base, in Buderim on the Sunshine Coast."
       heroImage="/images/sub/lip-technique.jpg"
       heroAlt="Full lip tattoo in a warm coral tone"
+      heroMap={{
+        // The square frame shows the middle 1080px of this 1440px-wide photo.
+        view: [180, 0, 1080, 1080],
+        paths: [
+          "M180,306 C220,290 260,284 288,290 C360,306 450,352 540,376 C640,398 760,388 860,410 C1000,440 1120,490 1260,559",
+          "M180,753 C250,820 330,866 450,900 C560,930 640,945 700,940 C820,930 950,900 1080,850 C1150,820 1210,800 1260,779",
+        ],
+        markers: [
+          { label: "Cupid's bow", x: 288, y: 290, side: "right" },
+          { label: "Upper border", x: 860, y: 410 },
+          { label: "Lower border", x: 700, y: 940, side: "below" },
+        ],
+      }}
       mappingTitle="Lip line and colour"
       mappingParas={[
         "Lip borders and natural pigment can change over time, which is why careful mapping is essential before placing any colour. At On Point Cosmetic Tattoo Studio in Buderim, I provide lip tattoos for clients across the Sunshine Coast using structured planning and controlled application methods.",
