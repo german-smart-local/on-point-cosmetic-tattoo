@@ -7,6 +7,8 @@ import { Flora } from "@/components/Flora";
 
 type Status = "idle" | "sending" | "sent" | "failed";
 
+const EMAIL_RE = /^[^\s@]+@[^\s@]+\.[^\s@]+$/;
+
 /** Sends the enquiry to Lisa by email through /api/book (Resend). */
 export function GetInTouch({ title = "Book a consultation" }: { title?: string }) {
   const [status, setStatus] = useState<Status>("idle");
@@ -30,11 +32,16 @@ export function GetInTouch({ title = "Book a consultation" }: { title?: string }
 
     // Lisa needs a name and one way to reply; say which is missing, next to the field.
     const found: typeof errors = {};
+    const email = get("email");
+    // Same check as /api/book, so a mistyped email is caught here rather than failing to send.
+    const badEmail = Boolean(email) && !EMAIL_RE.test(email);
     if (!name) found.name = "Add your name so Lisa knows who to reply to.";
-    if (!get("phone") && !get("email")) found.contact = "Add a phone number or an email so Lisa can reply.";
+    if (!get("phone") && !email) found.contact = "Add a phone number or an email so Lisa can reply.";
+    else if (badEmail) found.contact = "Check the email address, it looks incomplete.";
     setErrors(found);
     if (found.name || found.contact) {
-      form.querySelector<HTMLInputElement>(found.name ? "#book-name" : "#book-phone")?.focus();
+      const first = found.name ? "#book-name" : badEmail ? "#book-email" : "#book-phone";
+      form.querySelector<HTMLInputElement>(first)?.focus();
       return;
     }
 

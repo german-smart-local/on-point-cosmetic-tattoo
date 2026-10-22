@@ -26,6 +26,7 @@ const COLUMNS = [
     title: "Studio",
     links: [
       { label: "About Lisa", href: ANCHORS.about },
+      { label: "Gallery", href: ROUTES.gallery },
       { label: "Reviews", href: ANCHORS.testimonials },
       { label: "Areas we serve", href: ROUTES.locations },
       { label: "Contact", href: ROUTES.contact },
@@ -99,7 +100,12 @@ export function Footer() {
         </div>
 
         <div className="foot__last">
-          <p>© 2026 On Point Cosmetic Tattoo Studio</p>
+          <p>
+            © {new Date().getFullYear()} On Point Cosmetic Tattoo Studio. Website by{" "}
+            <a href={EXTERNAL.smartLocal} target="_blank" rel="noopener" className="foot__credit">
+              Smart Local
+            </a>
+          </p>
           <p>Certified cosmetic tattoo artist. ABN 79 955 974 433</p>
         </div>
       </div>

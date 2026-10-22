@@ -5,6 +5,7 @@ export const metadata: Metadata = {
   title: "Eyeliner Tattooing on the Sunshine Coast | On Point Cosmetic Tattoo Studio",
   description:
     "Eyeliner tattoos in Buderim for clients across the Sunshine Coast — eyeliner enhancement and designer eyeliner using structured mapping and controlled application.",
+  alternates: { canonical: "/eyeliner-tattoos" },
 };
 
 export default function EyelinerTattoosPage() {

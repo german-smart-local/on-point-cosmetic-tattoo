@@ -4,28 +4,33 @@ import Link from "next/link";
 import { PageHero } from "@/components/PageHero";
 import { GetInTouch } from "@/components/GetInTouch";
 import { ROUTES } from "@/lib/links";
+import { areaHref } from "@/lib/areas";
 
 export const metadata: Metadata = {
   title: "Areas Near Us | On Point Cosmetic Tattoo Studio",
   description:
     "On Point Cosmetic Tattoo Studio operates from Buderim and welcomes clients from Buderim, Noosa, Caloundra and surrounding Sunshine Coast areas.",
+  alternates: { canonical: "/locations" },
 };
 
 const AREAS = [
   {
     name: "Buderim",
+    slug: "cosmetic-tattooing-buderim",
     image: "/images/sub/loc-noosa.jpg",
     alt: "Rainforest waterfall in the Buderim hinterland",
     text: "The studio is here. Buderim clients come in for eyebrow, eyeliner and lip tattoos, from first consultation to follow-up.",
   },
   {
     name: "Noosa",
+    slug: "cosmetic-tattooing-noosa",
     image: "/images/sub/loc-buderim.jpg",
     alt: "Clear water and rocks along the coast near Noosa",
     text: "Noosa clients make the drive down the coast for eyebrow, eyeliner and lip tattoos, with the consultation and design done first.",
   },
   {
     name: "Caloundra",
+    slug: "cosmetic-tattooing-caloundra",
     image: "/images/sub/loc-caloundra.jpg",
     alt: "Aerial view of Caloundra and the Pumicestone Passage",
     text: "Caloundra locals travel up to Buderim for eyebrow, eyeliner and lip tattoos, and for the follow-up six to eight weeks later.",
@@ -83,6 +88,9 @@ export default function LocationsPage() {
                       </Link>
                     </li>
                   </ul>
+                  <Link href={areaHref(a.slug)} className="btn mt-8">
+                    Cosmetic tattooing {a.name === "Buderim" ? "in" : "near"} {a.name}
+                  </Link>
                 </div>
               </div>
             </article>

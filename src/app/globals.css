@@ -2162,6 +2162,60 @@
       order: 2;
     }
   }
+  /* Suburb pages: rows set apart by space alone, the photo swapping sides from row to row. */
+  .area--plain {
+    border-top: 0;
+  }
+  @media (min-width: 900px) {
+    .area--flip .area__text {
+      grid-column: 8 / span 5;
+    }
+    .area--flip .area__pic {
+      grid-column: 1 / span 6;
+      order: 0;
+    }
+  }
+  .area-others {
+    padding-top: clamp(2rem, 3vw, 3rem);
+  }
+
+  /* ---------- Gallery ---------- */
+
+  /* Columns rather than a grid, so each photo keeps its own proportions. */
+  .gallery {
+    columns: 2;
+    column-gap: var(--gap);
+    margin-top: clamp(2rem, 4vw, 3.5rem);
+  }
+  .gallery > li {
+    break-inside: avoid;
+    margin-bottom: var(--gap);
+  }
+  .gallery__open {
+    display: block;
+    width: 100%;
+    padding: 0;
+    border: 0;
+    overflow: hidden;
+    border-radius: 1rem;
+    background: none;
+    cursor: zoom-in;
+  }
+  .gallery__open img {
+    width: 100%;
+    height: auto;
+    transition: transform 500ms var(--ease);
+  }
+  @media (hover: hover) and (pointer: fine) {
+    .gallery__open:hover img {
+      transform: scale(1.03);
+    }
+  }
+  @media (min-width: 900px) {
+    .gallery {
+      columns: 3;
+    }
+  }
 
   /* ---------- Footer ---------- */
 
@@ -2237,6 +2291,17 @@
     margin-top: 3rem;
     color: #bdb3a6;
     font-size: var(--fs-small);
+  }
+  .foot__credit {
+    color: var(--cream);
+    text-decoration: underline;
+    text-decoration-color: var(--gold);
+    text-underline-offset: 0.2em;
+  }
+  @media (hover: hover) and (pointer: fine) {
+    .foot__credit:hover {
+      color: var(--gold);
+    }
   }
   .foot :focus-visible {
     outline-color: var(--gold);

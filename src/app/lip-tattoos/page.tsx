@@ -5,6 +5,7 @@ export const metadata: Metadata = {
   title: "Lip Tattooing on the Sunshine Coast | On Point Cosmetic Tattoo Studio",
   description:
     "Lip tattoos in Buderim for clients across the Sunshine Coast — lip liner tattoo, lip blend tattoo and full lip tattoo using structured planning and controlled application.",
+  alternates: { canonical: "/lip-tattoos" },
 };
 
 export default function LipTattoosPage() {

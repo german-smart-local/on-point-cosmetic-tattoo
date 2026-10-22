@@ -1,3 +1,6 @@
+export const SITE_URL = "https://www.onpointcosmetictattoo.com.au";
+export const SITE_NAME = "On Point Cosmetic Tattoo Studio";
+
 export const PHONE = "0414 502 807";
 export const PHONE_HREF = "tel:0414502807";
 export const EMAIL = "onpointcosmetictattoo@gmail.com";
@@ -10,8 +13,21 @@ export const EXTERNAL = {
   localsearch:
     "https://www.localsearch.com.au/profile/on-point-cosmetic-tattoo-studio/buderim-qld/MaKp",
   google: "https://maps.app.goo.gl/8NpoKzz7PLJGnELG6",
-  maps: "https://maps.app.goo.gl/UoricJLVFQzHepTm7",
+  // Address links open the studio's own Google Business Profile (reviews, directions), not the suburb.
+  maps: "https://maps.app.goo.gl/8NpoKzz7PLJGnELG6",
+  // The Google Business Profile's permanent address (its CID), for structured data.
+  googleProfile: "https://www.google.com/maps?cid=14076510576280326029",
+  // The agency that built the site, credited in the footer.
+  smartLocal: "https://smart-local.com.au/",
 } as const;
+
+// The studio's verified listings elsewhere, for structured data (sameAs).
+export const CITATIONS = [
+  EXTERNAL.googleProfile,
+  EXTERNAL.facebook,
+  EXTERNAL.instagram,
+  EXTERNAL.localsearch,
+];
 
 // Internal routes (built locally)
 export const ROUTES = {
@@ -24,6 +40,7 @@ export const ROUTES = {
   // Booking buttons land on the message form, even when clicked on the Contact page itself.
   book: "/contact#book",
   locations: "/locations",
+  gallery: "/gallery",
 } as const;
 
 // Homepage section anchors (work from any page via "/#...")
@@ -55,6 +72,7 @@ export const NAV_LINKS = [
   { label: "Eyeliner", href: ROUTES.eyeliners },
   { label: "Lips", href: ROUTES.lips },
   { label: "Aftercare", href: ROUTES.afterCare },
+  { label: "Gallery", href: ROUTES.gallery },
   { label: "About Lisa", href: ANCHORS.about },
 ];
 

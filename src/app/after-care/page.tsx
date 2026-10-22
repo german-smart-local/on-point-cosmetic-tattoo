@@ -8,6 +8,7 @@ export const metadata: Metadata = {
   title: "After-Care Guide | On Point Cosmetic Tattoo Studio",
   description:
     "Pre and post-procedure care guidance for cosmetic tattoo treatments at On Point Cosmetic Tattoo Studio in Buderim, Sunshine Coast.",
+  alternates: { canonical: "/after-care" },
 };
 
 export default function AfterCarePage() {
