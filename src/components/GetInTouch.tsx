@@ -4,18 +4,19 @@ import { useState } from "react";
 import { EMAIL, HOURS, PHONE, PHONE_HREF } from "@/lib/links";
 import { Flora } from "@/components/Flora";
 
-/**
- * There is no form backend, so sending opens the visitor's email app with the enquiry written out
- * to the studio's address.
- */
+type Status = "idle" | "sending" | "sent" | "failed";
+
+/** Sends the enquiry to Lisa by email through /api/book (Resend). */
 export function GetInTouch({ title = "Book a consultation" }: { title?: string }) {
-  const [opened, setOpened] = useState(false);
+  const [status, setStatus] = useState<Status>("idle");
   const [treatment, setTreatment] = useState("");
   const [errors, setErrors] = useState<{ name?: string; contact?: string }>({});
 
-  function handleSubmit(e: React.FormEvent<HTMLFormElement>) {
+  async function handleSubmit(e: React.FormEvent<HTMLFormElement>) {
     e.preventDefault();
-    const data = new FormData(e.currentTarget);
+    if (status === "sending") return;
+    const form = e.currentTarget;
+    const data = new FormData(form);
     const get = (k: string) => String(data.get(k) ?? "").trim();
     const name = get("name");
 
@@ -25,24 +26,31 @@ export function GetInTouch({ title = "Book a consultation" }: { title?: string }
     if (!get("phone") && !get("email")) found.contact = "Add a phone number or an email so Lisa can reply.";
     setErrors(found);
     if (found.name || found.contact) {
-      e.currentTarget.querySelector<HTMLInputElement>(found.name ? "#book-name" : "#book-phone")?.focus();
+      form.querySelector<HTMLInputElement>(found.name ? "#book-name" : "#book-phone")?.focus();
       return;
     }
 
-    const body = [
-      "Hi Lisa,",
-      "",
-      `I'd like to book a consultation${treatment ? ` for ${treatment.toLowerCase()}` : ""}.`,
-      "",
-      get("message"),
-      "",
-      name,
-      get("phone"),
-      get("email"),
-    ].join("\n");
-    const subject = `Consultation enquiry${name ? ` from ${name}` : ""}`;
-    window.location.href = `mailto:${EMAIL}?subject=${encodeURIComponent(subject)}&body=${encodeURIComponent(body)}`;
-    setOpened(true);
+    setStatus("sending");
+    try {
+      const res = await fetch("/api/book", {
+        method: "POST",
+        headers: { "Content-Type": "application/json" },
+        body: JSON.stringify({
+          name,
+          phone: get("phone"),
+          email: get("email"),
+          treatment,
+          message: get("message"),
+          website: get("website"),
+        }),
+      });
+      if (!res.ok) throw new Error(String(res.status));
+      setStatus("sent");
+      form.reset();
+      setTreatment("");
+    } catch {
+      setStatus("failed");
+    }
   }
 
   return (
@@ -142,13 +150,20 @@ export function GetInTouch({ title = "Book a consultation" }: { title?: string }
             <label htmlFor="book-message">Message</label>
             <textarea id="book-message" name="message" />
           </div>
-          <button type="submit" className="btn btn--block">
-            Send to Lisa
+          {/* Spam trap: hidden from people and screen readers, so only bots fill it in. */}
+          <div className="book__trap" aria-hidden>
+            <label htmlFor="book-website">Website</label>
+            <input id="book-website" name="website" type="text" tabIndex={-1} autoComplete="off" />
+          </div>
+          <button type="submit" className="btn btn--block" disabled={status === "sending"}>
+            {status === "sending" ? "Sending…" : "Send to Lisa"}
           </button>
           <p className="book__note" aria-live="polite">
-            {opened
-              ? `Your email app should have opened with the message. If it didn't, write to ${EMAIL}.`
-              : "Sending opens your email app with the message ready to go."}
+            {status === "sent"
+              ? "Thanks, your message is with Lisa. She'll be in touch soon."
+              : status === "failed"
+                ? `That didn't send. Please try again, call ${PHONE} or email ${EMAIL}.`
+                : "Lisa replies by phone or email, usually within a day."}
           </p>
         </form>
       </div>

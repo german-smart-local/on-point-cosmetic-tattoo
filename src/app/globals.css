@@ -1782,6 +1782,18 @@
   .book__form .btn {
     margin-top: 0.5rem;
   }
+  .book__form .btn:disabled {
+    opacity: 0.6;
+    cursor: progress;
+  }
+  /* Spam-trap field: off screen rather than display:none, which some bots skip. */
+  .book__trap {
+    position: absolute;
+    left: -9999px;
+    width: 1px;
+    height: 1px;
+    overflow: hidden;
+  }
   .book__note {
     color: var(--ink-soft);
     font-size: var(--fs-small);

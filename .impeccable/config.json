@@ -1,0 +1,14 @@
+{
+  "detector": {
+    "ignoreRules": [],
+    "ignoreFiles": [],
+    "ignoreValues": [
+      {
+        "rule": "overused-font",
+        "value": "arial",
+        "createdAt": "2026-10-22T05:59:41.420Z",
+        "reason": "Claude: Arial is the web-safe fallback in the booking notification email (src/app/api/book/route.ts); email clients can't load web fonts"
+      }
+    ]
+  }
+}
