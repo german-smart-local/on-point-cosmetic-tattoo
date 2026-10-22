@@ -47,7 +47,8 @@ const PROMISES = [
 
 export function ServicePage(data: ServicePageData) {
   return (
-    <>
+    // Photos on this page stay still on hover (see .still-photos in globals.css).
+    <div className="still-photos">
       <PageHero
         title={data.heroTitle}
         lead={data.heroLead}
@@ -114,6 +115,6 @@ export function ServicePage(data: ServicePageData) {
 
       <Faq title="Your questions" items={data.faq} />
       <GetInTouch />
-    </>
+    </div>
   );
 }

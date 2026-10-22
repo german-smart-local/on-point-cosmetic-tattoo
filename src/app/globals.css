@@ -1944,6 +1944,18 @@
     }
   }
 
+  /* Treatment, aftercare and contact pages: photos don't grow on hover. The wrapper adds no box. */
+  .still-photos {
+    display: contents;
+  }
+  @media (hover: hover) and (pointer: fine) {
+    .still-photos .tile:hover .tile__photo img,
+    .still-photos .tile:hover .tile__photo .facemap,
+    .still-photos .work__open:hover img {
+      transform: none;
+    }
+  }
+
   .viewer {
     position: fixed;
     inset: 0;

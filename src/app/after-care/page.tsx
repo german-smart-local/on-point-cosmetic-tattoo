@@ -12,7 +12,8 @@ export const metadata: Metadata = {
 
 export default function AfterCarePage() {
   return (
-    <>
+    // Photos on this page stay still on hover (see .still-photos in globals.css).
+    <div className="still-photos">
       <PageHero
         title={["Your aftercare", "guide"]}
         lead="What to do before and after your cosmetic tattoo, so it heals well and the colour settles the way it was planned."
@@ -38,6 +39,6 @@ export default function AfterCarePage() {
       />
 
       <GetInTouch />
-    </>
+    </div>
   );
 }

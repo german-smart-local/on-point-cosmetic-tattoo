@@ -15,7 +15,8 @@ export const metadata: Metadata = {
 
 export default function ContactPage() {
   return (
-    <>
+    // Photos on this page stay still on hover (see .still-photos in globals.css).
+    <div className="still-photos">
       <PageHero
         title={["Talk to Lisa", "before you book"]}
         lead="Ask about availability, preparation or which technique suits you. Every treatment starts with a consultation in the Buderim studio."
@@ -93,6 +94,6 @@ export default function ContactPage() {
           </div>
         </div>
       </section>
-    </>
+    </div>
   );
 }
