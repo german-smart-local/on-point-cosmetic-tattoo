@@ -1786,6 +1786,44 @@
     opacity: 0.6;
     cursor: progress;
   }
+  /* Shown in place of the form once the enquiry has gone through. */
+  .book__sent {
+    align-content: center;
+    justify-items: start;
+    gap: 1rem;
+    min-height: 22rem;
+  }
+  .book__sent h3:focus {
+    outline: none;
+  }
+  .book__sent p {
+    max-width: 30rem;
+    color: var(--ink-soft);
+  }
+  .book__sent .btn {
+    margin-top: 0.75rem;
+  }
+  .book__tick {
+    display: grid;
+    place-items: center;
+    width: 3.5rem;
+    height: 3.5rem;
+    border-radius: 50%;
+    background: var(--gold);
+    color: var(--white);
+  }
+  .book__tick svg {
+    width: 1.6rem;
+    height: 1.6rem;
+  }
+  @media (prefers-reduced-motion: no-preference) {
+    .book__sent > * {
+      animation: rise-in 500ms var(--ease) both;
+    }
+    .book__sent > :nth-child(2) { animation-delay: 80ms; }
+    .book__sent > :nth-child(3) { animation-delay: 160ms; }
+    .book__sent > :nth-child(4) { animation-delay: 240ms; }
+  }
   /* Spam-trap field: off screen rather than display:none, which some bots skip. */
   .book__trap {
     position: absolute;

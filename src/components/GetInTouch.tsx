@@ -1,6 +1,7 @@
 "use client";
 
-import { useState } from "react";
+import { useEffect, useRef, useState } from "react";
+import { Check } from "lucide-react";
 import { EMAIL, HOURS, PHONE, PHONE_HREF } from "@/lib/links";
 import { Flora } from "@/components/Flora";
 
@@ -11,6 +12,13 @@ export function GetInTouch({ title = "Book a consultation" }: { title?: string }
   const [status, setStatus] = useState<Status>("idle");
   const [treatment, setTreatment] = useState("");
   const [errors, setErrors] = useState<{ name?: string; contact?: string }>({});
+  const [sentTo, setSentTo] = useState("");
+  const sentRef = useRef<HTMLHeadingElement>(null);
+
+  // The form is swapped for the success panel; move focus there so it is read out.
+  useEffect(() => {
+    if (status === "sent") sentRef.current?.focus();
+  }, [status]);
 
   async function handleSubmit(e: React.FormEvent<HTMLFormElement>) {
     e.preventDefault();
@@ -45,8 +53,8 @@ export function GetInTouch({ title = "Book a consultation" }: { title?: string }
         }),
       });
       if (!res.ok) throw new Error(String(res.status));
+      setSentTo(name.split(" ")[0]);
       setStatus("sent");
-      form.reset();
       setTreatment("");
     } catch {
       setStatus("failed");
@@ -80,6 +88,27 @@ export function GetInTouch({ title = "Book a consultation" }: { title?: string }
           </dl>
         </div>
 
+        {status === "sent" ? (
+          <div className="book__form book__sent">
+            <span className="book__tick" aria-hidden>
+              <Check strokeWidth={2.25} />
+            </span>
+            <h3 ref={sentRef} tabIndex={-1} className="t-h3 font-serif">
+              Message sent{sentTo ? `, thank you ${sentTo}` : ""}
+            </h3>
+            <p>
+              Lisa has your enquiry and will be in touch by phone or email, usually within a day. If
+              it&apos;s urgent, call{" "}
+              <a href={PHONE_HREF} className="link">
+                {PHONE}
+              </a>
+              .
+            </p>
+            <button type="button" className="btn" onClick={() => setStatus("idle")}>
+              Send another message
+            </button>
+          </div>
+        ) : (
         <form className="book__form" onSubmit={handleSubmit} noValidate>
           <div className="pair">
             <div>
@@ -159,13 +188,12 @@ export function GetInTouch({ title = "Book a consultation" }: { title?: string }
             {status === "sending" ? "Sending…" : "Send to Lisa"}
           </button>
           <p className="book__note" aria-live="polite">
-            {status === "sent"
-              ? "Thanks, your message is with Lisa. She'll be in touch soon."
-              : status === "failed"
-                ? `That didn't send. Please try again, call ${PHONE} or email ${EMAIL}.`
-                : "Lisa replies by phone or email, usually within a day."}
+            {status === "failed"
+              ? `That didn't send. Please try again, call ${PHONE} or email ${EMAIL}.`
+              : "Lisa replies by phone or email, usually within a day."}
           </p>
         </form>
+        )}
       </div>
     </section>
   );
