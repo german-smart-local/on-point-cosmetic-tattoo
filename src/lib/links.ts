@@ -1,4 +1,4 @@
-export const SITE_URL = "https://www.onpointcosmetictattoo.com.au";
+export const SITE_URL = "https://onpointcosmetictattoo.com.au";
 export const SITE_NAME = "On Point Cosmetic Tattoo Studio";
 
 export const PHONE = "0414 502 807";
