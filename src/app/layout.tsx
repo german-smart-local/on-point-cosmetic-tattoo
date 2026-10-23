@@ -9,6 +9,7 @@ import { Reveals } from "@/components/Reveals";
 import { CITATIONS, EMAIL, EXTERNAL, PHONE, SITE_NAME, SITE_URL } from "@/lib/links";
 
 const TELEPHONE = `+61 ${PHONE.slice(1)}`;
+const GTM_ID = "GTM-K8T9RZS4";
 
 // Structured data for Google: the website, the organisation behind it and the studio as a local business,
 // tied together by @id. Kept in step with the footer (phone, email, hours, profiles).
@@ -135,6 +136,16 @@ export default function RootLayout({
   return (
     <html lang="en-AU" className={`${bodoni.variable} ${jost.variable}`} suppressHydrationWarning>
       <head>
+        {/* Google Tag Manager: as high in <head> as possible */}
+        <script
+          dangerouslySetInnerHTML={{
+            __html: `(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
+'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
+})(window,document,'script','dataLayer','${GTM_ID}');`,
+          }}
+        />
         {/* The hero's brow map only hides its lines (to draw them) once this class is set.
             Opening or reloading a page always starts at the top (no remembered scroll position);
             links to a section such as /contact#book still land on that section. */}
@@ -146,6 +157,15 @@ export default function RootLayout({
         />
       </head>
       <body>
+        {/* Google Tag Manager (noscript): immediately after opening <body> */}
+        <noscript>
+          <iframe
+            src={`https://www.googletagmanager.com/ns.html?id=${GTM_ID}`}
+            height="0"
+            width="0"
+            style={{ display: "none", visibility: "hidden" }}
+          />
+        </noscript>
         <script
           type="application/ld+json"
           dangerouslySetInnerHTML={{ __html: JSON.stringify(JSON_LD).replace(/</g, "\\u003c") }}
@@ -155,8 +175,8 @@ export default function RootLayout({
         <Footer />
         <ActionBar />
         <Reveals />
+        <GoogleAnalytics gaId="G-BN7Q60GFKW" />
       </body>
-      <GoogleAnalytics gaId="G-BN7Q60GFKW" />
     </html>
   );
 }
