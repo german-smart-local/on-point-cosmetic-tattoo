@@ -47,3 +47,6 @@ next-env.d.ts
 
 # Local temp files
 temp/
+
+# design-taste-frontend skill working files (screenshots, inspector reports)
+.taste-skill/

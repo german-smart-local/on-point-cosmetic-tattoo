@@ -12,6 +12,17 @@ const eslintConfig = defineConfig([
     "out/**",
     "build/**",
     "next-env.d.ts",
+    // AI agent tooling and skills, not site code:
+    ".claude/**",
+    ".agents/**",
+    ".codex/**",
+    ".cursor/**",
+    ".gemini/**",
+    ".opencode/**",
+    ".windsurf/**",
+    ".github/skills/**",
+    ".impeccable/**",
+    ".taste-skill/**",
   ]),
 ]);
 

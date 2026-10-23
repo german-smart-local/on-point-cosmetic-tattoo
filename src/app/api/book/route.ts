@@ -1,13 +1,14 @@
 // Sends a consultation enquiry from the booking form (src/components/GetInTouch.tsx) through Resend.
 // Needs RESEND_API_KEY, CONTACT_FROM and CONTACT_TO set in the environment (.env.local / Vercel).
+// The email itself is designed in src/lib/bookingEmail.ts.
+
+import { renderBookingEmail } from "@/lib/bookingEmail";
+import { SITE_URL } from "@/lib/links";
 
 const LIMITS = { name: 100, phone: 40, email: 200, treatment: 40, message: 4000 } as const;
 type Field = keyof typeof LIMITS;
 
 const EMAIL_RE = /^[^\s@]+@[^\s@]+\.[^\s@]+$/;
-
-const escapeHtml = (s: string) =>
-  s.replace(/[&<>"']/g, (c) => ({ "&": "&amp;", "<": "&lt;", ">": "&gt;", '"': "&quot;", "'": "&#39;" })[c] ?? c);
 
 export async function POST(request: Request) {
   const key = process.env.RESEND_API_KEY;
@@ -44,22 +45,7 @@ export async function POST(request: Request) {
     return Response.json({ error: "invalid" }, { status: 400 });
   }
 
-  const rows: [string, string][] = [
-    ["Name", f.name],
-    ["Phone", f.phone],
-    ["Email", f.email],
-    ["Treatment", f.treatment || "Not sure yet"],
-  ];
-  const text = [...rows.filter(([, v]) => v).map(([k, v]) => `${k}: ${v}`), "", f.message].join("\n");
-  const html = `
-    <h2 style="font-family:Georgia,serif;font-weight:normal">New consultation enquiry</h2>
-    <table style="font-family:Arial,sans-serif;font-size:15px;border-collapse:collapse">
-      ${rows
-        .filter(([, v]) => v)
-        .map(([k, v]) => `<tr><td style="padding:4px 16px 4px 0;color:#777">${k}</td><td style="padding:4px 0">${escapeHtml(v)}</td></tr>`)
-        .join("")}
-    </table>
-    ${f.message ? `<p style="font-family:Arial,sans-serif;font-size:15px;white-space:pre-wrap">${escapeHtml(f.message)}</p>` : ""}`;
+  const { subject, html, text } = renderBookingEmail(f, SITE_URL);
 
   const res = await fetch("https://api.resend.com/emails", {
     method: "POST",
@@ -69,7 +55,7 @@ export async function POST(request: Request) {
       to: to.split(",").map((s) => s.trim()),
       // Replying in the inbox goes straight to the visitor when they left an email.
       ...(f.email ? { reply_to: f.email } : {}),
-      subject: `Consultation enquiry from ${f.name}${f.treatment ? ` (${f.treatment})` : ""}`,
+      subject,
       text,
       html,
     }),

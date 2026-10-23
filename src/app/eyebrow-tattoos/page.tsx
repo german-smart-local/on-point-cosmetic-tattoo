@@ -5,6 +5,7 @@ export const metadata: Metadata = {
   title: "Eyebrow Tattooing on the Sunshine Coast | On Point Cosmetic Tattoo Studio",
   description:
     "Eyebrow tattoos in Buderim for clients across the Sunshine Coast — feather touch brows, microblading, nano realism hair strokes, powder and combination brows.",
+  alternates: { canonical: "/eyebrow-tattoos" },
 };
 
 export default function EyebrowTattoosPage() {

@@ -11,6 +11,7 @@ export const metadata: Metadata = {
   title: "Contact Me Today | On Point Cosmetic Tattoo Studio",
   description:
     "Contact On Point Cosmetic Tattoo Studio in Buderim to arrange your cosmetic tattoo consultation. Call 0414 502 807 or send a message.",
+  alternates: { canonical: "/contact" },
 };
 
 export default function ContactPage() {

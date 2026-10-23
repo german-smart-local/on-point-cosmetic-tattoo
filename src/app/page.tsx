@@ -1,3 +1,4 @@
+import type { Metadata } from "next";
 import { Hero } from "@/components/Hero";
 import { Services } from "@/components/Services";
 import { HealingCalendar } from "@/components/HealingCalendar";
@@ -5,6 +6,10 @@ import { Artist } from "@/components/Artist";
 import { Testimonials } from "@/components/Testimonials";
 import { Faq, type FaqItem } from "@/components/Faq";
 import { GetInTouch } from "@/components/GetInTouch";
+
+export const metadata: Metadata = {
+  alternates: { canonical: "/" },
+};
 
 const FAQ: FaqItem[] = [
   {

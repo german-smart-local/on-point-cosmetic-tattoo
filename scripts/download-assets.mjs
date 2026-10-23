@@ -31,7 +31,7 @@ const assets = [
   [IMG + "200-1920w.png", "seo/og-image.png"],
 ];
 
-async function download([url, dest], i) {
+async function download([url, dest]) {
   const out = join("public", dest);
   await mkdir(join("public", dest.split("/").slice(0, -1).join("/")), { recursive: true });
   try {
@@ -48,6 +48,6 @@ async function download([url, dest], i) {
 // batched 4 at a time
 const batchSize = 4;
 for (let i = 0; i < assets.length; i += batchSize) {
-  await Promise.all(assets.slice(i, i + batchSize).map((a, j) => download(a, i + j)));
+  await Promise.all(assets.slice(i, i + batchSize).map((a) => download(a)));
 }
 console.log("Done.");
