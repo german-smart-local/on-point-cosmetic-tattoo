@@ -1,10 +1,11 @@
 import type { Metadata } from "next";
 import Link from "next/link";
+import { notFound } from "next/navigation";
 import { PageHero } from "@/components/PageHero";
 import { GetInTouch } from "@/components/GetInTouch";
 import { Flora } from "@/components/Flora";
 import { GalleryGrid, type GalleryPhoto } from "@/components/GalleryGrid";
-import { ROUTES } from "@/lib/links";
+import { GALLERY_ENABLED, ROUTES } from "@/lib/links";
 
 export const metadata: Metadata = {
   title: "Gallery | On Point Cosmetic Tattoo Studio",
@@ -76,6 +77,8 @@ const SECTIONS: { id: string; title: string; href: string; linkLabel: string; ph
 ];
 
 export default function GalleryPage() {
+  if (!GALLERY_ENABLED) notFound();
+
   return (
     <>
       <PageHero

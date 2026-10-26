@@ -1,6 +1,6 @@
 import type { Metadata } from "next";
 import Link from "next/link";
-import { ROUTES } from "@/lib/links";
+import { GALLERY_ENABLED, ROUTES } from "@/lib/links";
 import { PageHero } from "@/components/PageHero";
 
 export const metadata: Metadata = {
@@ -13,7 +13,7 @@ const PAGES = [
   { label: "Eyeliner tattoos", href: ROUTES.eyeliners },
   { label: "Lip tattoos", href: ROUTES.lips },
   { label: "Aftercare guide", href: ROUTES.afterCare },
-  { label: "Gallery", href: ROUTES.gallery },
+  ...(GALLERY_ENABLED ? [{ label: "Gallery", href: ROUTES.gallery }] : []),
   { label: "Homepage", href: ROUTES.home },
 ];
 

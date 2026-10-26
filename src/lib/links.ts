@@ -43,6 +43,11 @@ export const ROUTES = {
   gallery: "/gallery",
 } as const;
 
+// Gallery is taken down at the client's request until further notice: /gallery 404s and
+// every link to it is hidden. Flip back to true to restore it.
+export const GALLERY_ENABLED = false;
+const GALLERY_LINK = GALLERY_ENABLED ? [{ label: "Gallery", href: ROUTES.gallery }] : [];
+
 // Homepage section anchors (work from any page via "/#...")
 export const ANCHORS = {
   top: "/#top",
@@ -72,7 +77,7 @@ export const NAV_LINKS = [
   { label: "Eyeliner", href: ROUTES.eyeliners },
   { label: "Lips", href: ROUTES.lips },
   { label: "Aftercare", href: ROUTES.afterCare },
-  { label: "Gallery", href: ROUTES.gallery },
+  ...GALLERY_LINK,
   { label: "About Lisa", href: ANCHORS.about },
 ];
 

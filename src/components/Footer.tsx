@@ -5,6 +5,7 @@ import {
   EMAIL,
   EMAIL_HREF,
   EXTERNAL,
+  GALLERY_ENABLED,
   HOURS,
   PHONE,
   PHONE_HREF,
@@ -26,7 +27,7 @@ const COLUMNS = [
     title: "Studio",
     links: [
       { label: "About Lisa", href: ANCHORS.about },
-      { label: "Gallery", href: ROUTES.gallery },
+      ...(GALLERY_ENABLED ? [{ label: "Gallery", href: ROUTES.gallery }] : []),
       { label: "Reviews", href: ANCHORS.testimonials },
       { label: "Areas we serve", href: ROUTES.locations },
       { label: "Contact", href: ROUTES.contact },
