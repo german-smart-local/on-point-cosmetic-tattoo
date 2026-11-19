@@ -9,6 +9,7 @@ import { WorkStrip } from "@/components/WorkStrip";
 import { TechniquePicker } from "@/components/TechniquePicker";
 import { Flora } from "@/components/Flora";
 import { Tile } from "@/components/Tile";
+import { StudioVisit } from "@/components/StudioVisit";
 import { BROW_AREAS, browAreaHref, browAreaPhrase } from "@/lib/browAreas";
 import { EXTERNAL, PHONE, PHONE_HREF, ROUTES, SITE_NAME, SITE_URL } from "@/lib/links";
 
@@ -149,7 +150,7 @@ export default async function BrowAreaPage({ params }: PageProps<"/eyebrow-tatto
 
       <Faq title={`Eyebrow tattoos ${browAreaPhrase(area)}: your questions`} items={area.faq} />
 
-      <section className="section on-white" aria-label="Eyebrow tattoos in nearby suburbs">
+      <section className="section" aria-label="Eyebrow tattoos in nearby suburbs">
         <div className="wrap">
           <p className="area-others">
             Also welcoming brow clients{" "}
@@ -166,6 +167,8 @@ export default async function BrowAreaPage({ params }: PageProps<"/eyebrow-tatto
           </p>
         </div>
       </section>
+
+      <StudioVisit from={area.name} />
 
       <GetInTouch />
     </div>
