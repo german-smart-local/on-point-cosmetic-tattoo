@@ -73,6 +73,9 @@ const JSON_LD = {
         { "@type": "City", name: "Buderim" },
         { "@type": "City", name: "Noosa" },
         { "@type": "City", name: "Caloundra" },
+        { "@type": "City", name: "Maroochydore" },
+        { "@type": "City", name: "Mooloolaba" },
+        { "@type": "City", name: "Alexandra Headland" },
         { "@type": "AdministrativeArea", name: "Sunshine Coast" },
       ],
       openingHoursSpecification: [

@@ -1,11 +1,13 @@
 import type { MetadataRoute } from "next";
 import { GALLERY_ENABLED, ROUTES, SITE_URL } from "@/lib/links";
 import { AREAS, areaHref } from "@/lib/areas";
+import { BROW_AREAS, browAreaHref } from "@/lib/browAreas";
 
 // Every page route; /contact#book is the same page as /contact, so it is left out.
 const PAGES = [
   ROUTES.home,
   ROUTES.eyebrows,
+  ...BROW_AREAS.map((a) => browAreaHref(a.slug)),
   ROUTES.eyeliners,
   ROUTES.lips,
   ROUTES.afterCare,

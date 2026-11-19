@@ -37,6 +37,8 @@ export interface ServicePageData {
   workTitle: string;
   workImages: { src: string; alt: string; caption: string }[];
   faq: FaqItem[];
+  /** Suburb landing pages for this treatment, linked under the work photos. */
+  areaLinks?: { label: string; href: string }[];
 }
 
 const PROMISES = [
@@ -112,6 +114,23 @@ export function ServicePage(data: ServicePageData) {
       </section>
 
       <WorkStrip title={data.workTitle} images={data.workImages} />
+
+      {data.areaLinks && data.areaLinks.length > 0 && (
+        <div className="wrap">
+          <p className="area-others">
+            By suburb:{" "}
+            {data.areaLinks.map((a, i, all) => (
+              <span key={a.href}>
+                {i > 0 && (i === all.length - 1 ? " and " : ", ")}
+                <Link href={a.href} className="link">
+                  {a.label}
+                </Link>
+              </span>
+            ))}
+            .
+          </p>
+        </div>
+      )}
 
       <Faq title="Your questions" items={data.faq} />
       <GetInTouch />

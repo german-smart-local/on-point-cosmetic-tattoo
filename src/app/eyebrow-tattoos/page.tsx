@@ -1,5 +1,6 @@
 import type { Metadata } from "next";
 import { ServicePage } from "@/components/ServicePage";
+import { BROW_AREAS, browAreaHref, browAreaPhrase } from "@/lib/browAreas";
 
 export const metadata: Metadata = {
   title: "Eyebrow Tattooing on the Sunshine Coast | On Point Cosmetic Tattoo Studio",
@@ -33,6 +34,7 @@ export default function EyebrowTattoosPage() {
       designImage="/images/sub/eb-design.jpg"
       designAlt="Freshly tattooed hair-stroke brows, seen from above"
       treatment="brows"
+      areaLinks={BROW_AREAS.map((a) => ({ label: `Eyebrow tattoos ${browAreaPhrase(a)}`, href: browAreaHref(a.slug) }))}
       techniqueTitle="Choosing the technique"
       techniqueParas={[
         "Different eyebrow tattoo techniques create different visual effects, so I explain each method clearly before proceeding. Hair stroke techniques, such as nano realism and microblading, create fine lines through manual or machine application. Powder brows use a soft shading method, while combination brows blend hair strokes with shading for added structure.",

@@ -5,6 +5,7 @@ import { PageHero } from "@/components/PageHero";
 import { GetInTouch } from "@/components/GetInTouch";
 import { ROUTES } from "@/lib/links";
 import { areaHref } from "@/lib/areas";
+import { BROW_AREAS, browAreaHref, browAreaPhrase } from "@/lib/browAreas";
 
 export const metadata: Metadata = {
   title: "Areas Near Us | On Point Cosmetic Tattoo Studio",
@@ -95,6 +96,20 @@ export default function LocationsPage() {
               </div>
             </article>
           ))}
+        </div>
+        <div className="wrap">
+          <p className="area-others">
+            Eyebrow tattoos by suburb:{" "}
+            {BROW_AREAS.map((a, i) => (
+              <span key={a.slug}>
+                {i > 0 && (i === BROW_AREAS.length - 1 ? " and " : ", ")}
+                <Link href={browAreaHref(a.slug)} className="link">
+                  {browAreaPhrase(a)}
+                </Link>
+              </span>
+            ))}
+            .
+          </p>
         </div>
       </section>
 
