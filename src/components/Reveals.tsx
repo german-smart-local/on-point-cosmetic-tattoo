@@ -34,6 +34,10 @@ const SKIP = ".hero, dialog, .bar, .actionbar";
  * Section reveals: each section's blocks rise into place, staggered, once, as the section scrolls in.
  * Hidden states only exist under html.js and prefers-reduced-motion: no-preference (globals.css),
  * so without script or with reduced motion the page is simply there.
+ *
+ * Nothing is hidden until the visitor first scrolls. A page that is never scrolled (full-page
+ * screenshots, link previews, crawlers, printing) shows all of its content, instead of leaving every
+ * block below the first screen at opacity 0 waiting for a scroll that never comes.
  */
 export function Reveals() {
   const pathname = usePathname();
@@ -41,54 +45,69 @@ export function Reveals() {
   useEffect(() => {
     if (window.matchMedia("(prefers-reduced-motion: reduce)").matches) return;
 
-    const sections = document.querySelectorAll<HTMLElement>("main section, footer");
+    let io: IntersectionObserver | null = null;
     const targets: HTMLElement[] = [];
 
-    sections.forEach((section) => {
-      if (section.closest(SKIP)) return;
-      const blocks = Array.from(section.querySelectorAll<HTMLElement>(BLOCKS)).filter((el) => {
-        if (el.closest(SKIP)) return false;
-        const parent = el.parentElement?.closest(BLOCKS);
-        return !parent || !section.contains(parent);
-      });
-      blocks.forEach((el) => {
-        if (el.classList.contains("reveal")) return;
-        // Already on screen when the script runs: leave it, so nothing visible blinks out.
-        if (el.getBoundingClientRect().top < window.innerHeight) return;
-        el.classList.add("reveal");
-        targets.push(el);
-      });
-    });
+    // Printing shows everything still waiting to arrive.
+    const showAll = () => targets.forEach((el) => el.classList.add("is-in"));
+    window.addEventListener("beforeprint", showAll);
 
-    if (!("IntersectionObserver" in window)) {
-      targets.forEach((el) => el.classList.add("is-in"));
-      return;
-    }
+    const arm = () => {
+      const sections = document.querySelectorAll<HTMLElement>("main section, footer");
 
-    const io = new IntersectionObserver(
-      (entries) => {
-        // Blocks that arrive together are staggered in reading order.
-        const arriving = entries
-          .filter((e) => e.isIntersecting)
-          .map((e) => e.target as HTMLElement)
-          .sort((a, b) => (a.compareDocumentPosition(b) & Node.DOCUMENT_POSITION_FOLLOWING ? -1 : 1));
-        arriving.forEach((el, i) => {
-          const step = Math.min(i, 6);
-          el.style.setProperty("--reveal-i", String(step));
-          el.classList.add("is-in");
-          io.unobserve(el);
-          // Once it has landed, hand the element back to its own hover and press transitions.
-          window.setTimeout(() => {
-            el.classList.remove("reveal", "is-in");
-            el.style.removeProperty("--reveal-i");
-          }, 1500 + step * 90);
+      sections.forEach((section) => {
+        if (section.closest(SKIP)) return;
+        const blocks = Array.from(section.querySelectorAll<HTMLElement>(BLOCKS)).filter((el) => {
+          if (el.closest(SKIP)) return false;
+          const parent = el.parentElement?.closest(BLOCKS);
+          return !parent || !section.contains(parent);
         });
-      },
-      { rootMargin: "0px", threshold: 0.05 }
-    );
-    targets.forEach((el) => io.observe(el));
+        blocks.forEach((el) => {
+          if (el.classList.contains("reveal")) return;
+          // Already on screen when the script runs: leave it, so nothing visible blinks out.
+          if (el.getBoundingClientRect().top < window.innerHeight) return;
+          el.classList.add("reveal");
+          targets.push(el);
+        });
+      });
+
+      if (!("IntersectionObserver" in window)) {
+        showAll();
+        return;
+      }
+
+      io = new IntersectionObserver(
+        (entries) => {
+          // Blocks that arrive together are staggered in reading order.
+          const arriving = entries
+            .filter((e) => e.isIntersecting)
+            .map((e) => e.target as HTMLElement)
+            .sort((a, b) => (a.compareDocumentPosition(b) & Node.DOCUMENT_POSITION_FOLLOWING ? -1 : 1));
+          arriving.forEach((el, i) => {
+            const step = Math.min(i, 6);
+            el.style.setProperty("--reveal-i", String(step));
+            el.classList.add("is-in");
+            io?.unobserve(el);
+            // Once it has landed, hand the element back to its own hover and press transitions.
+            window.setTimeout(() => {
+              el.classList.remove("reveal", "is-in");
+              el.style.removeProperty("--reveal-i");
+            }, 1500 + step * 90);
+          });
+        },
+        { rootMargin: "0px", threshold: 0.05 }
+      );
+      targets.forEach((el) => io?.observe(el));
+    };
+
+    // Armed by the first scroll. Blocks already on screen by then are left alone (see above), so
+    // only blocks still below the fold are hidden, just before they come into view.
+    window.addEventListener("scroll", arm, { once: true, passive: true });
+
     return () => {
-      io.disconnect();
+      window.removeEventListener("scroll", arm);
+      window.removeEventListener("beforeprint", showAll);
+      io?.disconnect();
       // Anything still waiting (e.g. the footer when the visitor leaves the page before reaching it)
       // is shown again, so the next page's run can pick it up instead of finding it stuck hidden.
       targets.forEach((el) => {
