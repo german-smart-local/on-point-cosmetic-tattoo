@@ -76,6 +76,10 @@ const JSON_LD = {
         { "@type": "City", name: "Maroochydore" },
         { "@type": "City", name: "Mooloolaba" },
         { "@type": "City", name: "Alexandra Headland" },
+        { "@type": "City", name: "Mountain Creek" },
+        { "@type": "City", name: "Sippy Downs" },
+        { "@type": "City", name: "Warana" },
+        { "@type": "City", name: "Bokarina" },
         { "@type": "AdministrativeArea", name: "Sunshine Coast" },
       ],
       openingHoursSpecification: [

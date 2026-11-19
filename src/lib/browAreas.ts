@@ -240,6 +240,179 @@ export const BROW_AREAS: BrowArea[] = [
       },
     ],
   },
+  {
+    slug: "mountain-creek",
+    name: "Mountain Creek",
+    metaTitle: "Eyebrow Tattoos Near Mountain Creek | On Point Cosmetic Tattoo Studio",
+    metaDescription:
+      "Eyebrow tattoos near Mountain Creek from my Buderim studio, just up the road. Hair strokes, microblading, powder and combination brows. Call 0414 502 807.",
+    heroTitle: ["Eyebrow tattoos", "near Mountain Creek"],
+    heroLead:
+      "Brows that are done before you're out the door, from my Buderim studio just up the road from Mountain Creek. Mapped to your face, then tattooed.",
+    heroImage: PHOTOS.tail.src,
+    heroAlt: PHOTOS.tail.alt,
+    introTitle: "One less thing on busy mornings",
+    introParas: [
+      "Between school drop-offs, work and sport, a lot of my Mountain Creek clients simply want their brows sorted. An eyebrow tattoo means you wake up with a shape already in place, with no pencil, gel or powder to apply.",
+      "I offer nano realism hair strokes, feather touch microblading, powder brows and combination brows. At your consultation I'll look at your natural brow growth, skin type and symmetry, then map a shape that suits your face. Pick a technique below to compare.",
+    ],
+    ...DESIGN,
+    localTitle: "Easy to fit into your week",
+    localParas: [
+      "The studio is a short drive from Mountain Creek, so the consultation, the treatment and the follow-up six to eight weeks later can each slot in around school hours.",
+      "I'm in the studio Monday to Friday, 9am to 5pm, with weekends by appointment. Fresh brows look stronger at first and soften as the skin heals, so I'll explain what to expect over the following weeks before you book.",
+    ],
+    localTicks: [
+      "A short drive from Mountain Creek",
+      "Weekday appointments, weekends by arrangement",
+      "Follow-up six to eight weeks later",
+    ],
+    workImages: [PHOTOS.feathered, PHOTOS.arch, PHOTOS.healed],
+    faq: [
+      {
+        q: "How long does an eyebrow tattoo last?",
+        a: "Eyebrow tattoos are semi-permanent and fade gradually. How long yours lasts depends on your skin type, lifestyle, sun exposure and the pigment chosen. Most treatments include a follow-up visit, and many people book a refresh over time.",
+      },
+      {
+        q: "Will I still need to fill in my brows?",
+        a: "The aim is a mapped shape that suits your face without daily pencil or powder. Once healed, many clients find they can skip brow products altogether, though you can still add makeup on top for an evening look if you like.",
+      },
+      {
+        q: "What happens at the consultation?",
+        a: "I assess your natural brow growth, skin type, symmetry and the pigment tone that will suit you, talk through the techniques and explain how to prepare. The shape is mapped before any pigment goes in, so you can see and agree on it first.",
+      },
+    ],
+  },
+  {
+    slug: "sippy-downs",
+    name: "Sippy Downs",
+    metaTitle: "Eyebrow Tattoos Near Sippy Downs | On Point Cosmetic Tattoo Studio",
+    metaDescription:
+      "Eyebrow tattoos near Sippy Downs at my Buderim studio. First brow tattoo? Every treatment starts with a consultation and a mapped design. Call 0414 502 807.",
+    heroTitle: ["Eyebrow tattoos", "near Sippy Downs"],
+    heroLead:
+      "First brow tattoo? Sippy Downs clients start with a consultation at my Buderim studio, a short drive away, and see their brows mapped before anything is tattooed.",
+    heroImage: PHOTOS.feathered.src,
+    heroAlt: PHOTOS.feathered.alt,
+    heroMap: FEATHERED_MAP,
+    introTitle: "Your first eyebrow tattoo",
+    introParas: [
+      "Many of the Sippy Downs clients who visit me have never had cosmetic tattooing before. That's why every brow starts with a consultation, where I explain each technique, look at your natural brow growth and skin type, and answer your questions before anything is booked.",
+      "Hair-stroke techniques like nano realism and feather touch microblading create fine lines that look like brow hairs. Powder brows give a soft, filled finish, and combination brows blend both. Pick one below to see the difference.",
+    ],
+    ...CHAIR,
+    localTitle: "Getting ready for your appointment",
+    localParas: [
+      "For the 48 hours before your treatment, skip alcohol, coffee and any blood thinners that aren't prescribed. In the week before, avoid tanning and long sun exposure, and keep retinol away from the brow area.",
+      "Afterwards, you'll take home written aftercare for the healing period, and a follow-up visit six to eight weeks later lets me refine the result. The studio is a short drive from Sippy Downs, so both visits are easy to plan around classes or work.",
+    ],
+    localTicks: [
+      "No alcohol, coffee or non-prescribed blood thinners for 48 hours before",
+      "No tanning or long sun exposure the week before",
+      "No retinol on the brow area",
+    ],
+    workImages: [PHOTOS.arch, PHOTOS.tail, PHOTOS.healed],
+    faq: [
+      {
+        q: "I've never had a brow tattoo. Where do I start?",
+        a: "Start with a consultation. I'll explain the techniques, assess your brows and skin, and talk you through preparation, healing and aftercare, so you know exactly what's involved before you book. Call 0414 502 807 to arrange it.",
+      },
+      {
+        q: "What's the difference between microblading and nano brows?",
+        a: "Both create fine hair-like strokes. Feather touch microblading places them by hand for a soft, feathered brow, while nano realism places them by machine. Which suits you depends on your skin, any previous tattoo work and the look you want.",
+      },
+      {
+        q: "Can I choose a natural-looking shape?",
+        a: "Yes. The shape is mapped to your own features first, from where the brow starts to the arch and tail, and you see and agree on it before treatment. Pigment tone is chosen to suit your colouring too.",
+      },
+    ],
+  },
+  {
+    slug: "warana",
+    name: "Warana",
+    metaTitle: "Eyebrow Tattoos Near Warana | On Point Cosmetic Tattoo Studio",
+    metaDescription:
+      "Eyebrow tattoos near Warana, including refreshes of faded brows, at my Buderim studio. Hair strokes, powder and combination brows. Call 0414 502 807.",
+    heroTitle: ["Eyebrow tattoos", "near Warana"],
+    heroLead:
+      "New brows or a refresh of faded ones, for Warana clients at my Buderim studio. Every brow is reviewed and mapped before treatment.",
+    heroImage: PHOTOS.healed.src,
+    heroAlt: PHOTOS.healed.alt,
+    introTitle: "New brows, or a refresh",
+    introParas: [
+      "Some of my Warana clients are booking their first eyebrow tattoo. Others had brows done years ago and have watched them soften and fade. Either way, we start with a consultation, where I look at your natural brow growth, skin type and any existing pigment.",
+      "From there I map the shape and recommend a technique: nano realism hair strokes, feather touch microblading, powder brows or combination brows. Pick one below to compare the finishes.",
+    ],
+    ...DESIGN,
+    localTitle: "Why brows fade, and what helps",
+    localParas: [
+      "Eyebrow tattoos are semi-permanent, so fading is expected. How quickly it happens depends on your skin type, lifestyle, sun exposure and the pigment used. Living near the beach, sun is often the biggest factor.",
+      "After your first treatment, a follow-up visit six to eight weeks later lets me refine the healed result. Over time, many people book a refresh to keep their brows looking defined. The studio is a short drive from Warana, so it's simple to keep up with.",
+    ],
+    localTicks: [
+      "Existing brow tattoos reviewed at consultation",
+      "Follow-up six to eight weeks after treatment",
+      "Refreshes as pigment fades over time",
+    ],
+    workImages: [PHOTOS.feathered, PHOTOS.tail, PHOTOS.arch],
+    faq: [
+      {
+        q: "My old brow tattoo has faded. Can you refresh it?",
+        a: "Bring it to a consultation. I'll look at the existing pigment, its shape and your skin, then explain what's possible, whether that's refreshing the current brow or mapping a new one. The approach depends on skin condition, the previous work and your preference.",
+      },
+      {
+        q: "How often will I need a refresh?",
+        a: "It varies from person to person. Skin type, lifestyle, sun exposure and the pigment chosen all affect how quickly brows fade, so there's no set timetable. When your brows start to look soft or patchy, that's a good time to call.",
+      },
+      {
+        q: "Can I change the shape of my brows?",
+        a: "The shape is mapped fresh at your consultation, based on your features as they are now, and you approve it before treatment. If you have existing pigment, I'll explain how it affects the options for a new shape.",
+      },
+    ],
+  },
+  {
+    slug: "bokarina",
+    name: "Bokarina",
+    metaTitle: "Eyebrow Tattoos Near Bokarina | On Point Cosmetic Tattoo Studio",
+    metaDescription:
+      "Eyebrow tattoos near Bokarina at my Buderim studio, with weekday and by-appointment weekend times. Hair strokes, powder and combination brows. Call 0414 502 807.",
+    heroTitle: ["Eyebrow tattoos", "near Bokarina"],
+    heroLead:
+      "Brows that stay put through long days and shift work, for Bokarina clients at my Buderim studio. Mapped first, then tattooed to suit you.",
+    heroImage: PHOTOS.arch.src,
+    heroAlt: PHOTOS.arch.alt,
+    introTitle: "Brows that last the whole shift",
+    introParas: [
+      "If you work long days or rotating shifts, brow makeup rarely makes it to the end. An eyebrow tattoo gives Bokarina clients a set shape that stays in place, whether you're starting at dawn or finishing late.",
+      "I offer nano realism hair strokes, feather touch microblading, powder brows and combination brows, each planned with brow mapping at a consultation first. Pick a technique below to see how it looks.",
+    ],
+    ...CHAIR,
+    localTitle: "Booking around your roster",
+    localParas: [
+      "The studio is open Monday to Friday, 9am to 5pm, and Saturday and Sunday appointments are available by arrangement, so there's usually a time that fits around your shifts.",
+      "During early healing, exercise, swimming, spas and sun exposure should be avoided, so a run of quieter days helps. You'll take home written aftercare, and a follow-up visit six to eight weeks later lets me refine the healed brows.",
+    ],
+    localTicks: [
+      "Weekdays 9am to 5pm, weekends by appointment",
+      "Written aftercare for the healing period",
+      "Follow-up six to eight weeks later",
+    ],
+    workImages: [PHOTOS.feathered, PHOTOS.tail, PHOTOS.healed],
+    faq: [
+      {
+        q: "Does an eyebrow tattoo hurt?",
+        a: "Most people feel light scratching or pressure rather than pain. A topical numbing product is applied before and during the procedure to reduce sensation. How it feels varies with your skin, pain tolerance and the technique used.",
+      },
+      {
+        q: "Can I book outside business hours?",
+        a: "Weekday appointments run from 9am to 5pm, and weekend appointments are available by arrangement. Call 0414 502 807 and we'll find a time that works around your roster.",
+      },
+      {
+        q: "Can I go to work the day after?",
+        a: "Most people carry on as normal, but fresh brows look stronger than the healed result while the skin settles. During early healing, avoid exercise, swimming, spas and sun exposure, and follow the written aftercare you take home.",
+      },
+    ],
+  },
 ];
 
 /** Landing page URLs follow "/{service}-in-{suburb}", e.g. /eyebrow-tattoos-in-mooloolaba. */
