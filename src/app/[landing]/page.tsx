@@ -13,17 +13,18 @@ import { StudioVisit } from "@/components/StudioVisit";
 import { BROW_AREAS, browAreaHref, browAreaPhrase } from "@/lib/browAreas";
 import { EXTERNAL, PHONE, PHONE_HREF, ROUTES, SITE_NAME, SITE_URL } from "@/lib/links";
 
-// Only the suburbs in BROW_AREAS exist; any other /eyebrow-tattoos/... is a 404.
+// Service-in-suburb landing pages at the site root, e.g. /eyebrow-tattoos-in-buderim.
+// Only the slugs generated here exist; any other root path that isn't a real page is a 404.
 export const dynamicParams = false;
 
 export function generateStaticParams() {
-  return BROW_AREAS.map((a) => ({ suburb: a.slug }));
+  return BROW_AREAS.map((a) => ({ landing: browAreaHref(a.slug).slice(1) }));
 }
 
-const findArea = (slug: string) => BROW_AREAS.find((a) => a.slug === slug);
+const findArea = (landing: string) => BROW_AREAS.find((a) => browAreaHref(a.slug) === `/${landing}`);
 
-export async function generateMetadata({ params }: PageProps<"/eyebrow-tattoos/[suburb]">): Promise<Metadata> {
-  const area = findArea((await params).suburb);
+export async function generateMetadata({ params }: PageProps<"/[landing]">): Promise<Metadata> {
+  const area = findArea((await params).landing);
   if (!area) return {};
   return {
     title: area.metaTitle,
@@ -41,8 +42,8 @@ export async function generateMetadata({ params }: PageProps<"/eyebrow-tattoos/[
   };
 }
 
-export default async function BrowAreaPage({ params }: PageProps<"/eyebrow-tattoos/[suburb]">) {
-  const area = findArea((await params).suburb);
+export default async function BrowAreaPage({ params }: PageProps<"/[landing]">) {
+  const area = findArea((await params).landing);
   if (!area) notFound();
   const others = BROW_AREAS.filter((a) => a.slug !== area.slug);
   const url = `${SITE_URL}${browAreaHref(area.slug)}`;

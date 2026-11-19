@@ -16,6 +16,12 @@ const nextConfig: NextConfig = {
         destination: "/locations/cosmetic-tattooing-buderim",
         permanent: true,
       },
+      // The eyebrow suburb pages first went live under /eyebrow-tattoos/{suburb}.
+      {
+        source: "/eyebrow-tattoos/:suburb(buderim|maroochydore|mooloolaba|alexandra-headland)",
+        destination: "/eyebrow-tattoos-in-:suburb",
+        permanent: true,
+      },
     ];
   },
 };

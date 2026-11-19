@@ -1,4 +1,4 @@
-// Suburb landing pages for eyebrow tattoos, under /eyebrow-tattoos/[suburb].
+// Suburb landing pages for eyebrow tattoos, at /eyebrow-tattoos-in-[suburb] (served by src/app/[landing]).
 // Each page is written for its own suburb (local angle, questions and photos), so the pages don't
 // repeat each other or the main /eyebrow-tattoos page. Facts stay within what the studio already
 // publishes: the Buderim studio, the techniques, consultation first, the 6–8 week follow-up and the
@@ -242,7 +242,9 @@ export const BROW_AREAS: BrowArea[] = [
   },
 ];
 
-export const browAreaHref = (slug: string) => `/eyebrow-tattoos/${slug}`;
+/** Landing page URLs follow "/{service}-in-{suburb}", e.g. /eyebrow-tattoos-in-mooloolaba. */
+export const BROW_AREA_PREFIX = "eyebrow-tattoos-in-";
+export const browAreaHref = (slug: string) => `/${BROW_AREA_PREFIX}${slug}`;
 
 /** "in Buderim", "near Mooloolaba": the studio is in Buderim, every other suburb is nearby. */
 export const browAreaPhrase = (a: Pick<BrowArea, "name" | "slug">) =>
