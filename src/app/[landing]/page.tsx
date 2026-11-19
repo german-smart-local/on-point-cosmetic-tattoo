@@ -149,25 +149,30 @@ export default async function BrowAreaPage({ params }: PageProps<"/[landing]">) 
 
       <WorkStrip title="Lisa's brow work" images={area.workImages} />
 
-      <Faq title={`Eyebrow tattoos ${browAreaPhrase(area)}: your questions`} items={area.faq} />
-
-      <section className="section" aria-label="Eyebrow tattoos in nearby suburbs">
-        <div className="wrap">
-          <p className="area-others">
-            Also welcoming brow clients{" "}
-            {others.map((o, i) => (
-              <span key={o.slug}>
-                {i > 0 && (i === others.length - 1 ? " and " : ", ")}
-                <Link href={browAreaHref(o.slug)} className="link">
-                  {browAreaPhrase(o)}
-                </Link>
-              </span>
-            ))}
-            . Read more <Link href={ROUTES.eyebrows} className="link">about eyebrow tattoos</Link>, or see{" "}
-            <Link href={ROUTES.locations} className="link">all the areas I welcome clients from</Link>.
-          </p>
-        </div>
-      </section>
+      {/* No flower arch beside three questions, and the nearby suburbs close the list, so the
+          two columns end together instead of leaving a gap under the questions. */}
+      <Faq
+        title="Your questions"
+        items={area.faq}
+        arch={false}
+        after={
+          <nav aria-label="Eyebrow tattoos in nearby suburbs">
+            <p className="area-others soft">
+              Also welcoming brow clients{" "}
+              {others.map((o, i) => (
+                <span key={o.slug}>
+                  {i > 0 && (i === others.length - 1 ? " and " : ", ")}
+                  <Link href={browAreaHref(o.slug)} className="link">
+                    {browAreaPhrase(o)}
+                  </Link>
+                </span>
+              ))}
+              . Read more <Link href={ROUTES.eyebrows} className="link">about eyebrow tattoos</Link>, or see{" "}
+              <Link href={ROUTES.locations} className="link">all the areas I welcome clients from</Link>.
+            </p>
+          </nav>
+        }
+      />
 
       <StudioVisit from={area.name} />
 
